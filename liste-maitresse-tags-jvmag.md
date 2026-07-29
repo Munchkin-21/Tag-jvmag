@@ -200,6 +200,54 @@ Découverte notable : `The Legend of Zelda` n'existait en fait pas encore sur Wo
 mention dans l'ancien inventaire statique pré-automatisation — confirme que l'API live est la
 seule source fiable.
 
+### Lot #7 — 2026-07-29 (10 articles, premier lot avec la Grille de tagging obligatoire)
+- **VectaGuard (jeu vectoriel rétro-inspiré)** : VectaGuard · Tony Barnes · RetroNinja ·
+  Shoot'em up · PC · En ligne *(Tony Barnes taggé — nommé au titre, bio développée — mais pas ses
+  jeux passés : l'œuvre du moment est déjà taguée, cohérent avec la règle Depp/Scrooge ; pas de
+  `Rétro` — esthétique vectorielle = style/technique, pas du vrai contenu rétro-gaming, voir §5)*
+- **Scarlet Deer Inn** : Scarlet Deer Inn · Aventure · Mythologie · PC · Indé *(indé confirmé par
+  recherche externe — développé par Attu Games, studio tchèque de 3 personnes — mais le studio
+  lui-même n'est pas taggé, absent du texte)*
+- **Interdiction réseaux sociaux <15 ans en France** : France *(1 seul tag — aucun autre facteur
+  applicable, sujet société/légal hors du champ gaming/divertissement habituel ; idée à explorer
+  plus tard : un tag pour ce type de sujet société-tech, pas tranché)*
+- **DENZA (BYD) arrive en Suisse** : BYD · DENZA · Voiture · Suisse *(motorisation non précisée
+  dans le texte → tag générique Voiture seulement, pas de Voiture hybride/électrique)*
+- **Wreckreation 2** : Wreckreation · When Tides Turn · Course · PC · Xbox · PlayStation ·
+  Monde ouvert · En ligne *(Fiona Sperry non taguée — son passé chez Criterion Games est un
+  pedigree, pas le sujet de l'article)*
+- **Kylian Mbappé, jaquette EA SPORTS FC 27** : EA SPORTS FC · Kylian Mbappé · Electronic Arts ·
+  Sport · Mobile · PlayStation · Xbox *(cas particulier : PlayStation/Xbox ajoutés manuellement
+  sur demande explicite malgré la règle "plateforme jamais déduite" — la règle générale reste
+  inchangée, exception ponctuelle assumée pour ce seul article)*
+- **Licenciements chez Pixar (Disney)** : Disney · Pixar · Cinéma *(actu industrie → `Cinéma`
+  s'applique ; Toy Story 5 cité comme contexte ironique, non taggé — pas le sujet)*
+- **Razer Seiren V3 Chroma (micro)** : Razer · Microphone *(première utilisation de la nouvelle
+  catégorie fermée `Microphone`)*
+- **Spider-Man: Brand New Day, 3e trailer** : Spider-Man · Sony Pictures · Marvel · Super-héros
+  *(pas de `Cinéma` — règle testée par l'utilisateur : réservé aux actus d'industrie/festival,
+  jamais à la couverture normale d'un film précis, comme Scrooge/Clayface/Coyote vs. Acme/Fantômas
+  avant lui)*
+- **Xbox Game Pass, jeux de juillet (2e salve)** : Microsoft · Xbox · PC · Cloud gaming ·
+  Xbox Game Pass *(liste de 16 jeux — 8 qui arrivent + 8 qui partent — aucun taggé individuellement,
+  dépasse le seuil ≤5 ; `Halo: Campaign Evolved` cité mais pas retaggé malgré le tag déjà existant)*
+
+Nouveaux tags créés : `VectaGuard`, `Tony Barnes`, `RetroNinja`, `Scarlet Deer Inn`, `DENZA`, `BYD`,
+`Wreckreation`, `When Tides Turn`, `EA SPORTS FC`, `Kylian Mbappé`, `Pixar`, `Razer`, `Microphone`,
+`Spider-Man`.
+Amendements → v3.12 : `Microphone` ajouté au vocabulaire fermé (§4) ; précision §5 EXCLUS sur le
+style rétro-inspiré vs vrai contenu rétro-gaming ; confirmation que la règle "plateforme jamais
+déduite" reste absolue (pas d'exception pour les franchises sportives annuelles).
+Incident technique : une erreur 429 (rate limit WordPress) a interrompu l'application du lot en
+cours de route — grâce à la sauvegarde incrémentale de l'état ajoutée lors de l'audit, aucun
+article déjà traité n'a été perdu, reprise immédiate sans doublon.
+
+**Correction post-lot #7** : `Périphérique` avait été retiré à tort de l'article Razer Seiren
+(remplacé par `Microphone` seul). Vérification de l'historique : le seul précédent existant
+(accessoires PlayStation, écran + pad) combinait `Périphérique` AVEC les tags précis `Écran` et
+`Manette`, pas à leur place. Corrigé → v3.13 : `Périphérique` s'applique désormais en plus d'un
+tag matériel externe précis, jamais à sa place. `Manette` ajoutée au vocabulaire fermé (§4).
+
 ---
 
 ## Audit général — 2026-07-29
@@ -246,6 +294,186 @@ tous vérifiés à 1 article d'usage avant correction) :
 n'est pas dans le vocabulaire fermé §3 — casse à corriger et/ou vocabulaire à amender, discussion
 à poursuivre.
 
+### Lot #8 — 2026-07-29 (20 articles, premier lot à taille doublée)
+- **Batman: Knightfall** : Batman · Warner Bros. · DC · Mir · Animation · Super-héros
+- **LEGO The X-Files** : The X-Files · LEGO · Science-fiction · Enquête
+- **Other Mommy** : Other Mommy · Jessica Chastain · Blumhouse · Universal · Horreur
+- **Glorious GHS Wireless InfinitePlay** : Glorious · Casque audio · Périphérique · PC ·
+  PlayStation · Nintendo Switch
+- **TEST Splatoon Raiders** : Splatoon · Nintendo · TPS · Roguelike · Nintendo Switch ·
+  Coopératif · Multijoueur · En ligne · Solo
+- **NVIDIA DLSS 5** : NVIDIA · Carte graphique *(SIGGRAPH cité, pas ajouté au vocabulaire)*
+- **DCKO** : DC · DCKO · Drop Fake · Warner Bros. · Combat · Mobile · Super-héros · Multijoueur ·
+  En ligne · Compétitif
+- **Call of Duty: Modern Warfare 4 (bêta)** : Call of Duty · Activision · Infinity Ward · FPS ·
+  PlayStation · Xbox · PC · Nintendo Switch · Guerre · Multijoueur · En ligne
+- **ARENA Cinemas (programme générique)** : ARENA Cinemas · Cinéma · Suisse
+- **Skatesterre** : Skatesterre · Sterre Meijer · Headup Games · Goon Squad · Sport · PC · Xbox ·
+  PlayStation · Nintendo Switch *(pas de Rétro — jeu neuf inspiré des années 2000, comme
+  VectaGuard ; Sterre Meijer = athlète réelle jouable, précédent Tupac/Snoop Dogg)*
+- **LEGO One Piece** : One Piece · LEGO · Shueisha · Atomic Cartoons · Animation · Aventure ·
+  Netflix · Pirates
+- **Avengers: Doomsday (trailer)** : Avengers · Marvel · X-Men · Super-héros *(X-Men taggé — leur
+  arrivée dans le MCU est développée comme "la vraie bombe" de l'article ; Robert Downey Jr./Chris
+  Evans non tagués malgré leurs retours notables, aucun acteur au titre, cohérent avec Spider-Man ;
+  Quatre Fantastiques/Thunderbolts en simple liste, non tagués)*
+- **MXGP 26: The Official Game** : MXGP · Nacon · Artefacts Studio · Course · Simulation ·
+  PlayStation · Xbox · PC · Multijoueur · En ligne
+- **Interview Name No Manga** : Name No Manga · Fairy Tail · Rave · Holyland · Rétro · Suisse
+  *(3 œuvres développées substantiellement taguées ; Naruto/GTA/Pokémon/Mario écartés — mentions
+  anecdotiques ; Rétro justifié car l'interview porte explicitement sur sa collection/passion)*
+- **Cinémas de Sierre (programme, Vaiana)** : Cinémas de Sierre · Cinéma · Suisse *(même logique
+  que le précédent Spider-Man du lot #2 — le programme est le sujet, pas le film en tête d'affiche)*
+- **Call of Duty (film, 2028)** : Call of Duty · Paramount · Activision · Action · Guerre · Suisse
+- **GTA VI — l'encyclopédie** (20 chapitres) : Grand Theft Auto · Rockstar Games ·
+  Take-Two Interactive · Action-aventure · Monde ouvert · PlayStation · Xbox *(Sam Houser/Strauss
+  Zelnick/Jason Schreier non tagués — portes-paroles cités à plusieurs reprises, jamais le sujet)*
+- **GTA III/Vice City modé dans San Andreas** : Grand Theft Auto · Dryxio · Action-aventure ·
+  Monde ouvert · PC *(Dryxio = moddeur individuel, précédent Wanszai)*
+- **THEA1200 (clone Amiga)** : Amiga · Retro Games Ltd. · Rétro *(vrai matériel/logiciel d'époque
+  — confirme la distinction v3.12 par contraste avec Skatesterre ci-dessus)*
+- **Spider-Man: Brand New Day, minuit à l'ARENA Fribourg** : Spider-Man · Marvel · ARENA Cinemas ·
+  Super-héros · Suisse
+
+Nouveaux tags créés : `Batman`, `Mir`, `The X-Files`,
+`Other Mommy`, `Jessica Chastain`, `Blumhouse`, `Glorious`, `Casque audio`, `Splatoon`, `NVIDIA`,
+`Carte graphique`, `DCKO`, `Drop Fake`, `Call of Duty`, `Infinity Ward`, `Skatesterre`,
+`Sterre Meijer`, `Headup Games`, `Goon Squad`, `One Piece`, `Shueisha`, `Atomic Cartoons`,
+`Avengers`, `X-Men`, `MXGP`, `Nacon`, `Artefacts Studio`, `Name No Manga`, `Fairy Tail`, `Rave`,
+`Holyland`, `Take-Two Interactive`, `Dryxio`, `Amiga`, `Retro Games Ltd.`.
+Deux gaps d'événements repérés (Festival d'Annecy, SIGGRAPH) — décision de ne PAS les ajouter au
+vocabulaire fermé §6, jugés pas assez pertinents/récurrents pour l'instant.
+Confirmations utiles : la distinction v3.12 (style rétro-inspiré ≠ `Rétro`) testée sur 2 cas
+opposés dans le même lot — `Skatesterre` (jeu neuf, pas de Rétro) vs `THEA1200` (vrai matériel
+Amiga, Rétro justifié) ; précédent `Sterre Meijer` confirme que le patron `Wanszai`/`Dryxio`
+(créateur individuel taggé) s'étend bien aux athlètes réels représentés en jeu (même logique que
+Tupac/Snoop Dogg) ; interview Name No Manga : 3 œuvres tagués sur les ~8 mentionnées (Fairy Tail,
+Rave, Holyland — substantiellement développées), le reste écarté comme anecdotique.
+Premier test d'un lot à 20 articles (au lieu de 10) — RAS côté qualité, aucune facette oubliée
+malgré le volume.
+
+### Lot #9 — 2026-07-29 (20 articles)
+- **Bethesda (Starfield/Fallout/Elder Scrolls VI)** : Starfield · Fallout · The Elder Scrolls ·
+  Bethesda Game Studios · Obsidian Entertainment · RPG · Science-fiction · Espace ·
+  Post-apocalyptique · Fantasy *(3 licences développées substantiellement, toutes taguées)*
+- **GameStop (Ryan Cohen)** : Ryan Cohen · GameStop · PlayStation
+- **Zenless Zone Zero, anniversaire** : Zenless Zone Zero · HoYoverse · Action-RPG · Xbox ·
+  Science-fiction
+- **WW1: Gallipoli** : Blackmill Games · FPS · PC · PlayStation · Xbox · WW1 *(pas de tag licence
+  séparé — la saga n'a pas de nom de marque distinct de son thème `WW1`, qui fait double usage)*
+- **God of War (série), Ryan Hurst blessé** : God of War · Ryan Hurst · Sony Pictures Television ·
+  Amazon MGM Studios · Prime Video · Mythologie
+- **Cosmo Tales** : Cosmo Tales · Bohemia Interactive · Roguelike · Action-aventure ·
+  Science-fiction · Espace *(pas de Rétro — esthétique rétrofuturiste = style, v3.12)*
+- **Dreame T16 Pro Heat (aspirateur)** : Dreame · Aspirateur robot · Suisse *(première utilisation
+  de la nouvelle catégorie fermée)*
+- **Hela: of Mice & Magic** : Hela: of Mice & Magic · Aventure · PC · Xbox · PlayStation ·
+  Nintendo Switch · Mythologie · Fantasy · Solo · Coopératif *(studio non nommé dans le texte)*
+- **Call of Duty MW4 (re-couverture)** : Call of Duty · Activision · Infinity Ward · FPS · Xbox ·
+  PlayStation · Nintendo Switch · PC · Guerre · Multijoueur *(tout existant, bonne consolidation)*
+- **Ratchet & Clank: Ranger Rumble** : Ratchet & Clank · Sony Interactive Entertainment · Oh BiBi ·
+  TPS · Battle royale · Mobile · Science-fiction · Espace · Multijoueur · Compétitif · En ligne
+- **OKU** : OKU · Irox Games · ByteRockers' Games · Aventure · PC · Indé
+- **Razer × Pokémon** : Pokémon · Razer · Casque audio · Clavier · Souris · Périphérique
+- **PlayStation Plus, jeux de juillet** : PlayStation · PlayStation Plus *(9 jeux listés, aucun
+  taggé individuellement)*
+- **The Duskbloods (FromSoftware)** : The Duskbloods · FromSoftware · Action · Nintendo Switch ·
+  Multijoueur · En ligne
+- **The Batman Part II** : Batman · Warner Bros. · DC · Super-héros · Suisse
+- **I Play Rocky (biopic)** : I Play Rocky · Rocky · Sylvester Stallone · Amazon MGM Studios ·
+  Biopic *(franchise dépeinte ET film biopic tagués ensemble — cas distinct du double
+  franchise+sous-saga habituel)*
+- **Netflix, IA générative** : Netflix · IA · Ted Sarandos *(correction en cours de lot — voir
+  Changelog v3.14)*
+- **Studios japonais et l'IA** : Japon · IA *(idem)*
+- **Criterion Games → Battlefield only** : Need for Speed · Burnout · Battlefield · Rebecka Coutaz
+  · Criterion Games · Electronic Arts *(NF Speed/Burnout taggés — sujet du titre lui-même, pas du
+  pedigree ; fondateurs historiques Alex Ward/Fiona Sperry non tagués)*
+- **Wabisabi SushiDerby** : Wabisabi SushiDerby · ITAMAE Studio · Kodansha · Course · Simulation ·
+  Nintendo Switch · PC
+
+Nouveaux tags créés : `Starfield`, `Fallout`, `The Elder Scrolls`, `Bethesda Game Studios`,
+`Obsidian Entertainment`, `Ryan Cohen`, `GameStop`, `Blackmill Games`, `Ted Sarandos`,
+`Ryan Hurst`, `Sony Pictures Television`, `Cosmo Tales`, `Bohemia Interactive`, `Dreame`,
+`Aspirateur robot`, `Hela: of Mice & Magic`, `Ratchet & Clank`, `Sony Interactive Entertainment`,
+`Oh BiBi`, `Battle royale`, `OKU`, `Irox Games`, `ByteRockers' Games`, `Clavier`, `Souris`,
+`The Duskbloods`, `FromSoftware`, `I Play Rocky`, `Rocky`, `Sylvester Stallone`, `Biopic`,
+`Need for Speed`, `Burnout`, `Battlefield`, `Rebecka Coutaz`, `Criterion Games`,
+`Wabisabi SushiDerby`, `ITAMAE Studio`, `Kodansha`.
+Amendements → v3.14 : `Aspirateur robot` ajouté (§4) ; clarification `IA`/`Robot` (§5) couvrent le
+contenu réel/industrie, pas seulement fictionnel — erreur d'application corrigée en cours de lot
+(voir échange avec l'utilisateur, pas juste un oubli de grille mais une mauvaise interprétation de
+la portée d'un tag existant, à re-vérifier systématiquement contre les précédents à l'avenir).
+Sujet société-tech hors IA (régulation numérique, ex. France <15 ans) : toujours pas de tag dédié,
+un seul cas à ce jour, en observation.
+
+### Lot #10 — 2026-07-29 (20 articles, revue à contre-courant intensive)
+- **The Hunt for Gollum** : Le Seigneur des Anneaux · Warner Bros. · Fantasy
+- **DIEATHLON** : DIEATHLON · Long Void Games · Loopr Partners · FPS · Course · PC
+- **Samsung Flex Titanium** : Samsung · Écran · Smartphone
+- **Caristream** : Caristream · Le Copain · Suisse
+- **Final Boss: The Video Game** : Final Boss · Bit Bot Media · Mecanimal Games · Image Comics ·
+  Beat'em up · PC · Solo · Coopératif · Local · Multijoueur *(Multijoueur corrigé après coup)*
+- **TEST Beastro** : Beastro · Timberline Studio · Deckbuilder · Gestion · Cosy · Roguelike · PC ·
+  PlayStation · Xbox · Steam Deck · Fantasy · Xbox Game Pass · Stratégie *(Stratégie corrigée)*
+- **Samsung 990 SSD** : Samsung · SSD · Suisse · Matériel PC *(Matériel PC corrigé)*
+- **Battlefield 6, saison 4** : Battlefield · Electronic Arts · FPS · PC · Xbox · PlayStation ·
+  Guerre · Multijoueur · En ligne *(En ligne corrigé)*
+- **League of Legends Classic** : League of Legends · Riot Games · MOBA · Multijoueur ·
+  Coopératif · En ligne · Compétitif *(première utilisation de MOBA)*
+- **Cinémas de Sierre (L'Odyssée)** : Cinémas de Sierre · Cinéma · Suisse · L'Odyssée *(nouvelle
+  règle "programme mono-film" — inverse le précédent du lot #2)*
+- **GTA Online, Kortz Center Heist** : Grand Theft Auto · Rockstar Games · Take-Two Interactive ·
+  Action-aventure · PlayStation · Xbox · PC · Monde ouvert · Coopératif · Multijoueur · En ligne
+  *(Take-Two corrigé — paire systématique avec Rockstar Games désormais actée)*
+- **Worlds Upon The Wind** : Worlds Upon The Wind · Max Shawabkeh · Roguelike · Deckbuilder ·
+  Stratégie · Gestion · Cosy · PC · Post-apocalyptique · Indé
+- **ARENA Cinemas (programme générique)** : ARENA Cinemas · Cinéma · Suisse
+- **A Nightmare on Elm Street (reboot)** : A Nightmare on Elm Street · Paramount · Horreur
+- **Crystal Lake (préquelle Vendredi 13)** : Vendredi 13 · Crystal Lake · A24 · Horreur · Peacock
+  *(première utilisation de Peacock)*
+- **Agent 64: Spies Never Die** : Agent 64: Spies Never Die · Replicant D6 · FPS · PC · Solo ·
+  Coopératif · Multijoueur · Local · En ligne *(pas de Rétro malgré le mot dans le texte — style
+  d'hommage N64, cohérent avec VectaGuard/Skatesterre/Blast Vein)*
+- **Worlds of Play (Tencent, Gamescom)** : Tencent · Gamescom *(~25 jeux exposés cités, aucun
+  taggé — règle listes)*
+- **Digger (Tom Cruise)** : Digger · Tom Cruise · Warner Bros. · Comédie · Science-fiction
+- **Meta/Instagram, IA générative** : Meta · Instagram · IA
+- **Blast Vein** : Blast Vein · Greewook Studio · FPS · Roguelike · PC · Horreur *(pas de Rétro,
+  même logique qu'Agent 64)*
+
+Ce lot a servi de session de calibration : sur 20 propositions initiales, 4 vrais oublis identifiés
+par l'utilisateur (Multijoueur manquant sur Final Boss malgré Coopératif/Local ; En ligne manquant
+sur Battlefield 6 ; Stratégie manquée sur Beastro alors que le mot était dans le texte ;
+Take-Two Interactive manquant sur l'article GTA Online alors que posé sur l'encyclopédie GTA VI du
+lot #8). Tous corrigés avant application.
+Nouveaux tags créés : `DIEATHLON`, `Long Void Games`, `Loopr Partners`, `Caristream`, `Le Copain`,
+`Final Boss`, `Bit Bot Media`, `Mecanimal Games`, `Image Comics`, `Beat'em up`, `Local`, `Beastro`,
+`Timberline Studio`, `Deckbuilder`, `Gestion`, `Cosy`, `Roguelike`, `Steam Deck`, `League of
+Legends`, `Riot Games`, `MOBA`, `L'Odyssée`, `Worlds Upon The Wind`, `Max Shawabkeh`, `Vendredi 13`,
+`Crystal Lake`, `Peacock`, `Agent 64: Spies Never Die`, `Replicant D6`, `Tencent`, `Gamescom`,
+`Digger`, `Tom Cruise`, `Meta`, `Instagram`, `Blast Vein`, `Greewook Studio`.
+Amendements → v3.15 :
+- `MOBA` et `Peacock` ajoutés au vocabulaire fermé.
+- `Matériel PC` formalisé comme pendant interne de `Périphérique` (composants internes vs
+  matériel externe) — était déjà dans le vocabulaire mais pas appliqué systématiquement.
+- `Rockstar Games` → toujours + `Take-Two Interactive` (éditeur first-party, trait stable, comme
+  Xbox Game Studios). Codifié explicitement dans §2 pour éviter la prochaine incohérence.
+- Nouvelle règle "programme mono-film" (§7) : un article "programme" qui ne développe qu'un seul
+  film substantiellement (comme les programmes des Cinémas de Sierre, contrairement aux vraies
+  programmations multi-films d'ARENA Cinemas) doit taguer ce film — réexamen du précédent posé au
+  lot #2, qui suivait la règle "listes" par réflexe sans la remettre en question.
+- Grille de tagging enrichie de garde-fous mécaniques : Coopératif/Compétitif ⇒ toujours
+  Multijoueur ; vérifier En ligne explicitement ; relire le texte une 2e fois avant de conclure
+  qu'aucun mot-clé de genre n'est présent.
+Deux cas de jugement confirmés par l'utilisateur après explication : `Écran` sur une actu de
+technologie d'affichage (pas un écran physique précis, même logique que Carte graphique/DLSS) ;
+`Tencent` taggé malgré la règle "listes" qui exclut les ~25 jeux de son exposition (Tencent =
+l'acteur/organisateur, pas un élément de la liste).
+Incident technique : un deuxième crash (timeout réseau cette fois, pas un rate limit) a interrompu
+l'application en cours de lot — sauvegarde incrémentale à nouveau vérifiée efficace, reprise sans
+perte ni doublon sur les 4 derniers articles.
+
 ---
 
 ## Décisions ouvertes à surveiller
@@ -256,3 +484,6 @@ n'est pas dans le vocabulaire fermé §3 — casse à corriger et/ou vocabulaire
 - **Xbox Game Studios / éditeurs first-party** : tagués comme axe « curation » distinct de la plateforme — réversible si bruit.
 - **`dungeon crawler`** (article #113049) : casse non conforme, vocabulaire fermé §3 à amender ou
   fondre dans un genre existant — à trancher lors de la discussion documentation.
+- **Sujets société-tech hors gaming/divertissement** (ex. lois sur les réseaux sociaux) : idée d'un
+  tag dédié évoquée, pas tranchée — ces articles ressortent avec très peu de tags faute de facette
+  applicable (voir France <15 ans, lot #7).

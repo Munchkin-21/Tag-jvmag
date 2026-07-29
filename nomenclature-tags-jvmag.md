@@ -1,4 +1,4 @@
-# Nomenclature des tags — JVMag (v3.11)
+# Nomenclature des tags — JVMag (v3.15)
 
 **But unique des tags :** nourrir la recherche et la reco de l'app via un maillage dense.
 Un tag vaut par les liens qu'il crée. Cible : **8–10 tags / article** (moins pour les news courtes,
@@ -12,6 +12,37 @@ pas via un renommage de fichier. L'historique concret (exemples par lot) vit dan
 règles actives.
 
 ## Changelog
+- **v3.15** (2026-07-29, pilote lot #10) : `MOBA` et `Peacock` ajoutés au vocabulaire fermé (§3,
+  §4). `Matériel PC` formalisé comme pendant interne de `Périphérique` — s'applique EN PLUS d'un
+  composant précis (Carte mère, Processeur, Carte graphique, RAM, SSD, Alimentation, Boîtier,
+  Refroidissement), jamais à sa place (§4). `Rockstar Games` → toujours accompagné de
+  `Take-Two Interactive` (éditeur first-party, même logique que Xbox Game Studios) (§2). Nouvelle
+  règle sur les programmes de cinéma mono-film (§7/Grille) : si un article "programme" ne
+  développe substantiellement qu'un seul film, ce film est le sujet et se tague — réservé aux
+  vraies programmations multi-films (ex. ARENA Cinemas) pour la règle "listes = pas de tags".
+  **Corrections de process** suite à plusieurs oublis constatés sur le lot #10 (voir Grille de
+  tagging obligatoire, nouvelles notes) : Coopératif/Compétitif doivent systématiquement
+  s'accompagner de `Multijoueur` ; toujours vérifier `En ligne` explicitement quand du multijoueur
+  est mentionné ; relire le texte une seconde fois avant de conclure qu'aucun genre ne s'applique
+  (mot-clé manqué sur Beastro : "deck-building **stratégique**" était bien dans le texte).
+- **v3.14** (2026-07-29, pilote lot #9) : `Aspirateur robot` ajouté au vocabulaire fermé (§4).
+  Clarification : `IA` et `Robot` (§5) couvrent le vrai contenu tech/industrie, pas seulement les
+  thèmes fictionnels — précédent déjà présent au pilote ("Robots humanoïdes Chine" → Robot · IA ·
+  Chine · Unitree) mais mal appliqué sur deux articles avant correction. Sujets société-tech hors
+  IA (ex. régulation des réseaux sociaux) : pas de nouveau tag pour l'instant, un seul cas à ce
+  jour, à surveiller.
+- **v3.13** (2026-07-29) : `Périphérique` reformulé — s'applique EN PLUS de, jamais à la place de,
+  un tag matériel externe précis (`Casque audio`, `Clavier`, `Souris`, `Microphone`, `Écran`,
+  `Manette`), d'après le précédent déjà observé sur le site (Écran + Manette + Périphérique
+  ensemble). Ne s'applique jamais aux composants internes (Carte mère, RAM, SSD...). `Manette`
+  ajoutée au vocabulaire fermé (§4) — existait déjà comme tag WordPress mais jamais formalisée.
+- **v3.12** (2026-07-29, pilote lot #7) : `Microphone` ajouté au vocabulaire fermé (§4). Précision
+  §5 EXCLUS : un jeu **neuf** à esthétique rétro-inspirée (ex. graphisme vectoriel) n'est PAS
+  `Rétro` — c'est un style/technique, exclu comme le cel-shading. `Rétro` reste réservé au vrai
+  contenu rétro-gaming (jeu/console d'époque, ou couverture qui porte sur leur histoire).
+  Confirmation : la règle "plateforme jamais déduite" (§ Trait stable vs fait contextuel) reste
+  absolue, aucune exception pour les franchises sportives annuelles — un cas isolé peut être
+  complété manuellement par l'humain sans changer la règle générale.
 - **v3.11** (2026-07-29, audit général) : remplacement du checklist auteur + de l'ancienne
   "Étape de proposition" (redondants entre eux) par une **Grille de tagging obligatoire** unique,
   à parcourir intégralement pour chaque article — objectif : ne plus jamais sauter une facette
@@ -49,18 +80,20 @@ règles actives.
 
 **À parcourir intégralement, dans l'ordre, pour CHAQUE article, sans exception.** Pour chaque
 ligne : soit un tag est posé, soit on note explicitement pourquoi elle ne s'applique pas (ne
-jamais passer une ligne sous silence). C'est le seul document de travail pour proposer un lot —
+jamais passer une ligne sous silence). **Relire le texte une seconde fois avant de conclure qu'un
+mot-clé n'y est pas** — plusieurs oublis (lot #10) venaient d'un mot-clé explicite présent mais
+manqué à la première lecture, pas d'une vraie absence. C'est le seul document de travail pour proposer un lot —
 il remplace tout autre résumé ou checklist condensé.
 
 | # | Facette | Où | Question à trancher |
 |---|---------|-----|----------------------|
 | 1 | Licence/sujet | §1 OUVERT | Œuvre/franchise/produit identifiable ? Forme canonique (sans numéro/adjectif) ? |
 | 2 | Personne | §1 OUVERT | Personne réelle = sujet ou vedette-hook ? Si oui : œuvre-signature à tagger aussi (sauf si l'œuvre du moment est déjà taguée par ailleurs, voir §1) ? |
-| 3 | Studio/éditeur/marque | §2 OUVERT | Studio dev cité ? Éditeur first-party majeur ? **Produit dérivé** (jouet, figurine, produit dérivé) → licence/marque oui, genre du jeu source NON (voir §2) |
-| 4 | Genre | §3 FERMÉ | Cité dans le texte, OU trait stable d'une licence connue (jamais pour un produit dérivé, voir #3) ? |
-| 5 | Plateforme/composant | §4 FERMÉ | Cité explicitement dans le texte — fait contextuel, ne se déduit **jamais** ? |
+| 3 | Studio/éditeur/marque | §2 OUVERT | Studio dev cité ? Éditeur first-party majeur (trait stable — ex. `Rockstar Games` → toujours + `Take-Two Interactive`, `The Coalition` → toujours + `Xbox Game Studios`) ? **Produit dérivé** (jouet, figurine, produit dérivé) → licence/marque oui, genre du jeu source NON (voir §2) |
+| 4 | Genre | §3 FERMÉ | Cité dans le texte (relire une 2e fois — mot-clé souvent présent mais manqué), OU trait stable d'une licence connue (jamais pour un produit dérivé, voir #3) ? |
+| 5 | Plateforme/composant | §4 FERMÉ | Cité explicitement dans le texte — fait contextuel, ne se déduit **jamais**. Composant PC (Carte mère/Processeur/Carte graphique/RAM/SSD/Alimentation/Boîtier/Refroidissement) → ajouter aussi `Matériel PC` ; matériel externe (Casque audio/Clavier/Souris/Microphone/Écran/Manette) → ajouter aussi `Périphérique`. |
 | 6 | Thème/univers | §5 semi-fermé | **Systématique dès qu'une licence est taguée en #1** : trait stable de cette licence (même non cité) OU thème explicite dans le texte ? Ne jamais laisser cette ligne vide sans y avoir réfléchi. |
-| 7 | Mécaniques revendiquées | §5 | Solo/Multi/Coop/Compétitif/En ligne/Local/Cross-play/Monde ouvert — seulement si réellement décrites, pas juste théoriquement possibles ? |
+| 7 | Mécaniques revendiquées | §5 | Solo/Multi/Coop/Compétitif/En ligne/Local/Cross-play/Monde ouvert — seulement si réellement décrites, pas juste théoriquement possibles. **`Coopératif` ou `Compétitif` ⇒ toujours ajouter `Multijoueur` aussi** (jouer à plusieurs = multijoueur, par définition). Vérifier `En ligne` explicitement dès que serveurs/connexion/matchmaking sont mentionnés — ne pas l'oublier par défaut. |
 | 8 | Qualificatif permanent | §5 | Indé/Remake/Remaster/Rétro/Esport/Animation, si applicable ? |
 | 9 | Automobile | §5bis | Voiture réelle = sujet ? (jamais pour un jeu de course → `Course` en #4) |
 | 10 | Événement | §6 FERMÉ | Un événement de la liste est-il le contexte de l'annonce ? |
@@ -104,6 +137,9 @@ Sortie par article : `{ "tags": [...], "nouveaux_tags": [...], "incertitudes": [
 - **Studio dev toujours + éditeur first-party majeur** s'il est une marque-source suivie
   (Xbox Game Studios, PlayStation Studios, Nintendo, SEGA, Square Enix…). NB : le tag plateforme
   (`Xbox`) ≠ l'éditeur (`Xbox Game Studios`) — l'un = dispo, l'autre = curation first-party.
+  **Paires systématiques déjà actées** : `Rockstar Games` → toujours + `Take-Two Interactive` ;
+  `The Coalition` → toujours + `Xbox Game Studios`. Trait stable de propriété, pas besoin que
+  l'article cite explicitement l'éditeur pour l'ajouter.
 - **Service/abonnement ≠ plateforme** : même logique que l'éditeur vs la plateforme. Un service
   comme `PlayStation Plus` se tague en plus de, jamais à la place de, la plateforme qu'il utilise
   (`PlayStation`). Ex. : news sur les jeux du mois PS Plus → `PlayStation` + `PlayStation Plus`.
@@ -123,8 +159,9 @@ Sortie par article : `{ "tags": [...], "nouveaux_tags": [...], "incertitudes": [
 ## §3 — Genres — FERMÉ (triés alphabétiquement)
 Action · Action-aventure · Action-RPG · Aventure · Battle royale · Beat'em up · Combat · Cosy ·
 Course · Deckbuilder · FPS · Gestion · Hack'n'slash · Idle · Infiltration · JRPG · Metroidvania ·
-MMO · Narratif · Party game · Plateforme · Point & click · Réflexion · Roguelike · RPG · Rythme ·
-Shoot'em up · Simulation · Souls-like · Sport · Stratégie · Survie · Tactique · Tower defense · TPS
+MMO · MOBA · Narratif · Party game · Plateforme · Point & click · Réflexion · Roguelike · RPG ·
+Rythme · Shoot'em up · Simulation · Souls-like · Sport · Stratégie · Survie · Tactique ·
+Tower defense · TPS
 *Film/série :* Action · Aventure · Biopic · Comédie · Documentaire · Drame · Fantastique ·
 Horreur · Policier · Science-fiction · Thriller (+ `Animation` si pas d'acteurs réels).
 **`Sport` couvre aussi les jeux de trick/scoring type skateboard/rollers/BMX** (Denshattack!,
@@ -138,10 +175,16 @@ l'industrie pour ce type de jeu.
 *(`Rétro` ici = jeu/console d'époque, pas "vieux" au sens large — un CPU ou un produit qui fête un
 anniversaire n'est pas rétro-gaming.)*
 **Films/séries :** Apple TV+ · Canal+ · Crunchyroll · Disney+ · HBO Max · Netflix · Paramount+ ·
-Prime Video
-**Composants & matériel :** Alimentation · AR · Boîtier · Carte graphique · Carte mère ·
-Casque audio · Clavier · Écran · Matériel PC · Montre connectée · Périphérique · Processeur · RAM ·
-Refroidissement · Réseau · Smartphone · Souris · SSD
+Peacock · Prime Video
+**Composants & matériel :** Alimentation · AR · Aspirateur robot · Boîtier · Carte graphique ·
+Carte mère · Casque audio · Clavier · Écran · Manette · Matériel PC · Microphone ·
+Montre connectée · Périphérique · Processeur · RAM · Refroidissement · Réseau · Smartphone ·
+Souris · SSD
+*(`Périphérique` = matériel EXTERNE en plus d'un tag précis — `Casque audio`, `Clavier`, `Souris`,
+`Microphone`, `Écran`, `Manette` — jamais à sa place. `Matériel PC` = son pendant pour les
+composants INTERNES — `Carte mère`, `Processeur`, `Carte graphique`, `RAM`, `SSD`, `Alimentation`,
+`Boîtier`, `Refroidissement` — même logique, en plus jamais à la place. Les deux umbrella-tags ne
+se mélangent jamais entre eux : un SSD est interne → `Matériel PC`, pas `Périphérique`.)*
 
 ## §5 — Thèmes & univers — semi-fermée (le moteur du maillage, listes triées alphabétiquement)
 **Systématique, jeux comme films/séries (voir Grille #6)** : un jeu au cadre spatial/fantasy/etc.
@@ -153,6 +196,9 @@ plus souvent oubliée si on ne la vérifie pas explicitement à chaque article.
 Far West · Guerre · Guerre froide · Horreur · IA · Lovecraftien · Maritime · Médiéval ·
 Mythologie · Pirates · Post-apocalyptique · Robot · Science-fiction · Steampunk · Super-héros ·
 WW1 · WW2 · Zombies
+*(`IA` et `Robot` couvrent aussi bien le contenu réel/industrie — ex. adoption de l'IA générative
+dans le jeu vidéo, robots humanoïdes — que les thèmes fictionnels. Toujours vérifier le précédent
+avant de conclure qu'aucun tag §5 ne s'applique.)*
 **Mécaniques revendiquées :** Compétitif · Coopératif · Cross-play · En ligne · Local ·
 Monde ouvert · Multijoueur · Solo
 **Qualificatifs permanents :** Animation · Esport · Indé · Remake · Remaster · Rétro
@@ -168,7 +214,10 @@ scène/communauté suivie). Ne pas retaguer.
 - **Statut / format** (Démo, Bande-annonce, Teaser, Accès anticipé, AAA, **Reboot**, **Exclusivité**)
   → transitoire/subjectif. *(Remaster/Remake restent : nature permanente.)*
 - **Techniques de production & styles graphiques** (Procédural, Ray tracing, moteurs, **Pixel art**,
-  voxel, self-shading, cel-shading) → invisibles / non revendiqués.
+  voxel, self-shading, cel-shading) → invisibles / non revendiqués. **Ceci inclut l'esthétique
+  "rétro-inspirée"** (ex. graphisme vectoriel façon arcade 1970s sur un jeu neuf) : c'est un style,
+  pas du contenu rétro-gaming → pas de tag `Rétro`. `Rétro` reste réservé à un vrai jeu/console
+  d'époque, ou à une couverture qui porte sur son histoire (voir §4).
 
 ## §5bis — Automobile — sujet RÉEL uniquement
 `Voiture` (générique) · `Voiture hybride` · `Voiture électrique`. Chaque voiture = `Voiture` +
@@ -197,6 +246,12 @@ le pays est réellement concerné/impacté par ce dont parle l'article.
 ville", juste avec l'enseigne en OUVERT (§ licences/marques) + `Suisse` en plus. Si un tag de ville
 brut traîne dans l'historique du site, le corriger : retagger les articles concernés avec la bonne
 enseigne puis supprimer le tag de ville (`scripts/wp_client.py::delete_tag`).
+**Programme mono-film vs vraie programmation (v3.15) :** un article "programme de la semaine" qui
+ne développe substantiellement qu'**un seul film** (synopsis complet, casting, durée — le reste
+n'étant qu'un lien vers "le programme complet") a ce film comme véritable sujet → le tagger. Réserver
+la règle "listes = pas de tags" aux vraies programmations multi-films qui listent effectivement
+plusieurs séances/films sans en développer un en particulier (ex. ARENA Cinemas, plusieurs films
+avec horaires détaillés pour chacun).
 
 ## §8 — Pays — OUVERT, barrière stricte
 Un pays n'est tagué **que s'il est l'acteur central** (« la Chine légifère », « ventes au Japon »),
