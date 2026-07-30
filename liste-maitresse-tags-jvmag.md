@@ -667,6 +667,33 @@ plutôt que de dépendre d'une relecture attentive à chaque fois.
 
 ---
 
+### Retag rétroactif — Lot #5/5 — 2026-07-30 (44 articles sur 131 déjà tagués)
+
+**Dernier lot du retag rétroactif — les 131 articles sont maintenant à jour avec la
+nomenclature actuelle (v3.23).** 41 articles déjà conformes, 2 corrections, 1 refus
+justifié après discussion. **113441** Agent 64: Spies Never Die : `Compétitif`
+initialement proposé (deathmatch local explicite) puis **retiré** après challenge —
+mode secondaire greffé sur une campagne solo/coop, pas une compétition structurante.
+A motivé une clarification durable de la règle (v3.23, voir changelog) : `Compétitif`
+réservé aux genres compétitifs par nature ou aux vrais modes dédiés avec classement
+réel, pas à tout ce qui est techniquement jouable à plusieurs contre. **113225**
+Fallout/Obsidian : `Bethesda Game Studios` retiré (n'apparaissait que dans une
+comparaison historique, le studio n'est pas impliqué dans le nouveau projet).
+**113535** Samsung Flex Titanium : `Écran` retiré, `Smartphone` suffit — les tags
+composants (§4) sont scopés à l'écosystème PC/console, pas aux specs intégrées
+d'autres appareils.
+
+**Bilan des 5 lots de retag (131 articles)** : 5 nouveaux tags créés (`Dying Light`,
+`Big Walk`, `Signalis`, `Absurd Ventures`, `Eraser`, `Vaiana`, `Électroménager`,
+`SIGGRAPH` — 8 au total en comptant tous les lots), plusieurs clarifications de règles
+actées (v3.19 à v3.23 : plateformes non-versionnées, portée des paires studio/éditeur,
+Rétro matériel, genre-vs-ton, service en accès gratuit, seuil anomalie Suisse, paire
+Bethesda/Xbox Game Studios, Pokémon Company écarté, Électroménager, Compétitif
+resserré, composants scopés PC/console), et un garde-fou automatique ajouté au
+pipeline (`validate_pairings()`) suite à un oubli réel (Matériel PC manquant).
+
+---
+
 ## Décisions ouvertes à surveiller
 - **Mediawan** : gardé, à réévaluer s'il n'est pas réutilisé.
 - **Unitree** : gardé comme le plus connu des fabricants de robots.
