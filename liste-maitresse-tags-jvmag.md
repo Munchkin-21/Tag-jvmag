@@ -626,6 +626,19 @@ lot-ci. 12 articles inchangés (déjà conformes).
 
 ---
 
+### Retag rétroactif — Lot #3/7 — 2026-07-30 (19 articles sur 131 déjà tagués)
+
+Lot le plus propre jusqu'ici : 17 articles déjà conformes, 2 corrections seulement.
+**113708** Samsung Galaxy Watch9/Ultra2 : + `IA` (le texte dit explicitement que
+l'IA "joue un rôle central", contrairement au Fold 8/Flip 8 du même lot où l'IA n'est
+qu'une ligne de specs parmi d'autres — pas ajoutée là). **113854** NVIDIA DLSS 5 : +
+`SIGGRAPH` — nouveau tag créé, événement tech absent du vocabulaire fermé jusqu'ici
+(v3.21). Suisse confirmé correctement absent sur les deux articles Samsung (CHF/date
+routiniers) et correctement présent sur DENZA (vraie implantation marché suisse) —
+aucune correction nécessaire, la règle resserrée en lot #2 tient bon.
+
+---
+
 ## Décisions ouvertes à surveiller
 - **Mediawan** : gardé, à réévaluer s'il n'est pas réutilisé.
 - **Unitree** : gardé comme le plus connu des fabricants de robots.
