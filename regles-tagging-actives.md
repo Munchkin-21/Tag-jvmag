@@ -123,7 +123,13 @@ pour proposer un lot — il remplace tout autre résumé ou checklist condensé.
   Company` candidat à une paire stable avec `Pokémon`.
 - **Service/abonnement ≠ plateforme** : même logique que l'éditeur vs la plateforme.
   Un service (`PlayStation Plus`) se tague en plus de, jamais à la place de, la
-  plateforme qu'il utilise (`PlayStation`).
+  plateforme qu'il utilise (`PlayStation`). **Un article qui décrit un accès gratuit/
+  exceptionnel à une fonctionnalité du service reste tagué avec ce service**, tant que
+  la fonctionnalité appartient techniquement à son infrastructure/marque — ne pas
+  confondre « ne nécessite pas l'abonnement payant pour CETTE offre précise » avec
+  « n'a aucun rapport avec le service » (ex. test de cloud gaming gratuit sans
+  abonnement Game Pass : reste un service Xbox Game Pass, juste rendu accessible sans
+  palier payant pour l'occasion).
 - **Marque/studio obscur : tagué s'il EST le sujet** ; ignoré s'il est secondaire.
 - Pas de studio connu mentionné → tague les autres jeux du même créateur (pont d'auteur).
 - **Pedigree non tagué** : anciens employeurs / équipe d'origine ≠ tag.
@@ -149,6 +155,13 @@ d'acteurs réels).
 
 `Sport` couvre aussi les jeux de trick/scoring type skateboard/rollers/BMX — pas de
 genre dédié "Skate" pour éviter un tag de niche peu réutilisé.
+
+**Genre cité comme nuance de ton ≠ genre à tagger.** Une formule du type « à la frontière
+de X, Y et Z » ou « avec des accents de X » décrit une ambiance/un mélange, pas une
+déclaration de genre — c'est une variante de l'exclusion "Ton / ambiance" (§5). Seul le
+genre principal, assumé par le texte comme ce que l'œuvre EST, se tague. Ex. : un film
+« à la frontière de la comédie, du fantastique et de l'horreur » qui reste par ailleurs
+qualifié de comédie dans le reste du texte → `Comédie` + `Fantastique`, pas `Horreur`.
 
 ## §4 — Plateformes & matériel — Contenu, FERMÉ (triés alphabétiquement)
 
@@ -246,7 +259,13 @@ de ville.
 **Test resserré — prix/date CH ≠ Suisse par défaut :** un prix converti en CHF ou une
 date de sortie suisse mentionnés en routine ne suffisent PAS. Exception : quand le
 prix/la date est lui-même l'anomalie qui fait l'actu (produit plus cher en Suisse,
-lancement retardé pour une raison suisse) — là le CH est bien le sujet.
+lancement retardé pour une raison suisse) — là le CH est bien le sujet. **L'anomalie
+doit être substantielle, pas juste une phrase isolée dans un article qui parle d'autre
+chose.** Une simple mention en passant (« pas encore de date CH connue, il faudra
+se tourner vers le streaming ») noyée dans un article centré sur un tout autre sujet
+(ex. une bande-annonce) ne suffit pas — le test reste : la Suisse est-elle un axe
+réel de CET article, pas un détail incident qu'on pourrait retirer sans rien changer
+au sujet.
 
 **Cas négatif :** une phrase qui mentionne la Suisse pour dire qu'elle n'est PAS
 touchée par un problème qui frappe d'autres pays n'est pas un angle suisse réel.

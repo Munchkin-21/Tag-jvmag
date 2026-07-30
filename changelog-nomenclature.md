@@ -11,6 +11,22 @@
 > tranchés) vit dans [liste-maitresse-tags-jvmag.md](liste-maitresse-tags-jvmag.md).
 
 ## Changelog
+- **v3.20** (2026-07-30, retagging rétroactif lot #2/7) : trois nouvelles clarifications
+  tranchées pendant la revue du lot #2 :
+  - **Genre cité en nuance de ton ≠ genre à tagger** (§3) : une formule « à la frontière
+    de X, Y, Z » décrit une ambiance, pas une déclaration de genre — corrige une
+    proposition erronée (`Horreur` sur Scrooge, alors que le texte le qualifie par
+    ailleurs de comédie ; « horreur » n'apparaissait que dans un « à la frontière de »).
+  - **Service/abonnement reste tagué même en accès gratuit exceptionnel** (§2) : un
+    article sur un test de cloud gaming Xbox accessible sans abonnement payant reste
+    tagué `Xbox Game Pass` — la fonctionnalité appartient techniquement à ce service/
+    cette marque, même rendue accessible sans le palier payant pour l'occasion. Ne pas
+    confondre "pas besoin de l'abonnement pour CETTE offre" et "aucun rapport avec le
+    service".
+  - **Anomalie Suisse : doit être substantielle, pas un détail isolé** (§7) : une
+    mention en passant d'une date CH non confirmée, noyée dans un article centré sur
+    autre chose (ex. une bande-annonce), ne suffit pas à déclencher l'exception
+    anomalie — resserre le test ajouté en v3.16, qui ne précisait pas ce seuil.
 - **v3.19** (2026-07-30, retagging rétroactif lot #1/7) : trois clarifications tranchées
   pendant la relecture du premier lot de retag :
   - **Plateformes jamais versionnées** (§4) : confirmation explicite que "Switch 2",
