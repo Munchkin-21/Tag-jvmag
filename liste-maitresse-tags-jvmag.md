@@ -560,6 +560,55 @@ et aux personnes-sujets, tag redondant avec une ombrelle déjà existante).
 
 ---
 
+### Retag rétroactif — Lot #1/7 — 2026-07-30 (19 articles sur 131 déjà tagués)
+
+Premier lot du retagging rétroactif des 131 articles traités avant que la nomenclature
+n'atteigne sa forme actuelle (v3.19). Appliqué via `apply_batch.py --replace` après
+`--dry-run` de vérification. Détail par article :
+
+- **114254** Disney+ sans 4K : + `Disney` (acteur central du litige, distinct de la plateforme).
+- **114278** Dragon Age Remaster impossible : inchangé, déjà conforme.
+- **114268** Crazy Taxi test multijoueur : + `Compétitif` (modes explicitement décrits « en
+  compétition » / « opposera deux équipes »).
+- **114273** Jeux PS Plus d'août : + `Dying Light`, `Big Walk`, `Signalis` (nouveaux tags) —
+  exception liste ≤5 concrètement disponible ; pas de genre/thème ajouté (plusieurs jeux
+  différents, même logique que la restriction Obsidian/Fallout/Avowed en v3.18).
+- **114263** Below (Netflix) : inchangé, déjà conforme.
+- **114249** BioEden : inchangé, déjà conforme.
+- **114243** Cinémas de Sierre #31 : + `Spider-Man`, `Super-héros`, `Action` — règle programme
+  mono-film (seul film substantiellement développé dans le texte).
+- **114238** Intel Core 2 Duo 20 ans : + `Matériel PC` (composant interne oublié), + `Rétro`
+  (rétrospective matérielle, extension de la règle actée pendant cette revue).
+- **114228** ARENA Cinemas : + `Spider-Man`, `Marvel` (nommé explicitement), `Super-héros`,
+  `Action` — highlight éditorial distinct du reste de la grille horaire (non retaguée).
+- **110764** ZeroSpace : + `Compétitif` (1v1/2v2 explicites), + `En ligne` (MMO persistant).
+- **105614** STALKER 2 Cost of Hope : inchangé, déjà conforme.
+- **114206** Suika Game sur PS5/PC : inchangé, déjà conforme.
+- **114201** Hard Worker : + `En ligne` (MMO explicite).
+- **114196** Dan Houser jeux physiques : + `Absurd Ventures` (nouveau tag, son nouveau studio,
+  explicitement nommé) ; `Take-Two Interactive` **non** ajouté malgré la paire systématique
+  Rockstar Games — portée clarifiée (v3.19) : la paire ne s'applique que si le studio est tagué
+  comme éditeur d'une œuvre précise, pas via la règle personne + œuvre-signature.
+- **114138** SDCC Jour 2 : inchangé — long roundup de 8+ franchises différentes, sous le seuil
+  de l'exception liste (≤5), pas de tag individuel par franchise annoncée.
+- **113979** Denshattack! (test) : + `Course` (texte explicite : « mélange course, plateforme et
+  freestyle »).
+- **114180** Carnet noir Chuck Russell : + `Eraser` (nouveau tag, même niveau de traitement
+  textuel que Le Roi Scorpion déjà tagué) ; `Witchboard` écarté (mention anecdotique, « un des
+  plusieurs projets »).
+- **114163** Sega Rally Model 2 : inchangé — `Compétitif` envisagé mais écarté, le texte ne
+  décrit que du « jeu en réseau » sans langage compétitif explicite (contraste volontaire avec
+  114268/110764 où la compétition est explicitement nommée).
+- **111470** Cinémas de Sierre #24 (Toy Story 5) : + `Animation` (film sans acteurs réels),
+  + `Pixar` (studio non-ambigu) ; **– `Programme`** retiré (tag hors vocabulaire documenté,
+  jugé non pertinent).
+
+5 nouveaux tags créés : `Dying Light`, `Big Walk`, `Signalis`, `Absurd Ventures`, `Eraser`.
+3 clarifications de règle actées pendant cette revue, documentées en v3.19 du changelog
+(plateformes jamais versionnées, portée des paires studio/éditeur, `Rétro` étendu au matériel).
+
+---
+
 ## Décisions ouvertes à surveiller
 - **Mediawan** : gardé, à réévaluer s'il n'est pas réutilisé.
 - **Unitree** : gardé comme le plus connu des fabricants de robots.
