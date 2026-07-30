@@ -657,6 +657,16 @@ robot` retiré et désormais réservé aux appareils réellement autonomes.
 
 ---
 
+### Correctif ponctuel — 2026-07-30
+
+**113854** NVIDIA DLSS 5 (lot #3) : `Matériel PC` manquant malgré `Carte graphique`
+posé — oubli repéré par relecture humaine après coup, corrigé. A motivé l'ajout de
+`validate_pairings()` dans `apply_batch.py` (voir `tests/test_pairings.py`) : cette
+règle de paire est désormais vérifiée automatiquement et bloque tout lot qui l'omet,
+plutôt que de dépendre d'une relecture attentive à chaque fois.
+
+---
+
 ## Décisions ouvertes à surveiller
 - **Mediawan** : gardé, à réévaluer s'il n'est pas réutilisé.
 - **Unitree** : gardé comme le plus connu des fabricants de robots.
