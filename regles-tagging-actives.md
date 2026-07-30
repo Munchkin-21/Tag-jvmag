@@ -200,6 +200,12 @@ pour les composants INTERNES (Carte mère, Processeur, Carte graphique, RAM, SSD
 Alimentation, Boîtier, Refroidissement) — même logique. Les deux umbrella-tags ne se
 mélangent jamais entre eux.)*
 
+*(Ces tags composants sont scopés à l'écosystème PC/console — un accessoire externe ou
+une pièce interne d'ordinateur/console. Une technologie intégrée à un autre appareil
+(ex. l'écran pliable d'un smartphone) n'est pas un `Écran` au sens de cette liste : pas
+de tag composant, `Smartphone` seul suffit, comme on ne crée pas de tag `Processeur`
+séparé à chaque puce de smartphone annoncée.)*
+
 ## §5 — Thèmes & univers — Contenu, semi-fermée (listes triées alphabétiquement)
 
 **Systématique, jeux comme films/séries (voir Grille #6)** : un jeu au cadre
@@ -219,6 +225,15 @@ fictionnels.)*
 
 **Mécaniques revendiquées :** Compétitif · Coopératif · Cross-play · En ligne ·
 Local · Monde ouvert · Multijoueur · Solo
+
+**`Compétitif` réservé à une compétition structurante**, pas à un mode secondaire greffé
+sur un jeu principalement solo/coop. Test : le genre est-il compétitif par nature
+(baston, MOBA, battle royale, racing avec ranked/matchmaking réel), ou l'article
+décrit-il un vrai mode dédié avec classement/matchmaking (ex. "1v1, 2v2" explicites) ?
+Si oui → `Compétitif`. Si la compétition n'est qu'une option secondaire (ex. un
+deathmatch local en bonus d'une campagne solo/coop qui reste le vrai sujet) → non,
+même si le mode existe techniquement. Image utile : Mario Party et Overwatch sont tous
+deux "compétitifs" au sens large, mais pas au même niveau — seul le second mérite le tag.
 
 **Qualificatifs permanents :** Animation · Esport · Indé · Remake · Remaster · Rétro
 *(`Rétro` = contenu rétro-gaming (voir note §4), mais s'étend à toute rétrospective

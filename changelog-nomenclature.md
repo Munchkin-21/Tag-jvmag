@@ -11,6 +11,21 @@
 > tranchés) vit dans [liste-maitresse-tags-jvmag.md](liste-maitresse-tags-jvmag.md).
 
 ## Changelog
+- **v3.23** (2026-07-30, retagging rétroactif lot #5/7, dernier lot) : trois clarifications :
+  - **`Compétitif` réservé à une compétition structurante** (§5) : ne se tague plus pour
+    un mode secondaire greffé sur un jeu principalement solo/coop (ex. deathmatch local
+    en bonus d'une campagne, écarté sur Agent 64: Spies Never Die), réservé aux genres
+    compétitifs par nature (baston, MOBA, battle royale) ou aux vrais modes dédiés avec
+    classement/matchmaking réel. Image retenue : Mario Party et Overwatch sont tous deux
+    "compétitifs" au sens large, mais pas au même niveau.
+  - **Composants PC/console scopés, pas les specs d'appareils intégrés** (§4) : un écran
+    pliable de smartphone n'est pas un `Écran` au sens de la liste composants (qui ne
+    couvre que l'écosystème PC/console, externe ou interne) — `Smartphone` seul suffit,
+    corrige un tag `Écran` posé à tort sur une actu Samsung Flex Titanium.
+  - **`Bethesda Game Studios` retiré** d'un article sur la restructuration Xbox/Obsidian
+    où le tag n'apparaissait que dans une comparaison historique (New Vegas développé
+    "en dehors de" BGS) — le nouveau projet Fallout est développé par Obsidian, pas BGS ;
+    la paire Obsidian Entertainment → Xbox Game Studios suffit à couvrir l'éditeur.
 - **v3.22** (2026-07-30, retagging rétroactif lot #4/7) : trois décisions actées :
   - **`Bethesda Game Studios` → toujours + `Xbox Game Studios`** ajouté aux paires
     systématiques (§2) : Bethesda Game Studios est lui-même un label Xbox Game Studios
