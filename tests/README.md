@@ -44,6 +44,18 @@ Vérifie que `--from-top` rattrape bien les articles publiés récemment, **sans
 perdre la position dans le backlog, et que le mode reprise repart ensuite au bon
 endroit.
 
+## `test_parse_ids.py` — non-régression du parsing `--ids`
+
+```
+python tests/test_parse_ids.py
+```
+
+Vérifie `fetch_batch.parse_ids()` sur une liste réaliste de 131 IDs inline (~650
+caractères) : `Path(raw).exists()` levait une `OSError` (nom de fichier trop long) au
+lieu de renvoyer `False`, donc le script plantait avant de rien faire dès qu'on lui
+donnait un vrai lot d'IDs à re-tagger. Couvre aussi virgules/espaces/fichier/token
+invalide/liste vide.
+
 ## `fake_wp.py`
 
 Faux WordPress utilisé par les deux simulations. Reproduit la sémantique de l'API

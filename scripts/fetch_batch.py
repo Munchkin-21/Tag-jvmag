@@ -89,14 +89,38 @@ def html_to_text(html):
 
 
 def parse_ids(raw):
-    """Accepte "123,456" ou le chemin d'un fichier contenant un ID par ligne."""
-    path = Path(raw)
-    if path.exists():
+    """Accepte "123,456" ou le chemin d'un fichier contenant un ID par ligne.
+
+    Lève ValueError (jamais une exception brute) si l'entrée est vide ou contient un
+    token non numérique — le contrat est explicite pour l'appelant, comme validate_schema
+    dans apply_batch.py.
+    """
+    try:
+        path = Path(raw)
+        is_file = path.exists()
+    except OSError:
+        # Une longue liste d'IDs inline (ex. 131 IDs séparés par des virgules, ~650
+        # caractères) dépasse la limite de nom de fichier de l'OS (ENAMETOOLONG) :
+        # Path.exists() lève alors une exception au lieu de renvoyer False. Dans ce
+        # cas ce n'est de toute façon jamais un chemin valide, donc on traite l'entrée
+        # comme une liste d'IDs inline plutôt que de planter.
+        is_file = False
+    if is_file:
         raw = path.read_text()
+
+    tokens = [t for t in re.split(r"[,\s]+", raw.strip()) if t]
+    if not tokens:
+        raise ValueError("--ids : aucun identifiant fourni.")
+
     ids = []
-    for token in re.split(r"[,\s]+", raw.strip()):
-        if token:
+    invalides = []
+    for token in tokens:
+        if token.isdigit():
             ids.append(int(token))
+        else:
+            invalides.append(token)
+    if invalides:
+        raise ValueError(f"--ids : identifiant(s) non numérique(s) : {invalides}")
     return ids
 
 
@@ -117,6 +141,13 @@ def main():
     )
     args = parser.parse_args()
 
+    if args.ids:
+        try:
+            wanted = parse_ids(args.ids)
+        except ValueError as e:
+            print(f"Erreur : {e}")
+            return
+
     state = load_state()
     skip_ids = set(state["processed"]) | set(state["queued"]) | set(state["skipped"])
 
@@ -127,7 +158,6 @@ def main():
     if args.ids:
         # Mode ciblé : on ne filtre ni sur le nombre de tags, ni sur skip_ids (ces articles
         # sont justement déjà traités), et on ne touche pas au curseur du backlog.
-        wanted = parse_ids(args.ids)
         batch_posts = wp_client.get_posts_by_ids(wanted)
         trouves = {p["id"] for p in batch_posts}
         manquants = [i for i in wanted if i not in trouves]
