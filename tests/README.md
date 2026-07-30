@@ -70,6 +70,19 @@ IDs réels n'en retournait qu'un seul, silencieusement. `fake_wp.py` ne peut pas
 attraper ce bug (il ne modélise pas cette sérialisation HTTP + ce comportement PHP),
 d'où ce test dédié qui vérifie le mécanisme du correctif directement.
 
+## `test_pairings.py` — non-régression des paires de tags obligatoires
+
+```
+python tests/test_pairings.py
+```
+
+Vérifie `apply_batch.validate_pairings()` : composant PC interne sans `Matériel PC`,
+matériel externe sans `Périphérique`, `Coopératif`/`Compétitif` sans `Multijoueur`. Ces
+règles (§4 et Grille #7 de `regles-tagging-actives.md`) sont mécaniques et sans
+exception, contrairement aux paires studio/éditeur du §2 — un script peut donc les
+garantir de façon fiable. C'est arrivé : `Carte graphique` posé sans `Matériel PC` sur
+un article DLSS 5, repéré seulement après coup.
+
 ## `fake_wp.py`
 
 Faux WordPress utilisé par les deux simulations. Reproduit la sémantique de l'API

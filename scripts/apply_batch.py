@@ -14,14 +14,19 @@ Format attendu du fichier reviewed (liste d'objets, un par article) :
 Le champ "incertitudes" (s'il est présent) est ignoré ici : c'est un signal humain,
 pas une instruction d'écriture.
 
-Deux validations successives ont lieu avant la moindre écriture, et une seule erreur
+Trois validations successives ont lieu avant la moindre écriture, et une seule erreur
 suffit à refuser tout le lot — mieux vaut corriger le fichier et relancer que d'écrire
 la moitié d'un lot mal formé :
   1. **Forme du fichier** (`validate_schema`, sans aucun appel réseau) : le fichier est
      bien une liste, chaque article a un `id` entier, `tags` et `nouveaux_tags` sont des
      listes de noms non vides. Un article sans aucun tag déclenche un avertissement non
      bloquant (rare mais légitime : programme, liste pure).
-  2. **Existence des noms sur WordPress** (voir garde-fou anti-doublon ci-dessous).
+  2. **Paires de tags obligatoires** (`validate_pairings`, sans appel réseau non plus) :
+     Matériel PC/Périphérique pour tout composant PC/matériel externe, Multijoueur dès
+     que Coopératif ou Compétitif est posé (§4 et Grille #7 de regles-tagging-actives.md
+     — règles mécaniques, sans exception, donc vérifiables par script plutôt que par
+     relecture).
+  3. **Existence des noms sur WordPress** (voir garde-fou anti-doublon ci-dessous).
 
 Par défaut les tags du lot s'AJOUTENT à ceux déjà présents sur l'article. `--replace`
 remplace au contraire l'ensemble des tags par ceux du lot : c'est le mode du re-tagging
@@ -124,6 +129,57 @@ def validate_schema(articles):
     return errors, warnings
 
 
+# Composants PC internes : chacun doit toujours s'accompagner de "Matériel PC" (§4).
+COMPOSANTS_INTERNES = {
+    "Carte mère", "Processeur", "Carte graphique", "RAM", "SSD",
+    "Alimentation", "Boîtier", "Refroidissement",
+}
+# Matériel externe : chacun doit toujours s'accompagner de "Périphérique" (§4).
+COMPOSANTS_EXTERNES = {"Casque audio", "Clavier", "Souris", "Microphone", "Écran", "Manette"}
+
+
+def validate_pairings(articles):
+    """Vérifie les paires de tags obligatoires et SANS EXCEPTION de
+    regles-tagging-actives.md : composant interne -> Matériel PC, matériel externe ->
+    Périphérique (§4), Coopératif/Compétitif -> Multijoueur (Grille #7).
+
+    Contrairement aux paires studio/éditeur (§2, ex. Rockstar Games -> Take-Two), qui
+    ont une exception documentée (règle "personne + œuvre-signature") et exigent donc
+    un jugement éditorial, ces trois paires sont purement mécaniques : si la condition
+    est remplie, le tag d'accompagnement l'est toujours aussi, sans cas particulier.
+    C'est exactement le genre de règle qu'un script vérifie de façon fiable là où une
+    proposition de lot, même relue avec soin, peut en oublier une au fil des articles
+    (c'est arrivé : Carte graphique posé sans Matériel PC sur un article DLSS 5).
+    """
+    errors = []
+    for article in articles:
+        post_id = article.get("id")
+        names = {t for t in (article.get("tags") or []) if isinstance(t, str)}
+        names |= {t for t in (article.get("nouveaux_tags") or []) if isinstance(t, str)}
+
+        manquants_internes = sorted(names & COMPOSANTS_INTERNES)
+        if manquants_internes and "Matériel PC" not in names:
+            errors.append(
+                f"article {post_id} : {manquants_internes} présent(s) sans 'Matériel PC' "
+                "(§4 — obligatoire pour tout composant PC interne)."
+            )
+
+        manquants_externes = sorted(names & COMPOSANTS_EXTERNES)
+        if manquants_externes and "Périphérique" not in names:
+            errors.append(
+                f"article {post_id} : {manquants_externes} présent(s) sans 'Périphérique' "
+                "(§4 — obligatoire pour tout matériel externe)."
+            )
+
+        if ("Coopératif" in names or "Compétitif" in names) and "Multijoueur" not in names:
+            errors.append(
+                f"article {post_id} : 'Coopératif'/'Compétitif' présent sans 'Multijoueur' "
+                "(Grille #7 — obligatoire dès que l'un des deux est posé)."
+            )
+
+    return errors
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("reviewed_file")
@@ -157,10 +213,20 @@ def main():
     if schema_warnings:
         print()
 
+    # 2) Paires de tags obligatoires (Matériel PC, Périphérique, Multijoueur) : comme
+    # la validation de forme, sans appel réseau, et bloquant pour tout le lot.
+    pairing_errors = validate_pairings(articles)
+    if pairing_errors:
+        print(f"Lot refusé, {len(pairing_errors)} paire(s) de tags obligatoire(s) manquante(s) :")
+        for message in pairing_errors:
+            print(f"  - {message}")
+        print("\nAucune écriture effectuée. Corrige le fichier et relance.")
+        return
+
     tag_map = wp_client.list_all_tags()  # name -> id, rafraîchi une fois pour tout le lot
     names_by_id = {tid: name for name, tid in tag_map.items()}
 
-    # 2) Validation des noms contre WordPress : un nom dans "tags" qui ne matche rien
+    # 3) Validation des noms contre WordPress : un nom dans "tags" qui ne matche rien
     # exactement est bloquant (probable faute de frappe/casse), pas un nouveau tag à créer
     # silencieusement. Seul "nouveaux_tags" est autorisé à créer.
     errors = []
