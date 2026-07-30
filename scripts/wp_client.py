@@ -86,8 +86,20 @@ def get(endpoint, **params):
     `per_page` par défaut à 100, le maximum autorisé par WordPress : la liste des tags
     est relue à chaque lot par les deux scripts, autant la récupérer en deux fois moins
     de requêtes.
+
+    Une valeur de type liste (ex. `include=[1, 2, 3]`, utilisé par `get_posts_by_ids`)
+    est jointe en chaîne séparée par des virgules avant l'envoi. Sans ça, `requests`
+    sérialise une liste en clé répétée (`include=1&include=2&include=3`) — et côté
+    WordPress, PHP ($_GET) ne garde que la DERNIÈRE occurrence d'une clé répétée sans
+    crochets : l'API ne voit alors qu'un seul ID au lieu de tous. C'est arrivé :
+    `get_posts_by_ids()` sur 19 IDs ne retournait que le dernier de la liste, en
+    silence (pas d'erreur, juste un résultat tronqué).
     """
     s = _session()
+    params = {
+        k: (",".join(str(v) for v in val) if isinstance(val, (list, tuple, set)) else val)
+        for k, val in params.items()
+    }
     items = []
     page = 1
     while True:

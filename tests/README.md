@@ -56,6 +56,20 @@ lieu de renvoyer `False`, donc le script plantait avant de rien faire dès qu'on
 donnait un vrai lot d'IDs à re-tagger. Couvre aussi virgules/espaces/fichier/token
 invalide/liste vide.
 
+## `test_list_params.py` — non-régression du paramètre `include`
+
+```
+python tests/test_list_params.py
+```
+
+Vérifie que `wp_client.get()` joint une valeur liste (ex. `include=[1,2,3]`) en chaîne
+séparée par des virgules avant l'envoi. `requests` sérialise sinon une liste en clé
+répétée (`include=1&include=2&include=3`), et PHP côté WordPress ne garde que la
+**dernière** occurrence d'une clé répétée sans crochets : `get_posts_by_ids()` sur 19
+IDs réels n'en retournait qu'un seul, silencieusement. `fake_wp.py` ne peut pas
+attraper ce bug (il ne modélise pas cette sérialisation HTTP + ce comportement PHP),
+d'où ce test dédié qui vérifie le mécanisme du correctif directement.
+
 ## `fake_wp.py`
 
 Faux WordPress utilisé par les deux simulations. Reproduit la sémantique de l'API
