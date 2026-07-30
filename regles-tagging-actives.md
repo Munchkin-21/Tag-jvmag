@@ -245,7 +245,7 @@ Evergreen (l'année vit dans la date). Un événement terminé garde son tag.
 Red Bull Gamerations · State of Play · Summer Game Fest · The Game Awards ·
 Xbox Games Showcase
 
-**Tech / auto :** CES · Computex · Goodwood Festival of Speed · WWDC
+**Tech / auto :** CES · Computex · Goodwood Festival of Speed · SIGGRAPH · WWDC
 
 **Ciné / pop culture :** CinemaCon · Festival de Cannes · Oscars · San Diego Comic-Con
 

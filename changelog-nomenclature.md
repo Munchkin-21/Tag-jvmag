@@ -11,6 +11,11 @@
 > tranchés) vit dans [liste-maitresse-tags-jvmag.md](liste-maitresse-tags-jvmag.md).
 
 ## Changelog
+- **v3.21** (2026-07-30, retagging rétroactif lot #3/7) : `SIGGRAPH` ajouté au vocabulaire
+  fermé des événements tech (§6, ex. DLSS 5 de NVIDIA). Philosophie actée pour ce type
+  d'ajout à ce stade du chantier : accepter les événements légitimes au fil de l'eau
+  plutôt que de bloquer sur leur usage futur — une fois les 13 000 articles parcourus,
+  les tags sous-utilisés seront révisés collectivement, pas au cas par cas maintenant.
 - **v3.20** (2026-07-30, retagging rétroactif lot #2/7) : trois nouvelles clarifications
   tranchées pendant la revue du lot #2 :
   - **Genre cité en nuance de ton ≠ genre à tagger** (§3) : une formule « à la frontière
