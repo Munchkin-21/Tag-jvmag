@@ -113,7 +113,11 @@ pour proposer un lot — il remplace tout autre résumé ou checklist condensé.
   plateforme de sortie.
   **Paires systématiques actées :** `Rockstar Games` → toujours + `Take-Two
   Interactive` ; `The Coalition` → toujours + `Xbox Game Studios` ; `Obsidian
-  Entertainment` → toujours + `Xbox Game Studios`.
+  Entertainment` → toujours + `Xbox Game Studios`. **Portée** : ces paires ne
+  s'appliquent que quand le studio est tagué comme développeur/éditeur d'une œuvre
+  précise dont parle l'article. Si le studio est tagué via la règle "personne +
+  œuvre-signature" (ex. Dan Houser, cofondateur de Rockstar) — un lien biographique,
+  pas la publication d'un jeu — la paire ne se déclenche pas : on tague le studio seul.
   **Pokémon :** le studio dev dépend du produit précis, jamais appliqué en bloc —
   `Niantic` pour Pokémon GO, `Game Freak` pour les jeux principaux. `The Pokémon
   Company` candidat à une paire stable avec `Pokémon`.
@@ -148,7 +152,11 @@ genre dédié "Skate" pour éviter un tag de niche peu réutilisé.
 
 ## §4 — Plateformes & matériel — Contenu, FERMÉ (triés alphabétiquement)
 
-On liste chaque plateforme réelle. Pas de collectif « Console ». Pas de numéro.
+On liste chaque plateforme réelle. Pas de collectif « Console ». **Pas de numéro ni de
+génération** : `Nintendo Switch` couvre aussi bien la Switch que la Switch 2 (jamais de
+tag `Nintendo Switch 2` séparé), même logique que `PlayStation` (pas de distinction
+PS4/PS5) et `Xbox` (pas de distinction Xbox One/Series X) — le texte peut nommer la
+génération précise, le tag reste toujours la plateforme générique.
 
 **Jeux :** Cloud gaming · Mobile · Nintendo Switch · PC · PlayStation · Rétro ·
 Steam Deck · VR · Xbox
@@ -189,7 +197,10 @@ fictionnels.)*
 Local · Monde ouvert · Multijoueur · Solo
 
 **Qualificatifs permanents :** Animation · Esport · Indé · Remake · Remaster · Rétro
-*(`Rétro` = contenu rétro-gaming, voir note §4.)*
+*(`Rétro` = contenu rétro-gaming (voir note §4), mais s'étend à toute rétrospective
+matérielle/tech portant sur une pièce d'époque précise (ex. anniversaire d'un
+processeur) — pas seulement jeu/console. Reste réservé à un vrai objet d'époque ou à
+une couverture qui porte sur son histoire, jamais à un style "rétro-inspiré".)*
 
 **Métiers / sujets :** Cinéma · Doublage · Manga
 *(`Manga` = thème transversal pour toute œuvre issue d'un manga — jeu, film, série —

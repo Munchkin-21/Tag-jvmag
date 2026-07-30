@@ -11,6 +11,27 @@
 > tranchés) vit dans [liste-maitresse-tags-jvmag.md](liste-maitresse-tags-jvmag.md).
 
 ## Changelog
+- **v3.19** (2026-07-30, retagging rétroactif lot #1/7) : trois clarifications tranchées
+  pendant la relecture du premier lot de retag :
+  - **Plateformes jamais versionnées** (§4) : confirmation explicite que "Switch 2",
+    "PS5", "Xbox Series X" etc. cités dans le texte restent tagués sous la plateforme
+    générique (`Nintendo Switch`, `PlayStation`, `Xbox`) — la règle "pas de numéro"
+    existait déjà mais manquait d'exemples concrets, ce qui a fait remonter la question
+    inutilement sur 3 articles du lot.
+  - **Portée des paires studio/éditeur systématiques** (§2) : `Rockstar Games` →
+    `Take-Two Interactive` (et les paires équivalentes) ne s'applique QUE quand le
+    studio est tagué comme développeur/éditeur d'une œuvre précise. Ne se déclenche pas
+    quand le studio est tagué via la règle "personne + œuvre-signature" (cas Dan Houser,
+    cofondateur de Rockstar interviewé sur son nouveau studio Absurd Ventures) — lien
+    biographique, pas publication d'un jeu.
+  - **`Rétro` étendu au-delà du jeu/console** (§5) : une rétrospective matérielle/tech
+    portant sur une pièce d'époque précise (ex. anniversaire d'un processeur Intel Core
+    2 Duo) est éligible, même logique qu'un jeu/console d'époque — reste réservé à un
+    vrai objet d'époque, jamais à un style visuel "rétro-inspiré".
+  - Confirmé aussi (pas un changement de règle, juste une application) : pas de
+    genre/thème ajouté pour des jeux juste listés côte à côte sans description (ex.
+    jeux du mois PS Plus) — même principe que "thème vaut pour la franchise, pas pour
+    tout l'article" (v3.18, cas Obsidian/Fallout/Avowed).
 - **v3.18** (2026-07-30) : nouvelle distinction structurante **tag d'identité vs tag de
   facette de contenu**, suite à une question directe sur le rôle de la recherche externe :
   - **Tags d'identité** (studio dev, éditeur, franchise — §1/§2) répondent à "de quelle œuvre
