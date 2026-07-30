@@ -1,4 +1,4 @@
-# Nomenclature des tags — JVMag (v3.18)
+# changelog-nomenclature — JVMag (v3.18)
 
 **But unique des tags :** nourrir la recherche et la reco de l'app via un maillage dense.
 Un tag vaut par les liens qu'il crée. Cible : **8–10 tags / article** (moins pour les news courtes,
