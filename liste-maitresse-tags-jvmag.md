@@ -609,6 +609,23 @@ n'atteigne sa forme actuelle (v3.19). Appliqué via `apply_batch.py --replace` a
 
 ---
 
+### Retag rétroactif — Lot #2/7 — 2026-07-30 (19 articles sur 131 déjà tagués)
+
+Corrections apportées : **113972** Halo Campaign Evolved (+ `Halo Studios`, développeur
+actuel non cité mais franchise non-ambiguë) ; **107654** Clayface (+ `Batman`, franchise
+explicitement nommée). Deux propositions rejetées à la relecture, qui ont affiné la
+nomenclature (v3.20) : **114117** Scrooge — `Horreur` proposé à tort (le texte le
+mentionne seulement comme nuance de ton "à la frontière de", le film reste une comédie
+d'après le reste de l'article) ; **107631** Coyote vs. Acme — `Suisse` proposé à tort
+(l'absence de date CH n'est qu'un détail isolé dans un article centré sur la
+bande-annonce, pas un axe substantiel). Une proposition initialement discutée puis
+tranchée en sens inverse : **114107** Xbox cloud gaming gratuit — `Xbox Game Pass`
+maintenu malgré l'absence d'abonnement requis pour cette offre précise, la
+fonctionnalité restant techniquement rattachée au service. Aucun nouveau tag créé ce
+lot-ci. 12 articles inchangés (déjà conformes).
+
+---
+
 ## Décisions ouvertes à surveiller
 - **Mediawan** : gardé, à réévaluer s'il n'est pas réutilisé.
 - **Unitree** : gardé comme le plus connu des fabricants de robots.
