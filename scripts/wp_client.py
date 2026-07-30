@@ -101,7 +101,7 @@ def list_categories():
 
 def list_all_tags():
     """Retourne {name: id}, casse exacte (pas de normalisation) — la correspondance est
-    volontairement stricte, voir la règle de nommage dans nomenclature-tags-jvmag.md."""
+    volontairement stricte, voir la règle de nommage dans regles-tagging-actives.md."""
     tags = get("tags", _fields="id,name")
     return {t["name"]: t["id"] for t in tags}
 

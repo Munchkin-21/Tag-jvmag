@@ -6,37 +6,21 @@ Format attendu du fichier reviewed (liste d'objets, un par article) :
 [
   {
     "id": 123,
-    "tags": [
-      {"name": "Hitman", "grille_line": 1},
-      {"name": "IO Interactive", "grille_line": 3},
-      {"name": "PC", "grille_line": 5},
-      {"name": "Action", "grille_line": 4},
-      {"name": "Infiltration", "grille_line": 4}
-    ],
-    "nouveaux_tags": [
-      {"name": "Nom Du Nouveau Tag", "grille_line": 1}
-    ]
+    "tags": ["Hitman", "IO Interactive", "PC", "Action", "Infiltration"],
+    "nouveaux_tags": ["Nom Du Nouveau Tag"]   # déjà validés humainement, créés si absents
   },
   ...
 ]
-`grille_line` = numéro de ligne de la Grille de tagging obligatoire (1-12, voir
-regles-tagging-actives.md) qui a produit ce tag. Sert à distinguer a posteriori un tag
-d'identité (lignes 1, 2, 3, 12 — OUVERT) d'un tag de facette de contenu (lignes 4 à 11 —
-FERMÉ/semi-fermé) : WordPress ne porte que des tags plats, cette distinction ne survit
-que si elle est archivée ailleurs — voir `tag_provenance.jsonl` ci-dessous.
-
 Le champ "incertitudes" (s'il est présent) est ignoré ici : c'est un signal humain,
 pas une instruction d'écriture.
 
 Deux validations successives ont lieu avant la moindre écriture, et une seule erreur
-suffit à refuser tout le lot :
-  1. **Forme du fichier** (`validate_schema`, sans aucun appel réseau) : structure, `id`
-     présent et entier, `tags`/`nouveaux_tags` bien des listes d'objets, et surtout
-     `grille_line` présent sur chaque tag avec une valeur entière entre 1 et 12. Ce
-     contrôle est indispensable car `grille_line` est invisible côté WordPress : un tag
-     sans ligne de Grille s'écrirait correctement sur le site tout en corrompant
-     silencieusement l'archive de provenance. Un article sans aucun tag déclenche un
-     avertissement non bloquant (rare mais légitime : programme, liste pure).
+suffit à refuser tout le lot — mieux vaut corriger le fichier et relancer que d'écrire
+la moitié d'un lot mal formé :
+  1. **Forme du fichier** (`validate_schema`, sans aucun appel réseau) : le fichier est
+     bien une liste, chaque article a un `id` entier, `tags` et `nouveaux_tags` sont des
+     listes de noms non vides. Un article sans aucun tag déclenche un avertissement non
+     bloquant (rare mais légitime : programme, liste pure).
   2. **Existence des noms sur WordPress** (voir garde-fou anti-doublon ci-dessous).
 
 Garde-fou anti-doublon : seuls les noms listés dans "nouveaux_tags" peuvent déclencher la
@@ -44,25 +28,15 @@ création d'un tag WordPress (ils sont censés avoir déjà été validés humai
 la conversation). Un nom dans "tags" est censé DÉJÀ exister ; s'il ne matche rien exactement,
 c'est traité comme une erreur bloquante (faute de frappe/casse probable) plutôt que créé en
 silence — pour ne jamais faire grossir la liste de tags sans validation explicite.
-
-Archive de provenance : à chaque article appliqué, un enregistrement complet (id article,
-tags + grille_line, nouveaux_tags, horodatage) est ajouté à `tag_provenance.jsonl`, à la
-racine du repo. Contrairement à `batches/` (gitignored, éphémère), ce fichier est committé :
-c'est la seule trace durable du lien tag <-> ligne de Grille une fois les tags aplatis sur
-WordPress. Format JSON Lines (un objet JSON par ligne) pour permettre l'ajout incrémental
-sans jamais relire/réécrire tout le fichier.
 """
 import argparse
 import json
-from datetime import datetime, timezone
 from pathlib import Path
 
 import wp_client
 
 SCRIPTS_DIR = Path(__file__).resolve().parent
-ROOT = SCRIPTS_DIR.parent
 STATE_PATH = SCRIPTS_DIR / "state.json"
-PROVENANCE_PATH = ROOT / "tag_provenance.jsonl"
 
 
 def load_state():
@@ -80,28 +54,13 @@ def save_state(state):
     STATE_PATH.write_text(json.dumps(state, indent=2, ensure_ascii=False))
 
 
-def append_provenance(record):
-    with PROVENANCE_PATH.open("a", encoding="utf-8") as f:
-        f.write(json.dumps(record, ensure_ascii=False) + "\n")
-
-
-GRILLE_LINE_MIN = 1
-GRILLE_LINE_MAX = 12
-
-
 def validate_schema(articles):
-    """Vérifie la forme du lot AVANT la moindre écriture WordPress.
+    """Vérifie la forme du lot AVANT tout appel réseau et toute écriture.
 
-    Retourne (erreurs, avertissements), deux listes de strings. Une seule erreur
-    suffit à refuser tout le lot : mieux vaut corriger le fichier et relancer que
-    d'écrire la moitié d'un lot mal formé.
-
-    Ce contrôle existe parce que `grille_line` est invisible côté WordPress : un tag
-    sans ligne de Grille, ou avec une valeur absurde, s'écrirait tout de même
-    correctement sur le site tout en corrompant silencieusement
-    `tag_provenance.jsonl` — la seule trace durable dont dépend le futur système de
-    points de l'app. Un problème silencieux ici ne se découvrirait que des milliers
-    d'articles plus tard.
+    Retourne (erreurs, avertissements), deux listes de messages prêts à afficher.
+    Le but n'est pas d'être exhaustif mais d'attraper les erreurs réelles avec un
+    message qui dit quoi corriger, plutôt que de laisser le script planter plus loin
+    sur un KeyError ou un TypeError incompréhensible.
     """
     errors = []
     warnings = []
@@ -118,7 +77,7 @@ def validate_schema(articles):
         post_id = article.get("id")
         if post_id is None:
             errors.append(f"{where} : champ 'id' manquant.")
-        elif not isinstance(post_id, int):
+        elif not isinstance(post_id, int) or isinstance(post_id, bool):
             errors.append(f"{where} : 'id' doit être un entier, reçu {post_id!r}.")
         else:
             where = f"article {post_id}"
@@ -126,53 +85,27 @@ def validate_schema(articles):
         for field in ("tags", "nouveaux_tags"):
             entries = article.get(field, [])
             if not isinstance(entries, list):
-                errors.append(f"{where} : '{field}' doit être une liste.")
+                errors.append(f"{where} : '{field}' doit être une liste de noms de tags.")
                 continue
 
             for entry in entries:
-                # Cas le plus probable : l'ancien format (simple liste de noms), soit
-                # parce que le lot vient d'avant le changement de schéma, soit parce que
-                # Claude Code a produit l'ancienne forme. Message explicite plutôt qu'un
-                # TypeError incompréhensible plus loin dans le script.
-                if isinstance(entry, str):
+                if isinstance(entry, dict):
+                    # Un objet au lieu d'un nom : message explicite plutôt qu'un
+                    # TypeError plus loin. Format attendu = simple liste de noms.
+                    name = entry.get("name", "?")
                     errors.append(
-                        f"{where} : '{field}' contient le nom brut {entry!r} au lieu d'un "
-                        f"objet. Format attendu : {{\"name\": {entry!r}, \"grille_line\": N}}."
+                        f"{where} : '{field}' contient un objet ({entry!r}) au lieu du seul "
+                        f"nom du tag. Format attendu : \"{name}\"."
                     )
-                    continue
-                if not isinstance(entry, dict):
+                elif not isinstance(entry, str):
                     errors.append(
-                        f"{where} : '{field}' contient une entrée invalide ({entry!r})."
+                        f"{where} : '{field}' contient une entrée invalide ({entry!r}), "
+                        "attendu un nom de tag."
                     )
-                    continue
+                elif not entry.strip():
+                    errors.append(f"{where} : '{field}' contient un nom vide.")
 
-                name = entry.get("name")
-                if not isinstance(name, str) or not name.strip():
-                    errors.append(
-                        f"{where} : '{field}' contient une entrée sans 'name' utilisable "
-                        f"({entry!r})."
-                    )
-                    name = repr(entry)
-
-                if "grille_line" not in entry:
-                    errors.append(
-                        f"{where} : tag {name!r} sans 'grille_line'. Chaque tag doit porter "
-                        f"le numéro de ligne de la Grille ({GRILLE_LINE_MIN}-{GRILLE_LINE_MAX}) "
-                        "qui l'a produit."
-                    )
-                else:
-                    line = entry["grille_line"]
-                    if not isinstance(line, int) or isinstance(line, bool):
-                        errors.append(
-                            f"{where} : tag {name!r} a un 'grille_line' non entier ({line!r})."
-                        )
-                    elif not GRILLE_LINE_MIN <= line <= GRILLE_LINE_MAX:
-                        errors.append(
-                            f"{where} : tag {name!r} a un 'grille_line' hors bornes ({line}). "
-                            f"Valeurs valides : {GRILLE_LINE_MIN} à {GRILLE_LINE_MAX}."
-                        )
-
-        total_tags = len(article.get("tags", []) or []) + len(article.get("nouveaux_tags", []) or [])
+        total_tags = len(article.get("tags") or []) + len(article.get("nouveaux_tags") or [])
         if total_tags == 0:
             # Non bloquant : un article sans aucun tag est légitime dans de rares cas
             # (programme multi-films, liste pure). Mais la nomenclature cible 8-10 tags
@@ -213,10 +146,10 @@ def main():
     # silencieusement. Seul "nouveaux_tags" est autorisé à créer.
     errors = []
     for article in articles:
-        new_names = {t["name"] for t in article.get("nouveaux_tags", [])}
-        for tag in article.get("tags", []):
-            if tag["name"] not in tag_map and tag["name"] not in new_names:
-                errors.append((article["id"], tag["name"]))
+        new_names = set(article.get("nouveaux_tags", []))
+        for name in article.get("tags", []):
+            if name not in tag_map and name not in new_names:
+                errors.append((article["id"], name))
     if errors:
         print("Lot refusé, des noms dans 'tags' n'existent pas encore sur WordPress :")
         for post_id, name in errors:
@@ -231,16 +164,16 @@ def main():
 
     for article in articles:
         post_id = article["id"]
-        existing_tags = list(article.get("tags", []))
-        new_tags = list(article.get("nouveaux_tags", []))
+        existing_names = list(article.get("tags", []))
+        new_names = list(article.get("nouveaux_tags", []))
 
-        tag_ids = [tag_map[t["name"]] for t in existing_tags]
-        for t in new_tags:
-            tag_id = tag_map.get(t["name"])
+        tag_ids = [tag_map[name] for name in existing_names]
+        for name in new_names:
+            tag_id = tag_map.get(name)
             if tag_id is None:
-                tag_id = wp_client.create_tag(t["name"])
-                tag_map[t["name"]] = tag_id
-                print(f"  + nouveau tag créé : {t['name']!r} (id {tag_id})")
+                tag_id = wp_client.create_tag(name)
+                tag_map[name] = tag_id
+                print(f"  + nouveau tag créé : {name!r} (id {tag_id})")
             tag_ids.append(tag_id)
 
         current = wp_client.get("posts", include=post_id, _fields="id,tags")
@@ -248,17 +181,7 @@ def main():
         merged_ids = sorted(set(current_tag_ids) | set(tag_ids))
 
         wp_client.update_post_tags(post_id, merged_ids)
-        all_names = [t["name"] for t in existing_tags + new_tags]
-        print(f"Article {post_id} : {len(merged_ids)} tags posés ({all_names}).")
-
-        append_provenance(
-            {
-                "article_id": post_id,
-                "tags": existing_tags,
-                "nouveaux_tags": new_tags,
-                "applied_at": datetime.now(timezone.utc).isoformat(),
-            }
-        )
+        print(f"Article {post_id} : {len(merged_ids)} tags posés ({existing_names + new_names}).")
 
         state["queued"] = [pid for pid in state["queued"] if pid != post_id]
         if post_id not in state["processed"]:

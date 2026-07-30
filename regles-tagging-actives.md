@@ -321,12 +321,6 @@ sur le site, c'est une politique éditoriale.
    parcourue intégralement pour chaque article — entrée : le TEXTE INTÉGRAL, la
    CATÉGORIE et le snapshot des tags/catégories existants, tous fournis par
    `batch_XXXX.json`.
-5. **L'output de chaque lot doit conserver, pour chaque tag posé, le numéro de ligne
-   de la Grille (1-12) qui l'a produit.** Cette information ne doit jamais être perdue
-   au moment de l'aplatissement des tags pour WordPress — elle est le seul moyen pour
-   l'app de distinguer, a posteriori, un tag d'identité d'un tag de facette de contenu
-   (nécessaire pour le système de points de recommandation, qui traite les deux
-   différemment).
 
 Toute règle nouvelle qui se révèle nécessaire pendant un lot se documente d'abord
 dans `changelog-nomenclature.md` (avec le raisonnement complet), puis se répercute
