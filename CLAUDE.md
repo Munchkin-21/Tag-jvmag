@@ -13,30 +13,27 @@ fonctionnement normal.
 
 ## Séquence d'un lot
 
-**L'humain ne tape aucune commande** : Claude Code exécute tous les scripts (y compris
-`apply_batch.py`). Ça ne change rien à la supervision — chaque lot passe par un feu vert
-humain explicite avant l'écriture WordPress, voir point 6.
-
-1. **Claude Code** lance `python scripts/fetch_batch.py --size N` (sur demande de
-   l'humain), qui écrit `batches/batch_XXXX.json` (texte intégral + catégorie +
-   tags/catégories existants par article).
+1. **L'humain** lance `python scripts/fetch_batch.py --size N`, qui écrit
+   `batches/batch_XXXX.json` (texte intégral + catégorie + tags/catégories existants
+   par article). Le scan reprend automatiquement où le précédent s'est arrêté et
+   descend du plus récent vers le plus ancien ; `--from-top` repart des articles les
+   plus récents pour rattraper les publications faites depuis le début du chantier.
+   Un lot vide ou partiel n'est pas une anomalie : le message affiché indique s'il
+   faut relancer pour continuer, ou si la fin du catalogue est atteinte.
 2. **Claude Code** lit `regles-tagging-actives.md` en entier, puis
    `batches/batch_XXXX.json`.
 3. Pour **chaque article** du lot, parcourir intégralement la Grille de tagging
    obligatoire (les 12 lignes, dans l'ordre, sans en sauter aucune).
-4. **Claude Code** écrit `batches/batch_XXXX_proposed.json` et présente le lot à
-   l'humain — pas encore validé (voir format ci-dessous).
+4. **Claude Code** écrit `batches/batch_XXXX_proposed.json` — le lot proposé, pas encore
+   validé (voir format ci-dessous).
 5. **L'humain** relit et demande les corrections nécessaires (voir « Corriger un lot »).
-   Claude Code applique les corrections et représente le lot corrigé.
-6. **Feu vert explicite requis, à chaque lot, jamais implicite** : seulement quand
-   l'humain confirme que CE lot précis est bon, Claude Code écrit
-   `batch_XXXX_reviewed.json` et lance
-   `python scripts/apply_batch.py batches/batch_XXXX_reviewed.json`. Ne jamais enchaîner
-   cette étape automatiquement après l'étape 4 ou 5, même si un lot précédent a été
-   approuvé sans changement — chaque lot est un acte d'écriture distinct qui attend son
-   propre accord.
+6. **L'humain** copie le fichier corrigé en `batch_XXXX_reviewed.json`, puis lance
+   `python scripts/apply_batch.py batches/batch_XXXX_reviewed.json`.
 7. **Claude Code** consigne le lot dans `liste-maitresse-tags-jvmag.md` (tags posés,
    décisions prises, cas litigieux tranchés).
+
+Claude Code ne doit **jamais** appeler `apply_batch.py` lui-même : l'écriture sur
+WordPress est un acte humain, après relecture.
 
 ## Corriger un lot
 
@@ -62,6 +59,36 @@ normal d'évolution de la nomenclature. Alors :
 En cas de doute sur la portée d'un amendement (est-ce que ça touche l'architecture, la
 cohérence globale du vocabulaire, ou plusieurs sections à la fois ?), le dire plutôt que
 de trancher seul.
+
+## Re-tagging rétroactif
+
+Les règles mûrissent lot après lot : les articles tagués tôt l'ont été avec une
+nomenclature moins complète que ceux tagués plus tard. Repasser sur eux une fois les
+règles stabilisées fait partie du chantier.
+
+Un article déjà tagué est **invisible** pour le scan normal (`fetch_batch.py` ne
+retourne que les articles à 0 ou 1 tag). Il faut donc le cibler explicitement :
+
+```
+python scripts/fetch_batch.py --ids 1234,5678          # ou un fichier, un ID par ligne
+```
+
+Ce mode ignore le curseur et `skip_ids` — un article déjà dans `processed` est bien
+récupéré. Le lot contient `existing_tags` pour chaque article : **les lire avant de
+proposer**, pour décider consciemment de ce qui est conservé et de ce qui tombe.
+
+L'application se fait avec `--replace`, qui remplace l'ensemble des tags de l'article
+au lieu de s'y ajouter — sans ça, un tag devenu faux resterait en place :
+
+```
+python scripts/apply_batch.py batches/batch_XXXX_reviewed.json --replace --dry-run
+python scripts/apply_batch.py batches/batch_XXXX_reviewed.json --replace
+```
+
+`--dry-run` affiche les tags qui seraient retirés sans rien modifier. **Toujours le
+lancer d'abord en mode re-tagging** et soumettre la liste des retraits à l'humain : un
+tag absent du lot proposé disparaît définitivement de l'article, y compris s'il était
+légitime et simplement oublié.
 
 ## Format de sortie attendu — `batch_XXXX_proposed.json`
 

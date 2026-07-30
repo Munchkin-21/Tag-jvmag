@@ -23,6 +23,12 @@ la moitié d'un lot mal formé :
      bloquant (rare mais légitime : programme, liste pure).
   2. **Existence des noms sur WordPress** (voir garde-fou anti-doublon ci-dessous).
 
+Par défaut les tags du lot s'AJOUTENT à ceux déjà présents sur l'article. `--replace`
+remplace au contraire l'ensemble des tags par ceux du lot : c'est le mode du re-tagging
+rétroactif, seul moyen de retirer un tag devenu faux après une évolution des règles. Les
+tags retirés sont listés explicitement avant écriture. `--dry-run` affiche ce qui serait
+fait sans rien modifier, ni sur WordPress ni dans state.json.
+
 Garde-fou anti-doublon : seuls les noms listés dans "nouveaux_tags" peuvent déclencher la
 création d'un tag WordPress (ils sont censés avoir déjà été validés humainement en amont, dans
 la conversation). Un nom dans "tags" est censé DÉJÀ exister ; s'il ne matche rien exactement,
@@ -121,6 +127,18 @@ def validate_schema(articles):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("reviewed_file")
+    parser.add_argument(
+        "--replace",
+        action="store_true",
+        help="Remplace les tags de l'article par ceux du lot, au lieu de les ajouter aux "
+        "tags existants. Nécessaire pour le re-tagging rétroactif (retirer un tag devenu "
+        "faux). Les tags retirés sont listés avant écriture.",
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Affiche ce qui serait écrit sans rien modifier — ni WordPress, ni state.json.",
+    )
     args = parser.parse_args()
 
     articles = json.loads(Path(args.reviewed_file).read_text())
@@ -140,6 +158,7 @@ def main():
         print()
 
     tag_map = wp_client.list_all_tags()  # name -> id, rafraîchi une fois pour tout le lot
+    names_by_id = {tid: name for name, tid in tag_map.items()}
 
     # 2) Validation des noms contre WordPress : un nom dans "tags" qui ne matche rien
     # exactement est bloquant (probable faute de frappe/casse), pas un nouveau tag à créer
@@ -160,6 +179,15 @@ def main():
         )
         return
 
+    if args.dry_run:
+        print("--- DRY RUN : aucune écriture, ni sur WordPress ni dans state.json ---\n")
+    if args.replace:
+        print("Mode --replace : les tags absents du lot seront RETIRÉS des articles.\n")
+
+    # Lecture groupée des tags actuels : une requête par paquet de 100 articles au lieu
+    # d'une par article.
+    current_by_id = wp_client.get_current_tags([a["id"] for a in articles])
+
     state = load_state()
 
     for article in articles:
@@ -171,17 +199,34 @@ def main():
         for name in new_names:
             tag_id = tag_map.get(name)
             if tag_id is None:
+                if args.dry_run:
+                    print(f"  + tag à créer : {name!r}")
+                    continue
                 tag_id = wp_client.create_tag(name)
                 tag_map[name] = tag_id
+                names_by_id[tag_id] = name
                 print(f"  + nouveau tag créé : {name!r} (id {tag_id})")
             tag_ids.append(tag_id)
 
-        current = wp_client.get("posts", include=post_id, _fields="id,tags")
-        current_tag_ids = current[0]["tags"] if current else []
-        merged_ids = sorted(set(current_tag_ids) | set(tag_ids))
+        current_tag_ids = current_by_id.get(post_id, [])
+        if args.replace:
+            final_ids = sorted(set(tag_ids))
+            removed = sorted(set(current_tag_ids) - set(final_ids))
+        else:
+            final_ids = sorted(set(current_tag_ids) | set(tag_ids))
+            removed = []
 
-        wp_client.update_post_tags(post_id, merged_ids)
-        print(f"Article {post_id} : {len(merged_ids)} tags posés ({existing_names + new_names}).")
+        if not args.dry_run:
+            wp_client.update_post_tags(post_id, final_ids)
+
+        prefix = "[dry-run] " if args.dry_run else ""
+        print(f"{prefix}Article {post_id} : {len(final_ids)} tags ({existing_names + new_names}).")
+        if removed:
+            removed_names = [names_by_id.get(tid, f"id {tid}") for tid in removed]
+            print(f"{prefix}  - retirés : {removed_names}")
+
+        if args.dry_run:
+            continue
 
         state["queued"] = [pid for pid in state["queued"] if pid != post_id]
         if post_id not in state["processed"]:
@@ -189,7 +234,10 @@ def main():
         save_state(state)  # sauvegarde incrémentale : un crash en cours de lot ne perd pas
         # le suivi des articles déjà écrits sur WordPress avant l'erreur
 
-    print(f"\nLot appliqué : {len(articles)} article(s).")
+    if args.dry_run:
+        print(f"\nDry run terminé : {len(articles)} article(s) analysé(s), rien écrit.")
+    else:
+        print(f"\nLot appliqué : {len(articles)} article(s).")
 
 
 if __name__ == "__main__":

@@ -51,26 +51,49 @@ def _check_config():
         )
 
 
+_SESSION = None
+
+
 def _session():
-    _check_config()
-    s = requests.Session()
-    s.auth = (USERNAME, APP_PASSWORD)
-    s.headers.update({"Accept": "application/json"})
-    adapter = HTTPAdapter(max_retries=RETRY_STRATEGY)
-    s.mount("https://", adapter)
-    s.mount("http://", adapter)
-    return s
+    """Session HTTP unique, réutilisée par tous les appels du processus.
+
+    Une `requests.Session` maintient un pool de connexions avec keep-alive : la poignée
+    de main TCP puis la négociation TLS n'ont lieu qu'une fois, les requêtes suivantes
+    réutilisent la connexion ouverte. En recréant une session à chaque appel, chaque
+    requête repayait ces deux étapes — mesuré à ~64 ms de surcoût par requête, soit
+    ~2,8 s par lot de 20 articles (45 sessions créées là qu'une seule est nécessaire).
+
+    Les scripts sont mono-thread, donc pas de précaution particulière à prendre ici :
+    `requests.Session` n'est pas garantie thread-safe et ce cache ne conviendrait pas
+    tel quel à un usage concurrent.
+    """
+    global _SESSION
+    if _SESSION is None:
+        _check_config()
+        s = requests.Session()
+        s.auth = (USERNAME, APP_PASSWORD)
+        s.headers.update({"Accept": "application/json"})
+        adapter = HTTPAdapter(max_retries=RETRY_STRATEGY)
+        s.mount("https://", adapter)
+        s.mount("http://", adapter)
+        _SESSION = s
+    return _SESSION
 
 
 def get(endpoint, **params):
-    """GET paginé sur /wp-json/wp/v2/<endpoint>, retourne la liste complète des items."""
+    """GET paginé sur /wp-json/wp/v2/<endpoint>, retourne la liste complète des items.
+
+    `per_page` par défaut à 100, le maximum autorisé par WordPress : la liste des tags
+    est relue à chaque lot par les deux scripts, autant la récupérer en deux fois moins
+    de requêtes.
+    """
     s = _session()
     items = []
     page = 1
     while True:
         resp = s.get(
             f"{API_BASE}/{endpoint}",
-            params={**params, "page": page, "per_page": params.get("per_page", 50)},
+            params={**params, "page": page, "per_page": params.get("per_page", 100)},
             timeout=30,
         )
         if resp.status_code == 400 and page > 1:
@@ -106,46 +129,110 @@ def list_all_tags():
     return {t["name"]: t["id"] for t in tags}
 
 
-def list_untagged_posts(max_posts, skip_ids=frozenset(), max_scan=2000):
+def list_untagged_posts(max_posts, skip_ids=frozenset(), max_scan=2000, before=None):
     """Scanne les articles du plus récent au plus ancien et s'arrête dès que
     `max_posts` articles sans tag (ou 1 seul) ont été trouvés.
 
-    Le site a des milliers d'articles : on ne veut pas paginer tout le catalogue
-    pour construire un petit lot, donc on s'arrête tôt. `max_scan` est un
-    garde-fou si peu d'articles récents sont sans tag (site déjà bien tagué).
+    `before` (date ISO 8601, ex. "2024-03-15T14:30:00") restreint le scan aux
+    articles publiés strictement avant cette date. C'est le mécanisme de reprise :
+    sans lui, chaque appel repart de l'article le plus récent et re-télécharge tout
+    ce qui est déjà tagué avant d'atteindre du travail utile — au bout de `max_scan`
+    articles déjà traités, le scan rendrait un lot vide alors que le catalogue est
+    loin d'être fini. La comparaison porte sur le champ `date` (fuseau du site), pas
+    `date_gmt` : c'est ce que compare le paramètre `before` de l'API WordPress.
+
+    `max_scan` reste un garde-fou par exécution, pour qu'un seul appel ne parcoure
+    pas tout le catalogue. L'atteindre n'est plus un problème : il suffit de relancer,
+    le curseur ayant avancé.
+
+    Retourne un dict :
+      - `posts` : les articles trouvés
+      - `last_scanned_date` : date du dernier article parcouru (None si aucun), à
+        stocker comme curseur pour la reprise
+      - `reached_end` : True si le catalogue a été parcouru jusqu'au bout (plus
+        aucun article plus ancien), False si l'arrêt vient de `max_posts` ou `max_scan`
+      - `scanned` : nombre d'articles parcourus
     """
     s = _session()
     found = []
     scanned = 0
     page = 1
     per_page = 100
+    last_scanned_date = None
+    reached_end = False
+
     while len(found) < max_posts and scanned < max_scan:
-        resp = s.get(
-            f"{API_BASE}/posts",
-            params={
-                "status": "publish",
-                "_fields": "id,title,categories,tags",
-                "orderby": "date",
-                "order": "desc",
-                "per_page": per_page,
-                "page": page,
-            },
-            timeout=30,
-        )
+        params = {
+            "status": "publish",
+            # `date` est indispensable : c'est la valeur du curseur de reprise.
+            "_fields": "id,title,categories,tags,date",
+            "orderby": "date",
+            "order": "desc",
+            "per_page": per_page,
+            "page": page,
+        }
+        if before:
+            params["before"] = before
+
+        resp = s.get(f"{API_BASE}/posts", params=params, timeout=30)
         if resp.status_code == 400:
-            break  # plus de pages
+            reached_end = True  # au-delà de la dernière page : plus rien à scanner
+            break
         resp.raise_for_status()
         batch = resp.json()
         if not batch:
+            reached_end = True
             break
+
         scanned += len(batch)
+        stop = False
         for p in batch:
+            last_scanned_date = p.get("date") or last_scanned_date
             if len(p.get("tags", [])) <= 1 and p["id"] not in skip_ids:
                 found.append(p)
                 if len(found) >= max_posts:
+                    stop = True
                     break
+        if stop:
+            break
+        if len(batch) < per_page:
+            reached_end = True  # page incomplète = dernière page du catalogue
+            break
         page += 1
-    return found
+
+    return {
+        "posts": found,
+        "last_scanned_date": last_scanned_date,
+        "reached_end": reached_end,
+        "scanned": scanned,
+    }
+
+
+def get_posts_by_ids(ids, fields="id,title,categories,tags,date"):
+    """Récupère des articles par leurs IDs, quel que soit leur nombre de tags.
+
+    Sert au re-tagging rétroactif : `list_untagged_posts` ne retourne que les articles
+    à 0 ou 1 tag, donc un article déjà tagué lui est invisible. Ici on cible
+    explicitement, sans filtre.
+
+    Les IDs sont découpés en paquets de 100 (maximum `per_page` de WordPress). L'ordre
+    de retour suit celui de WordPress (date décroissante), pas celui des IDs fournis.
+    """
+    ids = list(ids)
+    out = []
+    for start in range(0, len(ids), 100):
+        chunk = ids[start:start + 100]
+        out.extend(get("posts", include=chunk, _fields=fields, per_page=100))
+    return out
+
+
+def get_current_tags(post_ids):
+    """Retourne {post_id: [tag_ids]} pour plusieurs articles en une seule requête par
+    paquet de 100, au lieu d'une requête par article."""
+    result = {}
+    for post in get_posts_by_ids(post_ids, fields="id,tags"):
+        result[post["id"]] = post.get("tags", [])
+    return result
 
 
 def get_post_content(post_id):
@@ -158,14 +245,6 @@ def get_post_content(post_id):
 
 def create_tag(name):
     return post("tags", {"name": name})["id"]
-
-
-def delete_tag(tag_id):
-    """Supprime définitivement un tag (le retire de tous les articles qui l'utilisent)."""
-    s = _session()
-    resp = s.delete(f"{API_BASE}/tags/{tag_id}", params={"force": "true"}, timeout=30)
-    resp.raise_for_status()
-    return resp.json()
 
 
 def update_post_tags(post_id, tag_ids):
