@@ -639,6 +639,24 @@ aucune correction nécessaire, la règle resserrée en lot #2 tient bon.
 
 ---
 
+### Retag rétroactif — Lot #4/7 — 2026-07-30 (30 articles sur 131 déjà tagués)
+
+Premier lot à 30 articles (contre 19 précédemment) — qualité tenue, 26 articles déjà
+conformes, 4 corrections. **113785** Cinémas de Sierre #30 : + `Vaiana` (nouveau tag,
+règle programme mono-film). **113679** Bethesda roadmap : + `Xbox Game Studios` (paire
+Obsidian Entertainment déclenchée, développeur d'un projet réel, pas biographique).
+**107405** Hela: of Mice & Magic : + `Multijoueur` (Coopératif posé sans son
+accompagnement obligatoire). **113588** The Duskbloods : + `Compétitif` (PvPvE
+explicite). Deux décisions de fond actées (v3.22, voir changelog) : `Bethesda Game
+Studios` ajouté aux paires systématiques → `Xbox Game Studios` ; pas de paire
+`The Pokémon Company`/`Pokémon` (tranché définitivement, aucun angle de reco distinct).
+Une vraie erreur trouvée et corrigée : **113637** Dreame T16 Pro Heat était tagué
+`Aspirateur robot` alors qu'il s'agit d'un aspirateur-laveur manuel (pas de navigation
+autonome) — nouveau tag `Électroménager` créé pour ce type d'appareil, `Aspirateur
+robot` retiré et désormais réservé aux appareils réellement autonomes.
+
+---
+
 ## Décisions ouvertes à surveiller
 - **Mediawan** : gardé, à réévaluer s'il n'est pas réutilisé.
 - **Unitree** : gardé comme le plus connu des fabricants de robots.
