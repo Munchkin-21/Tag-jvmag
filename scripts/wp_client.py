@@ -3,6 +3,8 @@ import os
 
 import requests
 from dotenv import load_dotenv
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 load_dotenv()
 
@@ -11,6 +13,25 @@ USERNAME = os.environ.get("WP_USERNAME", "")
 APP_PASSWORD = os.environ.get("WP_APP_PASSWORD", "")
 
 API_BASE = f"{SITE_URL}/wp-json/wp/v2"
+
+# Retry réseau : 1 appel + 3 tentatives, backoff exponentiel (1s, 2s, 4s, 8s).
+# Couvre les erreurs de connexion/timeout (perdues avant que WordPress ait
+# traité la requête) et les statuts serveur transitoires (429 rate limit,
+# 500/502/503/504). GET et POST sont tous deux concernés : `update_post_tags`
+# est naturellement idempotent (fusion par set, voir apply_batch.py) donc un
+# rejeu ne crée jamais de doublon ; `create_tag` est protégé côté WordPress,
+# qui refuse la création d'un terme portant un nom déjà existant — le pire cas
+# d'un retry après succès silencieux est un échec propre, pas une duplication.
+# NB : `allowed_methods` est le nom du paramètre depuis urllib3 >= 1.26
+# (`method_whitelist` avant, supprimé en 2.0) — vérifier la version installée
+# si ce fichier est repris sur un environnement différent.
+RETRY_STRATEGY = Retry(
+    total=3,
+    backoff_factor=1,
+    status_forcelist=[429, 500, 502, 503, 504],
+    allowed_methods=["GET", "POST"],
+    raise_on_status=False,
+)
 
 
 def _check_config():
@@ -35,6 +56,9 @@ def _session():
     s = requests.Session()
     s.auth = (USERNAME, APP_PASSWORD)
     s.headers.update({"Accept": "application/json"})
+    adapter = HTTPAdapter(max_retries=RETRY_STRATEGY)
+    s.mount("https://", adapter)
+    s.mount("http://", adapter)
     return s
 
 
