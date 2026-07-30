@@ -4,7 +4,7 @@
 > 1. **Journal des lots traités** par le pipeline d'automatisation (`scripts/`), avec le détail des
 >    tags posés et le raisonnement — c'est ici, et nulle part ailleurs, que vit l'historique complet.
 > 2. **Décisions ouvertes à surveiller** — cas tranchés au fil de l'eau qui ne méritaient pas
->    forcément un amendement formel de [nomenclature-tags-jvmag.md](nomenclature-tags-jvmag.md),
+>    forcément un amendement formel de [regles-tagging-actives.md](regles-tagging-actives.md),
 >    mais qu'il faut garder en tête pour rester cohérent.
 > 3. **Journal des nettoyages** — corrections apportées à des tags hérités d'avant l'automatisation.
 >
@@ -12,9 +12,10 @@
 > (`scripts/wp_client.py::list_all_tags()`), plus besoin de le recopier ici — `fetch_batch.py`
 > embarque ce snapshot dans chaque lot exporté.
 > Pour savoir **quelles règles appliquer** (vocabulaire fermé compris) : voir
-> [nomenclature-tags-jvmag.md](nomenclature-tags-jvmag.md), seule source de vérité pour les règles
-> actives. Ce fichier-ci ne contient que l'historique — les règles n'y sont jamais définies, juste
-> référencées.
+> [regles-tagging-actives.md](regles-tagging-actives.md), seule source de vérité pour les règles
+> actives. Le raisonnement historique derrière chaque règle vit dans
+> [changelog-nomenclature.md](changelog-nomenclature.md) — les règles elles-mêmes n'y sont jamais
+> définies, juste expliquées.
 
 ---
 
@@ -257,7 +258,7 @@ code dans `scripts/` (docstring `list_all_tags`, sauvegarde incrémentale de l'�
 `apply_batch.py`, message si lot incomplet dans `fetch_batch.py`).
 
 **Réorganisation documentaire** : les listes de vocabulaire fermé (§3 à §6) sont maintenant triées
-alphabétiquement dans `nomenclature-tags-jvmag.md` pour rester scannables. La section "Exemples
+alphabétiquement dans `regles-tagging-actives.md` pour rester scannables. La section "Exemples
 validés" (qui avait grossi à 136 lignes) a été déplacée ici, dans le Journal des lots — le fichier
 de nomenclature ne contient plus que les règles actives.
 
