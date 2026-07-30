@@ -189,6 +189,12 @@ def main():
     current_by_id = wp_client.get_current_tags([a["id"] for a in articles])
 
     state = load_state()
+    # En dry-run, un tag pas encore créé reçoit un ID négatif fictif (jamais attribué par
+    # WordPress, qui ne produit que des IDs positifs) : sans ça, un tag "à créer" était
+    # absent du décompte final affiché (`len(final_ids)` sous-estimait l'aperçu), alors que
+    # la liste des tags RETIRÉS — la partie sensible avant un --replace — restait juste,
+    # puisqu'un tag qui n'existe pas encore ne peut de toute façon pas être retiré.
+    next_fake_id = 0
 
     for article in articles:
         post_id = article["id"]
@@ -200,12 +206,14 @@ def main():
             tag_id = tag_map.get(name)
             if tag_id is None:
                 if args.dry_run:
+                    next_fake_id -= 1
+                    tag_id = next_fake_id
                     print(f"  + tag à créer : {name!r}")
-                    continue
-                tag_id = wp_client.create_tag(name)
+                else:
+                    tag_id = wp_client.create_tag(name)
+                    print(f"  + nouveau tag créé : {name!r} (id {tag_id})")
                 tag_map[name] = tag_id
                 names_by_id[tag_id] = name
-                print(f"  + nouveau tag créé : {name!r} (id {tag_id})")
             tag_ids.append(tag_id)
 
         current_tag_ids = current_by_id.get(post_id, [])
