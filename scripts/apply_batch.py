@@ -14,19 +14,14 @@ Format attendu du fichier reviewed (liste d'objets, un par article) :
 Le champ "incertitudes" (s'il est présent) est ignoré ici : c'est un signal humain,
 pas une instruction d'écriture.
 
-Trois validations successives ont lieu avant la moindre écriture, et une seule erreur
+Deux validations successives ont lieu avant la moindre écriture, et une seule erreur
 suffit à refuser tout le lot — mieux vaut corriger le fichier et relancer que d'écrire
 la moitié d'un lot mal formé :
   1. **Forme du fichier** (`validate_schema`, sans aucun appel réseau) : le fichier est
      bien une liste, chaque article a un `id` entier, `tags` et `nouveaux_tags` sont des
      listes de noms non vides. Un article sans aucun tag déclenche un avertissement non
      bloquant (rare mais légitime : programme, liste pure).
-  2. **Paires de tags obligatoires** (`validate_pairings`, sans appel réseau non plus) :
-     Matériel PC/Périphérique pour tout composant PC/matériel externe, Multijoueur dès
-     que Coopératif ou Compétitif est posé (§4 et Grille #7 de regles-tagging-actives.md
-     — règles mécaniques, sans exception, donc vérifiables par script plutôt que par
-     relecture).
-  3. **Existence des noms sur WordPress** (voir garde-fou anti-doublon ci-dessous).
+  2. **Existence des noms sur WordPress** (voir garde-fou anti-doublon ci-dessous).
 
 Par défaut les tags du lot s'AJOUTENT à ceux déjà présents sur l'article. `--replace`
 remplace au contraire l'ensemble des tags par ceux du lot : c'est le mode du re-tagging
@@ -135,7 +130,10 @@ COMPOSANTS_INTERNES = {
     "Alimentation", "Boîtier", "Refroidissement",
 }
 # Matériel externe : chacun doit toujours s'accompagner de "Périphérique" (§4).
-COMPOSANTS_EXTERNES = {"Casque audio", "Clavier", "Souris", "Microphone", "Écran", "Manette"}
+COMPOSANTS_EXTERNES = {
+    "Casque audio", "Clavier", "Souris", "Microphone", "Écran", "Manette",
+    "Périphérique de Simulation",
+}
 
 
 def validate_pairings(articles):

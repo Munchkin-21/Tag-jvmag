@@ -145,14 +145,21 @@ pour proposer un lot — il remplace tout autre résumé ou checklist condensé.
   sujet de l'article est l'objet dérivé, pas le jeu. Exception : si le contenu porte
   réellement sur l'histoire/l'univers du jeu d'origine, les traits vraiment couverts
   par le texte restent taguables.
+- **`Sony` plutôt que `Sony Interactive Entertainment`** : le nom juridique complet
+  n'ouvre aucun angle de reco distinct de `Sony` seul (aucun lecteur ne cherche
+  spécifiquement "SIE"), contrairement à `PlayStation Studios` ou `Sony Santa Monica`
+  qui restent des identités créatives à part entière et gardent leur propre tag. `Sony
+  Interactive Entertainment` n'est plus utilisé — toujours `Sony`, y compris quand
+  l'article nomme l'entité complète.
 
 ## §3 — Genres — Contenu, FERMÉ (triés alphabétiquement)
 
 Action · Action-aventure · Action-RPG · Aventure · Battle royale · Beat'em up ·
-Combat · Cosy · Course · Deckbuilder · FPS · Gestion · Hack'n'slash · Idle ·
-Infiltration · JRPG · Metroidvania · MMO · MOBA · Narratif · Party game · Plateforme ·
-Point & click · Réflexion · Roguelike · RPG · Rythme · Shoot'em up · Simulation ·
-Souls-like · Sport · Stratégie · Survie · Tactique · Tower defense · TPS
+Combat · Cosy · Course · Deckbuilder · Extraction shooter · FPS · Gestion ·
+Hack'n'slash · Idle · Infiltration · JRPG · Metroidvania · MMO · MOBA · Narratif ·
+Party game · Plateforme · Point & click · Réflexion · Roguelike · RPG · Rythme ·
+Shoot'em up · Simulation · Souls-like · Sport · Stratégie · Survie · Tactique ·
+Tower defense · TPS
 
 *Film/série :* Action · Aventure · Biopic · Comédie · Documentaire · Drame ·
 Fantastique · Horreur · Policier · Science-fiction · Thriller (+ `Animation` si pas
@@ -185,8 +192,9 @@ Paramount+ · Peacock · Prime Video
 
 **Composants & matériel :** Alimentation · AR · Aspirateur robot · Boîtier ·
 Carte graphique · Carte mère · Casque audio · Clavier · Électroménager · Écran ·
-Manette · Matériel PC · Microphone · Montre connectée · Périphérique · Processeur ·
-RAM · Refroidissement · Réseau · Smartphone · Souris · SSD
+Manette · Matériel PC · Microphone · Montre connectée · Périphérique · Périphérique
+de Simulation · Processeur · RAM · Refroidissement · Réseau · Smartphone · Souris ·
+SSD
 
 *(`Aspirateur robot` réservé aux appareils réellement autonomes (navigation sans
 intervention). `Électroménager` couvre les autres appareils ménagers connectés
@@ -195,10 +203,15 @@ intervention). `Électroménager` couvre les autres appareils ménagers connect�
 vraiment seul.)*
 
 *(`Périphérique` = matériel EXTERNE en plus d'un tag précis (Casque audio, Clavier,
-Souris, Microphone, Écran, Manette) — jamais à sa place. `Matériel PC` = son pendant
-pour les composants INTERNES (Carte mère, Processeur, Carte graphique, RAM, SSD,
-Alimentation, Boîtier, Refroidissement) — même logique. Les deux umbrella-tags ne se
-mélangent jamais entre eux.)*
+Souris, Microphone, Écran, Manette, Périphérique de Simulation) — jamais à sa place.
+`Matériel PC` = son pendant pour les composants INTERNES (Carte mère, Processeur,
+Carte graphique, RAM, SSD, Alimentation, Boîtier, Refroidissement) — même logique.
+Les deux umbrella-tags ne se mélangent jamais entre eux. `Périphérique de Simulation`
+couvre le matériel dédié à la simulation (volants, palonniers, panneaux de cockpit,
+écrans/panneaux de simulateur) — rejoint la catégorie `Périphérique` comme les autres
+tags précis de la liste, ne la remplace pas. Si un produit de cette gamme correspond
+aussi à un tag précis existant (ex. un panneau intègre un vrai écran), les deux
+coexistent (ex. `Écran` + `Périphérique de Simulation`, tous deux sous `Périphérique`).)*
 
 *(Ces tags composants sont scopés à l'écosystème PC/console — un accessoire externe ou
 une pièce interne d'ordinateur/console. Une technologie intégrée à un autre appareil
@@ -240,6 +253,13 @@ deux "compétitifs" au sens large, mais pas au même niveau — seul le second m
 matérielle/tech portant sur une pièce d'époque précise (ex. anniversaire d'un
 processeur) — pas seulement jeu/console. Reste réservé à un vrai objet d'époque ou à
 une couverture qui porte sur son histoire, jamais à un style "rétro-inspiré".)*
+
+*(`Indé` — exception à la règle "facette de contenu jamais sujette à recherche externe" :
+le statut d'indépendance d'un studio déjà nommé dans le texte est un fait d'identité
+stable sur ce studio (comme son nom d'éditeur), pas un fait propre à cet article précis.
+Une recherche ciblée est donc autorisée pour le confirmer, sous les mêmes conditions
+strictes que pour un studio/éditeur non cité (§2) : source unique et non-ambiguë, sinon
+incertitude — jamais déduit du seul silence de l'article sur un éditeur majeur.)*
 
 **Métiers / sujets :** Cinéma · Doublage · Manga
 *(`Manga` = thème transversal pour toute œuvre issue d'un manga — jeu, film, série —

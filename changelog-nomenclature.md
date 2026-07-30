@@ -11,6 +11,25 @@
 > tranchés) vit dans [liste-maitresse-tags-jvmag.md](liste-maitresse-tags-jvmag.md).
 
 ## Changelog
+- **v3.24** (2026-07-30, reprise du catalogue principal, lot #1) : quatre décisions
+  actées pendant la revue du premier lot post-retag :
+  - **`Périphérique de Simulation` ajouté** (§4) : matériel dédié à la simulation
+    (volants, palonniers, panneaux de cockpit, écrans de simulateur) — rejoint la
+    catégorie `Périphérique` comme les autres tags précis (Casque audio, Manette,
+    etc.), ne la remplace pas. Coexiste avec un autre tag précis si applicable (ex. un
+    panneau à écran intégré reste aussi `Écran`).
+  - **`Indé` éligible à la recherche ciblée d'identité** : le statut d'indépendance
+    d'un studio déjà nommé est un fait stable sur ce studio, pas un fait propre à
+    l'article — traité comme un studio/éditeur non cité (§2), mêmes conditions
+    strictes (source unique, sinon incertitude).
+  - **`Sony Interactive Entertainment` retiré, remplacé par `Sony`** : le nom complet
+    n'ouvre aucun angle de reco distinct de `Sony` seul, contrairement à `PlayStation
+    Studios`/`Sony Santa Monica` qui restent des identités créatives à part entière et
+    gardent leur tag propre. Correction rétroactive appliquée à l'article Ratchet &
+    Clank: Ranger Rumble (lot #4 du retag).
+  - **`Extraction shooter` ajouté au vocabulaire fermé des genres** (§3), suite à un
+    article (Rules of Engagement: The Grey State) où le texte nommait explicitement ce
+    genre, absent jusqu'ici.
 - **v3.23** (2026-07-30, retagging rétroactif lot #5/7, dernier lot) : trois clarifications :
   - **`Compétitif` réservé à une compétition structurante** (§5) : ne se tague plus pour
     un mode secondaire greffé sur un jeu principalement solo/coop (ex. deathmatch local
