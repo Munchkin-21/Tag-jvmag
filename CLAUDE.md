@@ -13,23 +13,30 @@ fonctionnement normal.
 
 ## Séquence d'un lot
 
-1. **L'humain** lance `python scripts/fetch_batch.py --size N`, qui écrit
-   `batches/batch_XXXX.json` (texte intégral + catégorie + tags/catégories existants
-   par article).
+**L'humain ne tape aucune commande** : Claude Code exécute tous les scripts (y compris
+`apply_batch.py`). Ça ne change rien à la supervision — chaque lot passe par un feu vert
+humain explicite avant l'écriture WordPress, voir point 6.
+
+1. **Claude Code** lance `python scripts/fetch_batch.py --size N` (sur demande de
+   l'humain), qui écrit `batches/batch_XXXX.json` (texte intégral + catégorie +
+   tags/catégories existants par article).
 2. **Claude Code** lit `regles-tagging-actives.md` en entier, puis
    `batches/batch_XXXX.json`.
 3. Pour **chaque article** du lot, parcourir intégralement la Grille de tagging
    obligatoire (les 12 lignes, dans l'ordre, sans en sauter aucune).
-4. **Claude Code** écrit `batches/batch_XXXX_proposed.json` — le lot proposé, pas encore
-   validé (voir format ci-dessous).
+4. **Claude Code** écrit `batches/batch_XXXX_proposed.json` et présente le lot à
+   l'humain — pas encore validé (voir format ci-dessous).
 5. **L'humain** relit et demande les corrections nécessaires (voir « Corriger un lot »).
-6. **L'humain** copie le fichier corrigé en `batch_XXXX_reviewed.json`, puis lance
-   `python scripts/apply_batch.py batches/batch_XXXX_reviewed.json`.
+   Claude Code applique les corrections et représente le lot corrigé.
+6. **Feu vert explicite requis, à chaque lot, jamais implicite** : seulement quand
+   l'humain confirme que CE lot précis est bon, Claude Code écrit
+   `batch_XXXX_reviewed.json` et lance
+   `python scripts/apply_batch.py batches/batch_XXXX_reviewed.json`. Ne jamais enchaîner
+   cette étape automatiquement après l'étape 4 ou 5, même si un lot précédent a été
+   approuvé sans changement — chaque lot est un acte d'écriture distinct qui attend son
+   propre accord.
 7. **Claude Code** consigne le lot dans `liste-maitresse-tags-jvmag.md` (tags posés,
    décisions prises, cas litigieux tranchés).
-
-Claude Code ne doit **jamais** appeler `apply_batch.py` lui-même : l'écriture sur
-WordPress est un acte humain, après relecture.
 
 ## Corriger un lot
 
