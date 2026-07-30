@@ -11,6 +11,19 @@
 > tranchés) vit dans [liste-maitresse-tags-jvmag.md](liste-maitresse-tags-jvmag.md).
 
 ## Changelog
+- **v3.22** (2026-07-30, retagging rétroactif lot #4/7) : trois décisions actées :
+  - **`Bethesda Game Studios` → toujours + `Xbox Game Studios`** ajouté aux paires
+    systématiques (§2) : Bethesda Game Studios est lui-même un label Xbox Game Studios
+    depuis le rachat Microsoft/ZeniMax, même logique que Obsidian/The Coalition.
+  - **Pas de paire `The Pokémon Company` / `Pokémon`** : question tranchée
+    définitivement (l'item était marqué "à confirmer à l'usage" depuis v3.18). Même
+    quand l'entité est nommée explicitement dans le texte, on reste sur `Pokémon`
+    seul — contrairement à Rockstar/Take-Two, la distinction entité-juridique/
+    franchise n'ouvre pas d'angle de reco différent, juste un nom plus long.
+  - **`Électroménager` ajouté au vocabulaire fermé** (§4), distinct de `Aspirateur
+    robot`. Corrige une erreur trouvée en retagging : un aspirateur-laveur manuel
+    (poussé à la main, pas de navigation autonome) avait été tagué `Aspirateur robot`
+    par réflexe — les deux tags ne se confondent plus désormais.
 - **v3.21** (2026-07-30, retagging rétroactif lot #3/7) : `SIGGRAPH` ajouté au vocabulaire
   fermé des événements tech (§6, ex. DLSS 5 de NVIDIA). Philosophie actée pour ce type
   d'ajout à ce stade du chantier : accepter les événements légitimes au fil de l'eau

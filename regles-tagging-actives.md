@@ -113,14 +113,19 @@ pour proposer un lot — il remplace tout autre résumé ou checklist condensé.
   plateforme de sortie.
   **Paires systématiques actées :** `Rockstar Games` → toujours + `Take-Two
   Interactive` ; `The Coalition` → toujours + `Xbox Game Studios` ; `Obsidian
-  Entertainment` → toujours + `Xbox Game Studios`. **Portée** : ces paires ne
-  s'appliquent que quand le studio est tagué comme développeur/éditeur d'une œuvre
-  précise dont parle l'article. Si le studio est tagué via la règle "personne +
-  œuvre-signature" (ex. Dan Houser, cofondateur de Rockstar) — un lien biographique,
-  pas la publication d'un jeu — la paire ne se déclenche pas : on tague le studio seul.
+  Entertainment` → toujours + `Xbox Game Studios` ; `Bethesda Game Studios` → toujours
+  + `Xbox Game Studios`. **Portée** : ces paires ne s'appliquent que quand le studio
+  est tagué comme développeur/éditeur d'une œuvre précise dont parle l'article. Si le
+  studio est tagué via la règle "personne + œuvre-signature" (ex. Dan Houser,
+  cofondateur de Rockstar) — un lien biographique, pas la publication d'un jeu — la
+  paire ne se déclenche pas : on tague le studio seul.
   **Pokémon :** le studio dev dépend du produit précis, jamais appliqué en bloc —
-  `Niantic` pour Pokémon GO, `Game Freak` pour les jeux principaux. `The Pokémon
-  Company` candidat à une paire stable avec `Pokémon`.
+  `Niantic` pour Pokémon GO, `Game Freak` pour les jeux principaux. **Pas de paire
+  `The Pokémon Company` / `Pokémon`** — tranché à l'usage : le nom est long, la
+  distinction entité-juridique/franchise n'ouvre aucun angle de reco vraiment
+  différent de `Pokémon` seul (contrairement à Rockstar/Take-Two, où studio créatif et
+  maison-mère correspondent à deux curiosités lecteur réellement distinctes). Rester
+  sur `Pokémon` seul, même quand l'entité est nommée explicitement dans le texte.
 - **Service/abonnement ≠ plateforme** : même logique que l'éditeur vs la plateforme.
   Un service (`PlayStation Plus`) se tague en plus de, jamais à la place de, la
   plateforme qu'il utilise (`PlayStation`). **Un article qui décrit un accès gratuit/
@@ -179,9 +184,15 @@ Steam Deck · VR · Xbox
 Paramount+ · Peacock · Prime Video
 
 **Composants & matériel :** Alimentation · AR · Aspirateur robot · Boîtier ·
-Carte graphique · Carte mère · Casque audio · Clavier · Écran · Manette ·
-Matériel PC · Microphone · Montre connectée · Périphérique · Processeur · RAM ·
-Refroidissement · Réseau · Smartphone · Souris · SSD
+Carte graphique · Carte mère · Casque audio · Clavier · Électroménager · Écran ·
+Manette · Matériel PC · Microphone · Montre connectée · Périphérique · Processeur ·
+RAM · Refroidissement · Réseau · Smartphone · Souris · SSD
+
+*(`Aspirateur robot` réservé aux appareils réellement autonomes (navigation sans
+intervention). `Électroménager` couvre les autres appareils ménagers connectés
+(aspirateur-balai/laveur manuel, et futurs appareils du même type) — ne pas taguer
+`Aspirateur robot` par réflexe dès qu'un appareil aspire, vérifier qu'il navigue
+vraiment seul.)*
 
 *(`Périphérique` = matériel EXTERNE en plus d'un tag précis (Casque audio, Clavier,
 Souris, Microphone, Écran, Manette) — jamais à sa place. `Matériel PC` = son pendant
