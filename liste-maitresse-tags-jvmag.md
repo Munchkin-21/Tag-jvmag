@@ -474,6 +474,89 @@ Incident technique : un deuxième crash (timeout réseau cette fois, pas un rate
 l'application en cours de lot — sauvegarde incrémentale à nouveau vérifiée efficace, reprise sans
 perte ni doublon sur les 4 derniers articles.
 
+### Correction rétroactive — règle Suisse (2026-07-29)
+L'utilisateur a challengé le tag `Suisse` posé sur le SSD Samsung 990 (lot #10) : un prix en CHF
+donné en routine (JVMag étant un média suisse) ne fait pas de l'article un sujet suisse. Règle
+resserrée en v3.16 (§7) : Suisse = la Suisse doit être l'acteur/lieu/sujet réel, pas juste la
+devise d'affichage. Exception actée : si le prix/la date EST l'anomalie qui fait l'actu (plus cher
+en Suisse, retard pour raison suisse), ça reste un vrai sujet.
+5 articles corrigés rétroactivement (tag `Suisse` retiré, même schéma "prix/date CH routiniers") :
+- Samsung 990 SSD (lot #10, #113426)
+- Samsung Galaxy Watch9/Ultra2 (lot #6, #113708)
+- Samsung Galaxy Z Fold 8/Flip 8 (lot #6, #113721)
+- Call of Duty, le film (lot #8, #107235)
+- The Batman Part II (lot #9, #113581)
+Restent corrects sous la nouvelle règle (vrai sujet suisse) : DENZA (implantation active d'un
+réseau de concessionnaires en Suisse), Cinémas de Sierre/ARENA Cinemas (lieux physiques suisses),
+Caristream (événement caritatif suisse), interview Name No Manga (créateur basé en Suisse
+romande).
+
+### Lot #11 — 2026-07-29 (20 articles, revue à contre-courant approfondie)
+- **LEGO Donkey Kong (leak)** : Donkey Kong · LEGO · Nintendo · Rétro
+- **Carnet noir Sam Neill** : Jurassic Park · Sam Neill · Carnet noir *(pas de `Dinosaures` — la
+  personne est le sujet, pas la franchise ; règle affinée en v3.17)*
+- **TEST ASUS RTX 5070 Ti** : ASUS · NVIDIA · Carte graphique · Matériel PC
+- **Agefield High: Rock the School** : Agefield High: Rock the School · Refugium Games · PC ·
+  Monde ouvert · Indé *(sous-titre gardé — jeu unique, rien à consolider, contrairement à une
+  franchise multi-épisodes ; indé confirmé par recherche externe)*
+- **Sony/UE, jeux physiques** : Sony · PlayStation · Michael McGrath
+- **TEST Arcade Archives 2 Tekken** : Tekken · Bandai Namco · Hamster Corporation · Combat · Xbox
+  · PlayStation · Nintendo Switch · Multijoueur · Local · Rétro · Compétitif *(Compétitif ajouté —
+  jeu de combat versus)*
+- **Alien: Earth saison 2** : Alien · Science-fiction · Espace · Horreur *(pas de tag séparé pour
+  la série dérivée — Alien est déjà l'ombrelle cross-media)*
+- **State of Decay 3** : State of Decay · Brant Fitzgerald · Undead Labs · Survie · Xbox · PC ·
+  Zombies · Post-apocalyptique · Coopératif · Multijoueur · En ligne *(En ligne ajouté)*
+- **Naruto live-action** : Naruto · Lionsgate · Action · Manga *(première utilisation du tag
+  transversal Manga)*
+- **Tempest Rising, DLC Veti's Wrath** : Tempest Rising · Stratégie · PC · Guerre ·
+  Science-fiction · Multijoueur · En ligne · Solo
+- **Pokémon GO, 10 ans** : Pokémon · Pokémon GO · Mobile · AR · Niantic *(Niantic ajouté — bon
+  studio pour CE produit précis, pas Game Freak qui fait les jeux principaux)*
+- **Hope (Na Hong-jin, Cannes)** : Hope · Science-fiction · Espace · Festival de Cannes *(pas de
+  Suisse — date CH confirmée mais routinière, cohérent v3.16)*
+- **Godzilla Minus Zero** : Godzilla · TOHO · Science-fiction · CinemaCon *(2e occurrence de
+  CinemaCon après Digger — ajouté au vocabulaire ; pas de Suisse — absence de date CH, pas un sujet)*
+- **Dragon Ball Xenoverse 3** : Dragon Ball · Bandai Namco · Dimps · Combat · PlayStation · Xbox ·
+  PC *(pas de Multijoueur/En ligne — mécaniques jamais déduites de la réputation de la série,
+  même règle que pour la plateforme ; texte trop ambigu pour confirmer)*
+- **Transport Fever 3** : Transport Fever · Urban Games · Paradox Interactive · Gestion ·
+  Simulation · Xbox · PlayStation · PC *(pas de Course — jeu de gestion, pas de compétition)*
+- **Assetto Corsa EVO, Update 0.8** : Assetto Corsa · KUNOS Simulazioni · 505 Games · Simulation
+  · Course · PC · VR *(Course + Simulation légitimement ensemble ; pas de Multijoueur — non décrit
+  dans ce texte précis malgré la réputation du jeu)*
+- **Twisted Tower** : Twisted Tower · Atmos Games · 3D Realms · FPS · PC · Horreur · Espace ·
+  Indé *("station spatiale" repérée à la 2e lecture ; indé confirmé par recherche externe)*
+- **Fallout/Obsidian, Avowed 2 annulé** : Fallout · Avowed · The Outer Worlds · Grounded ·
+  Josh Sawyer · Obsidian Entertainment · Bethesda Game Studios · Xbox Game Studios *(retiré :
+  Post-apocalyptique, ne valait que pour Fallout parmi 4 franchises citées ; retiré `Xbox`
+  plateforme, remplacé par `Xbox Game Studios` éditeur — l'article parle de structure éditoriale,
+  pas de sortie ; paire Obsidian/Xbox Game Studios actée)*
+- **BYD/DENZA/YANGWANG, Goodwood** : BYD · DENZA · YANGWANG · Voiture · Voiture électrique ·
+  Voiture hybride · Goodwood Festival of Speed
+- **The Crew Motorfest sur Switch 2** : The Crew · Ubisoft · Ivory Tower · Course · Nintendo
+  Switch · PlayStation · Xbox · PC · Multijoueur · En ligne · Compétitif
+
+Nouveaux tags créés : `Sam Neill`, `ASUS`, `Agefield High: Rock the School`, `Refugium Games`,
+`Sony`, `Michael McGrath`, `Tekken`, `Hamster Corporation`, `Brant Fitzgerald`, `Manga`, `Naruto`,
+`Tempest Rising`, `Pokémon GO`, `Niantic`, `AR`, `Hope`, `Festival de Cannes`, `Godzilla`, `TOHO`,
+`CinemaCon`, `Dragon Ball`, `Dimps`, `Transport Fever`, `Urban Games`, `Paradox Interactive`,
+`Twisted Tower`, `Atmos Games`, `3D Realms`, `Avowed`, `The Outer Worlds`, `Grounded`,
+`Josh Sawyer`, `YANGWANG`, `Voiture électrique`, `Goodwood Festival of Speed`, `The Crew`,
+`Ivory Tower`.
+Amendements → v3.17 (détail complet dans le Changelog du doc de nomenclature) : trait stable
+réservé à l'œuvre-sujet (pas à une personne qui l'a traversée) ; sous-titre à retirer seulement
+pour les franchises multi-épisodes ; mécaniques jamais déduites même d'une franchise réputée ;
+thème/univers déduit ne vaut que pour la franchise concernée, pas tout un article multi-franchises
+; distinction éditeur first-party (Xbox Game Studios) vs plateforme (Xbox) quand l'article parle
+de structure actionnariale ; `Alien` confirmé comme ombrelle cross-media unique (pas de tag
+séparé pour ses spin-offs) ; `Manga` et `CinemaCon` ajoutés au vocabulaire fermé ; Pokémon —
+studio dev à choisir selon le produit précis (Niantic/Game Freak), jamais en bloc.
+Ce lot a servi de seconde session de calibration intensive (après le lot #10) — l'utilisateur a
+re-challengé quasiment chaque tag posé, révélant plusieurs erreurs de raisonnement plus subtiles
+que de simples oublis (confusion éditeur/plateforme, sur-extension du trait stable aux mécaniques
+et aux personnes-sujets, tag redondant avec une ombrelle déjà existante).
+
 ---
 
 ## Décisions ouvertes à surveiller

@@ -1,4 +1,4 @@
-# Nomenclature des tags — JVMag (v3.15)
+# Nomenclature des tags — JVMag (v3.18)
 
 **But unique des tags :** nourrir la recherche et la reco de l'app via un maillage dense.
 Un tag vaut par les liens qu'il crée. Cible : **8–10 tags / article** (moins pour les news courtes,
@@ -12,6 +12,65 @@ pas via un renommage de fichier. L'historique concret (exemples par lot) vit dan
 règles actives.
 
 ## Changelog
+- **v3.18** (2026-07-30) : nouvelle distinction structurante **tag d'identité vs tag de
+  facette de contenu**, suite à une question directe sur le rôle de la recherche externe :
+  - **Tags d'identité** (studio dev, éditeur, franchise — §1/§2) répondent à "de quelle œuvre
+    s'agit-il ?". Quand un titre précis et **non-ambigu** est nommé dans le texte mais que son
+    studio/éditeur n'y est pas explicite, une **recherche ciblée** est autorisée pour compléter ce
+    tag — mais **seulement si une source unique et non-contradictoire confirme l'info sans
+    ambiguïté** (pas d'homonyme, pas de résultats divergents). En cas de doute (titre indé/peu
+    documenté, résultats contradictoires) → ne pas inventer, laisser en incertitude comme avant.
+    Voir §2. **La plateforme n'entre pas dans cette exception** : elle reste un pur fait
+    contextuel, jamais déduite ni recherchée (règle confirmée sans exception depuis v3.12) — une
+    œuvre a un studio unique mais peut sortir sur plusieurs plateformes, l'article n'en couvrant
+    parfois qu'une seule ; deviner la plateforme risquerait de sur-tagger des supports jamais
+    évoqués.
+  - **Tags de facette de contenu** (genre, mécaniques, thèmes, événements — §3/§5/§6) répondent à
+    "de quoi cet article parle-t-il ?", jamais "qu'est-ce qui est vrai sur cette œuvre en
+    général ?". Ils ne sont **jamais** complétés par recherche externe, même quand le fait est
+    notoire (ex. un jeu multijoueur connu dont l'article ne traite que d'un conflit interne au
+    studio → pas de tag `Multijoueur`, l'article ne couvre pas cet angle). L'absence du tag est
+    une information correcte pour la reco ("cet article ne couvre pas cette facette"), pas un trou
+    à combler — confirme et généralise la règle "mécaniques jamais déduites" de la v3.17.
+  - Reformulation de la règle **Trait stable vs fait contextuel** (Règles transversales) pour
+    intégrer cette distinction explicitement.
+- **v3.17** (2026-07-29, pilote lot #11) : `Manga` et `CinemaCon` ajoutés au vocabulaire fermé
+  (§5, §6). Clarifications suite à une revue intensive :
+  - **Trait stable réservé à l'œuvre-sujet** : le genre/univers d'une franchise ne se déduit que
+    quand cette œuvre EST le sujet de l'article (Dragon Age, Stargate), pas quand une personne qui
+    l'a traversée dans sa carrière est le sujet (ex. un Carnet noir sur un acteur associé à une
+    franchise — la franchise se tague, son univers/genre non).
+  - **Sous-titre à retirer : seulement pour les franchises multi-épisodes** (Red Dead Redemption 2
+    → Red Dead Redemption), jamais pour un jeu unique et autonome dont le titre complet inclut un
+    sous-titre (`Hela: of Mice & Magic`, `Agefield High: Rock the School` — rien à consolider).
+  - **Mécaniques (§5) : jamais déduites, même d'une franchise très connue** — seulement si
+    réellement décrites dans CE texte précis. Corrige une inférence erronée (Dragon Ball Xenoverse
+    3, Assetto Corsa EVO) qui traitait les mécaniques comme un trait stable au même titre que le
+    genre — ce n'en est pas un, elles restent un fait contextuel comme la plateforme.
+  - **Thème/univers unique par franchise, pas par article** : un article qui mentionne plusieurs
+    franchises différentes (ex. restructuration chez un éditeur touchant Fallout + Avowed + The
+    Outer Worlds + Grounded) ne doit pas recevoir un thème qui n'est vrai que pour UNE des
+    franchises citées (`Post-apocalyptique` retiré d'un tel article — vrai pour Fallout seul, faux
+    pour les 3 autres).
+  - **Éditeur first-party vs plateforme** : quand un article parle de la structure
+    actionnariale/éditoriale d'un studio (qui possède qui, restructuration), c'est l'éditeur
+    (`Xbox Game Studios`) qui s'applique, pas la plateforme (`Xbox`) — les deux facettes sont
+    différentes même si le mot est identique. `Obsidian Entertainment` → `Xbox Game Studios`
+    ajouté aux paires systématiques (§2), même logique que Rockstar Games/Take-Two.
+  - **`Alien` reste l'ombrelle cross-media unique** : pas de tag séparé pour une série dérivée
+    (`Alien: Earth`) quand `Alien` est déjà pensé pour relier jeu/film/série (voir §1).
+  - **Pokémon** : le studio dev dépend du produit précis — `Niantic` pour Pokémon GO, `Game Freak`
+    pour les jeux principaux — jamais les deux indifféremment. `The Pokémon Company` (coentreprise
+    Nintendo/Game Freak/Creatures qui gère toute la franchise) proposé comme paire stable avec
+    `Pokémon`, à l'usage.
+- **v3.16** (2026-07-29) : règle Suisse (§7) resserrée — un prix en CHF ou une date de sortie
+  suisse mentionnés en routine (parce que JVMag est un média suisse et localise systématiquement
+  ces infos) **ne suffisent plus** pour `Suisse`. Il faut que la Suisse soit l'acteur/le lieu/le
+  sujet réel de l'actu (événement, œuvre, personne, lieu ou implantation de marché suisses) — ou
+  que le prix/la date soit lui-même l'anomalie qui fait l'actu (ex. plus cher en Suisse, retardé
+  pour une raison suisse). 5 articles corrigés rétroactivement (tag retiré) : Samsung 990 SSD,
+  Samsung Galaxy Watch9/Ultra2, Samsung Galaxy Z Fold 8/Flip 8, Call of Duty (film), The Batman
+  Part II — tous n'avaient qu'un prix/une date CH routiniers, pas un vrai sujet suisse.
 - **v3.15** (2026-07-29, pilote lot #10) : `MOBA` et `Peacock` ajoutés au vocabulaire fermé (§3,
   §4). `Matériel PC` formalisé comme pendant interne de `Périphérique` — s'applique EN PLUS d'un
   composant précis (Carte mère, Processeur, Carte graphique, RAM, SSD, Alimentation, Boîtier,
@@ -89,7 +148,7 @@ il remplace tout autre résumé ou checklist condensé.
 |---|---------|-----|----------------------|
 | 1 | Licence/sujet | §1 OUVERT | Œuvre/franchise/produit identifiable ? Forme canonique (sans numéro/adjectif) ? |
 | 2 | Personne | §1 OUVERT | Personne réelle = sujet ou vedette-hook ? Si oui : œuvre-signature à tagger aussi (sauf si l'œuvre du moment est déjà taguée par ailleurs, voir §1) ? |
-| 3 | Studio/éditeur/marque | §2 OUVERT | Studio dev cité ? Éditeur first-party majeur (trait stable — ex. `Rockstar Games` → toujours + `Take-Two Interactive`, `The Coalition` → toujours + `Xbox Game Studios`) ? **Produit dérivé** (jouet, figurine, produit dérivé) → licence/marque oui, genre du jeu source NON (voir §2) |
+| 3 | Studio/éditeur/marque | §2 OUVERT | Studio dev cité ? Éditeur first-party majeur (trait stable — ex. `Rockstar Games` → toujours + `Take-Two Interactive`, `The Coalition` → toujours + `Xbox Game Studios`) ? Non cité mais titre précis et non-ambigu → recherche ciblée autorisée si une source unique confirme sans ambiguïté (voir §2), sinon incertitude. **Produit dérivé** (jouet, figurine, produit dérivé) → licence/marque oui, genre du jeu source NON (voir §2) |
 | 4 | Genre | §3 FERMÉ | Cité dans le texte (relire une 2e fois — mot-clé souvent présent mais manqué), OU trait stable d'une licence connue (jamais pour un produit dérivé, voir #3) ? |
 | 5 | Plateforme/composant | §4 FERMÉ | Cité explicitement dans le texte — fait contextuel, ne se déduit **jamais**. Composant PC (Carte mère/Processeur/Carte graphique/RAM/SSD/Alimentation/Boîtier/Refroidissement) → ajouter aussi `Matériel PC` ; matériel externe (Casque audio/Clavier/Souris/Microphone/Écran/Manette) → ajouter aussi `Périphérique`. |
 | 6 | Thème/univers | §5 semi-fermé | **Systématique dès qu'une licence est taguée en #1** : trait stable de cette licence (même non cité) OU thème explicite dans le texte ? Ne jamais laisser cette ligne vide sans y avoir réfléchi. |
@@ -97,7 +156,7 @@ il remplace tout autre résumé ou checklist condensé.
 | 8 | Qualificatif permanent | §5 | Indé/Remake/Remaster/Rétro/Esport/Animation, si applicable ? |
 | 9 | Automobile | §5bis | Voiture réelle = sujet ? (jamais pour un jeu de course → `Course` en #4) |
 | 10 | Événement | §6 FERMÉ | Un événement de la liste est-il le contexte de l'annonce ? |
-| 11 | Local suisse | §7 FERMÉ | Angle suisse réel et impactant (pas une mention comparative) ? |
+| 11 | Local suisse | §7 FERMÉ | La Suisse est-elle l'acteur/lieu/sujet réel (pas juste un prix CHF ou une date CH donnés en routine) ? |
 | 12 | Pays | §8 OUVERT | Un pays est-il l'acteur central (jamais une mention incidente) ? |
 
 **Après la grille, vérifier les exceptions transversales** (détail dans la section dédiée
@@ -114,7 +173,13 @@ Sortie par article : `{ "tags": [...], "nouveaux_tags": [...], "incertitudes": [
   Final Fantasy VII Revelation → `Final Fantasy` ; Alien Isolation 2 → `Alien`.
   → La différenciation interne se fait par les **genres** (`Final Fantasy` + `MMO` = FF XIV ;
   `Final Fantasy` + `Action-RPG` = le remake FF7). Pas de double franchise+sous-saga.
-  → Bonus cross-media : `Alien` relie le jeu ET le film ET la série.
+  → Bonus cross-media : `Alien` relie le jeu ET le film ET la série — **ne pas créer de tag
+  séparé pour une série/spin-off dérivé** (ex. pas de `Alien: Earth` en plus de `Alien`), l'ombrelle
+  existe précisément pour ça.
+  → **Sous-titre à retirer = seulement pour consolider une franchise multi-épisodes.** Un jeu
+  **unique et autonome** dont le titre officiel complet inclut un sous-titre (`Hela: of Mice &
+  Magic`, `Agefield High: Rock the School`) garde son titre entier : il n'y a rien à consolider,
+  ce n'est pas un numéro de suite.
 - **Œuvre citée en comparaison ≠ tag** (« à la sauce God of War » → pas de tag).
 - **Personne = sujet → taguée** (interview, portrait, nécro, news de casting qui porte sur elle).
 - **Rôle central tagué, mention anecdotique non.**
@@ -131,15 +196,39 @@ Sortie par article : `{ "tags": [...], "nouveaux_tags": [...], "incertitudes": [
   recommandé à un lecteur fan de cette œuvre — un tag uniquement "personne" est trop rare sur
   +10 000 articles pour nourrir la reco. Différent du **pedigree d'équipe** (ex. « l'équipe de
   Yakuza » sur un jeu sans rapport), qui reste exclu car trop diffus, sans porte-parole identifié.
+- **Trait stable réservé à l'œuvre qui EST le sujet** : le genre/univers d'une franchise ne se
+  déduit (voir Règles transversales) que quand cette œuvre est elle-même le sujet de l'article
+  (Dragon Age, Stargate). Quand le sujet est une **personne** qui a traversé cette œuvre dans sa
+  carrière (ex. un Carnet noir sur un acteur associé à une franchise), l'œuvre se tague (lien
+  pertinent pour la reco) mais **pas son univers/thème** — le lien est biographique, pas
+  définissant. Ex. : Carnet noir Sam Neill → `Jurassic Park` oui, `Dinosaures` non.
 
 ## §2 — Studios / éditeurs / marques — OUVERT
+- **Recherche ciblée d'identité (v3.18)** : quand un titre précis et **non-ambigu** est nommé dans
+  le texte mais que son studio dev/éditeur n'y est pas explicite, une recherche externe ponctuelle
+  est autorisée pour identifier ce studio/éditeur et compléter le tag — au même titre qu'une
+  identification, pas un enrichissement de contenu. **Condition stricte** : n'appliquer que si une
+  source unique confirme l'info **sans ambiguïté ni contradiction** (pas d'homonyme, pas de
+  résultats divergents). Beaucoup de titres couverts sont indés/peu documentés : en cas de doute,
+  ne pas deviner — laisser en incertitude et signaler pour validation humaine, comme pour toute
+  autre facette non confirmée. Réservé aux tags d'identité (studio/éditeur/plateforme/franchise) ;
+  ne s'étend jamais aux tags de facette de contenu (mécaniques, thèmes, événements — voir Règles
+  transversales).
 - Règle « acteur le plus **utile** » : God of War → Santa Monica Studio.
 - **Studio dev toujours + éditeur first-party majeur** s'il est une marque-source suivie
   (Xbox Game Studios, PlayStation Studios, Nintendo, SEGA, Square Enix…). NB : le tag plateforme
   (`Xbox`) ≠ l'éditeur (`Xbox Game Studios`) — l'un = dispo, l'autre = curation first-party.
   **Paires systématiques déjà actées** : `Rockstar Games` → toujours + `Take-Two Interactive` ;
-  `The Coalition` → toujours + `Xbox Game Studios`. Trait stable de propriété, pas besoin que
-  l'article cite explicitement l'éditeur pour l'ajouter.
+  `The Coalition` → toujours + `Xbox Game Studios` ; `Obsidian Entertainment` → toujours +
+  `Xbox Game Studios`. Trait stable de propriété, pas besoin que l'article cite explicitement
+  l'éditeur pour l'ajouter. **Attention à ne pas confondre `Xbox Game Studios` (éditeur, qui
+  possède le studio) et `Xbox` (plateforme de sortie, §4)** : un article sur la structure
+  actionnariale/éditoriale d'un studio (ex. restructuration, licenciements) appelle l'éditeur, pas
+  forcément une plateforme de sortie.
+  **Pokémon** : le studio dev dépend du produit précis, jamais appliqué en bloc — `Niantic` pour
+  Pokémon GO, `Game Freak` pour les jeux principaux. `The Pokémon Company` (coentreprise
+  Nintendo/Game Freak/Creatures qui gère toute la franchise) est candidat à une paire stable avec
+  `Pokémon`, à confirmer à l'usage.
 - **Service/abonnement ≠ plateforme** : même logique que l'éditeur vs la plateforme. Un service
   comme `PlayStation Plus` se tague en plus de, jamais à la place de, la plateforme qu'il utilise
   (`PlayStation`). Ex. : news sur les jeux du mois PS Plus → `PlayStation` + `PlayStation Plus`.
@@ -206,7 +295,11 @@ Monde ouvert · Multijoueur · Solo
 **`Gratuit` retiré (v3.9)** : le prix n'est pas un connecteur éditorial fiable — deux jeux gratuits
 n'ont souvent rien en commun (contrairement à `Indé`/`Rétro`, qui identifient une vraie
 scène/communauté suivie). Ne pas retaguer.
-**Métiers / sujets :** Doublage · Cinéma
+**Métiers / sujets :** Cinéma · Doublage · Manga
+*(`Manga` = thème transversal pour toute œuvre issue d'un manga — jeu, film, série — posé EN PLUS
+de la licence précise, jamais à sa place. Ex. Naruto, One Piece, Dragon Ball, Fairy Tail : chacune
+garde son tag propre, `Manga` les relie tous pour la reco, même logique que `Super-héros` pour
+Marvel/DC.)*
 **Rubriques éditoriales (suivies par le lecteur) :** Carnet noir · Montage PC
 
 **EXCLUS :**
@@ -230,13 +323,25 @@ Red Bull Gamerations · State of Play · Summer Game Fest · The Game Awards · 
 *(le tag réel sur le site est `Xbox Games Showcase`, pas `Xbox Showcase` — corrigé ici pour
 matcher la réalité, 12 articles déjà taggés ainsi.)*
 **Tech / auto :** CES · Computex · Goodwood Festival of Speed · WWDC
-**Ciné / pop culture :** Festival de Cannes · Oscars · San Diego Comic-Con
+**Ciné / pop culture :** CinemaCon · Festival de Cannes · Oscars · San Diego Comic-Con
 *(San Diego Comic-Con peut aussi porter des annonces jeux vidéo, à la manière de Gamescom — reste
-classé ici car son identité dominante est pop culture/ciné/séries.)*
+classé ici car son identité dominante est pop culture/ciné/séries. CinemaCon revenait sur
+plusieurs lots, ajouté en conséquence — contrairement à Annecy/SIGGRAPH, restés isolés et non
+ajoutés.)*
 
 ## §7 — Local suisse — FERMÉ (un seul tag)
-**`Suisse`** dès qu'il y a un **angle suisse réel** (sujet local, événement en Suisse,
-lancement/prix spécifiquement suisse) — pas pour une simple dispo mondiale. **Pas de tags de ville.**
+**`Suisse`** dès qu'il y a un **angle suisse réel** : la Suisse est l'acteur, le lieu ou le sujet
+de l'actualité — un événement en Suisse, une œuvre/personne/lieu suisse, une entreprise qui
+s'implante ou agit spécifiquement sur le marché suisse. **Pas de tags de ville.**
+**Test resserré (v3.16) — prix/date CH ≠ Suisse par défaut :** JVMag est un média suisse, donc un
+prix converti en CHF ou une date de sortie suisse mentionnés en routine (comme sur quasiment tous
+les articles produits/films/jeux) ne suffisent PAS — c'est un service au lecteur, pas une info sur
+la Suisse. Exception : quand le prix/la date est lui-même l'anomalie qui fait l'actu (ex. un
+produit **plus cher** en Suisse qu'ailleurs, un lancement **retardé pour une raison suisse**) — là
+le CH est bien le sujet, pas juste la devise d'affichage.
+*(Distinction : `DENZA` → un réseau de concessionnaires s'implante activement EN Suisse, sujet
+réel. `Samsung 990 SSD` → prix CHF donné en routine pour un produit mondial, pas un sujet — tag
+retiré en v3.16.)*
 **Cas négatif :** une phrase qui mentionne la Suisse pour dire qu'elle **n'est PAS touchée** par un
 problème qui frappe d'autres pays (« en Suisse tout fonctionne normalement ») n'est **pas** un
 angle suisse réel — ce n'est qu'une précision de contexte, pas le sujet. Ne taguer `Suisse` que si
@@ -263,14 +368,32 @@ jamais pour une mention incidente.
 
 Exceptions et principes qui s'appliquent après avoir parcouru la Grille, pas facette par facette.
 
-- **Trait stable vs fait contextuel** : un trait stable de l'œuvre (genre, univers/thème) peut être
-  déduit d'une licence connue même si le texte ne le cite pas explicitement — c'est le même
-  principe que la désambiguïsation `Final Fantasy` + `MMO` = FF XIV / `Final Fantasy` +
-  `Action-RPG` = le remake FF7 (§1). Un fait contextuel (plateforme dispo, événement, chiffres,
-  pays concerné) ne se déduit **jamais** de la connaissance générale du sujet : il doit être dit
-  par le texte, sinon → incertitude. Le test : est-ce que ce trait resterait vrai pour n'importe
-  quel article parlant de cette œuvre (stable), ou est-ce que ça dépend de CET article précis
-  (contextuel) ? Ne s'applique jamais à un produit dérivé (§2).
+- **Trait stable vs fait contextuel** : un trait stable de l'œuvre (**genre, univers/thème
+  uniquement**) peut être déduit d'une licence connue même si le texte ne le cite pas
+  explicitement — c'est le même principe que la désambiguïsation `Final Fantasy` + `MMO` = FF XIV
+  / `Final Fantasy` + `Action-RPG` = le remake FF7 (§1). Un fait contextuel (plateforme dispo,
+  événement, chiffres, pays concerné) ne se déduit **jamais** de la connaissance générale du
+  sujet : il doit être dit par le texte, sinon → incertitude. Le test : est-ce que ce trait
+  resterait vrai pour n'importe quel article parlant de cette œuvre (stable), ou est-ce que ça
+  dépend de CET article précis (contextuel) ? Ne s'applique jamais à un produit dérivé (§2).
+  **Les mécaniques revendiquées (Solo/Multi/Coop/Compétitif/En ligne/Local/Cross-play/Monde
+  ouvert) ne sont JAMAIS éligibles à cette déduction**, même pour une franchise réputée
+  multijoueur (ex. Dragon Ball Xenoverse, connu pour son online) : ce sont des faits contextuels
+  au même titre que la plateforme, elles ne se taguent que si réellement décrites dans CE texte.
+  **Un thème/univers déduit ne vaut que pour la franchise concernée, pas pour tout l'article** :
+  si plusieurs franchises différentes sont citées ensemble (ex. une restructuration d'éditeur
+  touchant Fallout + Avowed + The Outer Worlds + Grounded), ne pas tagger un thème qui n'est vrai
+  que pour une seule d'entre elles (`Post-apocalyptique` ne vaut que pour Fallout, pas pour les
+  3 autres franchises citées dans le même article).
+  - **Identité vs contenu (v3.18)** : cette règle "trait stable" ne concerne que le **genre et le
+    thème/univers**. Elle est distincte de la question de la **recherche externe ciblée**, réservée
+    aux seuls **tags d'identité** (studio/éditeur d'un titre précis déjà nommé dans le texte, voir
+    §2) — jamais aux tags de facette de contenu (mécaniques, thèmes, événements), qui restent
+    strictement bornés à ce que CE texte couvre, recherche externe ou pas. Le test à appliquer :
+    "ce tag identifie-t-il DE QUELLE œuvre on parle (identité) ou DE QUOI l'article parle
+    (contenu) ?" Un studio non cité peut se compléter par recherche si le titre est non-ambigu ;
+    un `Multijoueur` non discuté dans le texte ne se tague jamais, même si le jeu en question est
+    notoirement multijoueur — l'absence signale correctement que l'article ne couvre pas cet angle.
 - **Tag large vs catégorie** : on ne tague pas le médium si la catégorie le dit déjà
   (pas de `Série` en News Séries). Exception `Cinéma` (thème transversal salle/industrie/festival —
   pas sur chaque film précis).
