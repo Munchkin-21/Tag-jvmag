@@ -27,13 +27,25 @@ fonctionnement normal.
 4. **Claude Code** écrit `batches/batch_XXXX_proposed.json` — le lot proposé, pas encore
    validé (voir format ci-dessous).
 5. **L'humain** relit et demande les corrections nécessaires (voir « Corriger un lot »).
-6. **L'humain** copie le fichier corrigé en `batch_XXXX_reviewed.json`, puis lance
-   `python scripts/apply_batch.py batches/batch_XXXX_reviewed.json`.
-7. **Claude Code** consigne le lot dans `liste-maitresse-tags-jvmag.md` (tags posés,
+6. **Claude Code** reporte les corrections dans `batch_XXXX_reviewed.json`, puis lance
+   `python scripts/apply_batch.py batches/batch_XXXX_reviewed.json --dry-run` et
+   présente le résultat.
+7. **Claude Code demande explicitement le feu vert pour l'écriture WordPress** et
+   attend une réponse non ambiguë avant de lancer `apply_batch.py` sans `--dry-run`.
+   Cette confirmation porte spécifiquement sur l'envoi WP — elle ne se déduit **jamais**
+   d'une consigne plus large donnée plus tôt dans l'échange (« fait tout les
+   changements », « vas-y », un « oui » qui répondait à autre chose). Si un message
+   contient à la fois des instructions générales et un feu vert WP, le feu vert doit
+   être identifiable sans ambiguïté comme portant sur *cet envoi précis* — dans le
+   doute, Claude Code repose la question plutôt que de trancher seul.
+8. **Claude Code** consigne le lot dans `liste-maitresse-tags-jvmag.md` (tags posés,
    décisions prises, cas litigieux tranchés).
 
-Claude Code ne doit **jamais** appeler `apply_batch.py` lui-même : l'écriture sur
-WordPress est un acte humain, après relecture.
+Claude Code peut lancer `apply_batch.py` lui-même (dry-run et écriture réelle) — c'est
+le fonctionnement normal, pour éviter à l'humain d'ouvrir une console à chaque lot.
+Mais l'écriture réelle sur WordPress reste un acte que seul l'humain autorise : la
+confirmation de l'étape 7 est obligatoire à **chaque** lot, sans exception ni raccourci
+implicite.
 
 ## Corriger un lot
 
