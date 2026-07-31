@@ -742,6 +742,40 @@ historique du site (SEGA, ATLUS) — vérifier avant de proposer une casse "stan
 
 ---
 
+### Lot #3 — 2026-07-31 (40 articles, catalogue principal — premier lot à 40)
+
+Premier lot testé à 40 articles (après 20→30→30). Contenu très varié : plusieurs
+articles GTA 6 (carte fan-made, leak, prix, disque, pénurie de consoles), une bonne
+part cinéma/animation (Werwulf, Shrek, DC/Warner Bros., Ghostbusters, ONE PIECE, Blair
+Witch, Evil Dead Burn, Le Bus Magique, Stuart Fails to Save the Universe), et plusieurs
+jeux indés/niches (CAPTCHA Hell, Paralives, Monster Fantasy, ExeKiller). Qualité tenue
+sur les 40 malgré le volume.
+
+Trois décisions actées pendant la revue (v3.26, voir changelog) :
+- `Chaise gaming` ajouté au vocabulaire fermé (§4), rejoint la famille `Périphérique`
+  (Razer Soma Chroma — aucun tag composant existant ne couvrait le mobilier gaming).
+- `Festival d'Annecy` et `THQ Nordic Digital Showcase` ajoutés aux événements fermés
+  (§6) — le premier apparu deux fois dans le lot (DC/Warner Bros., Ghostbusters:
+  Night Shift), le second désigné par l'article lui-même comme rendez-vous annuel.
+- Confirmations sans changement de règle : `Star Wars Eclipse` ne reçoit pas de tag
+  séparé de `Star Wars` (même logique que `Alien`/`Alien: Earth`, v3.17) ; `Warner
+  Bros. Animation` écarté au profit de `Warner Bros.` seul (répétition inutile,
+  contrairement à `PlayStation Studios`/`Sony Santa Monica` qui restent des identités
+  créatives distinctes) ; `Sport` (§3) reste un genre d'œuvre et ne s'étend pas à un
+  produit réel adjacent à un événement sportif (ballon connecté Adidas Trionda).
+
+**Piège technique découvert** : certains tags WordPress contenant une esperluette sont
+stockés HTML-encodés (`Point &amp; click`, `Ratchet &amp; Clank`, `Hela: of Mice &amp;
+Magic`, `Deer &amp; Boy`) — une proposition avec `&` littéral ("Point & click") est
+rejetée par la validation d'existence car elle ne matche pas la forme stockée. Vérifier
+systématiquement `tags_existants` pour toute proposition contenant "&" avant de
+l'écrire en clair.
+
+40 nouveaux tags créés (licences, studios, personnes, événements — voir l'historique
+WordPress pour le détail).
+
+---
+
 ## Décisions ouvertes à surveiller
 - **Mediawan** : gardé, à réévaluer s'il n'est pas réutilisé.
 - **Unitree** : gardé comme le plus connu des fabricants de robots.
