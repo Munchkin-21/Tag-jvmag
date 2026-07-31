@@ -193,8 +193,8 @@ Steam Deck · VR · Xbox
 Paramount+ · Peacock · Prime Video
 
 **Composants & matériel :** Alimentation · AR · Aspirateur robot · Boîtier ·
-Carte graphique · Carte mère · Casque audio · Clavier · Électroménager · Écran ·
-Manette · Matériel PC · Microphone · Montre connectée · Périphérique · Périphérique
+Carte graphique · Carte mère · Casque audio · Chaise gaming · Clavier · Électroménager ·
+Écran · Manette · Matériel PC · Microphone · Montre connectée · Périphérique · Périphérique
 de Simulation · Processeur · RAM · Refroidissement · Réseau · Smartphone · Souris ·
 SSD
 
@@ -204,8 +204,8 @@ intervention). `Électroménager` couvre les autres appareils ménagers connect�
 `Aspirateur robot` par réflexe dès qu'un appareil aspire, vérifier qu'il navigue
 vraiment seul.)*
 
-*(`Périphérique` = matériel EXTERNE en plus d'un tag précis (Casque audio, Clavier,
-Souris, Microphone, Écran, Manette, Périphérique de Simulation) — jamais à sa place.
+*(`Périphérique` = matériel EXTERNE en plus d'un tag précis (Casque audio, Chaise gaming,
+Clavier, Souris, Microphone, Écran, Manette, Périphérique de Simulation) — jamais à sa place.
 `Matériel PC` = son pendant pour les composants INTERNES (Carte mère, Processeur,
 Carte graphique, RAM, SSD, Alimentation, Boîtier, Refroidissement) — même logique.
 Les deux umbrella-tags ne se mélangent jamais entre eux. `Périphérique de Simulation`
@@ -292,11 +292,12 @@ Evergreen (l'année vit dans la date). Un événement terminé garde son tag.
 
 **Jeux vidéo :** Gamescom · Nintendo Direct · Paris Games Week · Polymanga ·
 Red Bull Gamerations · State of Play · Summer Game Fest · The Game Awards ·
-Xbox Games Showcase
+THQ Nordic Digital Showcase · Xbox Games Showcase
 
 **Tech / auto :** CES · Computex · Goodwood Festival of Speed · SIGGRAPH · WWDC
 
-**Ciné / pop culture :** CinemaCon · Festival de Cannes · Oscars · San Diego Comic-Con
+**Ciné / pop culture :** CinemaCon · Festival d'Annecy · Festival de Cannes · Oscars ·
+San Diego Comic-Con
 
 ## §7 — Local suisse — Contenu, FERMÉ (un seul tag)
 

@@ -198,6 +198,22 @@
   Confirmation : la règle "plateforme jamais déduite" (§ Trait stable vs fait contextuel) reste
   absolue, aucune exception pour les franchises sportives annuelles — un cas isolé peut être
   complété manuellement par l'humain sans changer la règle générale.
+- **v3.26** (2026-07-31, pilote lot #8) : `Chaise gaming` ajouté au vocabulaire fermé (§4),
+  rejoint la famille `Périphérique` (même patron que `Casque audio`/`Clavier`/`Manette`/
+  `Périphérique de Simulation` — un tag précis qui s'accompagne toujours du tag ombrelle,
+  jamais à sa place). Motivé par le TEST Razer Soma Chroma (chaise gaming RGB) : aucun tag
+  composant existant ne couvrait le mobilier gaming. `Festival d'Annecy` et `THQ Nordic
+  Digital Showcase` ajoutés aux événements fermés (§6) — le premier apparu deux fois dans le
+  même lot (annonces DC/Warner Bros. Animation, Ghostbusters: Night Shift), le second désigné
+  par l'article lui-même comme rendez-vous annuel récurrent ("l'an dernier, le Digital Showcase
+  2025"), même statut que `Xbox Games Showcase`/`State of Play`. Confirmation (pas de
+  changement de règle) : `Star Wars Eclipse` ne reçoit pas de tag séparé de `Star Wars` — même
+  logique que la décision `Alien`/`Alien: Earth` (v3.17) déjà actée, l'ombrelle cross-media
+  couvre aussi les jeux annoncés/en développement rattachés à une franchise déjà taguée.
+  Décision de ne PAS étendre `Sport` (§3) aux produits réels adjacents à un événement sportif
+  (ballon connecté Adidas Trionda, Coupe du Monde 2026) — `Sport` reste un genre d'œuvre
+  (jeu/film/série), pas un thème "sport en général" au sens où `IA`/`Robot` couvrent
+  explicitement réel et fiction ; loggée dans le journal, pas un changement de vocabulaire.
 - **v3.11** (2026-07-29, audit général) : remplacement du checklist auteur + de l'ancienne
   "Étape de proposition" (redondants entre eux) par une **Grille de tagging obligatoire** unique,
   à parcourir intégralement pour chaque article — objectif : ne plus jamais sauter une facette
