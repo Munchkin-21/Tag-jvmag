@@ -113,8 +113,10 @@ pour proposer un lot — il remplace tout autre résumé ou checklist condensé.
   plateforme de sortie.
   **Paires systématiques actées :** `Rockstar Games` → toujours + `Take-Two
   Interactive` ; `The Coalition` → toujours + `Xbox Game Studios` ; `Obsidian
-  Entertainment` → toujours + `Xbox Game Studios` ; `Bethesda Game Studios` → toujours
-  + `Xbox Game Studios`. **Portée** : ces paires ne s'appliquent que quand le studio
+  Entertainment` → toujours + `Xbox Game Studios` ; `Bethesda` → toujours + `Xbox Game
+  Studios`. **Nom court** : `Bethesda` seul (jamais `Bethesda Game Studios`, trop long
+  pour un gain de précision nul — même logique que `Sony` sans `Interactive
+  Entertainment`). **Portée** : ces paires ne s'appliquent que quand le studio
   est tagué comme développeur/éditeur d'une œuvre précise dont parle l'article. Si le
   studio est tagué via la règle "personne + œuvre-signature" (ex. Dan Houser,
   cofondateur de Rockstar) — un lien biographique, pas la publication d'un jeu — la
@@ -265,7 +267,8 @@ incertitude — jamais déduit du seul silence de l'article sur un éditeur maje
 *(`Manga` = thème transversal pour toute œuvre issue d'un manga — jeu, film, série —
 posé EN PLUS de la licence précise, jamais à sa place.)*
 
-**Rubriques éditoriales (suivies par le lecteur) :** Carnet noir · Montage PC
+**Rubriques éditoriales (suivies par le lecteur) :** Carnet noir · Game Conscient ·
+Montage PC
 
 **EXCLUS :**
 - **Ton / ambiance** (Sombre, Mélancolique, Stressant, Épique) → interprétatif.

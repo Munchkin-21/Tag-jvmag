@@ -11,6 +11,14 @@
 > tranchés) vit dans [liste-maitresse-tags-jvmag.md](liste-maitresse-tags-jvmag.md).
 
 ## Changelog
+- **v3.25** (2026-07-31, reprise du catalogue principal, lot #2) : deux décisions :
+  - **`Bethesda Game Studios` renommé `Bethesda`** — nom trop long pour un gain de
+    précision nul (même logique que le retrait de `Sony Interactive Entertainment` en
+    v3.24). Tag WordPress renommé directement (id conservé, aucune réécriture
+    d'article nécessaire) ; la paire systématique `Bethesda` → `Xbox Game Studios`
+    (§2) mise à jour en conséquence.
+  - **`Game Conscient` ajouté aux Rubriques éditoriales** (§5) : podcast JVMag
+    récurrent, même statut que `Carnet noir`/`Montage PC`.
 - **v3.24** (2026-07-30, reprise du catalogue principal, lot #1) : quatre décisions
   actées pendant la revue du premier lot post-retag :
   - **`Périphérique de Simulation` ajouté** (§4) : matériel dédié à la simulation
