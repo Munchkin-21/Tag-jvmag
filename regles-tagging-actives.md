@@ -47,7 +47,7 @@ pour proposer un lot — il remplace tout autre résumé ou checklist condensé.
 | 4 | Genre | Contenu — FERMÉ | §3 | Cité dans le texte (relire une 2e fois), OU trait stable d'une licence connue (jamais pour un produit dérivé) ? |
 | 5 | Plateforme/composant | Contenu — FERMÉ | §4 | Cité explicitement — fait contextuel, ne se déduit jamais. Composant PC interne → ajouter aussi `Matériel PC` ; matériel externe → ajouter aussi `Périphérique`. |
 | 6 | Thème/univers | Contenu — semi-fermé | §5 | Systématique dès qu'une licence est taguée en #1 : trait stable de cette licence (même non cité) OU thème explicite dans le texte ? Ne jamais laisser cette ligne vide sans y avoir réfléchi. |
-| 7 | Mécaniques revendiquées | Contenu — FERMÉ | §5 | Solo/Multi/Coop/Compétitif/En ligne/Local/Cross-play/Monde ouvert — seulement si réellement décrites. `Coopératif`/`Compétitif` ⇒ toujours `Multijoueur` aussi. Vérifier `En ligne` explicitement dès que serveurs/connexion/matchmaking sont mentionnés. |
+| 7 | Mécaniques revendiquées | Contenu — FERMÉ | §5 | Solo/Multi/Coop/Compétitif/En ligne/Local/Monde ouvert — seulement si réellement décrites. `Coopératif`/`Compétitif` ⇒ toujours `Multijoueur` aussi. Vérifier `En ligne` explicitement dès que serveurs/connexion/matchmaking sont mentionnés. |
 | 8 | Qualificatif permanent | Contenu — FERMÉ | §5 | Indé/Remake/Remaster/Rétro/Esport/Animation, si applicable ? |
 | 9 | Automobile | Contenu — FERMÉ | §5bis | Voiture réelle = sujet ? (jamais pour un jeu de course → `Course` en #4) |
 | 10 | Événement | Contenu — FERMÉ | §6 | Un événement de la liste est-il le contexte de l'annonce ? |
@@ -81,12 +81,18 @@ pour proposer un lot — il remplace tout autre résumé ou checklist condensé.
   distinguer : la personne EST l'angle éditorial de l'article vs. la personne apparaît
   dans la couverture d'une œuvre déjà nommée et taguée, sans être elle-même le sujet
   (dans ce second cas → pas de tag personne).
-- **Personne taguée + son œuvre-signature** : si la personne est taguée comme sujet et
-  que sa notoriété repose sur une œuvre/franchise précise et largement identifiée par
-  le public, on tague aussi cette œuvre/franchise, même si l'article n'en parle pas
-  directement. But : un tag uniquement "personne" est trop rare sur +10 000 articles
-  pour nourrir la reco. Différent du **pedigree d'équipe** (ex. « l'équipe de Yakuza »
-  sur un jeu sans rapport), qui reste exclu car trop diffus, sans porte-parole identifié.
+- **Personne taguée + son œuvre-signature, réservé aux réalisateurs/créateurs** : si la
+  personne est taguée comme sujet et que sa notoriété repose sur une œuvre/franchise
+  précise et largement identifiée par le public, on tague aussi cette œuvre/franchise,
+  même si l'article n'en parle pas directement. But : un tag uniquement "personne" est
+  trop rare sur +10 000 articles pour nourrir la reco. Différent du **pedigree
+  d'équipe** (ex. « l'équipe de Yakuza » sur un jeu sans rapport), qui reste exclu car
+  trop diffus, sans porte-parole identifié.
+  **Ne s'applique pas aux acteurs/actrices** : leur rôle-signature identifie un
+  personnage/une franchise précise, pas une parenté de genre/style transposable au
+  reste de leur filmographie comme peut l'être le film-signature d'un réalisateur. Le
+  tagger sur un article sans rapport dénature le sujet réel plutôt que d'enrichir la
+  reco (ex. `Wednesday` sur un article consacré à un tout autre film de Jenna Ortega).
 - **Trait stable réservé à l'œuvre qui EST le sujet** : le genre/univers d'une franchise
   ne se déduit (voir Règles transversales) que quand cette œuvre est elle-même le sujet
   de l'article. Quand le sujet est une personne qui a traversé cette œuvre dans sa
@@ -153,6 +159,12 @@ pour proposer un lot — il remplace tout autre résumé ou checklist condensé.
   qui restent des identités créatives à part entière et gardent leur propre tag. `Sony
   Interactive Entertainment` n'est plus utilisé — toujours `Sony`, y compris quand
   l'article nomme l'entité complète.
+- **`Sony` (gaming/matériel/corporate) reste distinct de `Sony Pictures` (cinéma)** :
+  deux audiences réellement différentes, aucun recoupement observé. En revanche
+  `Sony Pictures Television` n'est plus utilisé — fusionné dans `Sony Pictures` : la
+  distinction cinéma/télévision ou animation/prises de vues réelles au sein du même
+  studio de production n'ouvre pas d'angle de reco distinct, contrairement à la
+  séparation Sony/Sony Pictures elle-même.
 
 ## §3 — Genres — Contenu, FERMÉ (triés alphabétiquement)
 
@@ -204,8 +216,8 @@ intervention). `Électroménager` couvre les autres appareils ménagers connect�
 `Aspirateur robot` par réflexe dès qu'un appareil aspire, vérifier qu'il navigue
 vraiment seul.)*
 
-*(`Périphérique` = matériel EXTERNE en plus d'un tag précis (Casque audio, Chaise gaming,
-Clavier, Souris, Microphone, Écran, Manette, Périphérique de Simulation) — jamais à sa place.
+*(`Périphérique` = matériel EXTERNE en plus d'un tag précis (AR, Casque audio, Chaise
+gaming, Clavier, Souris, Microphone, Écran, Manette, Périphérique de Simulation) — jamais à sa place.
 `Matériel PC` = son pendant pour les composants INTERNES (Carte mère, Processeur,
 Carte graphique, RAM, SSD, Alimentation, Boîtier, Refroidissement) — même logique.
 Les deux umbrella-tags ne se mélangent jamais entre eux. `Périphérique de Simulation`
@@ -233,12 +245,19 @@ explicitement à chaque article.
 
 **Univers / cadre :** Années 80 · Aviation · Cyberpunk · Dinosaures · Enquête ·
 Espace · Fantasy · Far West · Guerre · Guerre froide · Horreur · IA · Lovecraftien ·
-Maritime · Médiéval · Mythologie · Pirates · Post-apocalyptique · Robot ·
+Médiéval · Mythologie · Pirates · Post-apocalyptique · Robot ·
 Science-fiction · Steampunk · Super-héros · WW1 · WW2 · Zombies
 *(`IA` et `Robot` couvrent aussi bien le contenu réel/industrie que les thèmes
 fictionnels.)*
 
-**Mécaniques revendiquées :** Compétitif · Coopératif · Cross-play · En ligne ·
+*(`Guerre`, `WW1`, `WW2` et `Guerre froide` sont mutuellement exclusifs — un contenu
+de guerre reçoit EXACTEMENT un des quatre, jamais deux ensemble. `WW1`/`WW2`/`Guerre
+froide` s'appliquent quand ce conflit précis est le cadre explicite. `Guerre` est le
+générique réservé aux contextes modernes, fictionnels, ou non rattachés à l'un de ces
+trois conflits historiques — jamais posé en plus d'un des trois, pour ne pas devenir
+un tag fourre-tout.)*
+
+**Mécaniques revendiquées :** Compétitif · Coopératif · En ligne ·
 Local · Monde ouvert · Multijoueur · Solo
 
 **`Compétitif` réservé à une compétition structurante**, pas à un mode secondaire greffé
@@ -290,11 +309,12 @@ Montage PC
 
 Evergreen (l'année vit dans la date). Un événement terminé garde son tag.
 
-**Jeux vidéo :** Gamescom · Nintendo Direct · Paris Games Week · Polymanga ·
+**Jeux vidéo :** EVO · Gamescom · Nintendo Direct · Paris Games Week · Polymanga ·
 Red Bull Gamerations · State of Play · Summer Game Fest · The Game Awards ·
 THQ Nordic Digital Showcase · Xbox Games Showcase
 
-**Tech / auto :** CES · Computex · Goodwood Festival of Speed · SIGGRAPH · WWDC
+**Tech / auto :** Amazon Prime Day · CES · Computex · Goodwood Festival of Speed ·
+SIGGRAPH · WWDC
 
 **Ciné / pop culture :** CinemaCon · Festival d'Annecy · Festival de Cannes · Oscars ·
 San Diego Comic-Con
@@ -349,7 +369,7 @@ par facette.
   vrai pour n'importe quel article parlant de cette œuvre (stable), ou est-ce que ça
   dépend de CET article précis (contextuel) ? Ne s'applique jamais à un produit dérivé
   (§2).
-  Les mécaniques revendiquées (Solo/Multi/Coop/Compétitif/En ligne/Local/Cross-play/
+  Les mécaniques revendiquées (Solo/Multi/Coop/Compétitif/En ligne/Local/
   Monde ouvert) ne sont JAMAIS éligibles à cette déduction, même pour une franchise
   réputée multijoueur : ce sont des faits contextuels au même titre que la plateforme.
   Un thème/univers déduit ne vaut que pour la franchise concernée, pas pour tout

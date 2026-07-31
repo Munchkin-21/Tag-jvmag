@@ -11,6 +11,78 @@
 > tranchés) vit dans [liste-maitresse-tags-jvmag.md](liste-maitresse-tags-jvmag.md).
 
 ## Changelog
+- **v3.28** (2026-07-31, audit du registre des tags, 704 tags) : premier passage de contrôle
+  qualité sur l'ensemble des tags déjà posés (pas un nouveau lot d'articles). Six décisions,
+  fondées sur les co-occurrences réelles observées sur WordPress (voir
+  `liste-maitresse-tags-jvmag.md` pour le détail article par article) :
+  - **`Battlefield Studios` supprimé, fusionné dans `Battlefield`** — n'apparaît jamais sans
+    `Battlefield` (1 usage, aucune réutilisation cross-franchise), contrairement à `Take-Two
+    Interactive` qui couvre plusieurs studios distincts. Une paire de tags qui coïncide à 100%
+    avec un tag déjà existant n'apporte aucun angle de reco propre.
+  - **`Cross-play` retiré du vocabulaire fermé (§5)** — sur ses 2 usages réels, toujours posé
+    aux côtés de `En ligne` ET `Multijoueur` déjà présents : n'a jamais porté de distinction
+    propre en pratique.
+  - **`Maritime` retiré du vocabulaire fermé (§5)** — 1 seul usage, aucune récurrence observée.
+  - **`Sony Pictures Television` supprimé, fusionné dans `Sony Pictures`** — contrairement à
+    `Sony` (gaming/matériel/corporate) vs `Sony Pictures` (cinéma), qui n'ont *aucun*
+    recoupement d'audience réel (vérifié sur les 6 + 4 usages), la distinction
+    animation/prises de vues réelles ou cinéma/télévision au sein du même studio de
+    production n'ouvre pas d'angle de reco distinct. `Sony Interactive Entertainment` (déjà
+    déprécié en v3.24, 0 usage) supprimé pour de bon — vrai doublon orphelin, pas une
+    correction de règle.
+  - **`Pokémon GO` supprimé, fusionné dans `Pokémon`** — même logique que `Alien`/`Alien:
+    Earth` (v3.17) : l'ombrelle `Pokémon` suffit, la distinction se fait déjà par `Mobile` +
+    `Niantic` (§2, paire déjà actée), sans perte d'info sur l'unique article concerné.
+  - **`UGREEN NASync` supprimé, fusionné dans `Ugreen`** (au passage : casse harmonisée sur
+    `Ugreen`, cf. incident `ATLUS`/`Ugreen` de casse déjà rencontré) — même situation que
+    Battlefield Studios, un sous-tag gamme qui n'existe jamais sans son tag marque.
+  - **`WW1`/`WW2`/`Guerre froide` et `Guerre` (§5) rendus mutuellement exclusifs** — jusqu'ici
+    appliqués de façon incohérente (parfois `Guerre` + le conflit précis ensemble, parfois le
+    conflit précis seul). Nouvelle règle : un contenu de guerre reçoit EXACTEMENT un des
+    quatre tags. `Guerre` devient le générique réservé aux contextes modernes/fictionnels/non
+    rattachés à un conflit historique précis — jamais posé en plus de `WW1`/`WW2`/`Guerre
+    froide` sur le même article, pour éviter qu'il ne devienne un tag fourre-tout.
+  - **`Toy Story 5` renommé `Toy Story`** — rattrapage de la règle "pas de numéro dans le nom
+    de la licence" (§1), manquée à la création du tag.
+  `Narratif` et le triptyque `Réflexion`/`Stratégie`/`Gestion` identifiés comme sous-définis
+  (trop dépendants de la présence littérale d'un mot dans le texte plutôt que d'un cadre de
+  genre explicite) — discussion en cours, pas encore tranchée à cette version.
+- **v3.27** (2026-07-31, reprise du catalogue principal, lot #3) : trois décisions :
+  - **`personne + œuvre-signature` (§1) restreinte aux réalisateurs/créateurs** — un·e
+    acteur/actrice n'y est plus éligible par défaut. Motivé par Klara and the Sun (Jenna
+    Ortega, Taika Waititi) : le rôle-signature d'un·e interprète identifie un personnage/une
+    franchise précise (`Wednesday`), pas une parenté de genre/style transposable à tout le
+    reste de sa filmographie comme peut l'être le film-signature d'un réalisateur. Tagger ce
+    rôle sur un article sans rapport dénature le sujet réel plutôt que d'enrichir la reco.
+  - **`AR` ajouté à la liste de pairing `Périphérique`** (§4) — oubli lors de l'ajout initial
+    du tag : une paire de lunettes AR gaming est un matériel EXTERNE au même titre qu'un
+    casque audio ou une manette, motivé par le TEST ROG XREAL R1.
+  - **`EVO` et `Amazon Prime Day` ajoutés aux événements fermés** (§6) — le premier est le
+    tournoi de référence mondial du jeu de combat (contexte du DLC Kenshiro, Fatal Fury: City
+    of the Wolves), le second un rendez-vous commercial annuel récurrent (promo UGREEN),
+    même statut que les autres événements déjà actés (Festival d'Annecy, THQ Nordic Digital
+    Showcase).
+  Confirmation sans changement de règle, alignée sur le précédent Halo Campaign Evolved
+  (créateur historique non tagué, seul le studio dev actuel l'est via recherche ciblée) :
+  `Piranha Bytes` retiré de la proposition Gothic 1 Remake — créateur historique de la
+  licence, pas le studio dev actuel (`Alkimia Interactive`, déjà cité explicitement dans le
+  texte).
+- **v3.26** (2026-07-31, pilote lot #8) : `Chaise gaming` ajouté au vocabulaire fermé (§4),
+  rejoint la famille `Périphérique` (même patron que `Casque audio`/`Clavier`/`Manette`/
+  `Périphérique de Simulation` — un tag précis qui s'accompagne toujours du tag ombrelle,
+  jamais à sa place). Motivé par le TEST Razer Soma Chroma (chaise gaming RGB) : aucun tag
+  composant existant ne couvrait le mobilier gaming. `Festival d'Annecy` et `THQ Nordic
+  Digital Showcase` ajoutés aux événements fermés (§6) — le premier apparu deux fois dans le
+  même lot (annonces DC/Warner Bros. Animation, Ghostbusters: Night Shift), le second désigné
+  par l'article lui-même comme rendez-vous annuel récurrent ("l'an dernier, le Digital Showcase
+  2025"), même statut que `Xbox Games Showcase`/`State of Play`. Confirmation (pas de
+  changement de règle) : `Star Wars Eclipse` ne reçoit pas de tag séparé de `Star Wars` — même
+  logique que la décision `Alien`/`Alien: Earth` (v3.17) déjà actée, l'ombrelle cross-media
+  couvre aussi les jeux annoncés/en développement rattachés à une franchise déjà taguée.
+  Décision de ne PAS étendre `Sport` (§3) aux produits réels adjacents à un événement sportif
+  (ballon connecté Adidas Trionda, Coupe du Monde 2026) — `Sport` reste un genre d'œuvre
+  (jeu/film/série), pas un thème "sport en général" au sens où `IA`/`Robot` couvrent
+  explicitement réel et fiction ; loggée dans le journal, pas un changement de vocabulaire.
 - **v3.25** (2026-07-31, reprise du catalogue principal, lot #2) : deux décisions :
   - **`Bethesda Game Studios` renommé `Bethesda`** — nom trop long pour un gain de
     précision nul (même logique que le retrait de `Sony Interactive Entertainment` en
@@ -198,22 +270,6 @@
   Confirmation : la règle "plateforme jamais déduite" (§ Trait stable vs fait contextuel) reste
   absolue, aucune exception pour les franchises sportives annuelles — un cas isolé peut être
   complété manuellement par l'humain sans changer la règle générale.
-- **v3.26** (2026-07-31, pilote lot #8) : `Chaise gaming` ajouté au vocabulaire fermé (§4),
-  rejoint la famille `Périphérique` (même patron que `Casque audio`/`Clavier`/`Manette`/
-  `Périphérique de Simulation` — un tag précis qui s'accompagne toujours du tag ombrelle,
-  jamais à sa place). Motivé par le TEST Razer Soma Chroma (chaise gaming RGB) : aucun tag
-  composant existant ne couvrait le mobilier gaming. `Festival d'Annecy` et `THQ Nordic
-  Digital Showcase` ajoutés aux événements fermés (§6) — le premier apparu deux fois dans le
-  même lot (annonces DC/Warner Bros. Animation, Ghostbusters: Night Shift), le second désigné
-  par l'article lui-même comme rendez-vous annuel récurrent ("l'an dernier, le Digital Showcase
-  2025"), même statut que `Xbox Games Showcase`/`State of Play`. Confirmation (pas de
-  changement de règle) : `Star Wars Eclipse` ne reçoit pas de tag séparé de `Star Wars` — même
-  logique que la décision `Alien`/`Alien: Earth` (v3.17) déjà actée, l'ombrelle cross-media
-  couvre aussi les jeux annoncés/en développement rattachés à une franchise déjà taguée.
-  Décision de ne PAS étendre `Sport` (§3) aux produits réels adjacents à un événement sportif
-  (ballon connecté Adidas Trionda, Coupe du Monde 2026) — `Sport` reste un genre d'œuvre
-  (jeu/film/série), pas un thème "sport en général" au sens où `IA`/`Robot` couvrent
-  explicitement réel et fiction ; loggée dans le journal, pas un changement de vocabulaire.
 - **v3.11** (2026-07-29, audit général) : remplacement du checklist auteur + de l'ancienne
   "Étape de proposition" (redondants entre eux) par une **Grille de tagging obligatoire** unique,
   à parcourir intégralement pour chaque article — objectif : ne plus jamais sauter une facette

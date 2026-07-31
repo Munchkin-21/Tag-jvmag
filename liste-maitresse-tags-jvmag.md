@@ -776,6 +776,49 @@ WordPress pour le détail).
 
 ---
 
+### Audit du registre des tags — 2026-07-31 (704 → 698 tags)
+
+Premier contrôle qualité de l'ensemble des tags déjà posés (pas un lot d'articles). Généré
+un registre complet (id/nom/compteur d'usage) et détecté les quasi-doublons par
+normalisation casse/accent — zéro collision réelle restante (les deux incidents de casse
+de la session, `ATLUS` et `Ugreen`, avaient déjà été résolus au moment de l'écriture).
+Six fusions/suppressions actées (v3.28, voir changelog) :
+
+- **`Battlefield Studios` → `Battlefield`** (article 112664) : jamais utilisé sans
+  `Battlefield`, aucune réutilisation cross-franchise contrairement à `Take-Two
+  Interactive`.
+- **`Cross-play` retiré du vocabulaire** (articles 114268, 113972) : toujours posé aux
+  côtés de `En ligne` + `Multijoueur`, n'a jamais porté de distinction propre.
+- **`Maritime` retiré du vocabulaire** (article 114263, *Below*) : 1 seul usage.
+- **`Sony Pictures Television` → `Sony Pictures`** (article 113645, *God of War* TV) :
+  `Sony` (gaming/matériel/corporate) reste distinct de `Sony Pictures` (cinéma, 0
+  recoupement d'audience réel sur 6+4 usages vérifiés), mais la distinction
+  cinéma/télévision au sein du studio Sony Pictures n'ouvre aucun angle propre.
+  `Sony Interactive Entertainment` (0 usage, déprécié depuis v3.24) supprimé pour de bon.
+- **`Toy Story 5` renommé `Toy Story`** (article 111470) : rattrapage de la règle "pas de
+  numéro" (§1), manquée à la création.
+- **`UGREEN NASync` → `Ugreen`** (article 110899) : même situation que Battlefield
+  Studios, jamais utilisé sans `Ugreen`.
+- **`Guerre`/`WW1`/`WW2`/`Guerre froide` rendus mutuellement exclusifs** — `Guerre`
+  retiré de 3 articles qui portaient déjà le conflit précis : 111120 (*A Lost Man*, garde
+  `WW1`), 100310 (*The Defiant*, garde `WW2`), 97804 (*Hell Let Loose: Vietnam*, garde
+  `Guerre froide`). `Guerre` reste réservé aux contextes de guerre non rattachés à l'un
+  des trois conflits historiques précis.
+
+**Bloqué, pas encore résolu** : `Pokémon GO` devait être fusionné dans `Pokémon` (la
+distinction se fait déjà via `Mobile` + `Niantic`, sans perte d'info sur l'article
+113119), mais l'article porte aussi `AR` — et le pairing mécanique `AR` → `Périphérique`
+ajouté en v3.27 (motivé par les lunettes ROG XREAL, du matériel) ne s'applique pas ici :
+le `AR` de Pokémon GO désigne le mode caméra en réalité augmentée du jeu mobile, pas un
+périphérique physique. `AR` conflate donc deux sens différents (matériel vs fonctionnalité
+logicielle) — à trancher avant de pouvoir compléter cette fusion.
+
+**Non traité à ce stade** : `Narratif` et le triptyque `Réflexion`/`Stratégie`/`Gestion`
+identifiés comme sous-définis (usage encore trop dépendant de la présence littérale d'un
+mot dans le texte) — discussion en cours avec l'humain, cadres de règles à venir.
+
+---
+
 ## Décisions ouvertes à surveiller
 - **Mediawan** : gardé, à réévaluer s'il n'est pas réutilisé.
 - **Unitree** : gardé comme le plus connu des fabricants de robots.
@@ -787,3 +830,9 @@ WordPress pour le détail).
 - **Sujets société-tech hors gaming/divertissement** (ex. lois sur les réseaux sociaux) : idée d'un
   tag dédié évoquée, pas tranchée — ces articles ressortent avec très peu de tags faute de facette
   applicable (voir France <15 ans, lot #7).
+- **`AR` conflate matériel et fonctionnalité logicielle** : posé à la fois pour du vrai matériel
+  (lunettes ROG XREAL R1, pairing `Périphérique` ajouté v3.27) et pour un mode caméra en réalité
+  augmentée dans un jeu mobile (Pokémon GO, article 113119). Le pairing mécanique bloque la fusion
+  `Pokémon GO` → `Pokémon` tant que ce n'est pas tranché — à trancher : deux tags distincts
+  (`AR` matériel vs un thème `Réalité augmentée` pour la fonctionnalité), ou une exception au
+  pairing pour ce cas d'usage.

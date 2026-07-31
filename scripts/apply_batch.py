@@ -131,7 +131,7 @@ COMPOSANTS_INTERNES = {
 }
 # Matériel externe : chacun doit toujours s'accompagner de "Périphérique" (§4).
 COMPOSANTS_EXTERNES = {
-    "Casque audio", "Chaise gaming", "Clavier", "Souris", "Microphone", "Écran",
+    "AR", "Casque audio", "Chaise gaming", "Clavier", "Souris", "Microphone", "Écran",
     "Manette", "Périphérique de Simulation",
 }
 
