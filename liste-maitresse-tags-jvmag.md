@@ -721,6 +721,27 @@ conversation pour le détail par article. Points marquants :
 
 ---
 
+### Lot #2 — 2026-07-31 (30 articles, catalogue principal)
+
+Contenu très varié (jeux, films, séries, tech, deux interviews locales). Deux décisions
+actées pendant la revue (v3.25, voir changelog) : `Bethesda Game Studios` renommé
+`Bethesda` (tag WordPress renommé directement, id conservé) ; `Game Conscient` ajouté
+aux Rubriques éditoriales. Corrections issues du challenge : `Gestion` au lieu de
+`Simulation` sur Cat Mail Co. (pas de simulation réaliste, juste un loop cosy de tri de
+courrier) ; `FPS` confirmé et ajouté sur Nivalis Nights (le texte le dit explicitement,
+la vidéo — invisible pour moi — montre des éléments de tir absents du texte seul).
+
+**Incident technique** : le lot a crashé à mi-parcours sur une tentative de création du
+tag `Atlus` — `term_exists`, le tag vivait déjà sous la forme `ATLUS` (toutes
+majuscules, même convention que `SEGA`), invisible dans mon diff parce que la
+correspondance est sensible à la casse. Repris proprement grâce à la sauvegarde
+incrémentale (24 articles déjà écrits n'ont pas été retouchés) ; les 6 restants
+appliqués avec `ATLUS` correctement réutilisé. À garder en tête : les marques
+japonaises courtes semblent parfois taguées tout en majuscules par convention
+historique du site (SEGA, ATLUS) — vérifier avant de proposer une casse "standard".
+
+---
+
 ## Décisions ouvertes à surveiller
 - **Mediawan** : gardé, à réévaluer s'il n'est pas réutilisé.
 - **Unitree** : gardé comme le plus connu des fabricants de robots.
