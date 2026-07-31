@@ -694,6 +694,33 @@ pipeline (`validate_pairings()`) suite à un oubli réel (Matériel PC manquant)
 
 ---
 
+## Reprise du catalogue principal (post-retag)
+
+### Lot #1 — 2026-07-30 (30 articles, premier lot via curseur de reprise)
+
+Premier lot d'articles jamais tagués depuis la fin du retag rétroactif, récupéré via
+`fetch_batch.py --size 30` (mode curseur, sans `--ids`). Contenu très varié (jeux,
+films, séries, tech, une interview locale) — voir le résumé complet dans la
+conversation pour le détail par article. Points marquants :
+
+- **Trois décisions de fond actées pendant la revue** (v3.24, voir changelog) :
+  `Périphérique de Simulation` ajouté (§4, coexiste avec `Périphérique` comme les
+  autres composants précis) ; `Indé` rendu éligible à la recherche ciblée d'identité
+  (statut d'un studio = fait stable) ; `Sony Interactive Entertainment` retiré au
+  profit de `Sony` seul (correction rétroactive appliquée à l'article Ratchet & Clank:
+  Ranger Rumble du lot #4 du retag).
+- **`Extraction shooter` ajouté au vocabulaire fermé des genres**, nommé explicitement
+  dans le texte d'un article (Rules of Engagement: The Grey State).
+- Plusieurs corrections issues d'un challenge direct : `Indé` ajouté sur Orbitals
+  (aucun gros éditeur cité, profil clairement indépendant) ; `Shoot'em up` ajouté sur
+  Cobra Strike (texte explicite "tir arcade") ; `En ligne` ajouté sur Honkai: Star Rail
+  (structure live-service à bannières datées = connexion permanente par nature, même
+  sans le mot explicite).
+- ~30 nouveaux tags créés (studios, licences, personnes — voir l'historique WordPress
+  pour la liste complète).
+
+---
+
 ## Décisions ouvertes à surveiller
 - **Mediawan** : gardé, à réévaluer s'il n'est pas réutilisé.
 - **Unitree** : gardé comme le plus connu des fabricants de robots.
