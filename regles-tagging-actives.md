@@ -42,11 +42,11 @@ pour proposer un lot — il remplace tout autre résumé ou checklist condensé.
 | # | Facette | Type | Où | Question à trancher |
 |---|---------|------|-----|----------------------|
 | 1 | Licence/sujet | Identité — OUVERT | §1 | Œuvre/franchise/produit identifiable ? Forme canonique (sans numéro/adjectif) ? |
-| 2 | Personne | Identité — OUVERT | §1 | Personne réelle = sujet ou vedette-hook ? Si oui : œuvre-signature à tagger aussi (sauf si l'œuvre du moment est déjà taguée par ailleurs) ? |
+| 2 | Personne | Identité — OUVERT | §1 | Personne réelle = sujet ou vedette-hook ? Si oui : œuvre-signature à tagger aussi (réservé aux réalisateurs/créateurs, jamais aux acteurs/actrices — voir §1) ? |
 | 3 | Studio/éditeur/marque | Identité — OUVERT | §2 | Studio dev cité ? Éditeur first-party majeur (trait stable) ? Non cité mais titre précis et non-ambigu → recherche ciblée autorisée (conditions strictes §2), sinon incertitude. Produit dérivé → licence/marque oui, genre du jeu source NON. |
-| 4 | Genre | Contenu — FERMÉ | §3 | Cité dans le texte (relire une 2e fois), OU trait stable d'une licence connue (jamais pour un produit dérivé) ? |
-| 5 | Plateforme/composant | Contenu — FERMÉ | §4 | Cité explicitement — fait contextuel, ne se déduit jamais. Composant PC interne → ajouter aussi `Matériel PC` ; matériel externe → ajouter aussi `Périphérique`. |
-| 6 | Thème/univers | Contenu — semi-fermé | §5 | Systématique dès qu'une licence est taguée en #1 : trait stable de cette licence (même non cité) OU thème explicite dans le texte ? Ne jamais laisser cette ligne vide sans y avoir réfléchi. |
+| 4 | Genre | Contenu — FERMÉ | §3 | Cité dans le texte (relire une 2e fois), OU trait stable d'une licence connue (jamais pour un produit dérivé) ? **Vérifier la définition du genre en §3 avant de le poser** — beaucoup de noms de genres sont aussi des mots courants (Action, Aventure, Course, Gestion, Narratif, Réflexion, Simulation, Stratégie, Survie) et leur simple présence dans le texte ne suffit pas. Horreur/SF/Fantastique/Policier ne sont pas des genres → ligne 6. |
+| 5 | Plateforme/composant | Contenu — FERMÉ | §4 | Cité explicitement — fait contextuel, ne se déduit jamais. Composant PC interne → ajouter aussi `Matériel PC` ; matériel externe → ajouter aussi `Périphérique` (voir la précision `AR` en §4 : ne s'applique qu'au matériel physique, pas à une fonctionnalité logicielle du même nom). |
+| 6 | Thème/univers | Contenu — semi-fermé | §5 | Systématique dès qu'une licence est taguée en #1 : trait stable de cette licence (même non cité) OU thème explicite dans le texte ? Ne jamais laisser cette ligne vide sans y avoir réfléchi — si rien ne convient, le dire en `incertitudes`. |
 | 7 | Mécaniques revendiquées | Contenu — FERMÉ | §5 | Solo/Multi/Coop/Compétitif/En ligne/Local/Monde ouvert — seulement si réellement décrites. `Coopératif`/`Compétitif` ⇒ toujours `Multijoueur` aussi. Vérifier `En ligne` explicitement dès que serveurs/connexion/matchmaking sont mentionnés. |
 | 8 | Qualificatif permanent | Contenu — FERMÉ | §5 | Indé/Remake/Remaster/Rétro/Esport/Animation, si applicable ? |
 | 9 | Automobile | Contenu — FERMÉ | §5bis | Voiture réelle = sujet ? (jamais pour un jeu de course → `Course` en #4) |
@@ -134,6 +134,9 @@ pour proposer un lot — il remplace tout autre résumé ou checklist condensé.
   différent de `Pokémon` seul (contrairement à Rockstar/Take-Two, où studio créatif et
   maison-mère correspondent à deux curiosités lecteur réellement distinctes). Rester
   sur `Pokémon` seul, même quand l'entité est nommée explicitement dans le texte.
+  **`Pokémon GO` n'a pas de tag séparé** — même logique que `Alien`/`Alien: Earth` :
+  `Pokémon` + `Mobile` + `Niantic` suffisent déjà à distinguer un article Pokémon GO
+  d'un article sur les jeux principaux, sans avoir besoin d'un tag de sous-titre.
 - **Service/abonnement ≠ plateforme** : même logique que l'éditeur vs la plateforme.
   Un service (`PlayStation Plus`) se tague en plus de, jamais à la place de, la
   plateforme qu'il utilise (`PlayStation`). **Un article qui décrit un accès gratuit/
@@ -145,7 +148,11 @@ pour proposer un lot — il remplace tout autre résumé ou checklist condensé.
   palier payant pour l'occasion).
 - **Marque/studio obscur : tagué s'il EST le sujet** ; ignoré s'il est secondaire.
 - Pas de studio connu mentionné → tague les autres jeux du même créateur (pont d'auteur).
-- **Pedigree non tagué** : anciens employeurs / équipe d'origine ≠ tag.
+- **Pedigree non tagué** : anciens employeurs / équipe d'origine ≠ tag. S'applique aussi
+  au **créateur historique d'une licence quand il n'est plus le studio dev actuel** —
+  ex. un remake dont le texte cite le studio d'origine pour situer la philosophie de la
+  série : seul le studio dev *actuel* (cité dans le texte ou identifié par recherche
+  ciblée) se tague, pas le créateur historique s'il n'est plus impliqué.
 - **Marque selon ce que dit l'article**, pas selon ce qu'elle est : sponsor cité au
   titre mais absent du corps → non tagué.
 - **Produit dérivé** (jouet, figurine, produit licencié) : on tague la licence/marque
@@ -168,26 +175,205 @@ pour proposer un lot — il remplace tout autre résumé ou checklist condensé.
 
 ## §3 — Genres — Contenu, FERMÉ (triés alphabétiquement)
 
-Action · Action-aventure · Action-RPG · Aventure · Battle royale · Beat'em up ·
-Combat · Cosy · Course · Deckbuilder · Extraction shooter · FPS · Gestion ·
-Hack'n'slash · Idle · Infiltration · JRPG · Metroidvania · MMO · MOBA · Narratif ·
-Party game · Plateforme · Point & click · Réflexion · Roguelike · RPG · Rythme ·
-Shoot'em up · Simulation · Souls-like · Sport · Stratégie · Survie · Tactique ·
-Tower defense · TPS
+Le genre décrit **ce que l'œuvre EST** — son gameplay pour un jeu, sa forme narrative pour
+un film/série. L'univers et le registre (Fantasy, Espace, Horreur, Science-fiction,
+Cyberpunk…) ne sont **pas** des genres : ils vivent en §5 et se posent en plus, jamais à la
+place. Un même mot ne peut pas être à la fois genre et thème dans la nomenclature.
 
-*Film/série :* Action · Aventure · Biopic · Comédie · Documentaire · Drame ·
-Fantastique · Horreur · Policier · Science-fiction · Thriller (+ `Animation` si pas
-d'acteurs réels).
+**Combien de genres par article ?** Le genre principal assumé par le texte, **plus tout
+genre secondaire clairement identifiable** — qu'il soit nommé ou décrit sans ambiguïté.
+L'objectif est la transversalité : un article qui relie plusieurs genres crée plus de liens
+pour la recommandation qu'un article limité à son étiquette principale.
 
-`Sport` couvre aussi les jeux de trick/scoring type skateboard/rollers/BMX — pas de
-genre dédié "Skate" pour éviter un tag de niche peu réutilisé.
+Un genre non nommé se tague quand le texte décrit ce que sa définition ci-dessous exige.
+Ex. : un test qui décrit l'évitement de la détection comme mécanique centrale reçoit
+`Infiltration` même si le mot n'apparaît pas. La condition est que la définition soit
+satisfaite, pas que le mot soit présent.
+
+Deux garde-fous, dans l'autre sens :
+- **Une mécanique ponctuelle n'est pas un genre.** Une phase d'infiltration dans un jeu
+  d'action ne fait pas `Infiltration` — la définition exige que ce soit le cœur du jeu.
+  Chaque définition ci-dessous précise ce seuil ; c'est lui qui tranche, pas la présence du
+  mot.
+- **Dans le doute, ne pas poser et signaler en `incertitudes`.** Un genre en trop pollue le
+  score d'affinité de tous les lecteurs de l'article ; un genre manquant ne coûte qu'un lien.
 
 **Genre cité comme nuance de ton ≠ genre à tagger.** Une formule du type « à la frontière
 de X, Y et Z » ou « avec des accents de X » décrit une ambiance/un mélange, pas une
 déclaration de genre — c'est une variante de l'exclusion "Ton / ambiance" (§5). Seul le
-genre principal, assumé par le texte comme ce que l'œuvre EST, se tague. Ex. : un film
-« à la frontière de la comédie, du fantastique et de l'horreur » qui reste par ailleurs
-qualifié de comédie dans le reste du texte → `Comédie` + `Fantastique`, pas `Horreur`.
+genre assumé par le texte comme ce que l'œuvre EST se tague. Ex. : un film « à la frontière
+de la comédie, du fantastique et de l'horreur » qui reste par ailleurs qualifié de comédie
+dans le reste du texte → `Comédie`, pas `Horreur`.
+
+⚠️ = piège lexical : le mot peut apparaître dans le texte sans déclarer un genre.
+
+### Jeux vidéo
+
+**`Action`** — le défi est l'exécution en temps réel (réflexes, timing, combat direct).
+Genre par défaut quand le texte dit « jeu d'action » sans autre précision. ⚠️ « de
+l'action », « scènes d'action », « action-packed » décrivent un rythme, pas un genre.
+
+**`Action-aventure`** — combat en temps réel **et** exploration/progression structurée d'un
+monde. C'est le genre de la plupart des grands jeux narratifs à monde traversable (Zelda,
+GTA, Tomb Raider). Préférer ce tag à `Action` + `Aventure` posés ensemble.
+
+**`Action-RPG`** — combat en temps réel **et** progression chiffrée du personnage
+(statistiques, équipement, niveaux). Le départage avec `RPG` : les combats sont-ils au tour
+par tour (`RPG`) ou en temps réel (`Action-RPG`) ?
+
+**`Aventure`** — la progression passe par l'exploration, l'observation et la résolution de
+situations, sans que le combat soit le cœur du jeu. ⚠️ « une aventure », « partez à
+l'aventure » est une formule courante, pas une déclaration de genre.
+
+**`Battle royale`** — nombreux joueurs, zone qui se réduit, dernier survivant.
+
+**`Beat'em up`** — progression linéaire en affrontant des vagues d'ennemis au corps-à-corps.
+
+**`Combat`** — l'affrontement en duel **est** le jeu, avec personnages sélectionnables et
+listes de coups (Tekken, Street Fighter, Fatal Fury). ⚠️ « les combats sont nerveux » dans
+un test de RPG ou d'action ne fait pas `Combat`.
+
+**`Cosy`** — jeu sans échec ni pression, au rythme choisi par le joueur, à ambiance
+apaisante. Le texte doit signaler cette absence de contrainte (« relaxant », « sans
+stress », « à son rythme »), pas seulement un style graphique doux.
+
+**`Course`** — piloter un véhicule contre d'autres ou contre le chrono. ⚠️ « la course au
+succès », « une course contre la montre » employés au figuré. Les jeux de course se taguent
+ici, jamais avec `Voiture` (§5bis, réservé à l'automobile réelle).
+
+**`Deckbuilder`** — construire et faire évoluer un deck de cartes en cours de partie.
+
+**`Extraction shooter`** — s'infiltrer dans une zone, récupérer du butin, et devoir
+s'extraire vivant pour le conserver.
+
+**`FPS`** — tir à la première personne. Le texte doit indiquer la vue subjective ou employer
+le terme.
+
+**`Gestion`** — administrer un système dans la durée avec des ressources limitées, sans
+adversaire (voir le bloc Réflexion/Stratégie/Gestion plus bas). ⚠️ « la gestion de
+l'inventaire », « gérer ses ressources » dans un jeu d'un autre genre.
+
+**`Hack'n'slash`** — combat au corps-à-corps contre des masses d'ennemis, avec butin et
+montée en puissance (Diablo, Path of Exile).
+
+**`Idle`** — le jeu progresse largement sans action du joueur.
+
+**`Infiltration`** — éviter la détection est la mécanique centrale, pas une option. ⚠️ « une
+mission d'infiltration » dans un jeu d'action ne suffit pas ; il faut que ce soit le cœur du
+jeu.
+
+**`JRPG`** — RPG de facture japonaise : progression narrative dirigée, groupe de
+personnages, combats souvent au tour par tour. Se pose en plus de `RPG`, jamais à sa place.
+
+**`Metroidvania`** — monde interconnecté dont des zones restent inaccessibles jusqu'à
+l'obtention de nouvelles capacités.
+
+**`MMO`** — monde persistant partagé par un grand nombre de joueurs simultanés.
+
+**`MOBA`** — deux équipes, arène, objectifs à détruire, progression au sein de la partie.
+
+**`Narratif`** — le récit **est** le gameplay : on avance par les choix de dialogue ou
+l'exploration d'une histoire, pas par la maîtrise d'un système. ⚠️ « une belle narration »,
+« un récit prenant » décrivent une qualité, pas un genre — un jeu d'action avec une bonne
+histoire n'est pas `Narratif`. Il faut que le texte qualifie l'œuvre de jeu narratif, ou
+décrive un jeu dont le récit constitue l'essentiel de l'activité (avancer = dialoguer,
+choisir, explorer un récit).
+
+**`Party game`** — multijoueur local, parties courtes, épreuves variées, conçu pour être
+joué à plusieurs dans la même pièce.
+
+**`Plateforme`** — sauter d'un support à l'autre est la mécanique centrale. ⚠️ « plateforme »
+au sens de console/service (§4) : « disponible sur toutes les plateformes » n'est pas un
+genre.
+
+**`Point & click`** *(forme exacte du tag : `Point &amp; click`)* — aventure où l'on
+interagit avec le décor et l'inventaire via le curseur, sans action temps réel.
+
+**`Réflexion`** — résoudre des problèmes ayant une solution, sans adversaire (voir le bloc
+plus bas). ⚠️ « un jeu qui demande de la réflexion » n'est pas `Réflexion`.
+
+**`Roguelike`** — mort définitive et niveaux régénérés à chaque tentative. Se pose dès que le
+texte décrit ces deux traits, même s'il dit « roguelite ».
+
+**`RPG`** — incarner un personnage qu'on fait progresser par des statistiques, de
+l'équipement et des choix. ⚠️ « des éléments de RPG » dans un jeu d'un autre genre : tagger
+seulement si le texte le présente comme un RPG.
+
+**`Rythme`** — les actions doivent être synchronisées avec la musique.
+
+**`Shoot'em up`** — tir en vue de dessus ou de côté, vagues d'ennemis, esquive de projectiles.
+
+**`Simulation`** — reproduire fidèlement une activité réelle (vol, conduite, agriculture,
+vie quotidienne). ⚠️ ne pas confondre avec `Gestion` : la simulation reproduit une pratique,
+la gestion administre un système. Un simulateur de ferme où l'on cultive soi-même est
+`Simulation` ; un jeu où l'on pilote une exploitation par des menus est `Gestion`.
+
+**`Souls-like`** — combat exigeant, apprentissage par l'échec, perte des ressources à la
+mort et récupération sur le lieu du décès. Se pose si le texte revendique la filiation ou
+décrit ce cycle mort/récupération.
+
+**`Sport`** — pratiquer un sport réel. Couvre aussi les jeux de trick/scoring type
+skateboard/rollers/BMX — pas de genre dédié "Skate" pour éviter un tag de niche peu
+réutilisé. ⚠️ un jeu de course automobile est `Course`, pas `Sport`.
+
+**`Stratégie`** — prendre de meilleures décisions qu'un adversaire (voir le bloc plus bas).
+Couvre les deux échelles : la gestion d'un empire ou d'une économie (Civilization, Total
+War) **et** les combats posés où le placement d'une escouade décide de l'issue (XCOM, Fire
+Emblem, Star Wars Zero Company) — pas de genre `Tactique` distinct. **Un tactical RPG se
+tague `RPG` + `Stratégie`**, ce qui le distingue d'un 4X tagué `Stratégie` seul ; un jeu de
+tactique pur sans progression de personnage se tague `Stratégie` seul. ⚠️ « une stratégie
+payante », « stratégiquement » employés au sens courant ; et attention au piège inverse —
+« tactique » sert aussi, dans beaucoup de textes, à qualifier un FPS/TPS réaliste ou
+méthodique (« FPS tactique »), ce qui ne fait ni `Stratégie` ni `RPG` : c'est un rythme de
+jeu, pas une déclaration de genre.
+
+**`Survie`** — gérer des besoins vitaux (faim, froid, santé) dans un environnement hostile,
+avec récolte et fabrication. ⚠️ « survivre à des vagues d'ennemis » n'est pas `Survie` ; il
+faut les besoins vitaux comme mécanique.
+
+**`TPS`** — tir à la troisième personne, caméra derrière le personnage.
+
+### Départager `Réflexion` / `Stratégie` / `Gestion`
+
+Ces trois genres se confondent facilement. Le test, dans l'ordre :
+
+1. **Y a-t-il un adversaire à battre ?** Oui → `Stratégie`.
+2. **Sinon, le problème a-t-il une solution à trouver ?** Oui → `Réflexion`.
+3. **Sinon, s'agit-il de maintenir un système en équilibre dans la durée ?** Oui →
+   `Gestion`.
+
+Exemples : Tetris et Portal → `Réflexion` (solution, pas d'adversaire) ; Civilization et
+StarCraft → `Stratégie` (adversaire) ; Cities: Skylines et Motorsport Manager → `Gestion`
+(équilibre, pas de solution unique). Un jeu peut légitimement en porter deux si le texte
+décrit les deux dimensions (un city-builder avec des rivaux → `Gestion` + `Stratégie`).
+
+### Films & séries
+
+**`Action`** — le spectacle physique (poursuites, combats, cascades) structure le film.
+
+**`Aventure`** — le récit repose sur un voyage, une quête ou une exploration.
+
+**`Biopic`** — retrace la vie d'une personne réelle.
+
+**`Comédie`** — le registre comique est l'intention première.
+
+**`Documentaire`** — traite d'un sujet réel avec des matériaux réels. ⚠️ un « documentaire
+sur les coulisses » mentionné dans un article consacré à un film de fiction ne rend pas
+l'article `Documentaire`.
+
+**`Drame`** — conflit humain traité au sérieux, sans ressort de genre dominant. ⚠️
+« dramatique », « un drame » au sens d'événement tragique ne suffisent pas.
+
+**`Thriller`** — la tension et le suspense sont le moteur principal.
+
+**+ `Animation`** si l'œuvre n'a pas d'acteurs réels (§5, qualificatif permanent).
+
+**Horreur, Science-fiction, Fantastique, Policier et univers en général** → ce ne sont pas
+des genres mais des thèmes : voir §5. Un film d'horreur reçoit `Horreur` depuis §5,
+exactement comme un jeu d'horreur — un seul tag pour les deux médiums, ce qui densifie le
+maillage. `Thriller` reste en revanche un genre : il décrit la mécanique du récit (tension,
+suspense), pas son univers, et se cumule donc avec un thème (`Thriller` + `Policier` pour un
+thriller policier).
 
 ## §4 — Plateformes & matériel — Contenu, FERMÉ (triés alphabétiquement)
 
@@ -216,8 +402,8 @@ intervention). `Électroménager` couvre les autres appareils ménagers connect�
 `Aspirateur robot` par réflexe dès qu'un appareil aspire, vérifier qu'il navigue
 vraiment seul.)*
 
-*(`Périphérique` = matériel EXTERNE en plus d'un tag précis (AR, Casque audio, Chaise
-gaming, Clavier, Souris, Microphone, Écran, Manette, Périphérique de Simulation) — jamais à sa place.
+*(`Périphérique` = matériel EXTERNE en plus d'un tag précis (Casque audio, Chaise gaming,
+Clavier, Souris, Microphone, Écran, Manette, Périphérique de Simulation) — jamais à sa place.
 `Matériel PC` = son pendant pour les composants INTERNES (Carte mère, Processeur,
 Carte graphique, RAM, SSD, Alimentation, Boîtier, Refroidissement) — même logique.
 Les deux umbrella-tags ne se mélangent jamais entre eux. `Périphérique de Simulation`
@@ -226,6 +412,13 @@ couvre le matériel dédié à la simulation (volants, palonniers, panneaux de c
 tags précis de la liste, ne la remplace pas. Si un produit de cette gamme correspond
 aussi à un tag précis existant (ex. un panneau intègre un vrai écran), les deux
 coexistent (ex. `Écran` + `Périphérique de Simulation`, tous deux sous `Périphérique`).)*
+
+*(`AR` est ambigu : il désigne à la fois du matériel physique — lunettes/casque de
+réalité augmentée, ex. ROG XREAL R1 — et une fonctionnalité logicielle dans un jeu, ex.
+le mode caméra AR de Pokémon GO. **`AR` ne rejoint la famille `Périphérique` que dans
+le premier sens** (un vrai objet qu'on porte/branche) ; posé pour une fonctionnalité de
+jeu, il reste seul, sans `Périphérique`. Vérifier lequel des deux sens le texte décrit
+avant de poser la paire.)*
 
 *(Ces tags composants sont scopés à l'écosystème PC/console — un accessoire externe ou
 une pièce interne d'ordinateur/console. Une technologie intégrée à un autre appareil
@@ -240,22 +433,68 @@ spatial/fantasy/etc. se tague en univers même si l'article se concentre sur le
 gameplay/genre. C'est la facette la plus souvent oubliée si on ne la vérifie pas
 explicitement à chaque article.
 
+**L'univers d'une licence connue SE DÉDUIT — c'est attendu, pas une prise de risque.**
+Dès qu'une licence est taguée en #1, poser son univers même si l'article n'en dit pas un
+mot : c'est un trait stable, il reste vrai pour n'importe quel article parlant de cette
+œuvre. Une brève de trois lignes sur la sortie d'un jeu Star Wars reçoit `Espace` et
+`Science-fiction` au même titre qu'un test complet. Ne pas confondre avec la prudence
+requise sur les faits contextuels (plateforme, mécaniques, événement), qui eux ne se
+déduisent jamais.
+
+Cas concrets, tous à taguer même sans mention dans le texte :
+`Star Wars` → `Espace` + `Science-fiction` · `Batman` → `Super-héros` ·
+`One Piece` → `Pirates` · `Stargate` → `Espace` + `Science-fiction` ·
+`Ghostbusters` → `Fantastique` · `The Elder Scrolls` → `Fantasy` + `Médiéval` ·
+`Assassin's Creed` → l'univers de l'épisode concerné s'il est identifiable.
+
+**Exception à la déduction automatique : `Guerre`/`WW1`/`WW2`/`Guerre froide` (voir plus
+bas).** Contrairement aux autres thèmes, ces quatre-là ne se déduisent jamais en bloc
+pour toute une franchise — une franchise de guerre peut avoir des entrées situées dans
+des conflits différents (moderne, WW2, guerre froide...), donc le conflit précis reste
+un fait à vérifier par entrée, pas par franchise.
+
+**Quand ne rien poser :** une œuvre sans univers marqué n'a pas à en recevoir un de
+force. Un jeu de combat (Tekken), de course (Forza), de sport (EA SPORTS FC) ou de
+simulation d'engins (SnowRunner) se définit par son gameplay, pas par un cadre —
+laisser la ligne vide est alors la bonne réponse. Le test : est-ce que quelqu'un
+décrirait cette œuvre par son univers ? Si la réponse est « c'est un jeu de X », il n'y
+a pas d'univers à poser.
+
+Si une licence est taguée et qu'aucun univers ne convient, le signaler dans
+`incertitudes` plutôt que de laisser la ligne silencieusement vide — c'est la seule
+façon de distinguer un choix d'un oubli.
+
 **Admission (3 tests) :** factuel + définissant + revendiqué par le lecteur
 (« j'aime les ___ »).
 
 **Univers / cadre :** Années 80 · Aviation · Cyberpunk · Dinosaures · Enquête ·
-Espace · Fantasy · Far West · Guerre · Guerre froide · Horreur · IA · Lovecraftien ·
-Médiéval · Mythologie · Pirates · Post-apocalyptique · Robot ·
-Science-fiction · Steampunk · Super-héros · WW1 · WW2 · Zombies
+Espace · Fantasy · Fantastique · Far West · Guerre · Guerre froide · Horreur · IA ·
+Lovecraftien · Médiéval · Mythologie · Pirates · Policier ·
+Post-apocalyptique · Robot · Science-fiction · Steampunk · Super-héros · WW1 · WW2 ·
+Zombies
 *(`IA` et `Robot` couvrent aussi bien le contenu réel/industrie que les thèmes
 fictionnels.)*
+*(**Ces tags valent pour tous les médiums.** `Horreur`, `Science-fiction`, `Fantastique`
+ne sont pas des genres §3 : un film d'horreur et un jeu d'horreur reçoivent le même tag,
+posé depuis §5. C'est ce qui permet à un lecteur qui aime l'horreur de trouver les deux.
+`Fantasy` = monde de magie et de merveilleux ; `Fantastique` = le surnaturel fait
+irruption dans un monde par ailleurs réaliste.
+`Policier` = univers du crime et de son traitement (police, criminalité, code du polar) ;
+`Enquête` = il y a une investigation à mener, une énigme à résoudre. Les deux sont voisins
+mais distincts, et se posent ensemble quand les deux sont vrais : un polar d'enquête →
+les deux ; un film de braquage vu côté police, sans investigation → `Policier` seul ; un
+jeu d'enquête surnaturelle sans police → `Enquête` seul.
+À ne pas confondre avec `Thriller`, qui reste un **genre** (§3) : il décrit *comment* le
+récit est mené (tension, suspense), pas de quoi il parle. Un thriller peut être policier,
+politique, psychologique ou de science-fiction — les deux axes se cumulent.)*
 
-*(`Guerre`, `WW1`, `WW2` et `Guerre froide` sont mutuellement exclusifs — un contenu
-de guerre reçoit EXACTEMENT un des quatre, jamais deux ensemble. `WW1`/`WW2`/`Guerre
-froide` s'appliquent quand ce conflit précis est le cadre explicite. `Guerre` est le
-générique réservé aux contextes modernes, fictionnels, ou non rattachés à l'un de ces
-trois conflits historiques — jamais posé en plus d'un des trois, pour ne pas devenir
-un tag fourre-tout.)*
+**`Guerre`, `WW1`, `WW2` et `Guerre froide` sont mutuellement exclusifs** — un contenu de
+guerre reçoit EXACTEMENT un des quatre, jamais deux ensemble, et **jamais déduits en
+bloc pour toute une franchise** (voir plus haut). `WW1`/`WW2`/`Guerre froide` s'appliquent
+quand ce conflit précis est le cadre explicite de CETTE œuvre. `Guerre` est le générique
+réservé aux contextes modernes, fictionnels, ou non rattachés à l'un de ces trois
+conflits historiques précis — jamais posé en plus d'un des trois, pour ne pas devenir un
+tag fourre-tout.
 
 **Mécaniques revendiquées :** Compétitif · Coopératif · En ligne ·
 Local · Monde ouvert · Multijoueur · Solo
@@ -293,6 +532,12 @@ Montage PC
 - **Ton / ambiance** (Sombre, Mélancolique, Stressant, Épique) → interprétatif.
 - **Statut / format** (Démo, Bande-annonce, Teaser, Accès anticipé, AAA, Reboot,
   Exclusivité) → transitoire/subjectif. (Remaster/Remake restent : nature permanente.)
+- **Conditions d'accès et de compatibilité** (Exclusivité, `Cross-play`) → décrivent
+  avec qui/quoi on peut se connecter, pas comment on joue : ni définissant ni revendiqué
+  au sens des tests d'admission ci-dessus. `Cross-play` en particulier fait presque
+  toujours doublon avec `Multijoueur` + `En ligne`, déjà posés, et son statut change
+  souvent après la sortie (patch ultérieur) — ce qui le rendrait incohérent dans le
+  temps sur une même œuvre.
 - **Techniques de production & styles graphiques** (Procédural, Ray tracing, moteurs,
   Pixel art, voxel, cel-shading, esthétique "rétro-inspirée") → invisibles / non
   revendiqués. `Rétro` reste réservé à un vrai jeu/console d'époque, ou à une
@@ -372,6 +617,9 @@ par facette.
   Les mécaniques revendiquées (Solo/Multi/Coop/Compétitif/En ligne/Local/
   Monde ouvert) ne sont JAMAIS éligibles à cette déduction, même pour une franchise
   réputée multijoueur : ce sont des faits contextuels au même titre que la plateforme.
+  `Guerre`/`WW1`/`WW2`/`Guerre froide` ne sont pas non plus déduits en bloc pour toute
+  une franchise — voir l'exception documentée en §5, le conflit précis dépend de
+  l'entrée, pas de la franchise entière.
   Un thème/univers déduit ne vaut que pour la franchise concernée, pas pour tout
   l'article : si plusieurs franchises différentes sont citées ensemble, ne pas tagger
   un thème qui n'est vrai que pour une seule d'entre elles.

@@ -131,10 +131,104 @@ COMPOSANTS_INTERNES = {
 }
 # Matériel externe : chacun doit toujours s'accompagner de "Périphérique" (§4).
 COMPOSANTS_EXTERNES = {
-    "AR", "Casque audio", "Chaise gaming", "Clavier", "Souris", "Microphone", "Écran",
+    "Casque audio", "Chaise gaming", "Clavier", "Souris", "Microphone", "Écran",
     "Manette", "Périphérique de Simulation",
 }
 
+
+# Thèmes/univers de §5 — sert au contrôle de couverture de la Grille #6.
+# Liste tenue à jour manuellement depuis regles-tagging-actives.md : c'est une politique
+# éditoriale, pas un inventaire de ce qui existe sur WordPress.
+THEMES_UNIVERS = {
+    "Années 80", "Aviation", "Cyberpunk", "Dinosaures", "Enquête", "Espace", "Fantasy",
+    "Fantastique", "Far West", "Guerre", "Guerre froide", "Horreur", "IA", "Lovecraftien",
+    "Médiéval", "Mythologie", "Pirates", "Policier", "Post-apocalyptique",
+    "Robot", "Science-fiction", "Steampunk", "Super-héros", "WW1", "WW2", "Zombies",
+}
+
+# Tout le vocabulaire FERMÉ hors §5 univers : genres, plateformes, mécaniques,
+# qualificatifs, événements, rubriques. Un tag qui n'est dans AUCUNE de ces listes est,
+# par élimination, un tag d'identité (§1/§2/§8) — licence, studio, personne ou pays.
+VOCABULAIRE_FERME_AUTRE = {
+    # §3 genres
+    "Action", "Action-aventure", "Action-RPG", "Aventure", "Battle royale", "Beat'em up",
+    "Combat", "Cosy", "Course", "Deckbuilder", "Extraction shooter", "FPS", "Gestion",
+    "Hack'n'slash", "Idle", "Infiltration", "JRPG", "Metroidvania", "MMO", "MOBA",
+    "Narratif", "Party game", "Plateforme", "Point &amp; click", "Réflexion", "Roguelike",
+    "RPG", "Rythme", "Shoot'em up", "Simulation", "Souls-like", "Sport", "Stratégie",
+    "Survie", "TPS", "Biopic", "Comédie", "Documentaire", "Drame", "Thriller",
+    # §4 plateformes & matériel
+    "Cloud gaming", "Mobile", "Nintendo Switch", "PC", "PlayStation", "Rétro",
+    "Steam Deck", "VR", "Xbox", "Apple TV+", "Canal+", "Crunchyroll", "Disney+",
+    "HBO Max", "Netflix", "Paramount+", "Peacock", "Prime Video",
+    "Alimentation", "AR", "Aspirateur robot", "Boîtier", "Carte graphique", "Carte mère",
+    "Casque audio", "Chaise gaming", "Clavier", "Écran", "Électroménager", "Manette",
+    "Matériel PC", "Microphone", "Montre connectée", "Périphérique",
+    "Périphérique de Simulation", "Processeur", "RAM", "Refroidissement", "Réseau",
+    "Smartphone", "Souris", "SSD",
+    # §5 mécaniques, qualificatifs, métiers, rubriques
+    "Compétitif", "Coopératif", "En ligne", "Local", "Monde ouvert", "Multijoueur", "Solo",
+    "Animation", "Esport", "Indé", "Remake", "Remaster",
+    "Cinéma", "Doublage", "Manga", "Carnet noir", "Montage PC", "Game Conscient",
+    # §5bis, §7
+    "Voiture", "Voiture hybride", "Voiture électrique", "Suisse",
+}
+
+
+# Genres (§3) et plateformes/services (§4) — servent à repérer les articles qui portent
+# sur une ŒUVRE (jeu, film, série) plutôt que sur du matériel ou de l'actualité
+# économique. C'est un proxy imparfait mais c'est le seul disponible : WordPress ne
+# stocke que des noms de tags, rien ne distingue `Star Wars` (licence) de `Dreame`
+# (marque d'électroménager) ou `Quantic Dream` (studio).
+MARQUEURS_OEUVRE = {
+    # §3 genres
+    "Action", "Action-aventure", "Action-RPG", "Aventure", "Battle royale", "Beat'em up",
+    "Combat", "Cosy", "Course", "Deckbuilder", "Extraction shooter", "FPS", "Gestion",
+    "Hack'n'slash", "Idle", "Infiltration", "JRPG", "Metroidvania", "MMO", "MOBA",
+    "Narratif", "Party game", "Plateforme", "Point &amp; click", "Réflexion", "Roguelike",
+    "RPG", "Rythme", "Shoot'em up", "Simulation", "Souls-like", "Sport", "Stratégie",
+    "Survie", "TPS", "Biopic", "Comédie", "Documentaire", "Drame", "Thriller", "Animation",
+    # §4 plateformes de jeu et services de diffusion
+    "Cloud gaming", "Mobile", "Nintendo Switch", "PC", "PlayStation", "Steam Deck", "VR",
+    "Xbox", "Apple TV+", "Canal+", "Crunchyroll", "Disney+", "HBO Max", "Netflix",
+    "Paramount+", "Peacock", "Prime Video",
+}
+
+
+def check_theme_coverage(articles):
+    """Liste les articles portant sur une œuvre mais sans aucun thème/univers §5.
+
+    NON BLOQUANT, et volontairement compact : une seule ligne récapitulative plutôt
+    qu'un avertissement par article. La détection est imprécise par construction — sur
+    un lot réel, environ un tiers des articles listés sont de vrais oublis, le reste
+    étant des œuvres qui n'ont légitimement pas d'univers (jeu de combat, de course, de
+    sport) ou des articles de matériel qui portent un tag de plateforme. Un avertissement
+    par article noierait la sortie ; une liste d'identifiants se parcourt en quelques
+    secondes pendant la relecture.
+
+    Ce contrôle existe parce que la Grille #6 déclare le thème « systématique dès qu'une
+    licence est taguée », et que c'est en pratique la facette la plus souvent sautée —
+    or elle porte le maillage transversal dont dépend la recommandation.
+
+    Les articles dont le champ `incertitudes` mentionne déjà l'univers ou le thème sont
+    exclus : le choix a été explicité, il n'y a rien à re-signaler.
+    """
+    sans_theme = []
+    for article in articles:
+        names = set(article.get("tags") or []) | set(article.get("nouveaux_tags") or [])
+        if names & THEMES_UNIVERS:
+            continue
+        if not names & MARQUEURS_OEUVRE:
+            continue  # ni genre ni plateforme : probablement pas une œuvre de fiction
+        deja_signale = any(
+            mot in (i or "").lower()
+            for i in (article.get("incertitudes") or [])
+            for mot in ("univers", "thème", "theme")
+        )
+        if deja_signale:
+            continue
+        sans_theme.append(article.get("id"))
+    return sans_theme
 
 def validate_pairings(articles):
     """Vérifie les paires de tags obligatoires et SANS EXCEPTION de
@@ -220,6 +314,21 @@ def main():
             print(f"  - {message}")
         print("\nAucune écriture effectuée. Corrige le fichier et relance.")
         return
+
+    # 2bis) Couverture thématique (Grille #6) : NON BLOQUANT. Le script ne peut pas savoir
+    # si l'absence d'univers est un choix ou un oubli — il signale, l'humain tranche.
+    sans_theme = check_theme_coverage(articles)
+    if sans_theme:
+        print(
+            f"Grille #6 — {len(sans_theme)} article(s) sur une œuvre sans thème/univers §5 : "
+            + ", ".join(str(i) for i in sans_theme)
+        )
+        print(
+            "  L'univers d'une licence connue se déduit même s'il n'est pas cité "
+            "(Star Wars → Espace, Batman → Super-héros). Une œuvre définie par son seul "
+            "gameplay (combat, course, sport) n'en a pas besoin — cette liste est "
+            "indicative, pas une liste d'erreurs.\n"
+        )
 
     tag_map = wp_client.list_all_tags()  # name -> id, rafraîchi une fois pour tout le lot
     names_by_id = {tid: name for name, tid in tag_map.items()}

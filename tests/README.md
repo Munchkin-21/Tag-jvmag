@@ -83,6 +83,22 @@ exception, contrairement aux paires studio/éditeur du §2 — un script peut do
 garantir de façon fiable. C'est arrivé : `Carte graphique` posé sans `Matériel PC` sur
 un article DLSS 5, repéré seulement après coup.
 
+## `test_theme_coverage.py` — contrôle non bloquant de la Grille #6
+
+```
+python tests/test_theme_coverage.py
+```
+
+Fixe le comportement du contrôle de couverture thématique : un article portant sur une
+œuvre (genre ou plateforme tagué) mais sans aucun thème §5 est listé en fin de
+validation, sans bloquer le lot.
+
+Ce contrôle est **imprécis par construction** — WordPress ne stocke que des noms de
+tags, rien ne distingue `Star Wars` (licence) de `Dreame` (marque) ou `Quantic Dream`
+(studio). Sur un lot réel de 40 articles, il en liste une vingtaine dont environ un
+tiers sont de vrais oublis. C'est assumé : la liste est une invitation à vérifier
+pendant la relecture, pas une liste d'erreurs.
+
 ## `fake_wp.py`
 
 Faux WordPress utilisé par les deux simulations. Reproduit la sémantique de l'API

@@ -11,42 +11,166 @@
 > tranchés) vit dans [liste-maitresse-tags-jvmag.md](liste-maitresse-tags-jvmag.md).
 
 ## Changelog
-- **v3.28** (2026-07-31, audit du registre des tags, 704 tags) : premier passage de contrôle
-  qualité sur l'ensemble des tags déjà posés (pas un nouveau lot d'articles). Six décisions,
-  fondées sur les co-occurrences réelles observées sur WordPress (voir
+- **v3.31** (2026-08-05, réconciliation) : ce chantier a temporairement divergé sur deux
+  lignes de travail parallèles sans visibilité croisée — l'audit du registre de tags
+  (v3.27/v3.28, commit `2c63a84`) d'un côté, une refonte de §3/§5 menée dans une session
+  séparée de l'autre, cette dernière étant repartie d'une version antérieure du dépôt
+  (avant `2c63a84`) sans le savoir. Résultat à la sauvegarde : version numbers en
+  collision (deux v3.27/v3.28 différents), et plusieurs décisions déjà actées et déjà
+  appliquées sur WordPress silencieusement absentes des documents. Cette entrée
+  documente la réconciliation :
+  - **Repris tel quel** (aucune régression) : restriction œuvre-signature aux
+    réalisateurs/créateurs (§1, cas Jenna Ortega/`Wednesday`), fusion `Sony Pictures
+    Television` → `Sony Pictures` (§2), retrait de `Maritime` du vocabulaire (§5, 1
+    seul usage réel), `EVO`/`Amazon Prime Day` réintégrés aux événements fermés (§6).
+  - **`Cross-play` réellement retiré cette fois** : la version sauvegardée avait un
+    changelog affirmant le retrait, mais le mot restait encore présent dans la Grille
+    #7, §5 Mécaniques revendiquées et Règles transversales — l'édition n'avait jamais
+    suivi l'entrée de changelog. Corrigé, avec la justification enrichie (échoue 2 des
+    3 tests d'admission de §5 : ni définissant ni revendiqué, voir détail dans la
+    section EXCLUS §5).
+  - **`AR` → `Périphérique` : gardé, mais précisé plutôt que retiré.** Le retrait silencieux
+    dans la version sauvegardée réglait un vrai problème (le mode caméra AR de
+    Pokémon GO n'est pas du matériel), mais au prix de désarmer aussi le cas légitime
+    (lunettes AR physiques, ex. ROG XREAL R1). Le pairing reste actif, avec une note
+    explicite en §4 : ne s'applique qu'au sens matériel du mot, jamais à une
+    fonctionnalité logicielle de même nom. `Pokémon GO` → `Pokémon` (déjà appliqué sur
+    WordPress, article 113119 : `Pokémon` + `Mobile` + `Niantic` suffisent à le
+    distinguer des jeux principaux, même logique que `Alien`/`Alien: Earth`) documenté
+    dans la paire Pokémon du §2.
+  - **`Guerre`/`WW1`/`WW2`/`Guerre froide` : la règle de mutuelle exclusivité (v3.28)
+    est confirmée comme la règle en vigueur**, au détriment de l'exemple `Battlefield`
+    → `Guerre` introduit dans le brouillon parallèle de la déduction §5 (v3.30 de cette
+    réconciliation) : si `Guerre` se déduisait en bloc pour toute une franchise de
+    guerre, une entrée de cette franchise située dans un conflit historique précis
+    récolterait les deux tags à la fois — exactement la redondance corrigée en v3.28.
+    Précisé en §5 : ces quatre tags ne se déduisent jamais par franchise, seulement par
+    œuvre précise.
+  - **`Tactique` : retiré, mais pas pour le motif initialement avancé.** Le brouillon
+    parallèle justifiait le retrait par un usage "trop peu représenté" — vérification
+    sur les tags WordPress réels : **7 articles l'utilisaient**, ce n'est pas
+    négligeable. La vraie raison, plus solide : sur ces 7, seuls 2 (*Terrinoth: Heroes
+    of Descent*, *Star Wars Zero Company*) relèvent du genre stratégie/tactique au sens
+    de `Stratégie`+`RPG` (voir §3) ; les 5 autres l'utilisaient dans un sens totalement
+    différent — comme qualificatif d'un FPS/TPS "tactique" (rythme réaliste/méthodique),
+    déjà couvert par ailleurs (`TPS`, `Infiltration`, `Souls-like`...). Le tag mélangeait
+    deux sens incompatibles, ce qui est en soi suffisant pour le retirer — mieux vaut
+    aucun tag qu'un tag ambigu. Pas de migration automatique : les 7 articles restent
+    en l'état, à revoir individuellement lors d'un futur lot de retag ciblé (la moitié
+    n'a de toute façon pas besoin de `Stratégie`).
+- **v3.30** (2026-08-05) : **règle de déduction des univers renforcée (§5) + contrôle non
+  bloquant de la Grille #6.** Constat mesuré sur les lots 19 et 20 (les plus récents,
+  donc produits sous les règles actuelles) : sur 46 œuvres de fiction taguées, 32 ne
+  portaient aucun thème §5, dont plusieurs cas où le tag existait déjà et où le trait
+  était parfaitement stable — `Star Wars` sans `Espace`, `Batman` sans `Super-héros`,
+  `One Piece` sans `Pirates`, `Stargate`, `Ghostbusters`, `Monster Fantasy`, `Stuart
+  Fails to Save the Universe`. La ligne #6 est donc sautée massivement alors qu'elle
+  porte le maillage transversal dont dépend la recommandation. Hypothèse retenue sur la
+  cause : la prudence générale du document (« ne jamais déduire ») déteignait sur les
+  traits stables, où la déduction est pourtant explicitement autorisée. §5 dit désormais
+  en toutes lettres que l'univers d'une licence connue SE DÉDUIT et que c'est attendu,
+  avec des exemples concrets ; symétriquement, une section « Quand ne rien poser »
+  légitime l'absence d'univers pour les œuvres définies par leur seul gameplay (combat,
+  course, sport, simulation d'engins), et demande de signaler le cas en `incertitudes`
+  plutôt que de laisser la ligne silencieusement vide — seul moyen de distinguer un
+  choix d'un oubli. **Exception explicitement posée à cette déduction** :
+  `Guerre`/`WW1`/`WW2`/`Guerre froide` (v3.28) restent exclus de la déduction en bloc
+  par franchise, un exemple `Battlefield` → `Guerre` évoqué initialement ayant été
+  écarté en v3.31 pour cette raison précise.
+  Côté outil, `apply_batch.py` liste désormais en fin de validation les articles portant
+  sur une œuvre sans aucun thème §5. **Non bloquant et volontairement imprécis** : les
+  tags plats de WordPress ne permettent pas de distinguer une licence d'un studio ou
+  d'une marque de matériel, donc le contrôle repose sur la présence d'un genre ou d'une
+  plateforme comme proxy d'« article portant sur une œuvre ». Sur un lot de 40, il liste
+  une vingtaine d'identifiants dont environ un tiers sont de vrais oublis. Forme choisie :
+  une seule ligne récapitulative plutôt qu'un avertissement par article, pour rester
+  lisible. Couvert par `tests/test_theme_coverage.py`.
+- **v3.29** (2026-08-05) : **§3 entièrement redéfini — une définition opérationnelle par
+  genre.** §3 n'était qu'une liste de noms : le seul critère de tagging était la présence du
+  mot dans le texte. Or une quinzaine de genres sont aussi des mots français courants
+  (Action, Aventure, Course, Gestion, Narratif, Réflexion, Simulation, Stratégie, Survie…),
+  ce qui produit des faux positifs invisibles — cas déclencheur : `Narratif` posé sur
+  Unhinged (112433) sur la seule foi d'une formule « à la frontière entre série, film
+  d'horreur et jeu narratif », alors que la v3.20 exclut précisément ces formules, et
+  `Thriller` — le genre réellement assumé par le texte — non tagué. Chaque genre a
+  désormais une définition d'une à trois lignes, avec le piège lexical signalé par ⚠️ quand
+  il existe. Bloc de départage ajouté pour `Réflexion`/`Stratégie`/`Gestion`, dont la
+  frontière était la source de confusion la plus fréquente.
+  **Nombre de genres par article — règle souple retenue** : le genre principal assumé + tout
+  genre secondaire clairement identifiable, qu'il soit nommé ou décrit sans ambiguïté. Un
+  genre non nommé se tague dès que le texte décrit ce que sa définition exige (ex. :
+  `Infiltration` sur un test décrivant l'évitement de la détection comme mécanique centrale,
+  même sans le mot). Motif : la transversalité prime — un article reliant plusieurs genres
+  crée plus de liens pour la reco. Deux garde-fous en sens inverse : une mécanique ponctuelle
+  n'est pas un genre (le seuil est dans chaque définition), et dans le doute on ne pose pas
+  et on signale en `incertitudes` — un genre en trop pollue le score d'affinité de tous les
+  lecteurs de l'article, un genre manquant ne coûte qu'un lien. **Ce compromis reste à
+  vérifier sur des lots réels** — c'est un pari mesuré, pas une certitude : plus de liens
+  par article peut aussi diluer la précision du score d'affinité si la règle est appliquée
+  trop largement.
+  **Corollaire — un mot ne peut plus être à la fois genre (§3) et thème (§5).** `Horreur`
+  et `Science-fiction` étaient dans les deux sections, `Fantastique` et `Policier`
+  seulement en §3. Décision : ces registres sont des **thèmes**, pas des genres, et valent
+  pour tous les médiums — un film d'horreur et un jeu d'horreur reçoivent le même tag,
+  posé depuis §5. Motif : le maillage transversal (un lecteur qui aime l'horreur trouve
+  les deux) prime sur une distinction genre/thème que la nomenclature ne tenait de toute
+  façon pas. `Fantastique` ajouté à §5 avec sa frontière vis-à-vis de `Fantasy` ;
+  `Policier` basculé en thème §5 également : il ne fait pas doublon avec `Enquête` (un film
+  de braquage vu côté police n'a pas d'investigation ; une enquête surnaturelle n'a pas de
+  police), les deux cohabitent avec leur frontière documentée. `Thriller` reste en revanche
+  un **genre** : il décrit la mécanique du récit (tension, suspense), pas son univers, et se
+  cumule donc avec un thème — `Thriller` + `Policier` pour un thriller policier. Grille #4
+  renvoie explicitement vers les définitions et rappelle que ces registres relèvent de la
+  ligne 6.
+  **`Tactique` retiré du vocabulaire fermé au passage — motif corrigé en v3.31** (voir
+  cette entrée : l'usage réel du tag mélangeait deux sens incompatibles, pas un simple
+  manque de volume). `Stratégie` couvre désormais explicitement les deux échelles
+  (empire/économie et combats posés d'escouade) ; un tactical RPG se tague `RPG` +
+  `Stratégie`. **`Tower defense` retiré séparément** — trop niche, rattaché à une époque
+  de jeux navigateur/Java révolue, volume d'articles insuffisant pour créer du maillage
+  (confirmé sans usage réel sur le site).
+  Impact : §3 passe de ~330 à ~2700 tokens, le fichier de règles de ~6600 à ~9300.
+- **v3.28** (2026-07-31, audit du registre des tags, 704 tags) : premier passage de
+  contrôle qualité sur l'ensemble des tags déjà posés (pas un nouveau lot d'articles).
+  Six décisions, fondées sur les co-occurrences réelles observées sur WordPress (voir
   `liste-maitresse-tags-jvmag.md` pour le détail article par article) :
-  - **`Battlefield Studios` supprimé, fusionné dans `Battlefield`** — n'apparaît jamais sans
-    `Battlefield` (1 usage, aucune réutilisation cross-franchise), contrairement à `Take-Two
-    Interactive` qui couvre plusieurs studios distincts. Une paire de tags qui coïncide à 100%
-    avec un tag déjà existant n'apporte aucun angle de reco propre.
-  - **`Cross-play` retiré du vocabulaire fermé (§5)** — sur ses 2 usages réels, toujours posé
-    aux côtés de `En ligne` ET `Multijoueur` déjà présents : n'a jamais porté de distinction
-    propre en pratique.
-  - **`Maritime` retiré du vocabulaire fermé (§5)** — 1 seul usage, aucune récurrence observée.
-  - **`Sony Pictures Television` supprimé, fusionné dans `Sony Pictures`** — contrairement à
-    `Sony` (gaming/matériel/corporate) vs `Sony Pictures` (cinéma), qui n'ont *aucun*
-    recoupement d'audience réel (vérifié sur les 6 + 4 usages), la distinction
-    animation/prises de vues réelles ou cinéma/télévision au sein du même studio de
-    production n'ouvre pas d'angle de reco distinct. `Sony Interactive Entertainment` (déjà
-    déprécié en v3.24, 0 usage) supprimé pour de bon — vrai doublon orphelin, pas une
-    correction de règle.
-  - **`Pokémon GO` supprimé, fusionné dans `Pokémon`** — même logique que `Alien`/`Alien:
-    Earth` (v3.17) : l'ombrelle `Pokémon` suffit, la distinction se fait déjà par `Mobile` +
-    `Niantic` (§2, paire déjà actée), sans perte d'info sur l'unique article concerné.
-  - **`UGREEN NASync` supprimé, fusionné dans `Ugreen`** (au passage : casse harmonisée sur
-    `Ugreen`, cf. incident `ATLUS`/`Ugreen` de casse déjà rencontré) — même situation que
-    Battlefield Studios, un sous-tag gamme qui n'existe jamais sans son tag marque.
-  - **`WW1`/`WW2`/`Guerre froide` et `Guerre` (§5) rendus mutuellement exclusifs** — jusqu'ici
-    appliqués de façon incohérente (parfois `Guerre` + le conflit précis ensemble, parfois le
-    conflit précis seul). Nouvelle règle : un contenu de guerre reçoit EXACTEMENT un des
-    quatre tags. `Guerre` devient le générique réservé aux contextes modernes/fictionnels/non
-    rattachés à un conflit historique précis — jamais posé en plus de `WW1`/`WW2`/`Guerre
-    froide` sur le même article, pour éviter qu'il ne devienne un tag fourre-tout.
-  - **`Toy Story 5` renommé `Toy Story`** — rattrapage de la règle "pas de numéro dans le nom
-    de la licence" (§1), manquée à la création du tag.
-  `Narratif` et le triptyque `Réflexion`/`Stratégie`/`Gestion` identifiés comme sous-définis
-  (trop dépendants de la présence littérale d'un mot dans le texte plutôt que d'un cadre de
-  genre explicite) — discussion en cours, pas encore tranchée à cette version.
+  - **`Battlefield Studios` supprimé, fusionné dans `Battlefield`** — n'apparaît jamais
+    sans `Battlefield` (1 usage, aucune réutilisation cross-franchise), contrairement à
+    `Take-Two Interactive` qui couvre plusieurs studios distincts. Une paire de tags qui
+    coïncide à 100% avec un tag déjà existant n'apporte aucun angle de reco propre.
+  - **`Cross-play` retiré du vocabulaire fermé (§5)** — sur ses 2 usages réels, toujours
+    posé aux côtés de `En ligne` ET `Multijoueur` déjà présents : n'a jamais porté de
+    distinction propre en pratique (raisonnement enrichi en v3.31 avec les trois tests
+    d'admission de §5).
+  - **`Maritime` retiré du vocabulaire fermé (§5)** — 1 seul usage réel, aucune
+    récurrence observée.
+  - **`Sony Pictures Television` supprimé, fusionné dans `Sony Pictures`** —
+    contrairement à `Sony` (gaming/matériel/corporate) vs `Sony Pictures` (cinéma), qui
+    n'ont *aucun* recoupement d'audience réel (vérifié sur les 6 + 4 usages), la
+    distinction animation/prises de vues réelles ou cinéma/télévision au sein du même
+    studio de production n'ouvre pas d'angle de reco distinct. `Sony Interactive
+    Entertainment` (déjà déprécié en v3.24, 0 usage) supprimé pour de bon — vrai
+    doublon orphelin, pas une correction de règle.
+  - **`Pokémon GO` supprimé, fusionné dans `Pokémon`** — même logique que
+    `Alien`/`Alien: Earth` (v3.17) : l'ombrelle `Pokémon` suffit, la distinction se fait
+    déjà par `Mobile` + `Niantic` (§2, paire déjà actée), sans perte d'info sur l'unique
+    article concerné.
+  - **`UGREEN NASync` supprimé, fusionné dans `Ugreen`** (au passage : casse harmonisée
+    sur `Ugreen`, cf. incident `ATLUS`/`Ugreen` de casse déjà rencontré) — même
+    situation que Battlefield Studios, un sous-tag gamme qui n'existe jamais sans son
+    tag marque.
+  - **`WW1`/`WW2`/`Guerre froide` et `Guerre` (§5) rendus mutuellement exclusifs** —
+    jusqu'ici appliqués de façon incohérente (parfois `Guerre` + le conflit précis
+    ensemble, parfois le conflit précis seul). Nouvelle règle : un contenu de guerre
+    reçoit EXACTEMENT un des quatre tags. `Guerre` devient le générique réservé aux
+    contextes modernes/fictionnels/non rattachés à un conflit historique précis —
+    jamais posé en plus de `WW1`/`WW2`/`Guerre froide` sur le même article, pour éviter
+    qu'il ne devienne un tag fourre-tout.
+  - **`Toy Story 5` renommé `Toy Story`** — rattrapage de la règle "pas de numéro dans
+    le nom de la licence" (§1), manquée à la création du tag.
+  `Narratif` et le triptyque `Réflexion`/`Stratégie`/`Gestion` identifiés comme
+  sous-définis (trop dépendants de la présence littérale d'un mot dans le texte plutôt
+  que d'un cadre de genre explicite) — repris et résolu en v3.29.
 - **v3.27** (2026-07-31, reprise du catalogue principal, lot #3) : trois décisions :
   - **`personne + œuvre-signature` (§1) restreinte aux réalisateurs/créateurs** — un·e
     acteur/actrice n'y est plus éligible par défaut. Motivé par Klara and the Sun (Jenna
@@ -56,7 +180,9 @@
     rôle sur un article sans rapport dénature le sujet réel plutôt que d'enrichir la reco.
   - **`AR` ajouté à la liste de pairing `Périphérique`** (§4) — oubli lors de l'ajout initial
     du tag : une paire de lunettes AR gaming est un matériel EXTERNE au même titre qu'un
-    casque audio ou une manette, motivé par le TEST ROG XREAL R1.
+    casque audio ou une manette, motivé par le TEST ROG XREAL R1. Précisé en v3.31 : ne
+    s'applique qu'au sens matériel du mot (Pokémon GO utilise `AR` dans un sens logiciel
+    qui n'entre pas dans cette paire).
   - **`EVO` et `Amazon Prime Day` ajoutés aux événements fermés** (§6) — le premier est le
     tournoi de référence mondial du jeu de combat (contexte du DLC Kenshiro, Fatal Fury: City
     of the Wolves), le second un rendez-vous commercial annuel récurrent (promo UGREEN),
