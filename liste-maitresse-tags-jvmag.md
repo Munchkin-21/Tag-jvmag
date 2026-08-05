@@ -805,17 +805,52 @@ Six fusions/suppressions actées (v3.28, voir changelog) :
   `Guerre froide`). `Guerre` reste réservé aux contextes de guerre non rattachés à l'un
   des trois conflits historiques précis.
 
-**Bloqué, pas encore résolu** : `Pokémon GO` devait être fusionné dans `Pokémon` (la
-distinction se fait déjà via `Mobile` + `Niantic`, sans perte d'info sur l'article
-113119), mais l'article porte aussi `AR` — et le pairing mécanique `AR` → `Périphérique`
-ajouté en v3.27 (motivé par les lunettes ROG XREAL, du matériel) ne s'applique pas ici :
-le `AR` de Pokémon GO désigne le mode caméra en réalité augmentée du jeu mobile, pas un
-périphérique physique. `AR` conflate donc deux sens différents (matériel vs fonctionnalité
-logicielle) — à trancher avant de pouvoir compléter cette fusion.
+**Résolu depuis** : `Pokémon GO` → `Pokémon` a été complété (article 113119 : `Pokémon` +
+`Mobile` + `Niantic`, sans `AR` associé à `Périphérique`) — voir la réconciliation
+ci-dessous, qui documente aussi la précision apportée à la paire `AR`/`Périphérique`
+(matériel uniquement, jamais une fonctionnalité logicielle de même nom).
 
-**Non traité à ce stade** : `Narratif` et le triptyque `Réflexion`/`Stratégie`/`Gestion`
-identifiés comme sous-définis (usage encore trop dépendant de la présence littérale d'un
-mot dans le texte) — discussion en cours avec l'humain, cadres de règles à venir.
+---
+
+### Réconciliation de la nomenclature — 2026-08-05 (v3.29 → v3.31)
+
+`Narratif` et le triptyque `Réflexion`/`Stratégie`/`Gestion`, identifiés comme
+sous-définis lors du lot #9, ont été retravaillés en profondeur (§3 entièrement réécrit
+avec une définition opérationnelle par genre + piège lexical ⚠️, arbre de décision
+Réflexion/Stratégie/Gestion). En parallèle, §5 a été renforcé pour rendre la déduction
+des univers de licences connues explicite et attendue, avec un contrôle non bloquant en
+fin de lot (`apply_batch.py` signale désormais les articles sur une œuvre sans thème
+§5). Voir changelog v3.29/v3.30 pour le détail complet — c'est le morceau de travail le
+plus substantiel de la nomenclature depuis l'audit initial de la Grille (v3.11).
+
+Ce travail ayant été mené dans une session séparée repartie d'une version du dépôt
+antérieure à l'audit du registre de tags de ce même jour, la sauvegarde a fait
+collision avec les décisions déjà actées et déjà appliquées sur WordPress (numéros de
+version dupliqués, `Cross-play` resté dans le texte des règles malgré un changelog
+affirmant le contraire, `Maritime`/restriction œuvre-signature/`EVO`/`Amazon Prime Day`
+disparus des documents). Réconciliation complète en v3.31 (changelog) : le travail
+génuinement nouveau est conservé, les décisions déjà actées sont restaurées, et deux
+conflits réels ont été tranchés plutôt que fusionnés à l'aveugle :
+- `Guerre`/`WW1`/`WW2`/`Guerre froide` restent mutuellement exclusifs (v3.28) — l'exemple
+  `Battlefield` → `Guerre` proposé dans le travail parallèle aurait réintroduit
+  exactement la redondance corrigée par cette règle.
+- `Tactique` reste retiré, mais pour un motif vérifié plutôt que supposé : sur les 7
+  articles réels qui le portaient, seuls 2 relevaient du genre stratégie/tactique
+  (`Stratégie` + `RPG`), les 5 autres l'utilisant comme qualificatif de FPS/TPS
+  "tactique" sans rapport avec le genre. Nettoyage rétroactif de ces 7 articles effectué
+  dans la foulée :
+  - **113049** Terrinoth: Heroes of Descent : `Tactique` → `Stratégie` (garde `RPG`
+    déjà présent, complète la paire). Au passage, `Multijoueur` ajouté — `Coopératif`
+    était posé seul depuis l'origine, gap antérieur repéré par le contrôle mécanique
+    Grille #7 en relisant l'article pour cette correction.
+  - **80487** Star Wars Zero Company : `Tactique` retiré, `Stratégie` déjà présent
+    suffit (pas de progression de personnage, ce n'est pas un RPG).
+  - **111292** Final Fantasy VII Revelation, **111255** Crossfire, **111068** Pokémon
+    Champions, **97804** Hell Let Loose: Vietnam, **110844** DIOXIDE : `Tactique`
+    simplement retiré, déjà pleinement couverts par leurs autres tags (`Action-RPG`,
+    `TPS`+`Infiltration`, `Compétitif`+`Multijoueur`, `FPS`+`Simulation`,
+    `FPS`+`Souls-like` respectivement).
+  Tag `Tactique` supprimé de WordPress après vérification à 0 usage.
 
 ---
 
