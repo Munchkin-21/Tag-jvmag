@@ -11,6 +11,12 @@
 > tranchés) vit dans [liste-maitresse-tags-jvmag.md](liste-maitresse-tags-jvmag.md).
 
 ## Changelog
+- **v3.32** (2026-08-12, pilote lot #10) : `Pixel Arcadia` ajouté aux événements fermés
+  (§6) — nouveau showcase dédié au rétro-gaming annoncé par Pixel Helix, première
+  édition le 24 août. Accepté malgré l'absence de récurrence prouvée (contrairement à
+  `EVO`/`Amazon Prime Day`, déjà établis) : même philosophie qu'en v3.21 (`SIGGRAPH`) —
+  accepter les événements légitimes au fil de l'eau plutôt que de bloquer sur leur usage
+  futur, quitte à réviser collectivement les tags sous-utilisés plus tard.
 - **v3.31** (2026-08-05, réconciliation) : ce chantier a temporairement divergé sur deux
   lignes de travail parallèles sans visibilité croisée — l'audit du registre de tags
   (v3.27/v3.28, commit `2c63a84`) d'un côté, une refonte de §3/§5 menée dans une session

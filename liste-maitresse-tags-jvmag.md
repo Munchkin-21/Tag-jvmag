@@ -854,6 +854,41 @@ conflits réels ont été tranchés plutôt que fusionnés à l'aveugle :
 
 ---
 
+### Lot #10 — 2026-08-12 (10 articles, catalogue principal — premier lot sous la nomenclature réconciliée)
+
+Premier lot d'articles réellement nouveaux depuis la réconciliation v3.29-v3.31. Objectif
+explicite : vérifier que les nouvelles définitions §3/§5 tiennent sur du contenu réel,
+pas seulement sur les cas déjà connus de l'audit. Deux règles neuves ont été directement
+exercées :
+- **101905 Hellraiser: Revival** : le texte dit « survival horror », mais aucune mécanique
+  de faim/froid/récolte n'est décrite — piège lexical ⚠️ exactement documenté dans la
+  nouvelle définition de `Survie` (§3). Pas de `Survie` posé ; `Action` retenu à la place
+  (« action brutale » explicite dans le texte).
+- **111937 Billie, à la croisée des mondes** et **96760 Astérix et le Royaume de Nubie** :
+  `Aventure` posé sans que le mot ne déclare un genre explicitement, sur la base de la
+  définition (récit structuré comme un voyage/quête) — test de la règle « un genre non
+  nommé se tague quand le texte décrit ce que sa définition exige » (§3, v3.29).
+- **76464 Shrek 5** : `Comédie` déduit comme trait stable de la licence (aucune
+  déclaration explicite dans ce texte court), cohérent avec le tag déjà posé sur le
+  précédent article Shrek du lot #8 — `Fantasy` volontairement écarté par cohérence avec
+  ce même précédent (le fairy-tale de Shrek fonctionne comme décor parodique, pas comme
+  univers définissant au sens de l'admission §5).
+- **111880 Don't Nod** : article sur les finances du studio, aucun jeu précis n'étant le
+  sujet — pas de genre posé, `Life is Strange`/`Lost Records`/`Aphelion` mentionnés en
+  contexte seulement, non développés individuellement.
+- **111904 Kiki la petite sorcière** : `Studio Ghibli` et `Hayao Miyazaki` volontairement
+  écartés — pedigree historique (film de 1989), sans rapport avec cette nouvelle
+  production live-action BBC Studios/Wheel in Motion/Kadokawa.
+
+Une décision de vocabulaire actée pendant la revue (v3.32, voir changelog) :
+`Pixel Arcadia` ajouté aux événements fermés (§6) malgré l'absence de récurrence prouvée
+(première édition annoncée) — accepté au fil de l'eau, même philosophie que `SIGGRAPH`
+en v3.21.
+
+10 nouveaux tags créés (licences, studios — voir l'historique WordPress pour le détail).
+
+---
+
 ## Décisions ouvertes à surveiller
 - **Mediawan** : gardé, à réévaluer s'il n'est pas réutilisé.
 - **Unitree** : gardé comme le plus connu des fabricants de robots.

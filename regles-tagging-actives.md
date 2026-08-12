@@ -554,8 +554,8 @@ Montage PC
 
 Evergreen (l'année vit dans la date). Un événement terminé garde son tag.
 
-**Jeux vidéo :** EVO · Gamescom · Nintendo Direct · Paris Games Week · Polymanga ·
-Red Bull Gamerations · State of Play · Summer Game Fest · The Game Awards ·
+**Jeux vidéo :** EVO · Gamescom · Nintendo Direct · Paris Games Week · Pixel Arcadia ·
+Polymanga · Red Bull Gamerations · State of Play · Summer Game Fest · The Game Awards ·
 THQ Nordic Digital Showcase · Xbox Games Showcase
 
 **Tech / auto :** Amazon Prime Day · CES · Computex · Goodwood Festival of Speed ·
