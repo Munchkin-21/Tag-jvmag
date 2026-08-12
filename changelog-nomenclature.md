@@ -11,6 +11,11 @@
 > tranchés) vit dans [liste-maitresse-tags-jvmag.md](liste-maitresse-tags-jvmag.md).
 
 ## Changelog
+- **v3.34** (2026-08-12, pilote lot #12) : `Virtual Boy` ajouté aux plateformes fermées
+  (§4) — console historique Nintendo, motivé par un article portant sur la
+  redécouverte de deux prototypes annulés (Zero Racers, D-Hopper) et l'ajout de
+  bandes-son à l'application Nintendo Music. Absent jusqu'ici du vocabulaire fermé alors
+  que `Neo Geo` (autre plateforme rétro) y figurait déjà.
 - **v3.33** (2026-08-12, pilote lot #11) : `D23` et `TwitchCon` ajoutés aux événements
   fermés (§6) — contrairement à `Pixel Arcadia` (v3.32), ce sont deux conventions déjà
   bien établies (D23 : convention officielle Disney bisannuelle ; TwitchCon :

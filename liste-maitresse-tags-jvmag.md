@@ -917,6 +917,30 @@ Points notables :
 
 ---
 
+### Lot #12 — 2026-08-12 (40 articles, mode `--from-top`)
+
+Une décision de vocabulaire actée pendant la revue (v3.34, voir changelog) :
+`Virtual Boy` ajouté aux plateformes fermées (§4) — console historique Nintendo,
+motivé par un article sur deux prototypes annulés (Zero Racers, D-Hopper)
+redécouverts, absent jusqu'ici du vocabulaire alors que `Neo Geo` y figurait déjà.
+
+Points notables :
+- **111811 Cinémas de Sierre #25 (Toy Story 5)** : `Disney` + `Pixar` ajoutés par
+  recherche ciblée bien qu'absents du texte — franchise à l'ambiguïté nulle (§2).
+- **114405 Parc Dragon Ball en France** : `France` tagué comme acteur central réel
+  (négociations gouvernementales, préfet d'Île-de-France impliqué), pas une mention
+  incidente.
+- **111790 Royaume-Uni interdit les réseaux sociaux <16 ans** : cas texte-book de la
+  règle §8 (un pays légifère) — `Royaume-Uni` créé.
+- **111863 Fermetures de studios Xbox** : `Double Fine`/`Ninja Theory` tagués malgré
+  n'être que cités en exemple — chacun est individuellement nommé comme étant dans la
+  même situation de risque, pas juste listés en passant.
+
+37 nouveaux tags créés (licences, studios, personnes, marques — voir l'historique
+WordPress).
+
+---
+
 ## Décisions ouvertes à surveiller
 - **Mediawan** : gardé, à réévaluer s'il n'est pas réutilisé.
 - **Unitree** : gardé comme le plus connu des fabricants de robots.

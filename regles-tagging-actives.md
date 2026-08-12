@@ -384,7 +384,7 @@ PS4/PS5) et `Xbox` (pas de distinction Xbox One/Series X) — le texte peut nomm
 génération précise, le tag reste toujours la plateforme générique.
 
 **Jeux :** Cloud gaming · Mobile · Nintendo Switch · PC · PlayStation · Rétro ·
-Steam Deck · VR · Xbox
+Steam Deck · VR · Virtual Boy · Xbox
 *(`Rétro` ici = jeu/console d'époque, pas "vieux" au sens large.)*
 
 **Films/séries :** Apple TV+ · Canal+ · Crunchyroll · Disney+ · HBO Max · Netflix ·
