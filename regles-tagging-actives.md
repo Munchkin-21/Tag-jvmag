@@ -556,13 +556,13 @@ Evergreen (l'année vit dans la date). Un événement terminé garde son tag.
 
 **Jeux vidéo :** EVO · Gamescom · Nintendo Direct · Paris Games Week · Pixel Arcadia ·
 Polymanga · Red Bull Gamerations · State of Play · Summer Game Fest · The Game Awards ·
-THQ Nordic Digital Showcase · Xbox Games Showcase
+THQ Nordic Digital Showcase · TwitchCon · Xbox Games Showcase
 
 **Tech / auto :** Amazon Prime Day · CES · Computex · Goodwood Festival of Speed ·
 SIGGRAPH · WWDC
 
-**Ciné / pop culture :** CinemaCon · Festival d'Annecy · Festival de Cannes · Oscars ·
-San Diego Comic-Con
+**Ciné / pop culture :** CinemaCon · D23 · Festival d'Annecy · Festival de Cannes ·
+Oscars · San Diego Comic-Con
 
 ## §7 — Local suisse — Contenu, FERMÉ (un seul tag)
 

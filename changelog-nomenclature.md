@@ -11,6 +11,12 @@
 > tranchés) vit dans [liste-maitresse-tags-jvmag.md](liste-maitresse-tags-jvmag.md).
 
 ## Changelog
+- **v3.33** (2026-08-12, pilote lot #11) : `D23` et `TwitchCon` ajoutés aux événements
+  fermés (§6) — contrairement à `Pixel Arcadia` (v3.32), ce sont deux conventions déjà
+  bien établies (D23 : convention officielle Disney bisannuelle ; TwitchCon :
+  convention internationale de Twitch, citée dans l'interview Lenchanteur comme
+  rendez-vous récurrent depuis plusieurs années), pas des paris sur une récurrence
+  future.
 - **v3.32** (2026-08-12, pilote lot #10) : `Pixel Arcadia` ajouté aux événements fermés
   (§6) — nouveau showcase dédié au rétro-gaming annoncé par Pixel Helix, première
   édition le 24 août. Accepté malgré l'absence de récurrence prouvée (contrairement à

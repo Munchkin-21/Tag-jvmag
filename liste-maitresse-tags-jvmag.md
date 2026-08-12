@@ -889,6 +889,34 @@ en v3.21.
 
 ---
 
+### Lot #11 — 2026-08-12 (40 articles, premier lot en mode `--from-top`)
+
+Premier lot depuis le basculement du mode curseur (backlog profond) vers `--from-top` :
+au lieu de continuer à remonter lentement depuis le fond du catalogue, on rattrape
+maintenant les publications les plus récentes. Deux décisions de vocabulaire actées
+pendant la revue (v3.33, voir changelog) : `D23` et `TwitchCon` ajoutés aux événements
+fermés (§6) — contrairement à `Pixel Arcadia` (lot #10), ce sont deux conventions déjà
+bien établies, pas des paris sur une récurrence future.
+
+Points notables :
+- **114826 Lord of the Rings: War in the North** et **114395 Truxton Extreme** :
+  créateurs historiques (Snowblind Studios, Toaplan) écartés au profit des studios dev
+  actuels (Aspyr, Tatsujin) — application directe de la règle actée lors de l'audit
+  (§2, précédent Halo/Piranha Bytes).
+  - **74457 Over the Hill** et **114728 Cinémas de Sierre #33** (The End of Oak Street) :
+  studio dev laissé en incertitude plutôt que deviné — le texte relie seulement
+  indirectement au studio (comparaison à Art of Rally) ou ne le cite pas du tout.
+- **105622 Serious Sam: Shatterverse** : le texte source nomme deux studios différents
+  de façon contradictoire (Croteam en intro informelle, Behaviour Interactive en
+  annonce formelle) — les deux ont été reflétés plutôt que tranchés unilatéralement.
+- **113352 Interview Lenchanteur** : plusieurs tags qu'on aurait pu croire déjà
+  existants (`Kirby`, `Polymanga`) n'avaient en réalité jamais été créés sur WordPress —
+  même situation que `Médiéval`/`Point & click` précédemment.
+
+39 nouveaux tags créés (licences, studios, personnes — voir l'historique WordPress).
+
+---
+
 ## Décisions ouvertes à surveiller
 - **Mediawan** : gardé, à réévaluer s'il n'est pas réutilisé.
 - **Unitree** : gardé comme le plus connu des fabricants de robots.
