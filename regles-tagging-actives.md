@@ -71,9 +71,15 @@ pour proposer un lot — il remplace tout autre résumé ou checklist condensé.
   `Final Fantasy` + `Action-RPG` = le remake FF7). Pas de double franchise+sous-saga.
   → Bonus cross-media : une ombrelle établie (ex. `Alien`) relie jeu/film/série — ne pas
   créer de tag séparé pour une série/spin-off dérivé quand l'ombrelle existe déjà.
-  → **Sous-titre à retirer = seulement pour consolider une franchise multi-épisodes.**
-  Un jeu unique et autonome dont le titre officiel complet inclut un sous-titre garde
-  son titre entier : il n'y a rien à consolider, ce n'est pas un numéro de suite.
+  → **Sous-titre toujours retiré, même pour une œuvre unique et autonome.** Un titre
+  au format « Nom : Sous-titre » (séparateur deux-points) se tague sous son seul nom
+  de base — ex. `Nautus: Echoes from Below` → `Nautus`, `Kumarn: The Wandering
+  Spirit` → `Kumarn` — qu'il s'agisse ou non d'une franchise à consolider : longueur
+  du tag, et impossible de savoir au moment du tagging si l'œuvre restera isolée ou
+  deviendra une série. **Exception** : si le nom de base seul est un mot trop
+  générique/courant pour identifier l'œuvre sans ambiguïté (risque de collision avec
+  un titre non apparenté), garder le sous-titre complet et signaler le cas en
+  `incertitudes`.
 - **Œuvre citée en comparaison ≠ tag** (« à la sauce God of War » → pas de tag).
 - **Personne = sujet → taguée** (interview, portrait, nécro, news de casting qui porte
   sur elle). Rôle central tagué, mention anecdotique non.

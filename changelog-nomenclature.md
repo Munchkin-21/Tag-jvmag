@@ -11,6 +11,27 @@
 > tranchés) vit dans [liste-maitresse-tags-jvmag.md](liste-maitresse-tags-jvmag.md).
 
 ## Changelog
+- **v3.35** (2026-08-19, lot #16) : **sous-titre toujours retiré, même pour une œuvre
+  unique et autonome (§1)** — inversion de la règle posée en v3.17. Jusqu'ici, un jeu
+  autonome dont le titre officiel complet incluait un sous-titre (format « Nom :
+  Sous-titre ») gardait son titre entier, la consolidation étant réservée aux
+  franchises multi-épisodes déjà connues (Red Dead Redemption 2 → Red Dead
+  Redemption). Décision : retirer systématiquement le sous-titre, y compris pour un
+  titre qu'on ne sait pas encore promis à une suite — motivée par la longueur des
+  tags et par l'impossibilité de savoir au moment du tagging si une œuvre restera
+  isolée ou deviendra une série (auquel cas la consolidation aurait de toute façon dû
+  être appliquée rétroactivement). Exemple : `Nautus: Echoes from Below` → `Nautus`.
+  **Garde-fou ajouté** : si le nom de base seul est un mot trop générique/courant
+  pour identifier l'œuvre sans ambiguïté (risque de collision avec un titre non
+  apparenté), le sous-titre complet est conservé et le cas signalé en
+  `incertitudes` — l'objectif reste qu'un tag d'identité désigne une œuvre précise,
+  pas qu'il soit court à tout prix.
+  **Rétroactif** : les deux tags créés dans la même session sous l'ancienne règle
+  ont été renommés en conséquence — `Kumarn: The Wandering Spirit` → `Kumarn`
+  (article 115261, lot #13) et `Das Hexencafé am Zürichsee: Der letzte Eintrag` →
+  `Das Hexencafé am Zürichsee` (article 115120, lot #14). Le renommage direct du
+  terme WordPress (id conservé) évite de retoucher les articles concernés, même
+  logique que le renommage `Bethesda Game Studios` → `Bethesda` (v3.25).
 - **v3.34** (2026-08-12, pilote lot #12) : `Virtual Boy` ajouté aux plateformes fermées
   (§4) — console historique Nintendo, motivé par un article portant sur la
   redécouverte de deux prototypes annulés (Zero Racers, D-Hopper) et l'ajout de

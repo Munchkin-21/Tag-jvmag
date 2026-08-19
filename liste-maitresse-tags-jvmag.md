@@ -941,6 +941,194 @@ WordPress).
 
 ---
 
+### Lot #13 — 2026-08-19 (10 articles, mode `--from-top`, reprise après une semaine)
+
+Premier lot de la reprise du chantier après une pause d'une semaine (dernier lot :
+#12, 2026-08-12). Contenu varié : jeux indés (Fantasy Online 2, Riot Riders, Kumarn:
+The Wandering Spirit, Future Knight), un produit dérivé (LEGO Batmobile), une actu
+GTA 6, un roundup Xbox Game Pass, une actu cinéma (Fast Forever) et une programmation
+ARENA Cinemas.
+
+Points notables :
+- **115235 LEGO Batmobile (Batman Returns)** : `DC` + `Warner Bros.` ajoutés par
+  recherche ciblée bien qu'absents du texte — même logique que Toy Story/Disney+Pixar
+  (lot #12) : franchise à l'ambiguïté nulle, marque-source d'une licence tagée sur un
+  produit dérivé (§2 "produit dérivé"), pas juste le fabricant (`LEGO`). Repéré après
+  coup par l'utilisateur — la règle existait déjà, simple oubli d'application au
+  moment de la rédaction du lot.
+- **115261 Kumarn: The Wandering Spirit** : `WereBuff Studio` (dev) et `Indé`
+  complétés par recherche ciblée externe (§2) — titre non-ambigu, source unique
+  (communiqués Wired Productions/Gamescom 2026).
+- **115256 Riot Riders** : `Guerre froide` posé — conflit précis explicitement le
+  cadre narratif du jeu (pas une franchise, donc pas concerné par l'exclusion de
+  déduction en bloc).
+- **115266 Fantasy Online 2** : titre consolidé en `Fantasy Online` (retrait du
+  numéro, règle §1) ; thème Fantasy volontairement écarté malgré le nom — aucun
+  élément fantastique décrit dans le texte, signalé en incertitude plutôt que déduit
+  du seul nom du jeu.
+- **115179 ARENA Cinemas (Jason Statham/Mutiny)** : `Mutiny` + `Jason Statham`
+  tagués — film mis en avant dans le titre du programme, distinct du reste de la
+  grille horaire (même règle que le précédent Spider-Man des lots #2/#8).
+
+16 nouveaux tags créés : `Fantasy Online`, `Pixel Games LLC`, `Jeromy Stroh`,
+`Riot Riders`, `Bombed School`, `Kumarn: The Wandering Spirit`, `WereBuff Studio`,
+`Fast & Furious`, `Vin Diesel`, `Bodycam`, `Reissad Studio`, `Mutiny`,
+`Jason Statham`, `Future Knight`, `Studio Koba`, `Aeternum Game Studios`.
+
+---
+
+### Lot #14 — 2026-08-19 (10 articles, mode `--from-top`)
+
+Contenu varié : tech (YouTube), sport (EA Sports FC 27), série (It: Welcome to
+Derry), FPS (Battlefield 6), hardware (PlayStation 6), un visual novel suisse, une
+franchise ciné (Pirates des Caraïbes), un programme de cinéma local, un plateformer
+indé (Panic 64), un Carnet noir (Hayden Panettiere).
+
+Points notables :
+- **115136 It: Welcome to Derry** : consolidé sur l'ombrelle `It` (pas
+  `It: Welcome to Derry`) — même logique que `Alien`/`Alien: Earth`, signalé par
+  l'utilisateur après relecture, corrigé avant écriture.
+- **115101 Cinémas de Sierre n°34** : cas limite non couvert explicitement par la
+  règle "programme mono-film" — 3 films (`L'Odyssée`, `Spider-Man`, `La fin d'Oak
+  Street`) substantiellement synopsés dans le même programme, tagués individuellement
+  par extension de l'exception liste ≤5, plutôt qu'un seul film vedette. Validé par
+  l'utilisateur, à garder en tête comme précédent pour les prochains programmes
+  multi-films développés.
+- **115083 Carnet noir Hayden Panettiere** : 6 œuvres tagées parmi celles
+  substantiellement développées dans le texte (Heroes, Scream, Nashville, Remember
+  the Titans, Until Dawn, Kingdom Hearts) ; Ice Princess et Bring It On: All or
+  Nothing écartés — mentions trop anecdotiques (simple liste sans développement).
+- **115120 Das Hexencafé am Zürichsee** : `Fantasy` + `Fantastique` posés ensemble —
+  le texte cite littéralement "fantasy" tout en décrivant un surnaturel qui surgit
+  dans un cadre suisse réaliste (Zurich), satisfaisant les deux définitions
+  distinctement.
+
+18 nouveaux tags créés : `YouTube`, `It`, `Hiroki Totoki`, `Das Hexencafé am
+Zürichsee: Der letzte Eintrag`, `Micjam Games`, `Pirates des Caraïbes`,
+`Johnny Depp`, `Margot Robbie`, `Jerry Bruckheimer`, `La fin d'Oak Street`,
+`Panic 64`, `Spicy Gyro Games`, `Hayden Panettiere`, `Heroes`, `Scream`,
+`Nashville`, `Remember the Titans`, `Kingdom Hearts`.
+
+---
+
+### Lot #15 — 2026-08-19 (10 articles, mode `--from-top`)
+
+Contenu varié : hardware (ASUS Raikiri 2 Pro, Keychron K5 Max), un fan-portage
+rétrogaming (Ridge Racer Collection), deux articles Kingdom Hearts 4 (le sien +
+mentionné dans le récap D23), un récap D23 Disney à 14 annonces, une mise à jour
+STALKER 2, un VR remake (System Shock), un RPG cyberpunk indé (Neo Berlin 2087), une
+compilation Mafia et un film d'horreur (Beware Boiúna).
+
+Points notables :
+- **115023 D23 récap Disney** : roundup de 14 annonces distinctes (Marvel, Star
+  Wars, Pixar, Disney Animation) — seules les grandes marques organisatrices et
+  `Kingdom Hearts` (sous-section développée en détail, cœur éditorial JVMag) sont
+  taguées individuellement ; les ~13 autres titres écartés, règle "listes = pas de
+  tags" (même logique que le précédent SDCC/Tencent-Gamescom).
+- **114980 Neo Berlin 2087** : studio dev (`Elysium Game Studio`) et éditeur
+  (`ByteRockers' Games`) absents du texte, complétés par recherche ciblée externe
+  (§2) — titre non-ambigu, sources concordantes.
+- **115062 Ridge Racer Collection** : le texte orthographie "Wanzai" mais le tag
+  existant `Wanszai` (même développeur que le portage Sega Rally, lot #4) a été
+  réutilisé plutôt que d'en créer un doublon.
+- **Correction avant écriture** (signalée par l'utilisateur) : `PC` manquait sur
+  Keychron K5 Max alors que le texte dit explicitement "Compatible PC et MAC" —
+  même logique de plateforme-périphérique que le précédent Glorious GHS Wireless
+  (lot #8), appliquée de façon incohérente entre les deux articles hardware de ce
+  lot avant relecture.
+- **Erreur technique interceptée par le dry-run** : `Mafia` et `Hangar 13` avaient
+  été classés à tort dans `tags` au lieu de `nouveaux_tags` (n'existaient pas encore
+  sur WordPress) — bloqué par le garde-fou anti-doublon d'`apply_batch.py`, corrigé
+  avant écriture réelle.
+
+13 nouveaux tags créés : `Rave Racer`, `Nintendo Direct`, `Keychron`,
+`System Shock`, `Flat2VR Studios`, `Nightdive Studios`, `Neo Berlin 2087`,
+`Elysium Game Studio`, `Mafia`, `Hangar 13`, `Beware Boiúna`, `Mike P. Nelson`,
+`Brésil`.
+
+---
+
+### Amendement — sous-titres de titres de jeu (2026-08-19, v3.35)
+
+Demande de l'utilisateur en cours de lot #16 : retirer systématiquement le
+sous-titre des titres au format « Nom : Sous-titre », même pour une œuvre unique et
+autonome (auparavant réservé à la consolidation de franchises multi-épisodes,
+v3.17). Motif : longueur des tags, et impossible de savoir au moment du tagging si
+une œuvre restera isolée ou deviendra une série. Garde-fou ajouté : si le nom de
+base seul est trop générique pour identifier l'œuvre sans ambiguïté, le sous-titre
+complet est gardé et le cas signalé en `incertitudes`. Détail complet et
+raisonnement → changelog v3.35.
+
+**Rétroactif appliqué** : les deux tags créés dans cette même session sous
+l'ancienne règle ont été renommés directement sur WordPress (id conservé, aucun
+article à retoucher) : `Kumarn: The Wandering Spirit` → `Kumarn` (id 3566,
+article 115261) et `Das Hexencafé am Zürichsee: Der letzte Eintrag` → `Das
+Hexencafé am Zürichsee` (id 3580, article 115120).
+
+---
+
+### Lot #16 — 2026-08-19 (10 articles, mode `--from-top`)
+
+Contenu varié : deux nouveaux jeux (Nautus: Echoes from Below, Waste The Fallen),
+American Horror Story: 13, l'annonce Twitch/IA, les jeux PS Plus d'août, deux tests
+hardware (Logitech Mobi Fold, à côté des Pixel Watch 5/Pixel 11 de Google),
+Hordeguard: Winds of the North et Formula E sur Disney+. Premier lot appliqué sous
+la nouvelle règle de sous-titres (v3.35) : `Nautus: Echoes from Below` → `Nautus`
+et `Hordeguard: Winds of the North` → `Hordeguard` dès la proposition initiale.
+
+Points notables :
+- **114906 Formula E** : `Formula E` créé comme tag d'identité ouvert (championnat
+  récurrent, pas une convention ponctuelle du vocabulaire fermé §6) ; `Voiture` +
+  `Voiture électrique` posés — la voiture GEN4 100% électrique est décrite en détail
+  dans le texte, pas une mention incidente.
+- **114945 Twitch/IA** : `Amazon` créé distinct de `Amazon Games Studios`/`Amazon
+  MGM Studios` déjà existants — même logique que Sony/Sony Pictures.
+- **114950 American Horror Story: 13** : Jessica Lange et Evan Peters tagués (leurs
+  retours de personnages sont littéralement le sujet de la news), le reste du
+  "casting XXL" écarté comme liste anecdotique ; plateforme régionale non confirmée
+  (Disney+ probable mais pas annoncé officiellement) → incertitude plutôt que
+  déduite.
+- **114929 PS Plus jeux d'août** : 10 jeux listés, aucun tagué individuellement
+  (au-delà du seuil ≤5, cohérent avec les précédents PS Plus).
+
+13 nouveaux tags créés : `Nautus`, `Magic Design Studios`, `Waste The Fallen`,
+`Royal Crow`, `Lovecraftien`, `American Horror Story`, `Jessica Lange`,
+`Evan Peters`, `Twitch`, `Amazon`, `Mike Minton`, `Hordeguard`, `Formula E`.
+
+---
+
+### Lot #17 — 2026-08-19 (10 articles, mode `--from-top`)
+
+Dernier lot de la reprise du chantier après une semaine de pause (~50 articles
+traités au total sur les lots #13 à #17). Contenu varié : une saison Netflix
+(Monster: The Lizzie Borden Story), un crossover comics Star Wars/Marvel, un film
+Brad Pitt, une preview Rhythm Paradise Groove, un article logistique Coupe du monde
+2026, deux jeux suisses (Horses of Hoofprint Bay, Roulette Dungeon), le "Reset"
+interne Xbox, Vaiana (remake) et les jeux PS Plus de juin.
+
+Points notables :
+- **114899 Monster: The Lizzie Borden Story** : première application de
+  l'exception ajoutée en v3.35 — le nom de base seul (`Monster`) jugé trop
+  générique pour identifier l'œuvre sans ambiguïté (collision possible avec
+  `Monster Fantasy` déjà existant), sous-titre complet conservé.
+- **111684 Coupe du monde 2026** : pas de tag d'identité récurrent créé — jugé
+  après discussion comme un article ponctuel (logistique de diffusion), pas un
+  sujet appelé à revenir comme `Formula E`. Décision au cas par cas, pas un
+  changement de vocabulaire.
+- **111644 Horses of Hoofprint Bay** et **111633 Roulette Dungeon** : deux jeux
+  suisses annoncés au même showcase Women-Led Games du Summer Game Fest.
+- **111677 XBOX Reset** : tagué `Microsoft` + `Xbox` (pas `Xbox Game Studios`) —
+  l'article couvre la direction corporate de la division dans son ensemble, pas
+  la publication d'un jeu précis par un studio first-party.
+
+17 nouveaux tags créés : `Monster: The Lizzie Borden Story`, `Ella Beatty`,
+`Charlie Hunnam`, `Kevin Smith`, `David Marquez`, `Heart Of The Beast`,
+`David Ayer`, `Brad Pitt`, `Rhythm Paradise`, `Rythme`, `Horses of Hoofprint Bay`,
+`thogli studios`, `The Mane Quest`, `Asha Sharma`, `Dwayne Johnson`,
+`Roulette Dungeon`, `Hooded Traveler Games`.
+
+---
+
 ## Décisions ouvertes à surveiller
 - **Mediawan** : gardé, à réévaluer s'il n'est pas réutilisé.
 - **Unitree** : gardé comme le plus connu des fabricants de robots.
