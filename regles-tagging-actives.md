@@ -71,6 +71,12 @@ pour proposer un lot — il remplace tout autre résumé ou checklist condensé.
   `Final Fantasy` + `Action-RPG` = le remake FF7). Pas de double franchise+sous-saga.
   → Bonus cross-media : une ombrelle établie (ex. `Alien`) relie jeu/film/série — ne pas
   créer de tag séparé pour une série/spin-off dérivé quand l'ombrelle existe déjà.
+  **Exception : un spin-off suffisamment large et distinct** (plusieurs saisons,
+  casting propre, développement dédié) se tague en plus de l'ombrelle, jamais à sa
+  place — les deux publics (fans de l'original, fans du spin-off) sont réels et
+  distincts. Ex. `House of the Dragon` reste tagué en plus de `Game of Thrones` ;
+  `Squadron 42` en plus de `Star Citizen`. Réservé aux spin-offs d'envergure, pas à
+  une simple mention épisodique ou un jeu dérivé mineur.
   → **Sous-titre toujours retiré, même pour une œuvre unique et autonome.** Un titre
   au format « Nom : Sous-titre » (séparateur deux-points) se tague sous son seul nom
   de base — ex. `Nautus: Echoes from Below` → `Nautus`, `Kumarn: The Wandering
@@ -80,6 +86,13 @@ pour proposer un lot — il remplace tout autre résumé ou checklist condensé.
   générique/courant pour identifier l'œuvre sans ambiguïté (risque de collision avec
   un titre non apparenté), garder le sous-titre complet et signaler le cas en
   `incertitudes`.
+- **Jeux LEGO originaux (sans licence croisée)** : même logique que le retrait de
+  numéro/sous-titre ci-dessus — le sous-titre de sous-marque est retiré, `LEGO` seul
+  reste le tag d'identité, la différenciation se faisant par les genres/thèmes,
+  comme pour `Final Fantasy`. Ex. `LEGO Skylines` (city-builder LEGO original) →
+  `LEGO` + `Gestion`. Ne s'applique qu'aux jeux LEGO sans franchise tierce embarquée
+  — un jeu comme `LEGO Star Wars` reste `LEGO` + `Star Wars` (produit dérivé, §2),
+  la licence croisée restant le vrai sujet identifiant à côté de la marque.
 - **Œuvre citée en comparaison ≠ tag** (« à la sauce God of War » → pas de tag).
 - **Personne = sujet → taguée** (interview, portrait, nécro, news de casting qui porte
   sur elle). Rôle central tagué, mention anecdotique non.
@@ -396,6 +409,10 @@ Steam Deck · VR · Virtual Boy · Xbox
 **Films/séries :** Apple TV+ · Canal+ · Crunchyroll · Disney+ · HBO Max · Netflix ·
 Paramount+ · Peacock · Prime Video
 
+*(`Montre connectée` couvre aussi les bracelets/trackers connectés (ex. Fitbit) —
+pas de tag séparé pour cette sous-catégorie, jugée trop niche pour ouvrir un angle
+de reco distinct.)*
+
 **Composants & matériel :** Alimentation · AR · Aspirateur robot · Boîtier ·
 Carte graphique · Carte mère · Casque audio · Chaise gaming · Clavier · Électroménager ·
 Écran · Manette · Matériel PC · Microphone · Montre connectée · Périphérique · Périphérique
@@ -490,6 +507,13 @@ irruption dans un monde par ailleurs réaliste.
 mais distincts, et se posent ensemble quand les deux sont vrais : un polar d'enquête →
 les deux ; un film de braquage vu côté police, sans investigation → `Policier` seul ; un
 jeu d'enquête surnaturelle sans police → `Enquête` seul.
+`Policier` ne couvre pas le crime en bac à sable façon GTA : un jeu où l'on incarne
+librement un criminel dans un monde ouvert satirique, sans traitement du crime par la
+police ni cadre de polar (enquête, institution, morale), ne reçoit pas ce tag — un
+cadre urbain criminel ne suffit pas à lui seul. Le test : le texte traite-t-il le crime
+(police, enquête, code du polar), ou le crime est-il simplement le terrain de jeu libre
+du joueur ? Dans le second cas → pas de tag. Un jeu où l'on incarne un policier (ex.
+Robocop) reste, lui, un cas net de `Policier`.
 À ne pas confondre avec `Thriller`, qui reste un **genre** (§3) : il décrit *comment* le
 récit est mené (tension, suspense), pas de quoi il parle. Un thriller peut être policier,
 politique, psychologique ou de science-fiction — les deux axes se cumulent.)*

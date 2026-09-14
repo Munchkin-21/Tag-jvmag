@@ -11,6 +11,49 @@
 > tranchés) vit dans [liste-maitresse-tags-jvmag.md](liste-maitresse-tags-jvmag.md).
 
 ## Changelog
+- **v3.38** (2026-08-27, lot #20) : **deux clarifications mineures actées pendant la
+  relecture du lot #20.**
+  1. **Spin-off suffisamment large et distinct : tagger l'ombrelle ET le spin-off,
+     pas l'un ou l'autre (§1)** — la règle existante (« ne pas créer de tag séparé
+     pour une série/spin-off dérivé quand l'ombrelle existe déjà ») ne distinguait
+     pas un spin-off mineur (ex. Alien: Earth) d'un spin-off d'envergure (plusieurs
+     saisons, casting propre). Motivé par House of the Dragon, initialement
+     consolidé sous `Game of Thrones` seul (article 102743) : l'humain a jugé que
+     la taille du spin-off justifiait un tag dédié en plus de l'ombrelle, pas à sa
+     place. Même logique appliquée à `Squadron 42` (article 110274, initialement
+     consolidé sous `Star Citizen`), un projet solo en développement depuis une
+     décennie dans le même univers.
+  2. **`Montre connectée` couvre aussi les bracelets/trackers connectés (§4)** —
+     motivé par le Google Fitbit Air (article 110235), un bracelet que le texte
+     distingue explicitement d'une smartwatch. Pas de tag séparé créé : jugé trop
+     niche pour ouvrir un angle de reco distinct de `Montre connectée`.
+- **v3.37** (2026-08-27, lot #19) : **Jeux LEGO originaux (sans licence croisée) : le
+  sous-titre de sous-marque est retiré, `LEGO` seul reste le tag d'identité (§1)** —
+  même logique que le retrait de numéro/sous-titre déjà en vigueur (Alien 2 → Alien,
+  Resident Evil: Requiem → Resident Evil) et que la différenciation par les genres
+  déjà actée pour Final Fantasy. Motivé par `LEGO Skylines`, un city-builder LEGO
+  original (pas une licence croisée comme LEGO Star Wars) : proposé d'abord comme
+  nouveau tag dédié, corrigé sur demande de l'humain en `LEGO` seul, la
+  différenciation se faisant via `Gestion` + les plateformes. **Portée** : ne
+  s'applique qu'aux jeux LEGO ORIGINAUX sans franchise tierce embarquée — un jeu
+  comme `LEGO Star Wars` reste `LEGO` + `Star Wars` (produit dérivé, §2 inchangé),
+  la licence croisée restant le vrai sujet identifiant à côté de la marque.
+- **v3.36** (2026-08-27, lot #18) : **`Policier` exclut désormais le crime en bac à
+  sable façon GTA (§5)** — la définition initiale (« univers du crime et de son
+  traitement ») était assez large pour couvrir n'importe quel cadre urbain criminel,
+  y compris un jeu où le joueur incarne librement un criminel dans une satire en
+  monde ouvert, sans aucun traitement du crime par la police ni cadre de polar.
+  Motivé par le lot de rattrapage `--from-top` (68 articles) : plusieurs articles
+  Grand Theft Auto VI avaient reçu `Policier` par déduction de trait stable (comme
+  `Espace` pour Star Wars), ce que l'humain a jugé incohérent — GTA n'est pas un
+  polar, c'est une satire de la criminalité vécue du côté du criminel, sans enquête
+  ni institution policière comme moteur narratif. À l'inverse, un jeu ou une série où
+  l'on incarne un policier (ex. Robocop, où le protagoniste EST l'institution
+  policière) reste un cas net d'application du tag. Nouveau test ajouté : le texte
+  traite-t-il le crime (police, enquête, morale du polar), ou le crime est-il
+  simplement le terrain de jeu libre du joueur ? **Pas de rétroactivité nécessaire** :
+  vérification faite sur les 15 articles déjà tagués `Grand Theft Auto` sur
+  WordPress, aucun ne portait `Policier`.
 - **v3.35** (2026-08-19, lot #16) : **sous-titre toujours retiré, même pour une œuvre
   unique et autonome (§1)** — inversion de la règle posée en v3.17. Jusqu'ici, un jeu
   autonome dont le titre officiel complet incluait un sous-titre (format « Nom :

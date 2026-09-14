@@ -1129,6 +1129,210 @@ Points notables :
 
 ---
 
+### Lot #18 — 2026-08-27 (20 articles)
+
+Contenu varié : deux jeux vidéo indés (Slot Machine Gun, Samson), un accès anticipé
+Ubisoft (Morbid Metal), Gran Turismo 7 (24H du Mans), Xenoblade Genesis, le remake
+Zelda: Ocarina of Time, Vivarium ; côté ciné/séries, The Social Reckoning (suite du
+Social Network), Le Chat Chapeauté, Enola Holmes 3, Jem et les Hologrammes,
+l'adaptation Helldivers (départ de Jason Momoa), The Dog Stars, Scooby-Doo: Origins ;
+un Nintendo Direct, un programme ARENA Cinemas et deux articles WWDC/iOS 27, plus
+deux tests hardware (casque Logitech, micro Razer).
+
+Points notables :
+- **Trois erreurs de casse « existant vs nouveau » corrigées au dry-run** :
+  `Screen Juice`, `Helldivers` et `WWDC` avaient été proposés en `tags` alors
+  qu'ils n'existaient pas encore sur WordPress (le vocabulaire fermé §6 autorise
+  `WWDC` comme événement, mais ça ne veut pas dire que le tag WP a déjà été créé
+  une première fois). `apply_batch.py --dry-run` a bloqué le lot entier avant
+  écriture — leçon : vérifier l'appartenance à `tags_existants`, pas seulement
+  la légitimité éditoriale du nom.
+- **97316 Helldivers (film)** : `Helldivers` créé pour la première fois comme tag
+  d'identité (jeu jamais couvert côté jeux vidéo sur le site à ce jour). Univers
+  déduit du jeu (`Science-fiction` + `Espace`) bien que l'article porte sur le
+  film. Jason Momoa tagué comme personne-sujet (départ de casting = le hook de
+  l'article), sans œuvre-signature (règle réservée aux réalisateurs/créateurs).
+- **111510 ARENA Cinemas / Disclosure Day** : cas limite de la règle "programme
+  mono-film vs vraie programmation" — `Disclosure Day` mis en avant en 2 phrases
+  dans l'intro (Spielberg, science-fiction) au sein d'une programmation de plus de
+  15 films. Tagué comme sujet réel malgré la brièveté ; à revoir si ce niveau de
+  mise en avant s'avère trop permissif à l'usage.
+- **111498 iOS 27** : `Suisse` posé sur la mention "Siri AI indisponible dans l'UE,
+  la Suisse devrait passer entre les gouttes" — jugé comme un vrai angle éditorial
+  (statut réglementaire différent), distinct d'une mention CHF/date routinière.
+  Le même jour, l'article WWDC 2026 (110267) mentionne "heure suisse" en passant
+  → pas tagué `Suisse` (routine).
+- **111613 The Social Reckoning** : suite explicite de The Social Network (2010,
+  jamais tagué) sous un titre entièrement différent — tag créé pour l'œuvre seule
+  plutôt que de forcer une ombrelle commune inexistante.
+- **111576 Xenoblade Genesis** : `Monolith Soft` identifié par recherche ciblée
+  (non cité dans le texte, studio unique et non ambigu de la franchise) ;
+  `JRPG` volontairement non posé à côté d'`Action-RPG` faute de certitude sur
+  la portée exacte de la règle "JRPG se pose en plus de RPG" pour un jeu à
+  combats temps réel — à trancher si le cas se représente.
+
+23 nouveaux tags créés : `Slot Machine Gun`, `Lakeview Games`, `Morbid Metal`,
+`Screen Juice`, `The Social Reckoning`, `Xenoblade`, `Monolith Soft`,
+`Le Chat Chapeauté`, `Enola Holmes`, `Jem et les Hologrammes`, `Kilter Films`,
+`Helldivers`, `Jason Momoa`, `PlayStation Productions`, `Samson`, `Liquid Swords`,
+`Disclosure Day`, `The Dog Stars`, `WWDC`, `Scooby-Doo`, `Vivarium`,
+`Studio Meadowflower`, `Serenity Forge`.
+
+---
+
+### Lot #19 — 2026-08-27 (68 articles, mode `--from-top` de rattrapage)
+
+Rattrapage complet demandé par l'humain : du plus récent (« GTA 6 sur Netflix ») jusqu'à
+un article précis servant de borne (« Blood of Dawnwalker, voici les configurations
+PC ! », 19.08), soit 68 articles jamais scannés (l'écart venait du curseur de reprise,
+resté bloqué autour du 16 juin — voir décision ouverte ci-dessous). Contenu très varié :
+5 articles Grand Theft Auto VI (preview officielle, fuites, communiqué Rockstar,
+Netflix), plusieurs jeux annoncés à la Gamescom/Opening Night Live (Tropico 7, Boltgun
+2, EXODUS, Nodus Fall, HUMANKIND 2, Worms: Galactic Tactics, Crazy Taxi: World Tour,
+LEGO Skylines…), des tests (Captain Tsubasa 2, Star Wars: Zero Company, Call of Duty
+Modern Warfare 4, Oblivion Remastered Switch 2, Evil School, Gallipoli, Marvel Tokon,
+Glorious GHS Wireless InfinitePlay), du hardware (SCUF, MOZA, Razer×Xbox 25 ans, Sony
+Xperia 10 VIII, Logitech Back to School), plusieurs films/séries (Alien/David, Robocop,
+Ali G, Black Mirror S8, Blue Eye Samurai, Golden Axe, Whalefall, Wildwood), deux
+programmes cinéma suisses (ARENA Cinemas, Cinémas de Sierre) et un nécro (Tim Curry).
+
+**Deux amendements de nomenclature actés pendant ce lot :**
+
+- **`Policier` exclut désormais le crime en bac à sable façon GTA (v3.36)** — la
+  définition posée initialement (« univers du crime et de son traitement ») était
+  assez large pour couvrir un jeu où le joueur incarne librement un criminel dans une
+  satire en monde ouvert. L'humain a jugé ça incohérent après relecture : GTA n'a pas
+  de traitement du crime par la police, contrairement à un vrai polar. Nouveau test :
+  le texte traite-t-il le crime (police, enquête, institution), ou le crime est-il
+  simplement le terrain de jeu libre du joueur ? `Policier` retiré des 4 articles GTA
+  du lot (115880, 115849, 115807, 115304) ; conservé sur 68581 (Robocop, où le
+  protagoniste EST l'institution policière). Vérifié : aucun des 15 articles GTA déjà
+  publiés sur WordPress ne portait ce tag — pas de correction rétroactive nécessaire.
+- **Jeux LEGO originaux sans licence croisée : `LEGO` seul, pas de sous-tag dédié
+  (v3.37)** — motivé par `LEGO Skylines` (115729), un city-builder LEGO original
+  (studio Iceflake, pas Colossal Order/Paradox qui font `Cities: Skylines`) proposé
+  d'abord comme nouveau tag dédié. L'humain a demandé le même traitement que
+  Alien 2 → `Alien` ou Resident Evil: Requiem → `Resident Evil` : `LEGO` seul comme
+  identité, `Gestion` + les plateformes pour la différenciation. Ne s'applique
+  qu'aux jeux LEGO ORIGINAUX ; un `LEGO Star Wars` resterait `LEGO` + `Star Wars`
+  (produit dérivé, §2, inchangé).
+
+Points notables (hors amendements) :
+- **115846 Alien/David** : Ridley Scott tagué comme personne-sujet (c'est lui qui
+  confirme la nouvelle au LA Times — le hook éditorial, pas un simple crédit de
+  réalisateur) ; Michael Fassbender tagué pour le retour confirmé, sans œuvre-signature
+  (réservée aux réalisateurs/créateurs, jamais aux acteurs).
+- **115840 Carnet noir Tim Curry** : les deux rôles longuement développés dans le texte
+  (`It`, `The Rocky Horror Picture Show`) tagués comme dans le précédent Sam Neill →
+  `Jurassic Park` ; la liste finale de films anecdotiques (Clue, Annie…) ignorée.
+- **68581 Robocop (Amazon)** : `Policier` + `Robot` + `Science-fiction` déduits du
+  synopsis explicite (« un policier qui est à la fois homme et machine »).
+  `Dan Stevens` tagué comme personne-sujet (annonce de casting = le hook).
+  `Atomic Monster` créé distinct de `Blumhouse` (deux sociétés de prod citées).
+  Premier tag `Robocop` créé sur le site (aucun article n'en portait avant).
+  Vérification faite : `Policier` n'existait sur aucun article GTA déjà publié.
+- **115655 MOZA** : trois marques automobiles (`Mercedes-Benz`, `Porsche`, `Ford`)
+  taguées comme partenaires explicites de volants dédiés — granularité à confirmer
+  à l'usage, pas de précédent clair pour ce cas de figure (hardware, pas jeu de course).
+- **115789 Netflix (Black Mirror/Being Gordon Ramsay/Legends)** : trois séries
+  développées chacune dans son propre paragraphe, toutes taguées malgré le format
+  "annonce groupée" — `Legends` signalé comme titre très générique (risque de
+  collision), à surveiller.
+- **115725 / 115491 ARENA Cinemas / Cinémas de Sierre** : deux programmes hebdomadaires
+  traités selon la règle "programme mono/duo-film vs vraie programmation" — le second
+  est un cas net (un seul film développé), le premier un cas limite (deux films promus
+  dans le titre même, au sein d'une programmation de 15+ films).
+- **115132 Marvel Tokon: Fighting Souls** : tag de jeu dédié créé en plus de `Marvel`
+  (même logique que `EA SPORTS FC` sous licence FIFA) plutôt que de s'appuyer sur
+  `Marvel` seul.
+- **115413 / 115368 Xbox 25 ans** : deux articles distincts sur les 25 ans de la
+  marque (fuite Series X25, réplique LEGO-like Mattel) — traités séparément, pas de
+  tag "anniversaire" dédié (transitoire, exclu par la règle Statut/format).
+
+76 nouveaux tags créés : `Tropico`, `Kalypso Media`, `Gaming Minds Studios`,
+`Auroch Digital`, `Big Fan Games`, `Michael Fassbender`, `Ridley Scott`, `Tim Curry`,
+`The Rocky Horror Picture Show`, `Captain Tsubasa`, `Robocop`, `Dan Stevens`,
+`Atomic Monster`, `SCUF Gaming`, `Mega Man`, `Black Mirror`, `Being Gordon Ramsay`,
+`Legends`, `Gordon Ramsay`, `MotoGP`, `Mercedes-Benz`, `Porsche`, `Ford`,
+`Iceflake Studios`, `Game of Thrones`, `PlaySide Studios`, `Stranger Things`,
+`The Witcher`, `CD Projekt RED`, `Road Kings`, `Nodus Fall`, `Humankind`,
+`Amplitude Studios`, `Worms`, `Absolutely Games`, `Ali G`, `Sacha Baron Cohen`,
+`Borat`, `Gen1Recomp`, `Alien Breed`, `Commodore`, `Antstream Arcade`,
+`Kit Harington`, `Nicholas Hoult`, `Evil School`, `CineGame Interactive`,
+`Hello Kitty`, `Sanrio`, `McDonald's`, `Nouvelle-Zélande`, `Facebook`, `Snapchat`,
+`Virtuos`, `Mondo Robotics`, `Box Knight`, `We Made A Thing Studios`,
+`Japanese Ramen Simulator`, `Wild Dog`, `Gallipoli`, `Blue Eye Samurai`, `2XKO`,
+`Ghost Soldier`, `Psychonauts`, `Esport`, `Golden Axe`, `Endless Rails`,
+`Black Myth`, `Game Science`, `Marvel Tokon`, `Photo Roboto`, `Whalefall`,
+`Wildwood`, `LAIKA Studios`, `Musée Suisse du Jeu`, `The Blood of Dawnwalker`,
+`Rebel Wolves`.
+
+---
+
+### Lot #20 — 2026-08-27 (50 articles, mode reprise)
+
+Reprise normale du scan là où le lot #18 s'était arrêté (avant le 8 juin 2026, jusqu'au
+25 mai). Contenu très varié : beaucoup de jeux indés/annonces (Enginefall, Subnautica 2,
+MASAKRE, Corsair Cove, Windrose, Tiebreakers, RUNNING TRAIN, Enter the Chronosphere,
+Kioku: Last Summer, HYPERyuki, Imperium Eternal, Yerba Buena, Planet Zoo 2, Ace Driver),
+deux gros dossiers hardware (ASUS ROG 20 ans, NVIDIA RTX Spark au Computex), plusieurs
+tests (007 First Light, Pictonico!, Razer Hammerhead Pro V3, Google Fitbit Air), un
+entretien exclusif (Jean-Marc Anthony Kabeya, voix française de Pokémon, à Mewseum
+Vevey), deux nécros/hommages (Marcia Lucas), Red Bull Gamerations (événement suisse),
+et plusieurs programmes ciné (ARENA Cinemas, Cinémas de Sierre).
+
+**Deux clarifications de nomenclature actées (v3.38), toutes deux à la relecture
+humaine du lot proposé :**
+
+- **Spin-off suffisamment large et distinct : tagger l'ombrelle ET le spin-off (§1)**
+  — House of the Dragon (102743) avait été consolidé sous `Game of Thrones` seul ;
+  l'humain a jugé que sa taille (3 saisons, casting propre) justifiait un tag dédié
+  en plus de l'ombrelle. Même correction appliquée à `Squadron 42` (110274),
+  initialement consolidé sous `Star Citizen`.
+- **`Montre connectée` couvre aussi les bracelets connectés (§4)** — le Google
+  Fitbit Air (110235) avait été laissé sans tag composant faute de correspondance
+  exacte (le texte insiste sur la distinction bracelet/smartwatch) ; l'humain a
+  tranché que la sous-catégorie était trop niche pour un tag séparé.
+
+Points notables (hors amendements) :
+- **110335 LEGO Skylines (fuite de classification)** : premier cas d'application de
+  la règle `LEGO` seul actée au lot #19 (v3.37) — `LEGO` + `Paradox Interactive` +
+  `Gestion`, sans tag dédié. Les 4 autres titres de la même fuite (Persona 4 Revival,
+  Gears of War: E-Day, Ace Combat 8, Marvel's Guardians of the Galaxy) non tagués,
+  simplement cités sans développement individuel.
+- **110539 Pictonico!** : commercialisé comme « party-game solo », mais la définition
+  fermée de `Party game` exige du multijoueur local — non tagué, l'humain a confirmé
+  cette lecture stricte. `WarioWare` cité en comparaison (« héritier spirituel »),
+  jamais tagué non plus (même logique que LEGO Skylines/Cities Skylines au lot #19).
+- **110653 Carnet noir Marcia Lucas** : `Star Wars` tagué (œuvre traversée dans sa
+  carrière), pas son thème (`Espace`/`Science-fiction`) — lien biographique, pas
+  définissant, même logique que Sam Neill/Jurassic Park.
+- **110706 / 108567 Red Bull Gamerations** : événement déjà dans le vocabulaire fermé
+  §6 mais jamais encore créé comme tag WordPress — première création. Les jeux du
+  programme (Tetris, Need for Speed 2, Tekken 6, Chained Together) non tagués
+  individuellement (épreuves d'une compétition, pas des disponibilités concrètes).
+- **110271 Entretien Jean-Marc Anthony Kabeya** : `Suisse` posé sur la base d'une
+  section entière de l'interview consacrée à son rapport au pays, pas une mention
+  incidente — cas net.
+- **110321 Enter the Chronosphere** : `Shoot'em up` posé sur un roguelike au tour par
+  tour (mécanique d'esquive de balles explicite dans le texte, malgré la structure
+  atypique pour ce genre habituellement temps réel) — à surveiller si le cas se
+  reproduit.
+
+53 nouveaux tags créés : `Enginefall`, `Red Rover Interactive`, `Subnautica`,
+`Unknown Worlds`, `Computex`, `Scary Movie`, `MASAKRE`, `Seelvent`, `Prutaleks`,
+`Red Bull Gamerations`, `Marcia Lucas`, `Mesoké`, `House of the Dragon`, `Chine`,
+`GigaAI`, `Unitree`, `Pictonico`, `Corsair Cove`, `James Bond`, `Planet Zoo`,
+`Frontier Developments`, `Ace Driver`, `Windrose`, `Kraken Express`, `Tiebreakers`,
+`Tiecorp Studio`, `RUNNING TRAIN`, `Novatetsu Games`, `Fool's Theory`, `Yerba Buena`,
+`Mad About Pandas`, `Imperium Eternal`, `MicroProse`, `Le Diable s'habille en Prada`,
+`Fitbit`, `Nickelodeon All-Star Brawl`, `Spotify`, `HYPERyuki`, `Wabisabi Games`,
+`Acclaim`, `Enter the Chronosphere`, `Effort Star`, `Joystick Ventures`,
+`Gamirror Games`, `Beep Japan`, `Ferrari`, `Jean-Marc Anthony Kabeya`,
+`Star Citizen`, `Cloud Imperium Games`, `Squadron 42`, `Kioku`, `Lugn Games`.
+
+---
+
 ## Décisions ouvertes à surveiller
 - **Mediawan** : gardé, à réévaluer s'il n'est pas réutilisé.
 - **Unitree** : gardé comme le plus connu des fabricants de robots.
@@ -1140,9 +1344,24 @@ Points notables :
 - **Sujets société-tech hors gaming/divertissement** (ex. lois sur les réseaux sociaux) : idée d'un
   tag dédié évoquée, pas tranchée — ces articles ressortent avec très peu de tags faute de facette
   applicable (voir France <15 ans, lot #7).
+- **`JRPG` + `Action-RPG`** : la règle §3 dit "JRPG se pose en plus de RPG, jamais à
+  sa place", mais ne tranche pas explicitement le cas d'un RPG japonais à combats
+  temps réel (Action-RPG plutôt que RPG tour par tour, ex. Xenoblade). Laissé sans
+  JRPG au lot #18 par prudence — à clarifier si le cas revient.
+- **Seuil de mise en avant pour un article "programme"** (ARENA Cinemas et
+  assimilés) : `Disclosure Day` tagué au lot #18 sur la base de 2 phrases d'intro
+  dans une programmation de 15+ films — précédent à surveiller, pourrait s'avérer
+  trop permissif.
 - **`AR` conflate matériel et fonctionnalité logicielle** : posé à la fois pour du vrai matériel
   (lunettes ROG XREAL R1, pairing `Périphérique` ajouté v3.27) et pour un mode caméra en réalité
   augmentée dans un jeu mobile (Pokémon GO, article 113119). Le pairing mécanique bloque la fusion
   `Pokémon GO` → `Pokémon` tant que ce n'est pas tranché — à trancher : deux tags distincts
   (`AR` matériel vs un thème `Réalité augmentée` pour la fonctionnalité), ou une exception au
   pairing pour ce cas d'usage.
+- **Curseur de reprise resté bloqué mi-juin alors que ~68 articles plus récents restaient
+  non scannés** (découvert avant le lot #19) : le mode reprise normal (`fetch_batch.py --size
+  N`) était très en retard sur le catalogue réel, ce qui a nécessité un rattrapage manuel
+  `--from-top` explicitement demandé par l'humain plutôt que détecté automatiquement. Pas de
+  bug identifié dans le script — mais à surveiller : relancer `--from-top` périodiquement
+  plutôt que d'attendre que l'écart soit visible, pour éviter qu'un gros volume de rattrapage
+  (comme les 68 articles du lot #19) ne s'accumule à nouveau.
