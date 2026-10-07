@@ -1,0 +1,68 @@
+[
+  {
+    "id": 115074,
+    "tags": ["ASUS", "Manette", "Périphérique", "PC", "Suisse"],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 115062,
+    "tags": ["Ridge Racer", "Namco", "Wanszai", "Course", "PC", "Xbox", "Multijoueur", "En ligne", "Rétro"],
+    "nouveaux_tags": ["Rave Racer"],
+    "incertitudes": []
+  },
+  {
+    "id": 111571,
+    "tags": ["Kingdom Hearts", "Square Enix", "Xbox", "PlayStation", "PC", "Nintendo Switch", "D23", "Action-RPG"],
+    "nouveaux_tags": ["Nintendo Direct"],
+    "incertitudes": [
+      "Aucun thème §5 du vocabulaire fermé ne correspond clairement à l'univers multivers Disney de Kingdom Hearts — non posé plutôt que forcé."
+    ]
+  },
+  {
+    "id": 115023,
+    "tags": ["D23", "Disney", "Marvel", "Star Wars", "Pixar", "Kingdom Hearts"],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Roundup de 14 annonces différentes (Marvel, Star Wars, Pixar, Disney Animation...) — seules les grandes marques organisatrices de l'article et Kingdom Hearts (sous-section développée en détail, coeur éditorial JVMag) sont taguées individuellement ; les ~13 autres titres (Frozen 3, Avengers: Doomsday, X-Men, Ahsoka, Coco 2, Percy Jackson, Raiponce, Bluey, Oswald, Clay, VisionQuest, Star Wars: Starfighter, Ghost Market) sont écartés, règle 'listes = pas de tags'."
+    ]
+  },
+  {
+    "id": 115005,
+    "tags": ["STALKER", "GSC Game World", "FPS", "Survie", "Post-apocalyptique", "PC", "Xbox", "PlayStation"],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 114988,
+    "tags": ["Clavier", "Périphérique", "Suisse", "PC"],
+    "nouveaux_tags": ["Keychron"],
+    "incertitudes": []
+  },
+  {
+    "id": 114984,
+    "tags": ["RPG", "FPS", "Science-fiction", "Espace", "VR"],
+    "nouveaux_tags": ["System Shock", "Flat2VR Studios", "Nightdive Studios"],
+    "incertitudes": []
+  },
+  {
+    "id": 114980,
+    "tags": ["Action-RPG", "Cyberpunk", "Policier", "Enquête", "PC", "Indé", "ByteRockers' Games"],
+    "nouveaux_tags": ["Neo Berlin 2087", "Elysium Game Studio"],
+    "incertitudes": [
+      "Studio dev (Elysium Game Studio) et éditeur (ByteRockers' Games) complétés par recherche ciblée externe (§2), absents du texte — titre non-ambigu, sources concordantes (Gematsu, Steam, RPGamer)."
+    ]
+  },
+  {
+    "id": 114976,
+    "tags": ["2K", "Action-aventure", "Monde ouvert", "Policier", "PC", "PlayStation", "Xbox"],
+    "nouveaux_tags": ["Mafia", "Hangar 13"],
+    "incertitudes": []
+  },
+  {
+    "id": 114968,
+    "tags": ["Lionsgate", "Horreur"],
+    "nouveaux_tags": ["Beware Boiúna", "Mike P. Nelson", "Brésil"],
+    "incertitudes": []
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": 116016,
+    "tags": ["Disney", "Disney+", "Brésil"],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 116011,
+    "tags": ["Roguelike", "PC", "Médiéval", "Fantasy"],
+    "nouveaux_tags": ["Wanderburg", "Randwerk", "Sidekick Publishing"],
+    "incertitudes": []
+  },
+  {
+    "id": 115915,
+    "tags": ["Grand Theft Auto", "Rockstar Games", "Take-Two Interactive", "Action-aventure", "PlayStation", "Xbox", "Netflix", "Monde ouvert"],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Xbox conservé : le texte dit \"aucune confirmation au sujet de la version PS5Pro, ni Xbox Series X/S\", ce qui présuppose une version Xbox Series X/S existante (seules les perfs précises ne sont pas confirmées) — lecture jugée suffisante pour tagger la plateforme, mais reste une inférence grammaticale plutôt qu'une confirmation explicite et directe.",
+      "Aucun thème/univers du vocabulaire fermé (§5) ne correspond au cadre de GTA VI (crime contemporain en monde ouvert satirique) — `Policier` explicitement exclu pour ce cas depuis l'amendement v3.36 (bac à sable façon GTA), et aucun autre thème de la liste ne convient. Ligne #6 de la Grille donc volontairement vide."
+    ]
+  },
+  {
+    "id": 115910,
+    "tags": ["Flight Simulator", "Microsoft", "Simulation", "PC", "Xbox", "PlayStation", "Aviation"],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 115903,
+    "tags": ["Mercedes-Benz", "Casque audio", "Périphérique", "Microphone", "Gamescom"],
+    "nouveaux_tags": ["Sennheiser"],
+    "incertitudes": []
+  },
+  {
+    "id": 115890,
+    "tags": ["Samsung", "Écran", "Périphérique", "Gamescom"],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  }
+]

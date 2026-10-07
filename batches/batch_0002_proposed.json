@@ -1,0 +1,42 @@
+[
+  {
+    "id": 114249,
+    "title": "BioEden, comme un air de Spore dans ses veines",
+    "tags": ["BioEden", "Broken Arms Games", "Focus Entertainment", "Simulation", "Gestion", "Xbox", "PlayStation", "Nintendo Switch", "PC"],
+    "nouveaux_tags": ["BioEden", "Broken Arms Games", "Focus Entertainment"],
+    "incertitudes": [
+      "Focus Entertainment taggé comme éditeur tiers reconnu (pas first-party), cohérent avec les autres éditeurs tiers déjà présents (Capcom, Konami, Bandai Namco…) — à confirmer que le seuil reste bon"
+    ]
+  },
+  {
+    "id": 114243,
+    "title": "Cinémas de Sierre : Le programme de la semaine n°31",
+    "tags": ["Cinéma", "Suisse"],
+    "nouveaux_tags": ["Cinémas de Sierre"],
+    "incertitudes": [
+      "QUESTION : un tag 'Sierre' existe déjà sur le site (probablement hérité, contraire à la règle 'pas de tags de ville') — fusionner dessus, ou créer 'Cinémas de Sierre' pour rester cohérent avec le précédent 'ARENA Cinemas' (nom de l'enseigne, pas de la ville) ?",
+      "Spider-Man: Brand New Day non tagué (cohérent avec le précédent ARENA Cinemas qui ne tague pas le film vedette d'un programme) — mais ici l'article lui consacre l'essentiel du texte (synopsis + casting détaillés), à confirmer si ça change la donne"
+    ]
+  },
+  {
+    "id": 114238,
+    "title": "Intel Core 2 Duo, l'iconique processeur Intel fête ses 20 ans",
+    "tags": ["Intel", "AMD", "Processeur", "Rétro", "PC"],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 114228,
+    "title": "ARENA Cinemas, la programmation de la semaine avec le nouveau Spider-Man !",
+    "tags": ["ARENA Cinemas", "Cinéma", "Suisse"],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 110764,
+    "title": "ZeroSpace, un RTS/RPG qui propose quatre factions, une vraie campagne et plus de 150 unités",
+    "tags": ["ZeroSpace", "Starlance Studios", "Ironward", "Stratégie", "RPG", "Science-fiction", "Espace", "Solo", "Multijoueur", "Coopératif", "PC"],
+    "nouveaux_tags": ["ZeroSpace", "Starlance Studios", "Ironward"],
+    "incertitudes": []
+  }
+]

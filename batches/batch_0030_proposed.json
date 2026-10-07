@@ -1,0 +1,66 @@
+[
+  {
+    "id": 114899,
+    "tags": ["Netflix", "Biopic"],
+    "nouveaux_tags": ["Monster: The Lizzie Borden Story", "Ella Beatty", "Charlie Hunnam"],
+    "incertitudes": [
+      "Nom de base 'Monster' jugé trop générique pour identifier cette œuvre sans ambiguïté (collision possible avec tout contenu à thème 'monstre', ex. tag existant 'Monster Fantasy') — sous-titre complet conservé par l'exception prévue en §1 (v3.35)."
+    ]
+  },
+  {
+    "id": 114890,
+    "tags": ["Star Wars", "Marvel", "Espace", "Science-fiction", "Super-héros"],
+    "nouveaux_tags": ["Kevin Smith", "David Marquez"],
+    "incertitudes": []
+  },
+  {
+    "id": 111693,
+    "tags": ["Paramount", "Thriller"],
+    "nouveaux_tags": ["Heart Of The Beast", "David Ayer", "Brad Pitt"],
+    "incertitudes": []
+  },
+  {
+    "id": 110507,
+    "tags": ["Nintendo", "Coopératif", "Local", "Multijoueur", "Solo", "Nintendo Switch"],
+    "nouveaux_tags": ["Rhythm Paradise", "Rythme"],
+    "incertitudes": []
+  },
+  {
+    "id": 111684,
+    "tags": ["Suisse", "France"],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Faudrait-il créer un tag d'identité récurrent 'Coupe du Monde' (même logique que 'Formula E') pour relier les futurs articles de couverture du tournoi ? Pas tranché — pour l'instant seuls Suisse/France sont posés, chacun avec une section dédiée explicite dans le texte."
+    ]
+  },
+  {
+    "id": 111644,
+    "tags": ["Gestion", "Simulation", "PC", "Suisse", "Summer Game Fest"],
+    "nouveaux_tags": ["Horses of Hoofprint Bay", "thogli studios", "The Mane Quest"],
+    "incertitudes": []
+  },
+  {
+    "id": 111677,
+    "tags": ["Microsoft", "Xbox"],
+    "nouveaux_tags": ["Asha Sharma"],
+    "incertitudes": []
+  },
+  {
+    "id": 111655,
+    "tags": ["Vaiana", "Disney", "Aventure", "Mythologie"],
+    "nouveaux_tags": ["Dwayne Johnson"],
+    "incertitudes": []
+  },
+  {
+    "id": 111647,
+    "tags": ["PlayStation", "PlayStation Plus"],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 111633,
+    "tags": ["RPG", "Stratégie", "Roguelike", "PC", "Suisse", "Summer Game Fest", "Indé"],
+    "nouveaux_tags": ["Roulette Dungeon", "Hooded Traveler Games"],
+    "incertitudes": []
+  }
+]

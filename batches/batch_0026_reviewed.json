@@ -1,0 +1,68 @@
+[
+  {
+    "id": 115266,
+    "tags": ["MMO", "RPG", "Indé", "PC", "Mobile", "Coopératif", "Multijoueur", "En ligne"],
+    "nouveaux_tags": ["Fantasy Online", "Pixel Games LLC", "Jeromy Stroh"],
+    "incertitudes": [
+      "Le titre contient 'Fantasy' mais aucun élément fantastique/magique n'est décrit dans le texte (juste des stats génériques force/endurance/agilité/intelligence) — pas assez pour poser le thème Fantasy (§5), signalé plutôt que déduit du seul nom."
+    ]
+  },
+  {
+    "id": 115256,
+    "tags": ["PC", "Coopératif", "Multijoueur", "Guerre froide", "Shoot'em up"],
+    "nouveaux_tags": ["Riot Riders", "Bombed School"],
+    "incertitudes": [
+      "Local vs En ligne non précisé pour le mode 2 joueurs (tireur/pilote) — non déduit."
+    ]
+  },
+  {
+    "id": 115261,
+    "tags": ["PC", "Infiltration", "Horreur", "Indé"],
+    "nouveaux_tags": ["Kumarn: The Wandering Spirit", "WereBuff Studio"],
+    "incertitudes": [
+      "Studio dev (WereBuff Studio, Bangkok) et statut indépendant non cités dans le texte — complétés par recherche ciblée (§2), source unique et non-ambiguë : communiqués Wired Productions/Gamescom 2026 confirmant WereBuff Studio comme développeur indé de ce titre."
+    ]
+  },
+  {
+    "id": 115235,
+    "tags": ["Batman", "Super-héros", "LEGO", "DC", "Warner Bros."],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 115248,
+    "tags": ["Grand Theft Auto", "Rockstar Games", "Take-Two Interactive", "Action-aventure", "Monde ouvert"],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 115224,
+    "tags": ["Microsoft", "Xbox", "Xbox Game Pass", "PC", "Cloud gaming"],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 115217,
+    "tags": ["Action"],
+    "nouveaux_tags": ["Fast & Furious", "Vin Diesel"],
+    "incertitudes": []
+  },
+  {
+    "id": 115212,
+    "tags": ["PC", "FPS"],
+    "nouveaux_tags": ["Bodycam", "Reissad Studio"],
+    "incertitudes": []
+  },
+  {
+    "id": 115179,
+    "tags": ["ARENA Cinemas", "Cinéma", "Suisse"],
+    "nouveaux_tags": ["Mutiny", "Jason Statham"],
+    "incertitudes": []
+  },
+  {
+    "id": 101312,
+    "tags": ["PC", "Xbox", "PlayStation", "Nintendo Switch", "Action", "Indé"],
+    "nouveaux_tags": ["Future Knight", "Studio Koba", "Aeternum Game Studios"],
+    "incertitudes": []
+  }
+]

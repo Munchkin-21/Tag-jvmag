@@ -1,0 +1,660 @@
+[
+  {
+    "id": 111445,
+    "tags": [
+      "Extraction shooter",
+      "PC",
+      "Multijoueur"
+    ],
+    "nouveaux_tags": [
+      "Enginefall",
+      "Red Rover Interactive"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 110882,
+    "tags": [
+      "Disney",
+      "Disney+"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Programme mensuel listant plus de 5 titres (Not Suitable for Work, Will Trent S4, Alice et Steve, Avatar: de Feu et de Cendres, The Bear S5...) — aucun tag individuel posé, traité comme vraie programmation multi-titres."
+    ]
+  },
+  {
+    "id": 110769,
+    "tags": [
+      "Survie",
+      "Coopératif",
+      "Multijoueur",
+      "Science-fiction"
+    ],
+    "nouveaux_tags": [
+      "Subnautica",
+      "Unknown Worlds"
+    ],
+    "incertitudes": [
+      "Plateforme non explicitement mentionnée dans le texte (probablement PC/Steam vu le contexte, mais non confirmé)."
+    ]
+  },
+  {
+    "id": 110777,
+    "tags": [
+      "ASUS",
+      "Carte mère",
+      "Carte graphique",
+      "Alimentation",
+      "Boîtier",
+      "Refroidissement",
+      "Matériel PC",
+      "Écran",
+      "Réseau",
+      "Clavier",
+      "Souris",
+      "Chaise gaming",
+      "Périphérique"
+    ],
+    "nouveaux_tags": [
+      "Computex"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 110770,
+    "tags": [
+      "Comédie",
+      "Cinémas de Sierre",
+      "Suisse"
+    ],
+    "nouveaux_tags": [
+      "Scary Movie"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 110756,
+    "tags": [
+      "Action-RPG",
+      "Hack'n'slash",
+      "PC",
+      "Fantasy"
+    ],
+    "nouveaux_tags": [
+      "MASAKRE",
+      "Seelvent",
+      "Prutaleks"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 110749,
+    "tags": [
+      "NVIDIA",
+      "Processeur",
+      "Matériel PC"
+    ],
+    "nouveaux_tags": [
+      "Computex"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 110598,
+    "tags": [
+      "Razer",
+      "Casque audio",
+      "Périphérique",
+      "PlayStation",
+      "Nintendo Switch"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 110712,
+    "tags": [
+      "Indé"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Liste de 43 jeux indépendants — aucun tag individuel posé (liste bien au-delà du seuil ≤5), y compris Mesoké malgré le lien vers son test séparé (article 110611 du même lot)."
+    ]
+  },
+  {
+    "id": 110706,
+    "tags": [
+      "Suisse"
+    ],
+    "nouveaux_tags": [
+      "Red Bull Gamerations"
+    ],
+    "incertitudes": [
+      "Jeux du programme (Tetris, Need for Speed 2, Tekken 6, Chained Together) non tagués individuellement — épreuves d'une compétition, pas des sorties/disponibilités concrètes."
+    ]
+  },
+  {
+    "id": 110679,
+    "tags": [
+      "Minecraft",
+      "Warner Bros."
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Aucun thème/univers évident ne correspond au vocabulaire fermé pour Minecraft (pas franchement Fantasy ni Science-fiction) — pas de tag posé faute de certitude."
+    ]
+  },
+  {
+    "id": 108567,
+    "tags": [
+      "Suisse"
+    ],
+    "nouveaux_tags": [
+      "Red Bull Gamerations"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 110649,
+    "tags": [
+      "Rayman",
+      "Ubisoft",
+      "Plateforme",
+      "Coopératif",
+      "Multijoueur",
+      "Local",
+      "Remaster"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Plateforme ambiguë : fuite via une page Microsoft Store, qui sert à la fois Xbox et PC — pas de tag posé faute de certitude sur laquelle (ou les deux)."
+    ]
+  },
+  {
+    "id": 110653,
+    "tags": [
+      "Star Wars",
+      "Lucasfilm",
+      "Carnet noir"
+    ],
+    "nouveaux_tags": [
+      "Marcia Lucas"
+    ],
+    "incertitudes": [
+      "American Graffiti, Taxi Driver et Alice n'est Plus Ici cités brièvement dans la liste de sa filmographie — non tagués (liste anecdotique, comme le précédent Tim Curry)."
+    ]
+  },
+  {
+    "id": 110611,
+    "tags": [
+      "Aventure",
+      "PC"
+    ],
+    "nouveaux_tags": [
+      "Mesoké"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 102743,
+    "tags": [
+      "Game of Thrones",
+      "HBO Max",
+      "Fantasy",
+      "Médiéval"
+    ],
+    "nouveaux_tags": [
+      "House of the Dragon"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 110599,
+    "tags": [
+      "Robot"
+    ],
+    "nouveaux_tags": [
+      "Chine",
+      "GigaAI",
+      "Unitree"
+    ],
+    "incertitudes": [
+      "Agibot cité une seule fois sans détail — non tagué, contrairement à GigaAI et Unitree qui ont un prix/produit précis développé."
+    ]
+  },
+  {
+    "id": 110592,
+    "tags": [
+      "FRITZ!",
+      "Réseau",
+      "Périphérique",
+      "Suisse"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 110539,
+    "tags": [
+      "Intelligent Systems",
+      "Nintendo",
+      "Mobile",
+      "Solo"
+    ],
+    "nouveaux_tags": [
+      "Pictonico"
+    ],
+    "incertitudes": [
+      "Commercialisé comme « party-game solo » mais la définition fermée de Party game exige du multijoueur local — non tagué faute de correspondance stricte ; WarioWare cité en comparaison (« héritier spirituel »), pas tagué."
+    ]
+  },
+  {
+    "id": 107299,
+    "tags": [
+      "Gestion",
+      "Stratégie",
+      "PC",
+      "Xbox Game Pass",
+      "Pirates"
+    ],
+    "nouveaux_tags": [
+      "Corsair Cove"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 110540,
+    "tags": [
+      "IO Interactive",
+      "Infiltration",
+      "Action"
+    ],
+    "nouveaux_tags": [
+      "James Bond"
+    ],
+    "incertitudes": [
+      "Plateforme(s) non mentionnée(s) explicitement dans le texte de ce test."
+    ]
+  },
+  {
+    "id": 110527,
+    "tags": [
+      "BeamNG",
+      "Simulation",
+      "PlayStation",
+      "PC"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 110522,
+    "tags": [
+      "Gestion",
+      "PC",
+      "PlayStation",
+      "Xbox"
+    ],
+    "nouveaux_tags": [
+      "Planet Zoo",
+      "Frontier Developments"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 110509,
+    "tags": [
+      "BYD",
+      "Voiture",
+      "Voiture hybride"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 110491,
+    "tags": [
+      "Namco",
+      "Hamster Corporation",
+      "Course",
+      "Nintendo Switch",
+      "PlayStation",
+      "Xbox",
+      "Rétro",
+      "Multijoueur",
+      "Local",
+      "En ligne"
+    ],
+    "nouveaux_tags": [
+      "Ace Driver"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 110466,
+    "tags": [
+      "Pocketpair",
+      "Souls-like",
+      "Survie",
+      "Aventure",
+      "PC",
+      "Pirates",
+      "Monde ouvert"
+    ],
+    "nouveaux_tags": [
+      "Windrose",
+      "Kraken Express"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 110487,
+    "tags": [
+      "Action",
+      "Shoot'em up",
+      "PC"
+    ],
+    "nouveaux_tags": [
+      "Tiebreakers",
+      "Tiecorp Studio"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 110456,
+    "tags": [
+      "X-Men",
+      "Marvel",
+      "Disney+",
+      "Super-héros",
+      "Animation"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 110451,
+    "tags": [
+      "Disclosure Day",
+      "Science-fiction"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 110446,
+    "tags": [
+      "Simulation",
+      "PC"
+    ],
+    "nouveaux_tags": [
+      "RUNNING TRAIN",
+      "Novatetsu Games"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 110431,
+    "tags": [
+      "The Witcher",
+      "CD Projekt RED",
+      "Action-RPG",
+      "PlayStation",
+      "Xbox",
+      "PC",
+      "Fantasy",
+      "Médiéval"
+    ],
+    "nouveaux_tags": [
+      "Fool's Theory"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 110421,
+    "tags": [
+      "Dreame",
+      "Aspirateur robot",
+      "Électroménager"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 104469,
+    "tags": [
+      "Focus Entertainment",
+      "Aventure",
+      "Plateforme",
+      "Réflexion",
+      "PC",
+      "PlayStation",
+      "Xbox",
+      "Fantastique"
+    ],
+    "nouveaux_tags": [
+      "Yerba Buena",
+      "Mad About Pandas"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 110380,
+    "tags": [
+      "Corsair",
+      "RAM",
+      "Matériel PC"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 110399,
+    "tags": [
+      "Toy Story",
+      "Disney",
+      "Pixar",
+      "Animation"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 68375,
+    "tags": [
+      "Stratégie",
+      "PC",
+      "Multijoueur",
+      "Compétitif",
+      "Solo"
+    ],
+    "nouveaux_tags": [
+      "Imperium Eternal",
+      "MicroProse"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 110393,
+    "tags": [
+      "Forza",
+      "Course"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 110381,
+    "tags": [
+      "ARENA Cinemas",
+      "Suisse"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Aucun film mis en avant dans l'intro (contrairement à d'autres programmes ARENA Cinemas du chantier) — programmation multi-films classique, aucun tag de film individuel posé."
+    ]
+  },
+  {
+    "id": 110374,
+    "tags": [
+      "Star Wars",
+      "Espace",
+      "Science-fiction",
+      "Cinémas de Sierre",
+      "Suisse"
+    ],
+    "nouveaux_tags": [
+      "Le Diable s'habille en Prada"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 110235,
+    "tags": [
+      "Google",
+      "Montre connectée"
+    ],
+    "nouveaux_tags": [
+      "Fitbit"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 110363,
+    "tags": [
+      "Grounded",
+      "Nickelodeon",
+      "PlayStation",
+      "Combat",
+      "Survie"
+    ],
+    "nouveaux_tags": [
+      "Nickelodeon All-Star Brawl"
+    ],
+    "incertitudes": [
+      "Warhammer 40,000: Darktide consolidé sous l'ombrelle Warhammer 40K (déjà existante) — genre non déduit faute de description dans le texte (l'ombrelle couvre des genres très différents selon le jeu)."
+    ]
+  },
+  {
+    "id": 110349,
+    "tags": [
+      "Logitech",
+      "Souris",
+      "Clavier",
+      "Périphérique"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 110344,
+    "tags": [
+      "Forza",
+      "PC",
+      "Course"
+    ],
+    "nouveaux_tags": [
+      "Spotify"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 108847,
+    "tags": [
+      "Sport",
+      "PC",
+      "Multijoueur"
+    ],
+    "nouveaux_tags": [
+      "HYPERyuki",
+      "Wabisabi Games",
+      "Acclaim"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 110335,
+    "tags": [
+      "LEGO",
+      "Paradox Interactive",
+      "Gestion"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Persona 4 Revival, Gears of War: E-Day, Ace Combat 8: Wings of Thieve et Marvel's Guardians of the Galaxy (version Switch 2 spéculée) mentionnés dans la même fuite de classification coréenne, mais non développés individuellement — non tagués (simple liste de rumeurs, pas une disponibilité concrète)."
+    ]
+  },
+  {
+    "id": 110321,
+    "tags": [
+      "Roguelike",
+      "Shoot'em up",
+      "PC",
+      "Espace",
+      "Science-fiction"
+    ],
+    "nouveaux_tags": [
+      "Enter the Chronosphere",
+      "Effort Star",
+      "Joystick Ventures",
+      "Gamirror Games",
+      "Beep Japan"
+    ],
+    "incertitudes": [
+      "Shoot'em up posé malgré la structure au tour par tour (habituellement temps réel) — la mécanique d'esquive de balles correspond à la définition, mais cas atypique à valider."
+    ]
+  },
+  {
+    "id": 110326,
+    "tags": [
+      "Voiture",
+      "Voiture électrique"
+    ],
+    "nouveaux_tags": [
+      "Ferrari"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 110271,
+    "tags": [
+      "Pokémon",
+      "Suisse"
+    ],
+    "nouveaux_tags": [
+      "Jean-Marc Anthony Kabeya"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 110274,
+    "tags": [
+      "MMO",
+      "Espace",
+      "Science-fiction",
+      "Kickstarter"
+    ],
+    "nouveaux_tags": [
+      "Star Citizen",
+      "Cloud Imperium Games",
+      "Squadron 42"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 110238,
+    "tags": [
+      "Aventure",
+      "Cosy",
+      "PC",
+      "Nintendo Switch",
+      "Kickstarter"
+    ],
+    "nouveaux_tags": [
+      "Kioku",
+      "Lugn Games"
+    ],
+    "incertitudes": []
+  }
+]

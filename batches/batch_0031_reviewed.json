@@ -1,0 +1,154 @@
+[
+  {
+    "id": 111626,
+    "tags": ["PC", "Suisse", "Indé", "Roguelike", "Deckbuilder"],
+    "nouveaux_tags": ["Slot Machine Gun", "Lakeview Games"],
+    "incertitudes": [
+      "Univers « chempunk » ne correspond à aucun thème de la liste fermée (§5) — proche de Steampunk/Cyberpunk sans l'être vraiment.",
+      "Perspective du shooter non précisée dans le texte (FPS/TPS/Shoot'em up) — pas de tag de sous-genre de tir posé."
+    ]
+  },
+  {
+    "id": 111454,
+    "tags": ["Ubisoft", "Hack'n'slash", "Roguelike", "PC", "Steam Deck"],
+    "nouveaux_tags": ["Morbid Metal", "Screen Juice"],
+    "incertitudes": [
+      "Mode Solo non confirmé explicitement dans le texte (fortement implicite mais jamais déclaré)."
+    ]
+  },
+  {
+    "id": 111613,
+    "tags": ["Sony Pictures"],
+    "nouveaux_tags": ["The Social Reckoning"],
+    "incertitudes": [
+      "Suite explicite de The Social Network (2010, pas de tag existant) — tag proposé comme œuvre indépendante plutôt que sous une ombrelle commune ; à valider si une consolidation est préférable.",
+      "Genre (Drame/Thriller) non explicitement assumé par le texte, pas de tag de genre posé."
+    ]
+  },
+  {
+    "id": 111602,
+    "tags": ["Gran Turismo", "Polyphony Digital", "PlayStation Studios", "Course", "Simulation", "PlayStation"],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Événement « 24 Heures du Mans » absent de la liste fermée §6 — pourrait mériter un ajout si ce type d'événement automobile revient régulièrement."
+    ]
+  },
+  {
+    "id": 111586,
+    "tags": ["Logitech", "Casque audio", "Périphérique"],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 111559,
+    "tags": ["Razer", "Microphone", "Périphérique"],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 111576,
+    "tags": ["Nintendo", "Nintendo Switch", "Fantasy", "Action-RPG"],
+    "nouveaux_tags": ["Xenoblade", "Monolith Soft"],
+    "incertitudes": [
+      "Studio dev (Monolith Soft) non cité dans le texte, identifié par recherche ciblée (source unique et non ambiguë).",
+      "JRPG non posé faute de certitude sur l'appariement strict de ce tag avec RPG plutôt qu'Action-RPG (§3) — combats en temps réel connus de la série."
+    ]
+  },
+  {
+    "id": 111549,
+    "tags": ["The Legend of Zelda", "Nintendo", "Action-aventure", "Nintendo Switch", "Fantasy", "Médiéval", "Remake"],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Nintendo 64 (plateforme d'origine) mentionné mais pas taggé : hors vocabulaire fermé §4, et mention trop brève pour justifier Rétro (l'article porte sur le remake, pas sur l'histoire du jeu d'origine)."
+    ]
+  },
+  {
+    "id": 111541,
+    "tags": ["Warner Bros.", "Animation", "Comédie"],
+    "nouveaux_tags": ["Le Chat Chapeauté"],
+    "incertitudes": []
+  },
+  {
+    "id": 110440,
+    "tags": ["Netflix", "Aventure", "Enquête"],
+    "nouveaux_tags": ["Enola Holmes"],
+    "incertitudes": []
+  },
+  {
+    "id": 111530,
+    "tags": ["Amazon MGM Studios", "Hasbro", "Thriller"],
+    "nouveaux_tags": ["Jem et les Hologrammes", "Kilter Films"],
+    "incertitudes": [
+      "Plateforme de diffusion non confirmée dans le texte (probablement Prime Video vu Amazon MGM Studios, mais jamais nommée explicitement).",
+      "« Techno-thriller » suggère un thème technologique/IA (l'IA Synergy de la franchise d'origine) mais non détaillé dans le texte de cet article."
+    ]
+  },
+  {
+    "id": 97316,
+    "tags": ["Sony", "Science-fiction", "Espace"],
+    "nouveaux_tags": ["Helldivers", "Jason Momoa", "PlayStation Productions"],
+    "incertitudes": [
+      "Genre du film non explicité dans le texte (adaptation d'un jeu de tir, probablement Action mais non confirmé).",
+      "TGS (Tokyo Game Show) mentionné comme contexte de première annonce, absent de la liste fermée d'événements §6."
+    ]
+  },
+  {
+    "id": 111480,
+    "tags": ["Nintendo", "Nintendo Switch", "Nintendo Direct"],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Summer Game Fest mentionné comme contexte calendaire (ce Direct « clôture » sa saison) mais n'est pas lui-même l'événement de cette annonce — non taggé."
+    ]
+  },
+  {
+    "id": 111516,
+    "tags": ["PC", "Course", "Monde ouvert"],
+    "nouveaux_tags": ["Samson", "Liquid Swords"],
+    "incertitudes": [
+      "Univers evoqué (« Debt Collectors », embuscades, ville Tyndalston) pourrait suggérer un thème criminel/Policier, mais pas assez explicite dans ce seul article de suivi pour trancher — voir le test initial référencé.",
+      "Genre secondaire possible (Action-aventure, vu l'exploration et les jobs) non posé faute de certitude suffisante."
+    ]
+  },
+  {
+    "id": 111510,
+    "tags": ["ARENA Cinemas", "Suisse", "Science-fiction"],
+    "nouveaux_tags": ["Disclosure Day"],
+    "incertitudes": [
+      "Disclosure Day n'est développé que dans l'intro (2 phrases, sans synopsis) au sein d'une programmation de plus de 5 films — jugé suffisamment mis en avant par le texte pour le tagger comme sujet réel, mais frontière avec la règle « listes = pas de tags », à valider."
+    ]
+  },
+  {
+    "id": 107293,
+    "tags": ["20th Century Studios", "Thriller", "Post-apocalyptique"],
+    "nouveaux_tags": ["The Dog Stars"],
+    "incertitudes": [
+      "Ridley Scott mis en avant comme « grand retour » après Gladiator II, plus qu'un simple crédit de réalisation — non taggé comme personne-sujet (angle éditorial reste le film), mais cas limite à valider."
+    ]
+  },
+  {
+    "id": 111498,
+    "tags": ["Apple", "Smartphone", "IA", "Suisse"],
+    "nouveaux_tags": ["WWDC"],
+    "incertitudes": []
+  },
+  {
+    "id": 110267,
+    "tags": ["Apple", "Smartphone", "IA"],
+    "nouveaux_tags": ["WWDC"],
+    "incertitudes": []
+  },
+  {
+    "id": 107859,
+    "tags": ["Netflix", "Enquête", "Fantastique"],
+    "nouveaux_tags": ["Scooby-Doo"],
+    "incertitudes": []
+  },
+  {
+    "id": 111465,
+    "tags": ["Simulation", "Aventure", "Cosy", "PC", "Xbox", "Solo"],
+    "nouveaux_tags": ["Vivarium", "Studio Meadowflower", "Serenity Forge"],
+    "incertitudes": [
+      "L'univers du terrarium (« vérité plus étrange » cachée derrière l'apparence idyllique) pourrait évoquer Fantastique, mais pas assez explicite dans le texte pour trancher."
+    ]
+  }
+]

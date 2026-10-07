@@ -1,0 +1,66 @@
+[
+  {
+    "id": 115162,
+    "tags": [],
+    "nouveaux_tags": ["YouTube"],
+    "incertitudes": []
+  },
+  {
+    "id": 115155,
+    "tags": ["EA SPORTS FC", "Electronic Arts", "Sport", "PC", "Xbox", "PlayStation"],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 115136,
+    "tags": ["HBO Max", "Horreur"],
+    "nouveaux_tags": ["It"],
+    "incertitudes": []
+  },
+  {
+    "id": 115109,
+    "tags": ["Battlefield", "Electronic Arts", "Top Gun", "FPS", "Multijoueur", "Guerre"],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Plateforme non explicitement nommée dans le texte (seulement les schémas de contrôle clavier/souris/manette/joystick, sans plateforme précise) — non déduite."
+    ]
+  },
+  {
+    "id": 115127,
+    "tags": ["Sony", "PlayStation"],
+    "nouveaux_tags": ["Hiroki Totoki"],
+    "incertitudes": []
+  },
+  {
+    "id": 115120,
+    "tags": ["Narratif", "Fantasy", "Fantastique", "PC", "Suisse"],
+    "nouveaux_tags": ["Das Hexencafé am Zürichsee: Der letzte Eintrag", "Micjam Games"],
+    "incertitudes": []
+  },
+  {
+    "id": 115107,
+    "tags": ["Aventure", "Pirates", "D23", "Disney"],
+    "nouveaux_tags": ["Pirates des Caraïbes", "Johnny Depp", "Margot Robbie", "Jerry Bruckheimer"],
+    "incertitudes": []
+  },
+  {
+    "id": 115101,
+    "tags": ["Cinémas de Sierre", "Cinéma", "Suisse", "L'Odyssée", "Aventure", "Mythologie", "Spider-Man", "Super-héros", "Action", "Science-fiction"],
+    "nouveaux_tags": ["La fin d'Oak Street"],
+    "incertitudes": [
+      "Trois films substantiellement synopsés (pas juste des horaires) dans ce programme hebdomadaire — traité comme une extension de l'exception liste ≤5 (chaque film individuellement développé) plutôt que la règle 'listes = pas de tags'. Cas limite non explicitement couvert par la formulation actuelle de la règle 'programme mono-film', à valider."
+    ]
+  },
+  {
+    "id": 115096,
+    "tags": ["Plateforme", "Course", "Indé", "PC"],
+    "nouveaux_tags": ["Panic 64", "Spicy Gyro Games"],
+    "incertitudes": []
+  },
+  {
+    "id": 115083,
+    "tags": ["Carnet noir", "Until Dawn"],
+    "nouveaux_tags": ["Hayden Panettiere", "Heroes", "Scream", "Nashville", "Remember the Titans", "Kingdom Hearts"],
+    "incertitudes": []
+  }
+]

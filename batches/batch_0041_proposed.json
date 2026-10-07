@@ -1,0 +1,600 @@
+[
+  {
+    "id": 107201,
+    "tags": [
+      "Capcom",
+      "Paramount",
+      "Action"
+    ],
+    "nouveaux_tags": [
+      "Street Fighter",
+      "Kitao Sakurai",
+      "Twisted Metal"
+    ],
+    "incertitudes": [
+      "18 acteurs cités (>5) : aucun tag individuel, règle 'listes = pas de tags'. Twisted Metal ajouté comme œuvre-signature de Kitao Sakurai, explicitement citée dans le texte."
+    ]
+  },
+  {
+    "id": 116315,
+    "tags": [
+      "Grand Theft Auto",
+      "Rockstar Games",
+      "Take-Two Interactive",
+      "Action-aventure",
+      "PC",
+      "Multijoueur",
+      "En ligne"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "'nopixel' non tagué comme entité distincte : communauté RP tierce, pas un studio produisant des œuvres au sens de la nomenclature."
+    ]
+  },
+  {
+    "id": 116310,
+    "tags": [
+      "Ace Combat",
+      "Bandai Namco",
+      "Action",
+      "PC",
+      "PlayStation",
+      "Xbox",
+      "Aviation",
+      "Guerre",
+      "Multijoueur",
+      "En ligne",
+      "Coopératif",
+      "Compétitif"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 116304,
+    "tags": [
+      "Simulation",
+      "Gestion",
+      "PC",
+      "PlayStation",
+      "Xbox"
+    ],
+    "nouveaux_tags": [
+      "Lawn Mowing Simulator",
+      "Skyhook Games"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116246,
+    "tags": [
+      "Sony",
+      "Microsoft",
+      "PlayStation",
+      "Xbox",
+      "Cloud gaming",
+      "Steam Deck",
+      "Mobile",
+      "PlayStation Plus",
+      "Xbox Game Pass"
+    ],
+    "nouveaux_tags": [
+      "Inside Internet",
+      "Asobi",
+      "Midori"
+    ],
+    "incertitudes": [
+      "Suisse non tagué : les prix en CHF sont utilisés en routine tout au long du test (pratique standard du site), pas une anomalie qui fait l'actu — reconsidéré par rapport à une première lecture plus permissive. Team Asobi (studio Sony) non tagué : simple référence d'étymologie du nom de l'appli, pas développé comme sujet."
+    ]
+  },
+  {
+    "id": 116240,
+    "tags": [
+      "Disney",
+      "Atomic Monster",
+      "Disney+",
+      "Fantastique"
+    ],
+    "nouveaux_tags": [
+      "Gargoyles",
+      "Greg Weisman",
+      "Gary Dauberman",
+      "Ça",
+      "James Wan"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 56732,
+    "tags": [
+      "Don't Nod"
+    ],
+    "nouveaux_tags": [
+      "Jusant",
+      "Banishers"
+    ],
+    "incertitudes": [
+      "Life is Strange/Vampyr/Lost Records cités seulement dans une liste d'introduction (pedigree du studio), non développés — non tagués contrairement à Jusant et Banishers, discutés en détail. France non tagué : nationalité du studio incidente, pas un axe politique central."
+    ]
+  },
+  {
+    "id": 116072,
+    "tags": [
+      "Grand Theft Auto",
+      "Rockstar Games",
+      "Take-Two Interactive",
+      "Action-aventure",
+      "Xbox",
+      "PlayStation",
+      "PC",
+      "Monde ouvert",
+      "Netflix"
+    ],
+    "nouveaux_tags": [
+      "Rob Nelson",
+      "Rockstar North"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116231,
+    "tags": [
+      "PC",
+      "Xbox",
+      "PlayStation",
+      "Monde ouvert"
+    ],
+    "nouveaux_tags": [
+      "Crimson Desert",
+      "Pearl Abyss"
+    ],
+    "incertitudes": [
+      "Genre non tagué : le texte ne décrit pas le gameplay au-delà du monde ouvert pour trancher un genre précis."
+    ]
+  },
+  {
+    "id": 116220,
+    "tags": [
+      "Survie",
+      "Aventure",
+      "PC"
+    ],
+    "nouveaux_tags": [
+      "Stranded Deep",
+      "North Beach Games"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116212,
+    "tags": [
+      "Cinémas de Sierre",
+      "Suisse",
+      "Drame"
+    ],
+    "nouveaux_tags": [
+      "Fjord"
+    ],
+    "incertitudes": [
+      "Programme mono-film : seul 'Fjord' développé (synopsis, casting), règle 'programme mono-film' appliquée. 8 acteurs cités (>5) : aucun tag individuel."
+    ]
+  },
+  {
+    "id": 116256,
+    "tags": [
+      "PC",
+      "NVIDIA",
+      "Intel"
+    ],
+    "nouveaux_tags": [
+      "Lenovo"
+    ],
+    "incertitudes": [
+      "Pas de tags composants (Carte graphique/Processeur/Matériel PC) : ordinateur portable complet préassemblé, pas des pièces vendues séparément, même logique que la puce d'un smartphone."
+    ]
+  },
+  {
+    "id": 116205,
+    "tags": [
+      "Disney+",
+      "Thriller"
+    ],
+    "nouveaux_tags": [
+      "Chad Powers",
+      "City of Blood",
+      "Vampires"
+    ],
+    "incertitudes": [
+      "Programme multi-titres (LEGO Star Wars, Bleach, Chili 2010, Les Simpson, Astérix, One Piece, O Brother) : seuls Chad Powers et City of Blood, développés en paragraphe complet, tagués individuellement — le reste non taggué, mentions d'une ligne, règle 'listes'."
+    ]
+  },
+  {
+    "id": 116194,
+    "tags": [
+      "Star Wars",
+      "Espace",
+      "Science-fiction",
+      "Jurassic Park",
+      "Dinosaures",
+      "Robocop",
+      "Robot"
+    ],
+    "nouveaux_tags": [
+      "Phil Tippett",
+      "Industrial Light & Magic",
+      "Tippett Studio"
+    ],
+    "incertitudes": [
+      "George Lucas et Ray Harryhausen non tagués : mentions biographiques/d'influence incidentes, pas le sujet de l'article."
+    ]
+  },
+  {
+    "id": 116181,
+    "tags": [
+      "Pokémon",
+      "Animation"
+    ],
+    "nouveaux_tags": [
+      "CloverWorks"
+    ],
+    "incertitudes": [
+      "Katsuhiko Kitada (réalisateur) et Akemi Hayashi (character design) non tagués : crédits de production, l'angle éditorial reste le film Pokémon, pas eux."
+    ]
+  },
+  {
+    "id": 116186,
+    "tags": [
+      "Valve"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "12 jeux mentionnés comme contenu ayant fuité (>5) : aucun tag individuel, règle 'listes = pas de tags'."
+    ]
+  },
+  {
+    "id": 116047,
+    "tags": [
+      "Action-RPG",
+      "Roguelike",
+      "Gestion",
+      "PC",
+      "PlayStation",
+      "Xbox",
+      "Nintendo Switch"
+    ],
+    "nouveaux_tags": [
+      "Moonlighter",
+      "Digital Sun"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116077,
+    "tags": [
+      "Stargate",
+      "Amazon MGM Studios",
+      "Prime Video",
+      "Espace",
+      "Science-fiction"
+    ],
+    "nouveaux_tags": [
+      "Michael Shanks",
+      "Martin Gero"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116062,
+    "tags": [
+      "Corsair",
+      "Casque audio",
+      "Périphérique"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 116055,
+    "tags": [
+      "NVIDIA",
+      "Carte graphique",
+      "Matériel PC",
+      "IA"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 116040,
+    "tags": [
+      "Star Fox",
+      "Nintendo",
+      "PC",
+      "Espace",
+      "Science-fiction",
+      "Rétro",
+      "Indé"
+    ],
+    "nouveaux_tags": [
+      "Argonaut Games"
+    ],
+    "incertitudes": [
+      "Genre non tagué : Star Fox reste un rail-shooter atypique par rapport à la définition stricte de Shoot'em up — même prudence que pour Star Fox Remake (lot #23) et Star Fox Enhanced."
+    ]
+  },
+  {
+    "id": 116022,
+    "tags": [
+      "Pokémon",
+      "Aventure",
+      "Disney+",
+      "Animation"
+    ],
+    "nouveaux_tags": [
+      "Aardman"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116035,
+    "tags": [
+      "Marvel",
+      "Electronic Arts",
+      "Action",
+      "Super-héros"
+    ],
+    "nouveaux_tags": [
+      "Iron Man",
+      "EA Motive"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116027,
+    "tags": [
+      "IKEA",
+      "Xbox",
+      "Microsoft",
+      "Suisse"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 116016,
+    "tags": [
+      "Disney",
+      "Disney+",
+      "Brésil"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 116011,
+    "tags": [
+      "Roguelike",
+      "Stratégie",
+      "PC",
+      "Médiéval",
+      "Fantasy"
+    ],
+    "nouveaux_tags": [
+      "Wanderburg",
+      "Randwerk",
+      "Sidekick Publishing"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 115915,
+    "tags": [
+      "Grand Theft Auto",
+      "Rockstar Games",
+      "Take-Two Interactive",
+      "Action-aventure",
+      "PlayStation",
+      "Xbox",
+      "Monde ouvert",
+      "Netflix"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 115910,
+    "tags": [
+      "Flight Simulator",
+      "Microsoft",
+      "Simulation",
+      "PC",
+      "Xbox",
+      "PlayStation",
+      "Aviation"
+    ],
+    "nouveaux_tags": [
+      "Italie"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 115903,
+    "tags": [
+      "Mercedes-Benz",
+      "Casque audio",
+      "Microphone",
+      "Périphérique",
+      "Gamescom"
+    ],
+    "nouveaux_tags": [
+      "Sennheiser"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 115890,
+    "tags": [
+      "Samsung",
+      "Écran",
+      "Périphérique",
+      "Gamescom"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 115885,
+    "tags": [
+      "PlayStation",
+      "PlayStation Plus"
+    ],
+    "nouveaux_tags": [
+      "Sniper Elite",
+      "MLB The Show",
+      "Wobbly Life"
+    ],
+    "incertitudes": [
+      "Liste de 3 jeux (≤5), chacun individuellement disponible dans l'abonnement dès une date précise — exception 'listes courtes' appliquée, tag individuel par jeu malgré l'absence de détail de gameplay."
+    ]
+  },
+  {
+    "id": 110260,
+    "tags": [
+      "Epic Games"
+    ],
+    "nouveaux_tags": [
+      "Rocket League",
+      "Psyonix"
+    ],
+    "incertitudes": [
+      "Genre non tagué : Rocket League est un hybride sport/course atypique, pas de correspondance nette avec Sport ou Course sans plus de contexte dans ce texte précis. 'Rocket League Paris Major' non tagué : événement esport spécifique à un jeu, absent du vocabulaire fermé §6, pas signalé comme gap prioritaire (trop niche)."
+    ]
+  },
+  {
+    "id": 110207,
+    "tags": [
+      "Clavier",
+      "Périphérique"
+    ],
+    "nouveaux_tags": [
+      "Epomaker"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 110194,
+    "tags": [
+      "Prime Video",
+      "Thriller",
+      "Super-héros",
+      "Policier"
+    ],
+    "nouveaux_tags": [
+      "The Boys",
+      "Vought Rising",
+      "Eric Kripke"
+    ],
+    "incertitudes": [
+      "6 acteurs cités (>5) : aucun tag individuel, règle 'listes = pas de tags', malgré un développement narratif plus poussé pour Jensen Ackles/Aya Cash."
+    ]
+  },
+  {
+    "id": 110123,
+    "tags": [
+      "Destiny",
+      "Marathon",
+      "Bungie",
+      "FPS",
+      "Science-fiction",
+      "Espace"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 110179,
+    "tags": [
+      "Square Enix",
+      "RPG",
+      "Fantasy",
+      "Rétro",
+      "Japon"
+    ],
+    "nouveaux_tags": [
+      "Dragon Quest",
+      "Reebok"
+    ],
+    "incertitudes": [
+      "Yuji Horii/Akira Toriyama/Koichi Sugiyama non tagués : contexte historique/biographique sur la création du jeu d'origine, pas le sujet de cet article (qui porte sur la collaboration Reebok)."
+    ]
+  },
+  {
+    "id": 63802,
+    "tags": [
+      "SEGA",
+      "Course",
+      "Monde ouvert",
+      "Multijoueur",
+      "En ligne"
+    ],
+    "nouveaux_tags": [
+      "Kenji Kanno"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 110167,
+    "tags": [
+      "Aventure",
+      "Réflexion",
+      "Point &amp; click",
+      "PC",
+      "Fantasy"
+    ],
+    "nouveaux_tags": [
+      "The Guardian of Nature",
+      "Inlusio Interactive",
+      "Nexting"
+    ],
+    "incertitudes": [
+      "Esthétique 'solarpunk' mentionnée explicitement mais absente du vocabulaire fermé §5 (contrairement à Steampunk déjà présent) — gap mineur, probablement trop niche pour un amendement, signalé à toutes fins utiles."
+    ]
+  },
+  {
+    "id": 102201,
+    "tags": [
+      "James Bond",
+      "IO Interactive",
+      "Amazon MGM Studios",
+      "PlayStation",
+      "Xbox",
+      "PC",
+      "Espionnage"
+    ],
+    "nouveaux_tags": [
+      "Patrick Gibson",
+      "Priyanga Burford",
+      "Lennie James",
+      "Lenny Kravitz"
+    ],
+    "incertitudes": [
+      "Genre non tagué : pas de description de gameplay propre à ce titre au-delà de la comparaison avec le pedigree Hitman du studio."
+    ]
+  },
+  {
+    "id": 110086,
+    "tags": [
+      "Pokémon",
+      "Manga",
+      "Interview",
+      "Suisse"
+    ],
+    "nouveaux_tags": [
+      "Carlos Correia",
+      "Mewseum"
+    ],
+    "incertitudes": [
+      "Yu-Gi-Oh!/Magic/Lorcana/One Piece/Star Wars Unlimited/Monster Hunter/Assassin's Creed/Fortnite non tagués : mentions biographiques ou comparatives dans les réponses, pas le sujet central de l'entretien (Pokémon/Mewseum) — même logique de recentrage que l'interview Ikigai Manga Shop (lot #24)."
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 114249,
+    "title": "BioEden, comme un air de Spore dans ses veines",
+    "tags": ["Simulation", "Gestion", "Xbox", "PlayStation", "Nintendo Switch", "PC", "Science-fiction", "Espace"],
+    "nouveaux_tags": ["BioEden", "Broken Arms Games", "Focus Entertainment"]
+  },
+  {
+    "id": 114243,
+    "title": "Cinémas de Sierre : Le programme de la semaine n°31",
+    "tags": ["Cinéma", "Suisse"],
+    "nouveaux_tags": ["Cinémas de Sierre"]
+  },
+  {
+    "id": 111470,
+    "title": "Cinémas de Sierre : Le programme de la semaine n°24 (legacy, migration du tag Sierre)",
+    "tags": [],
+    "nouveaux_tags": ["Cinémas de Sierre"]
+  },
+  {
+    "id": 114238,
+    "title": "Intel Core 2 Duo, l'iconique processeur Intel fête ses 20 ans",
+    "tags": ["Intel", "AMD", "Processeur", "PC"],
+    "nouveaux_tags": []
+  },
+  {
+    "id": 114228,
+    "title": "ARENA Cinemas, la programmation de la semaine avec le nouveau Spider-Man !",
+    "tags": ["ARENA Cinemas", "Cinéma", "Suisse"],
+    "nouveaux_tags": []
+  },
+  {
+    "id": 110764,
+    "title": "ZeroSpace, un RTS/RPG qui propose quatre factions, une vraie campagne et plus de 150 unités",
+    "tags": ["Stratégie", "RPG", "Science-fiction", "Espace", "Solo", "Multijoueur", "Coopératif", "PC"],
+    "nouveaux_tags": ["ZeroSpace", "Starlance Studios", "Ironward"]
+  }
+]

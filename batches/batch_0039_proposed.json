@@ -1,0 +1,586 @@
+[
+  {
+    "id": 116960,
+    "tags": [
+      "Cinémas de Sierre",
+      "Suisse"
+    ],
+    "nouveaux_tags": [
+      "Documentaire",
+      "À tombeaux ouverts",
+      "Roger Rey"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116952,
+    "tags": [
+      "Grand Theft Auto",
+      "Rockstar Games",
+      "Take-Two Interactive",
+      "Action-aventure",
+      "PlayStation",
+      "Xbox"
+    ],
+    "nouveaux_tags": [
+      "Stephen Root"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116948,
+    "tags": [
+      "PC",
+      "Guerre froide",
+      "IA",
+      "Post-apocalyptique",
+      "Indé",
+      "Gestion",
+      "Aventure"
+    ],
+    "nouveaux_tags": [
+      "Ghostless",
+      "Coffeenauts"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116934,
+    "tags": [
+      "Apple",
+      "Montre connectée",
+      "IA",
+      "Suisse"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 116929,
+    "tags": [
+      "BULKHEAD",
+      "WARDOGS",
+      "FPS",
+      "PC"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "'joueurs simultanés sur Steam' ne suffit pas à confirmer Multijoueur/En ligne de façon assez explicite, non tagués par prudence."
+    ]
+  },
+  {
+    "id": 116923,
+    "tags": [
+      "Hack'n'slash",
+      "Fantasy"
+    ],
+    "nouveaux_tags": [
+      "Diablo",
+      "Blizzard",
+      "BlizzCon"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116917,
+    "tags": [
+      "Hack'n'slash",
+      "Fantasy",
+      "Nintendo Switch",
+      "PC",
+      "PlayStation",
+      "Xbox",
+      "Netflix",
+      "Animation"
+    ],
+    "nouveaux_tags": [
+      "Diablo",
+      "Blizzard",
+      "Johanna Faries",
+      "BlizzCon"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116912,
+    "tags": [
+      "Action",
+      "Monde ouvert",
+      "Solo",
+      "Espace",
+      "Science-fiction"
+    ],
+    "nouveaux_tags": [
+      "StarCraft",
+      "Blizzard",
+      "BlizzCon"
+    ],
+    "incertitudes": [
+      "Perspective FPS/TPS non précisée dans le texte ('shooter' générique) — tagué 'Action' plutôt que de deviner la vue."
+    ]
+  },
+  {
+    "id": 116904,
+    "tags": [
+      "VR",
+      "Aventure",
+      "Fantasy"
+    ],
+    "nouveaux_tags": [
+      "Moss",
+      "Polyarc"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116788,
+    "tags": [
+      "Hideo Kojima",
+      "Sony",
+      "PlayStation Studios",
+      "Kojima Productions",
+      "Xbox Game Studios",
+      "Microsoft",
+      "Action",
+      "Espionnage",
+      "Xbox"
+    ],
+    "nouveaux_tags": [
+      "Physint",
+      "Death Stranding"
+    ],
+    "incertitudes": [
+      "'OD' mentionné comme précédent Kojima Productions/Xbox mais non tagué (contexte/pedigree, pas développé comme sujet ici)."
+    ]
+  },
+  {
+    "id": 116861,
+    "tags": [
+      "SNK",
+      "Shoot'em up",
+      "PC",
+      "PlayStation",
+      "Xbox",
+      "Nintendo Switch",
+      "Coopératif",
+      "Multijoueur",
+      "En ligne",
+      "Rétro"
+    ],
+    "nouveaux_tags": [
+      "Metal Slug",
+      "M2"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116895,
+    "tags": [
+      "IA"
+    ],
+    "nouveaux_tags": [
+      "Anthropic"
+    ],
+    "incertitudes": [
+      "Jacob Coxon (ex-chercheur, démission) non tagué : mention de contexte/ironie, pas le sujet éditorial. Pays d'origine des réseaux de désinformation (Russie, Iran, Turquie...) trop diffus pour un tag pays unique."
+    ]
+  },
+  {
+    "id": 116886,
+    "tags": [
+      "Avatar: The Last Airbender",
+      "Paramount+",
+      "Aventure",
+      "Action",
+      "Post-apocalyptique",
+      "Fantasy",
+      "Animation"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Michael DiMartino/Bryan Konietzko (créateurs, cités avec citation) non tagués : ils apparaissent dans la couverture d'une œuvre déjà nommée sans en être eux-mêmes le sujet de cet article."
+    ]
+  },
+  {
+    "id": 116877,
+    "tags": [
+      "Nintendo",
+      "Nintendo Switch"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 109329,
+    "tags": [
+      "Bohemia Interactive",
+      "FPS",
+      "PC",
+      "Fantasy",
+      "Horreur",
+      "Solo",
+      "Coopératif",
+      "Multijoueur",
+      "Compétitif"
+    ],
+    "nouveaux_tags": [
+      "Nailcrown",
+      "Destructive Creations"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116853,
+    "tags": [
+      "Cloud gaming"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Article générique de conseils, aucun jeu/produit précis identifiable comme sujet."
+    ]
+  },
+  {
+    "id": 116849,
+    "tags": [
+      "EA SPORTS FC",
+      "Electronic Arts",
+      "Sport",
+      "PlayStation",
+      "Xbox",
+      "PC",
+      "Nintendo Switch"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "11 artistes musicaux cités (>5) : aucun tag individuel, règle 'listes = pas de tags'. 36 pays d'origine des artistes trop diffus pour un tag pays."
+    ]
+  },
+  {
+    "id": 116844,
+    "tags": [
+      "Transport Fever",
+      "Urban Games",
+      "Paradox Interactive",
+      "Gestion",
+      "PC",
+      "PlayStation",
+      "Xbox",
+      "Suisse"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 116838,
+    "tags": [
+      "Réflexion",
+      "Aventure",
+      "Enquête",
+      "PlayStation",
+      "Nintendo Switch",
+      "PC",
+      "Remake"
+    ],
+    "nouveaux_tags": [
+      "Professor Layton",
+      "LEVEL-5"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116822,
+    "tags": [
+      "Paramount+",
+      "Thriller",
+      "Policier",
+      "Enquête"
+    ],
+    "nouveaux_tags": [
+      "Dexter"
+    ],
+    "incertitudes": [
+      "7 acteurs cités (>5) : aucun tag individuel, règle 'listes = pas de tags', malgré la notoriété de certains (Uma Thurman, Dan Stevens)."
+    ]
+  },
+  {
+    "id": 116813,
+    "tags": [
+      "Apple",
+      "Casque audio",
+      "Périphérique",
+      "IA",
+      "Suisse"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 116806,
+    "tags": [
+      "The Elder Scrolls",
+      "Bethesda",
+      "Xbox Game Studios",
+      "Action-RPG",
+      "Fantasy",
+      "Médiéval"
+    ],
+    "nouveaux_tags": [
+      "IKEA"
+    ],
+    "incertitudes": [
+      "Matt Berry (voix de l'étagère) non tagué : simple crédit de doublage, pas le sujet éditorial."
+    ]
+  },
+  {
+    "id": 116794,
+    "tags": [
+      "Assetto Corsa",
+      "505 Games",
+      "Supernova Games Studios",
+      "KUNOS Simulazioni",
+      "Course",
+      "PC",
+      "Multijoueur",
+      "En ligne"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 116778,
+    "tags": [
+      "Aventure",
+      "Survie",
+      "PC",
+      "PlayStation",
+      "Xbox",
+      "Nintendo Switch",
+      "Espace",
+      "Science-fiction",
+      "Multijoueur",
+      "En ligne"
+    ],
+    "nouveaux_tags": [
+      "No Man's Sky",
+      "Hello Games"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116774,
+    "tags": [
+      "Resident Evil",
+      "Capcom",
+      "Action",
+      "Horreur",
+      "Zombies",
+      "Nintendo Switch",
+      "Remake"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 116770,
+    "tags": [
+      "PlayStation Plus",
+      "PlayStation"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Liste de 10 jeux (>5) : aucun tag individuel, règle 'listes = pas de tags'."
+    ]
+  },
+  {
+    "id": 116734,
+    "tags": [
+      "Prime Video",
+      "Thriller",
+      "Drame",
+      "Horreur",
+      "Fantastique"
+    ],
+    "nouveaux_tags": [
+      "Carrie",
+      "Mike Flanagan",
+      "Stephen King"
+    ],
+    "incertitudes": [
+      "Mike Flanagan tagué comme réalisateur-créateur-sujet (nom dans le titre), mais pas d'œuvre-signature ajoutée faute de titre clairement dominant dans sa filmographie horreur — à trancher si souhaité. 13 acteurs cités (>5) : aucun tag individuel."
+    ]
+  },
+  {
+    "id": 116782,
+    "tags": [
+      "Apple",
+      "Smartphone",
+      "Suisse"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 116764,
+    "tags": [
+      "Apple",
+      "Smartphone",
+      "Suisse"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Samsung/Google/Honor/Huawei cités en comparaison uniquement, non tagués."
+    ]
+  },
+  {
+    "id": 107258,
+    "tags": [
+      "Neo Geo",
+      "PLAION REPLAI",
+      "SNK",
+      "Rétro"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Prix en CHF non tagué Suisse : conversion de routine (marché suisse), pas une anomalie qui fait l'actu."
+    ]
+  },
+  {
+    "id": 116729,
+    "tags": [
+      "Kirby",
+      "Nintendo",
+      "Action-aventure",
+      "Plateforme",
+      "Nintendo Switch",
+      "Monde ouvert",
+      "Nintendo Direct"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 116724,
+    "tags": [
+      "Nintendo",
+      "Metroidvania",
+      "Action",
+      "Nintendo Switch",
+      "Nintendo Direct"
+    ],
+    "nouveaux_tags": [
+      "Metroid"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116516,
+    "tags": [
+      "The Legend of Zelda",
+      "Nintendo",
+      "Nintendo Switch",
+      "Fantasy",
+      "Médiéval",
+      "Nintendo Direct"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "'Nouveau Mario 3D' et 'Luigi's Mansion' non tagués : simples rumeurs/bruits de couloir, pas des annonces confirmées."
+    ]
+  },
+  {
+    "id": 116714,
+    "tags": [
+      "Thriller",
+      "Fantastique",
+      "Enquête",
+      "Warner Bros."
+    ],
+    "nouveaux_tags": [
+      "Reste avec moi",
+      "M. Night Shyamalan",
+      "Nicholas Sparks"
+    ],
+    "incertitudes": [
+      "M. Night Shyamalan tagué comme réalisateur-créateur-sujet, sans œuvre-signature ajoutée faute de titre clairement dominant dans sa filmographie — même logique que Mike Flanagan sur cet article. 10 acteurs cités (>5, hors Shyamalan lui-même) : aucun tag individuel."
+    ]
+  },
+  {
+    "id": 116709,
+    "tags": [
+      "Apple",
+      "Smartphone",
+      "Montre connectée",
+      "Casque audio",
+      "Périphérique"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Article de rumeurs avant keynote : produits non encore confirmés, tags posés sur la base des catégories largement anticipées et développées dans le texte."
+    ]
+  },
+  {
+    "id": 116703,
+    "tags": [
+      "Dragon Ball",
+      "Manga"
+    ],
+    "nouveaux_tags": [
+      "Doublage",
+      "Toei Animation"
+    ],
+    "incertitudes": [
+      "Brigitte Lecordier/Patrick Borg/Philippe Ariotti non tagués : leur participation au doublage reste incertaine (litige contractuel en cours), pas confirmée. Gulli non tagué : chaîne TV linéaire absente du vocabulaire fermé §4 (liste centrée sur le streaming)."
+    ]
+  },
+  {
+    "id": 116698,
+    "tags": [
+      "Musée Suisse du Jeu",
+      "LEGO",
+      "Suisse"
+    ],
+    "nouveaux_tags": [
+      "Festival des Jeux"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116676,
+    "tags": [
+      "Biopic",
+      "IA"
+    ],
+    "nouveaux_tags": [
+      "Artificial",
+      "Sam Altman",
+      "Andrew Garfield",
+      "NEON"
+    ],
+    "incertitudes": [
+      "Luca Guadagnino (réalisateur) non tagué : crédit de mise en scène, l'angle éditorial reste Sam Altman/Andrew Garfield (nom en titre). 8 autres acteurs cités (>5) : aucun tag individuel. Suisse non tagué : absence de date CH mentionnée en une phrase isolée, jugée insuffisante (même logique que l'article Xiaomi du lot précédent)."
+    ]
+  },
+  {
+    "id": 116664,
+    "tags": [
+      "Razer",
+      "Clavier",
+      "Périphérique"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 116687,
+    "tags": [
+      "Écran",
+      "Périphérique"
+    ],
+    "nouveaux_tags": [
+      "Unico"
+    ],
+    "incertitudes": [
+      "Pas de tag Rétro : le texte précise explicitement qu'il ne s'agit pas d'un vrai écran d'époque mais d'un style 'rétro-inspiré' — exclusion documentée en §5."
+    ]
+  }
+]

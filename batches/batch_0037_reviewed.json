@@ -1,0 +1,452 @@
+[
+  {
+    "id": 117088,
+    "tags": [
+      "Wolverine",
+      "Marvel",
+      "Insomniac Games",
+      "PlayStation Studios",
+      "Sony",
+      "Action",
+      "PlayStation",
+      "Super-héros"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 108893,
+    "tags": [
+      "Nintendo",
+      "Nintendo Switch",
+      "Espace",
+      "Science-fiction",
+      "Multijoueur",
+      "Compétitif",
+      "Remake"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Genre non tagué : Star Fox est un rail-shooter, proche de 'Shoot'em up' sans correspondre exactement à sa définition (vue de dessus/côté) — aucune correspondance nette dans le vocabulaire fermé."
+    ]
+  },
+  {
+    "id": 108884,
+    "tags": [
+      "Take-Two Interactive"
+    ],
+    "nouveaux_tags": [
+      "BioShock",
+      "Cloud Chamber",
+      "Strauss Zelnick"
+    ],
+    "incertitudes": [
+      "Genre non déduit malgré la licence taguée : le texte lui-même évoque une direction créative encore incertaine/en recherche pour ce quatrième épisode.",
+      "Univers/thème non déduit : les settings de BioShock varient fortement d'un épisode à l'autre (Rapture vs Columbia), celui du 4 n'est pas encore révélé.",
+      "Plateformes non annoncées, jeu encore en développement."
+    ]
+  },
+  {
+    "id": 108878,
+    "tags": [
+      "Harry Potter",
+      "HBO Max",
+      "Fantasy",
+      "Aventure"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 108873,
+    "tags": [
+      "Transport Fever",
+      "Urban Games",
+      "Paradox Interactive",
+      "Gestion",
+      "PC",
+      "Xbox",
+      "PlayStation",
+      "Suisse"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 108865,
+    "tags": [
+      "Star Wars",
+      "Disney",
+      "Lucasfilm",
+      "Espace",
+      "Science-fiction"
+    ],
+    "nouveaux_tags": [
+      "Ahsoka"
+    ],
+    "incertitudes": [
+      "Marvel cité uniquement en comparaison (procédé 'What If ?') : non tagué, règle 'œuvre citée en comparaison ≠ tag'."
+    ]
+  },
+  {
+    "id": 94754,
+    "tags": [
+      "Amiga",
+      "Retro Games Ltd.",
+      "Rétro"
+    ],
+    "nouveaux_tags": [
+      "PLAION REPLAI"
+    ],
+    "incertitudes": [
+      "Suisse non tagué : le prix en CHF est donné 'pour l'Europe' en bloc, pas une anomalie ou un axe suisse spécifique."
+    ]
+  },
+  {
+    "id": 108842,
+    "tags": [
+      "Flight Simulator",
+      "Asobo Studio",
+      "Microsoft",
+      "Simulation",
+      "PC",
+      "Xbox",
+      "PlayStation",
+      "Aviation"
+    ],
+    "nouveaux_tags": [
+      "Australie"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 108274,
+    "tags": [
+      "Razer",
+      "Microphone",
+      "Périphérique"
+    ],
+    "nouveaux_tags": [
+      "Webcam"
+    ],
+    "incertitudes": [
+      "Logitech C920 et HyperX QuadCast cités uniquement en comparaison, non tagués."
+    ]
+  },
+  {
+    "id": 108549,
+    "tags": [
+      "Narratif",
+      "Aventure",
+      "PC",
+      "Nintendo Switch",
+      "Indé",
+      "Shueisha"
+    ],
+    "nouveaux_tags": [
+      "OPUS",
+      "SIGONO"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 106975,
+    "tags": [
+      "Netflix",
+      "The Boroughs",
+      "Thriller",
+      "Science-fiction",
+      "Enquête"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Casting de 11 acteurs (>5) non tagué individuellement, règle 'listes = pas de tags'. Matt et Ross Duffer (créateurs de Stranger Things) mentionnés en pedigree, non tagués (l'angle éditorial reste la série, pas eux)."
+    ]
+  },
+  {
+    "id": 108737,
+    "tags": [
+      "Roborock",
+      "Aspirateur robot"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 108739,
+    "tags": [
+      "Electronic Arts",
+      "Combat",
+      "Sport",
+      "Xbox",
+      "PlayStation"
+    ],
+    "nouveaux_tags": [
+      "EA Sports UFC"
+    ],
+    "incertitudes": [
+      "Alex Pereira et Max Holloway (combattants égéries des éditions) non tagués : même logique que Kylian Mbappé sur EA SPORTS FC, ce sont des visages de couverture, pas le sujet éditorial."
+    ]
+  },
+  {
+    "id": 108724,
+    "tags": [
+      "Nintendo",
+      "Rétro"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Aucun tag plateforme précis pour Wii/GameCube dans le vocabulaire fermé §4 (contrairement à Amiga/Neo Geo, tagués en identité ouverte) — le projet est un mod non-officiel, 'Nintendo' seul et 'Rétro' semblent la meilleure approximation disponible."
+    ]
+  },
+  {
+    "id": 108718,
+    "tags": [
+      "Xbox Game Pass",
+      "Xbox",
+      "PC",
+      "Cloud gaming"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Liste de 8 jeux (>5) : aucun tag individuel malgré la mise en avant de Forza Horizon 6 dans le titre, car non développé au-delà de la ligne de catalogue standard (même traitement qu'un item de liste)."
+    ]
+  },
+  {
+    "id": 101307,
+    "tags": [
+      "PC",
+      "PlayStation",
+      "Post-apocalyptique",
+      "Robot",
+      "Coopératif",
+      "Multijoueur",
+      "Action"
+    ],
+    "nouveaux_tags": [
+      "Horizon",
+      "Horizon Hunters Gathering",
+      "Guerrilla"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 108700,
+    "tags": [
+      "Call of Duty",
+      "Activision",
+      "FPS",
+      "PlayStation",
+      "Xbox"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Aucun thème Guerre/WW2/Guerre froide posé : aucun détail de cadre n'est donné pour ce nouvel épisode non annoncé, conflit précis non vérifiable."
+    ]
+  },
+  {
+    "id": 108626,
+    "tags": [
+      "ARENA Cinemas",
+      "Cinéma",
+      "Suisse"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Programmation multi-films (Mortal Kombat II, Super Mario Galaxy le film, Michael, etc.) : aucun tag par film malgré la mise en avant de Mortal Kombat 2 dans le titre, règle 'listes = pas de tags' (aucun film développé au-delà des horaires)."
+    ]
+  },
+  {
+    "id": 108662,
+    "tags": [
+      "Grand Theft Auto",
+      "Rockstar Games",
+      "Take-Two Interactive",
+      "Action-aventure",
+      "PC",
+      "PlayStation",
+      "Xbox"
+    ],
+    "nouveaux_tags": [
+      "Strauss Zelnick"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 108630,
+    "tags": [
+      "Forza",
+      "Playground Games",
+      "Course",
+      "Xbox",
+      "PC"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 108621,
+    "tags": [
+      "Simulation",
+      "Cosy",
+      "Aventure",
+      "PC"
+    ],
+    "nouveaux_tags": [
+      "Littlelands",
+      "Apogee Entertainment"
+    ],
+    "incertitudes": [
+      "Pas de studio développeur nommé formellement (seulement Rafael Martin et Kyle Creamer à titre individuel, sans nom de studio) — aucun tag studio dev posé faute d'identité claire, seul l'éditeur Apogee Entertainment est tagué."
+    ]
+  },
+  {
+    "id": 106388,
+    "tags": [
+      "Star Wars",
+      "Lucasfilm",
+      "Action",
+      "Disney+",
+      "Espace",
+      "Science-fiction",
+      "Animation"
+    ],
+    "nouveaux_tags": [
+      "Maul"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 108608,
+    "tags": [
+      "Cinémas de Sierre",
+      "Suisse",
+      "Comédie"
+    ],
+    "nouveaux_tags": [
+      "Pour le plaisir"
+    ],
+    "incertitudes": [
+      "Programme mono-film : seul 'Pour le plaisir' est substantiellement développé (synopsis, casting, durée), règle 'programme mono-film' appliquée."
+    ]
+  },
+  {
+    "id": 108599,
+    "tags": [
+      "ASUS",
+      "Corsair",
+      "Samsung",
+      "Boîtier",
+      "Matériel PC",
+      "Montage PC",
+      "PC"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 79985,
+    "tags": [
+      "Grand Theft Auto",
+      "Action-aventure",
+      "PC",
+      "Indé"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Rockstar Games/Take-Two Interactive non tagués : le mod NaturalVision Enhanced est un projet fan/tiers, pas un contenu officiel de Rockstar. 'Indé' posé à la place pour refléter la nature fan-made/tierce du mod."
+    ]
+  },
+  {
+    "id": 108518,
+    "tags": [
+      "PC",
+      "Compétitif",
+      "Multijoueur",
+      "Local",
+      "Esport",
+      "Suisse"
+    ],
+    "nouveaux_tags": [
+      "Niwiky",
+      "Swiss Visual Prod",
+      "École 42 Lausanne",
+      "Nocturnal",
+      "Swiss Clash"
+    ],
+    "incertitudes": [
+      "Liste de 7 jeux du tournoi (>5) non tagués individuellement, sauf Nocturnal (mise en avant distincte, hors liste du tournoi)."
+    ]
+  },
+  {
+    "id": 108529,
+    "tags": [
+      "Aventure",
+      "Survie",
+      "PC",
+      "Espace",
+      "Science-fiction",
+      "Solo",
+      "Coopératif",
+      "Multijoueur",
+      "Monde ouvert",
+      "Shueisha"
+    ],
+    "nouveaux_tags": [
+      "Atmosfar",
+      "Apog Labs"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 95156,
+    "tags": [
+      "Aventure",
+      "Cosy",
+      "PlayStation",
+      "Xbox",
+      "PC"
+    ],
+    "nouveaux_tags": [
+      "Adorable Adventures"
+    ],
+    "incertitudes": [
+      "Studio/éditeur non cité dans le texte."
+    ]
+  },
+  {
+    "id": 108503,
+    "tags": [
+      "LEGO",
+      "SEGA",
+      "Rétro"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Suisse non tagué : le prix CHF est une simple conversion de routine en fin d'article, pas un axe suisse réel."
+    ]
+  },
+  {
+    "id": 108487,
+    "tags": [
+      "Star Wars",
+      "Epic Games",
+      "Disney",
+      "Lucasfilm",
+      "Course",
+      "Gestion",
+      "Action",
+      "Coopératif",
+      "Multijoueur",
+      "Compétitif",
+      "Espace",
+      "Science-fiction"
+    ],
+    "nouveaux_tags": [
+      "Fortnite"
+    ],
+    "incertitudes": [
+      "Phrase finale sur les paris en cryptomonnaies 'en Suisse' semble hors-sujet et possiblement injectée (SEO/affiliation) — sans rapport réel avec le contenu Fortnite x Star Wars, non tagué Suisse. À signaler pour vérification éditoriale plutôt que traité comme un cas de nomenclature."
+    ]
+  }
+]

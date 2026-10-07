@@ -1,0 +1,45 @@
+[
+  {
+    "id": 114278,
+    "title": "Dragon Age, un Remaster de la trilogie est presque impossible",
+    "tags": ["Dragon Age", "BioWare", "Remaster", "RPG", "Fantasy"],
+    "nouveaux_tags": ["Dragon Age", "BioWare"],
+    "incertitudes": [
+      "Plateforme non citée dans le texte (remaster hypothétique, aucune console annoncée)",
+      "Mark Darrah cité comme source externe (interview donnée à FRVR, pas à JVMag) — non tagué comme personne, à valider"
+    ]
+  },
+  {
+    "id": 114268,
+    "title": "Crazy Taxi: World Tour, un test multijoueur en septembre !",
+    "tags": ["Crazy Taxi", "SEGA", "Course", "PC", "PlayStation", "Xbox", "Nintendo Switch", "Multijoueur", "Cross-play", "En ligne"],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 114273,
+    "title": "Playstation Plus Essential (PSPlus), jeux du mois d'août",
+    "tags": ["PlayStation"],
+    "nouveaux_tags": ["PlayStation Plus"],
+    "incertitudes": [
+      "Dying Light 2, Big Walk, Signalis non tagués individuellement (règle 'liste/programme = pas de tags par jeu')"
+    ]
+  },
+  {
+    "id": 114263,
+    "title": "Below : Une mini-série Netflix avec un monstre marin et Josh Hartnett",
+    "tags": ["Below", "Netflix", "Thriller", "Science-fiction", "Maritime", "Josh Hartnett"],
+    "nouveaux_tags": ["Below", "Josh Hartnett"],
+    "incertitudes": [
+      "Horreur non tagué (genre auto-déclaré 'thriller/science-fiction' par l'article malgré l'ambiance créature) — à confirmer",
+      "Charlie Heaton / Mackenzie Davis / Josh Cruddas mentionnés mais pas taggés (pas de hook en titre, casting secondaire)"
+    ]
+  },
+  {
+    "id": 114254,
+    "title": "Disney+ sans 4K en Allemagne, Belgique et France",
+    "tags": ["Disney+"],
+    "nouveaux_tags": ["Allemagne", "Belgique", "France"],
+    "incertitudes": []
+  }
+]

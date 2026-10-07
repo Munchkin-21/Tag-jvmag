@@ -1,0 +1,72 @@
+[
+  {
+    "id": 114123,
+    "title": "The Rings of Power S3 : Nazgnagôl",
+    "tags": ["Prime Video", "Fantasy"],
+    "nouveaux_tags": ["Le Seigneur des Anneaux"],
+    "incertitudes": []
+  },
+  {
+    "id": 114117,
+    "title": "Scrooge : Johnny Depp dans la bande-annonce",
+    "tags": ["Comédie", "Fantastique", "Horreur"],
+    "nouveaux_tags": ["Scrooge", "Johnny Depp"],
+    "incertitudes": []
+  },
+  {
+    "id": 113951,
+    "title": "Preview Honkai: Nexus Anima",
+    "tags": ["HoYoverse", "Stratégie", "Gestion", "Aventure", "Monde ouvert", "PC", "Mobile"],
+    "nouveaux_tags": ["Honkai"],
+    "incertitudes": ["Genshin Impact/Pokémon/Teamfight Tactics/Riot Games non tagués (comparaisons explicites, pas le sujet) ; 'Gratuit' pas ajouté par prudence (fortement sous-entendu par le contexte gacha mais pas affirmé pour CE jeu précis) — dis-moi si tu veux qu'on l'ajoute quand même"]
+  },
+  {
+    "id": 114107,
+    "title": "Xbox cloud gaming gratuit contre publicité",
+    "tags": ["Microsoft", "Xbox", "Cloud gaming", "Xbox Game Pass", "Gratuit"],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 114078,
+    "title": "TEST Conker: Live & Reloaded (rétrocompatibilité PC)",
+    "tags": ["PC", "Xbox", "Xbox Game Pass", "Plateforme", "Rétro", "Remake"],
+    "nouveaux_tags": ["Conker", "Rare"],
+    "incertitudes": ["Multijoueur explicitement non fonctionnel dans ce portage (en ligne cassé, écran splitté non testé) → pas taggé Multijoueur/Coopératif malgré la fonctionnalité théorique du jeu"]
+  },
+  {
+    "id": 108930,
+    "title": "Aliens: Fireteam Elite 2",
+    "tags": ["Alien", "TPS", "Science-fiction", "Horreur", "Coopératif", "Multijoueur", "PC", "Xbox", "PlayStation"],
+    "nouveaux_tags": ["Cold Iron Studios", "Daybreak Game Company"],
+    "incertitudes": []
+  },
+  {
+    "id": 114087,
+    "title": "Atari x Universal, 10 jeux adaptés au cinéma",
+    "tags": ["Universal", "Cinéma"],
+    "nouveaux_tags": ["Atari"],
+    "incertitudes": ["Liste de 10 jeux (Pong, Asteroids, Centipede...) — aucun taggé individuellement, règle 'listes', y compris Pong malgré le clin d'œil final"]
+  },
+  {
+    "id": 114097,
+    "title": "Marvel's Wolverine, bande-annonce scénario",
+    "tags": ["Wolverine", "Insomniac Games", "PlayStation Studios", "Marvel", "Action-aventure", "Super-héros", "PlayStation"],
+    "nouveaux_tags": [],
+    "incertitudes": ["Action-aventure déduit du style Insomniac (trait stable), non décrit explicitement ici (texte centré sur le scénario) ; PlayStation Studios déduit de la propriété Sony d'Insomniac, non cité explicitement dans le texte"]
+  },
+  {
+    "id": 113972,
+    "title": "TEST Halo Campaign Evolved",
+    "tags": ["Halo", "Xbox Game Studios", "FPS", "Science-fiction", "Espace", "Remake", "PC", "Xbox", "PlayStation", "Coopératif", "Multijoueur", "Cross-play", "En ligne", "Xbox Game Pass"],
+    "nouveaux_tags": [],
+    "incertitudes": ["QUESTION : le studio dev actuel (Halo Studios) n'est jamais cité dans le texte — seul Bungie est mentionné, comme créateur historique d'origine (pedigree). Le tag 'Halo Studios' existe déjà sur le site (donc clairement légitime en soi) — je ne l'ai pas posé ici par discipline (rien dans CE texte ne le confirme), mais dis-moi si la déduction 'trait stable' doit s'étendre au studio dev actuel d'une licence connue, pas seulement au genre/univers"]
+  },
+  {
+    "id": 107631,
+    "title": "Coyote vs. Acme, nouvelle bande-annonce",
+    "tags": ["Warner Bros.", "Comédie", "Animation", "Suisse"],
+    "nouveaux_tags": ["Looney Tunes"],
+    "incertitudes": []
+  }
+]

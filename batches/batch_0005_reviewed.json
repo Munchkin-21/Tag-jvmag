@@ -1,0 +1,52 @@
+[
+  {
+    "id": 114123,
+    "tags": ["Prime Video", "Fantasy"],
+    "nouveaux_tags": ["Le Seigneur des Anneaux"]
+  },
+  {
+    "id": 114117,
+    "tags": ["Comédie", "Fantastique"],
+    "nouveaux_tags": ["Scrooge"]
+  },
+  {
+    "id": 113951,
+    "tags": ["HoYoverse", "Stratégie", "Gestion", "Aventure", "Monde ouvert", "PC", "Mobile"],
+    "nouveaux_tags": ["Honkai"]
+  },
+  {
+    "id": 114107,
+    "tags": ["Microsoft", "Xbox", "Cloud gaming", "Xbox Game Pass"],
+    "nouveaux_tags": []
+  },
+  {
+    "id": 114078,
+    "tags": ["PC", "Xbox", "Xbox Game Pass", "Plateforme", "Rétro", "Remake"],
+    "nouveaux_tags": ["Conker", "Rare"]
+  },
+  {
+    "id": 108930,
+    "tags": ["Alien", "TPS", "Science-fiction", "Horreur", "Coopératif", "Multijoueur", "PC", "Xbox", "PlayStation"],
+    "nouveaux_tags": ["Cold Iron Studios", "Daybreak Game Company"]
+  },
+  {
+    "id": 114087,
+    "tags": ["Universal", "Cinéma"],
+    "nouveaux_tags": ["Atari"]
+  },
+  {
+    "id": 114097,
+    "tags": ["Wolverine", "Insomniac Games", "PlayStation Studios", "Marvel", "Action-aventure", "Super-héros", "PlayStation"],
+    "nouveaux_tags": []
+  },
+  {
+    "id": 113972,
+    "tags": ["Halo", "Xbox Game Studios", "FPS", "Science-fiction", "Espace", "Remake", "PC", "Xbox", "PlayStation", "Coopératif", "Multijoueur", "Cross-play", "En ligne", "Xbox Game Pass"],
+    "nouveaux_tags": []
+  },
+  {
+    "id": 107631,
+    "tags": ["Warner Bros.", "Comédie", "Animation"],
+    "nouveaux_tags": ["Looney Tunes"]
+  }
+]

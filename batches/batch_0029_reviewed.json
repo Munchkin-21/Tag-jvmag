@@ -1,0 +1,66 @@
+[
+  {
+    "id": 114963,
+    "tags": ["Aventure", "Enquête", "Solo", "Coopératif", "Multijoueur", "En ligne", "PC"],
+    "nouveaux_tags": ["Nautus", "Magic Design Studios"],
+    "incertitudes": []
+  },
+  {
+    "id": 114958,
+    "tags": ["Extraction shooter", "FPS", "Horreur", "Solo", "Coopératif", "Multijoueur", "PC"],
+    "nouveaux_tags": ["Waste The Fallen", "Royal Crow", "Lovecraftien"],
+    "incertitudes": []
+  },
+  {
+    "id": 114950,
+    "tags": ["Horreur"],
+    "nouveaux_tags": ["American Horror Story", "Jessica Lange", "Evan Peters"],
+    "incertitudes": [
+      "Plateforme régionale non confirmée : Disney+ probable mais pas encore officiellement annoncé pour nos régions selon le texte — non tagué."
+    ]
+  },
+  {
+    "id": 114945,
+    "tags": ["IA"],
+    "nouveaux_tags": ["Twitch", "Amazon", "Mike Minton"],
+    "incertitudes": []
+  },
+  {
+    "id": 114929,
+    "tags": ["PlayStation", "PlayStation Plus"],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 114918,
+    "tags": ["Logitech", "Souris", "Périphérique", "Suisse", "PC"],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 114806,
+    "tags": ["Google", "Montre connectée", "IA", "Suisse"],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 114796,
+    "tags": ["Google", "Smartphone", "IA", "Suisse"],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 114912,
+    "tags": ["Action-RPG", "Stratégie", "Mythologie", "Solo", "Coopératif", "Multijoueur", "Local", "PC"],
+    "nouveaux_tags": ["Hordeguard"],
+    "incertitudes": [
+      "Studio développeur non cité dans le texte, titre trop peu documenté pour une recherche ciblée fiable."
+    ]
+  },
+  {
+    "id": 114906,
+    "tags": ["Disney+", "Voiture", "Voiture électrique"],
+    "nouveaux_tags": ["Formula E"],
+    "incertitudes": []
+  }
+]

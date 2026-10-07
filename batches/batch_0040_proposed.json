@@ -1,0 +1,558 @@
+[
+  {
+    "id": 116654,
+    "tags": [
+      "The Legend of Zelda",
+      "Nintendo",
+      "Nintendo Switch",
+      "Fantasy",
+      "Médiéval",
+      "Manette",
+      "Périphérique"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 86794,
+    "tags": [
+      "The Legend of Zelda",
+      "Nintendo",
+      "Aventure",
+      "Fantasy",
+      "Médiéval"
+    ],
+    "nouveaux_tags": [
+      "Bo Bragason",
+      "Benjamin Evan Ainsworth",
+      "Shigeru Miyamoto"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 98341,
+    "tags": [
+      "Grand Theft Auto",
+      "Action-aventure",
+      "Indé"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Plateforme non tagué : jeu jouable via navigateur 'peu importe l'appareil', pas de plateforme précise (PC/Mobile) confirmée par le texte. Rockstar Games/Take-Two non tagués : projet fan/tiers, même logique que le mod NaturalVision (GTA5, lot #22)."
+    ]
+  },
+  {
+    "id": 116608,
+    "tags": [
+      "ARENA Cinemas",
+      "Cinéma",
+      "Suisse"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Programmation multi-films : aucun tag par film, règle 'listes = pas de tags'."
+    ]
+  },
+  {
+    "id": 116619,
+    "tags": [
+      "PC",
+      "Xbox",
+      "PlayStation",
+      "Monde ouvert",
+      "Action-RPG"
+    ],
+    "nouveaux_tags": [
+      "Maneater",
+      "Tripwire Interactive",
+      "Demiruge Studios"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116612,
+    "tags": [
+      "Cinémas de Sierre",
+      "Suisse",
+      "Comédie",
+      "Drame"
+    ],
+    "nouveaux_tags": [
+      "Tombé du ciel"
+    ],
+    "incertitudes": [
+      "Programme mono-film : seul 'Tombé du ciel' développé (synopsis, casting), règle 'programme mono-film' appliquée."
+    ]
+  },
+  {
+    "id": 116603,
+    "tags": [
+      "Nintendo Switch",
+      "Aventure",
+      "Horreur",
+      "Coopératif",
+      "Multijoueur"
+    ],
+    "nouveaux_tags": [
+      "Beyond the Dark",
+      "Atlantis Studio"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116598,
+    "tags": [
+      "Course",
+      "PC"
+    ],
+    "nouveaux_tags": [
+      "Airframe Ultra"
+    ],
+    "incertitudes": [
+      "Studio développeur/éditeur non cité dans le texte. Thème 'Cyberpunk' envisagé mais écarté (rétro-futurisme évoqué sans tropes cyberpunk explicites)."
+    ]
+  },
+  {
+    "id": 116590,
+    "tags": [
+      "Guerrilla",
+      "PlayStation Studios",
+      "FPS",
+      "PlayStation",
+      "Science-fiction",
+      "Guerre"
+    ],
+    "nouveaux_tags": [
+      "Killzone"
+    ],
+    "incertitudes": [
+      "People Can Fly non tagué : partenariat évoqué mais explicitement non confirmé par la source (MP1st). Remaster/Remake non tagués : nature du projet encore spéculative selon le texte lui-même."
+    ]
+  },
+  {
+    "id": 116578,
+    "tags": [
+      "NVIDIA",
+      "Carte graphique",
+      "Matériel PC",
+      "IA"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 116355,
+    "tags": [
+      "Manga",
+      "Suisse",
+      "Fairy Tail"
+    ],
+    "nouveaux_tags": [
+      "Interview",
+      "Ikigai Manga Shop",
+      "Damyan Kirstof",
+      "Grégory Sinz",
+      "Hiro Mashima"
+    ],
+    "incertitudes": [
+      "Jeux cités en fin d'interview (GTA6, Zelda OOT, Kingdom Hearts IV, BioShock, Judas, Tombi 3) non tagués : liste de souhaits (>5), pas des sujets développés."
+    ]
+  },
+  {
+    "id": 116574,
+    "tags": [
+      "Stratégie",
+      "Espace",
+      "Science-fiction"
+    ],
+    "nouveaux_tags": [
+      "Civilization",
+      "Firaxis Games"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 114868,
+    "tags": [
+      "Hot Wheels",
+      "Course",
+      "PC",
+      "Monde ouvert"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Studio développeur non cité nommément dans le texte (seulement 'le studio' de manière générique)."
+    ]
+  },
+  {
+    "id": 116556,
+    "tags": [
+      "NVIDIA",
+      "Carte graphique",
+      "Matériel PC",
+      "IA"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 116538,
+    "tags": [
+      "Marvel",
+      "Spider-Man",
+      "Sony Pictures",
+      "Amazon",
+      "Thriller",
+      "Prime Video",
+      "Policier",
+      "Super-héros",
+      "Enquête"
+    ],
+    "nouveaux_tags": [
+      "Spider-Noir",
+      "Nicolas Cage"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116533,
+    "tags": [
+      "Double Fine Productions",
+      "Gestion",
+      "PC"
+    ],
+    "nouveaux_tags": [
+      "Thank You Bus Driver"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116522,
+    "tags": [
+      "Razer",
+      "Chaise gaming",
+      "Périphérique"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Annoncé à la PAX West 2026, événement absent du vocabulaire fermé §6 (gap supplémentaire identifié cette session, en plus de BlizzCon/Festival des Jeux/New York Comic Con) — à évaluer en bloc plutôt qu'au cas par cas."
+    ]
+  },
+  {
+    "id": 116510,
+    "tags": [
+      "StarCraft",
+      "Blizzard",
+      "Espace",
+      "Science-fiction",
+      "BlizzCon"
+    ],
+    "nouveaux_tags": [
+      "Dan Hay"
+    ],
+    "incertitudes": [
+      "Genre (TPS/RTS) non tagué : les deux projets évoqués (shooter dirigé par Dan Hay, potentiel StarCraft 3 via Nexon) restent au stade de rumeur non confirmée à la date de cet article — antérieur à l'annonce officielle de Starcraft Dominion (lot #23), donc pas relié à ce tag. Nexon non tagué pour la même raison (accord 'proche' mais non confirmé)."
+    ]
+  },
+  {
+    "id": 116496,
+    "tags": [
+      "Microsoft",
+      "Cloud gaming",
+      "Xbox Game Pass",
+      "Xbox"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 116500,
+    "tags": [
+      "IA"
+    ],
+    "nouveaux_tags": [
+      "OpenAI",
+      "Greg Brockman"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116491,
+    "tags": [],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Article de conseils génériques sans sujet précis identifiable dans le vocabulaire (mot de passe, cybersécurité). Le Centre national pour la cybersécurité suisse est cité comme source d'autorité, mais l'article reste un conseil général, pas un sujet suisse en soi — Suisse non tagué par prudence. Plex mentionné uniquement comme déclencheur du sujet, non tagué."
+    ]
+  },
+  {
+    "id": 116482,
+    "tags": [
+      "Sony Pictures",
+      "Story Kitchen",
+      "Aventure",
+      "Science-fiction",
+      "Enquête",
+      "Indé",
+      "Australie"
+    ],
+    "nouveaux_tags": [
+      "The Drifter",
+      "Powerhoof"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116288,
+    "tags": [
+      "Resident Evil",
+      "Sony Pictures",
+      "Action",
+      "Horreur",
+      "Zombies"
+    ],
+    "nouveaux_tags": [
+      "Zach Cregger",
+      "Barbarian",
+      "Metropolitan Films"
+    ],
+    "incertitudes": [
+      "Barbarian (2022) ajouté comme œuvre-signature de Zach Cregger (règle réalisateur/créateur) — à la différence de Flanagan/Shyamalan (lot #23), un seul titre domine clairement sa notoriété, jugement à valider."
+    ]
+  },
+  {
+    "id": 116470,
+    "tags": [
+      "Grand Theft Auto",
+      "Sony",
+      "Rockstar Games",
+      "Take-Two Interactive",
+      "Action-aventure",
+      "PlayStation",
+      "Xbox",
+      "State of Play",
+      "Manette",
+      "Périphérique"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 116458,
+    "tags": [
+      "LEGO",
+      "Sony",
+      "PlayStation",
+      "Rétro",
+      "State of Play"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 116452,
+    "tags": [
+      "Dragon Ball",
+      "Toei Animation",
+      "Manga",
+      "France",
+      "Qiddiya Investment Company"
+    ],
+    "nouveaux_tags": [
+      "Emmanuel Macron",
+      "Arabie saoudite"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116200,
+    "tags": [
+      "Final Fantasy",
+      "Sony",
+      "Square Enix",
+      "PlayStation",
+      "State of Play"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Genre/thème de Final Fantasy VII Revelation non déduits : aucune description de gameplay/univers propre à cet épisode dans le texte, prudence plutôt que déduction sur la franchise entière."
+    ]
+  },
+  {
+    "id": 116413,
+    "tags": [
+      "Gran Turismo",
+      "Polyphony Digital",
+      "Course",
+      "Simulation",
+      "PC",
+      "Rétro",
+      "Indé"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 116435,
+    "tags": [
+      "Dragon Ball",
+      "Toei Animation",
+      "Manga",
+      "Remaster"
+    ],
+    "nouveaux_tags": [
+      "Monica Rial",
+      "Jason Douglas",
+      "Ian Sinclair"
+    ],
+    "incertitudes": [
+      "New York Comic Con absent du vocabulaire fermé §6, alors que San Diego Comic-Con y figure déjà — candidat d'amendement supplémentaire."
+    ]
+  },
+  {
+    "id": 95895,
+    "tags": [
+      "PC",
+      "Multijoueur",
+      "Compétitif",
+      "Indé",
+      "Action"
+    ],
+    "nouveaux_tags": [
+      "Tyr",
+      "Stoke Games"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116426,
+    "tags": [
+      "NVIDIA",
+      "Carte graphique",
+      "Matériel PC",
+      "IA"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Cyberpunk 2077, Hogwarts Legacy et Control cités uniquement comme jeux de benchmark, non tagués (pas le sujet de l'article)."
+    ]
+  },
+  {
+    "id": 116407,
+    "tags": [
+      "Hack'n'slash",
+      "PC",
+      "Solo",
+      "Coopératif",
+      "Multijoueur"
+    ],
+    "nouveaux_tags": [
+      "Wolcen",
+      "WOLCEN Studio"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116397,
+    "tags": [
+      "Hot Wheels",
+      "Milestone",
+      "Mattel",
+      "Course",
+      "PlayStation",
+      "Xbox",
+      "Nintendo Switch",
+      "PC",
+      "Monde ouvert"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 116298,
+    "tags": [
+      "Harry Potter",
+      "HBO Max",
+      "Aventure",
+      "Fantasy"
+    ],
+    "nouveaux_tags": [
+      "Francesca Gardiner"
+    ],
+    "incertitudes": [
+      "Casting de 14 acteurs (>5) : aucun tag individuel, règle 'listes = pas de tags'."
+    ]
+  },
+  {
+    "id": 116382,
+    "tags": [
+      "Disney",
+      "Disney+"
+    ],
+    "nouveaux_tags": [
+      "InterDigital"
+    ],
+    "incertitudes": [
+      "Amazon mentionné uniquement en comparaison (a évité le litige via accord de licence), non tagué. Josh Schmidt (porte-parole InterDigital) non tagué : citation unique, pas l'angle éditorial de l'article."
+    ]
+  },
+  {
+    "id": 116371,
+    "tags": [
+      "Razer"
+    ],
+    "nouveaux_tags": [
+      "NIU"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116364,
+    "tags": [
+      "Voiture",
+      "Voiture hybride",
+      "Suisse"
+    ],
+    "nouveaux_tags": [
+      "LEPAS",
+      "Chery Auto"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 116348,
+    "tags": [
+      "Mario Kart",
+      "Nintendo",
+      "Course",
+      "Nintendo Switch",
+      "Multijoueur",
+      "Local",
+      "En ligne"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 116343,
+    "tags": [
+      "Xbox Game Pass",
+      "Xbox",
+      "PC",
+      "Cloud gaming"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Liste de 7 jeux ajoutés + 10 jeux retirés (>5 chacune) : aucun tag individuel, règle 'listes = pas de tags'."
+    ]
+  },
+  {
+    "id": 116326,
+    "tags": [
+      "Razer",
+      "Manette",
+      "Périphérique"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  }
+]

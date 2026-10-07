@@ -1,0 +1,446 @@
+[
+  {
+    "id": 117092,
+    "tags": [
+      "Sport",
+      "PC",
+      "Indé"
+    ],
+    "nouveaux_tags": [
+      "Rollout Inline",
+      "MLMEDIA"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 117082,
+    "tags": [
+      "Razer",
+      "Casque audio",
+      "Périphérique"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 117074,
+    "tags": [
+      "Grand Theft Auto",
+      "Rockstar Games",
+      "Take-Two Interactive",
+      "Action-aventure",
+      "PlayStation",
+      "Xbox"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Article liste 8 artistes associés au teasing GTA6 (>5) : non tagués individuellement, règle 'listes = pas de tags'."
+    ]
+  },
+  {
+    "id": 117069,
+    "tags": [
+      "Xbox Game Pass",
+      "Xbox",
+      "PC",
+      "Cloud gaming"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Liste de plus de 5 jeux catalogue Game Pass : aucun tag individuel par jeu, règle 'listes = pas de tags'."
+    ]
+  },
+  {
+    "id": 117063,
+    "tags": [
+      "SEGA",
+      "MMO",
+      "PC",
+      "Mobile",
+      "Rétro",
+      "Multijoueur"
+    ],
+    "nouveaux_tags": [
+      "Phantasy Star"
+    ],
+    "incertitudes": [
+      "Thème/univers (Espace/Science-fiction) de Phantasy Star non posé faute de certitude suffisante sur ce trait stable.",
+      "'En ligne' non tagué : le texte ne mentionne pas explicitement serveurs/connexion, seulement 'MMO' et 'multijoueur'."
+    ]
+  },
+  {
+    "id": 117056,
+    "tags": [
+      "EA SPORTS FC",
+      "Electronic Arts",
+      "Sport",
+      "PlayStation",
+      "Xbox",
+      "PC",
+      "Multijoueur",
+      "Compétitif"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 117051,
+    "tags": [
+      "ARENA Cinemas",
+      "Suisse",
+      "Cinéma"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": [
+      "Programmation multi-films (pas un seul film développé) : aucun tag par film, règle 'listes = pas de tags'."
+    ]
+  },
+  {
+    "id": 117026,
+    "tags": [
+      "Écran",
+      "Périphérique",
+      "Chine"
+    ],
+    "nouveaux_tags": [
+      "Xiaomi"
+    ],
+    "incertitudes": [
+      "Angle suisse limité à une phrase de fin ('encore moins en Suisse') dans un article centré sur la Chine : jugé insuffisant pour le tag Suisse selon le test resserré, mais borderline."
+    ]
+  },
+  {
+    "id": 117014,
+    "tags": [
+      "Ace Combat",
+      "Bandai Namco",
+      "Action",
+      "Aviation",
+      "Guerre",
+      "PC",
+      "PlayStation",
+      "Xbox"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 117018,
+    "tags": [
+      "Steam Frame",
+      "Valve",
+      "VR",
+      "PC",
+      "Half-Life",
+      "Suisse"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 72219,
+    "tags": [
+      "PC",
+      "Médiéval",
+      "Guerre",
+      "Action",
+      "Stratégie",
+      "Coopératif",
+      "Multijoueur",
+      "Solo"
+    ],
+    "nouveaux_tags": [
+      "Kingmakers"
+    ],
+    "incertitudes": [
+      "Studio développeur non cité dans le texte, pas de source unique fiable identifiée pour une recherche ciblée.",
+      "'Monde ouvert' évoqué via 'bac à sable' mais non confirmé explicitement — non tagué."
+    ]
+  },
+  {
+    "id": 117005,
+    "tags": [
+      "Crazy Taxi",
+      "Stranger Than Heaven",
+      "SEGA",
+      "Ryu Ga Gotoku Studio",
+      "Netflix",
+      "Action",
+      "Aventure",
+      "Animation"
+    ],
+    "nouveaux_tags": [
+      "Sonic",
+      "Drame"
+    ],
+    "incertitudes": [
+      "Aucun thème/univers §5 posé pour Crazy Taxi, Stranger Than Heaven ou Sonic : pas de trait stable suffisamment fiable identifié pour ces oeuvres/adaptations."
+    ]
+  },
+  {
+    "id": 116973,
+    "tags": [
+      "Dreame",
+      "Aspirateur robot"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 116967,
+    "tags": [
+      "Harry Potter",
+      "Fantasy",
+      "Suisse",
+      "ARENA Cinemas"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 109025,
+    "tags": [
+      "PC",
+      "Xbox",
+      "PlayStation",
+      "Nintendo Switch",
+      "Steam Deck",
+      "Cosy",
+      "Aventure",
+      "Solo",
+      "Coopératif",
+      "Multijoueur",
+      "Monde ouvert",
+      "Indé"
+    ],
+    "nouveaux_tags": [
+      "Outbound",
+      "Square Glade Games"
+    ],
+    "incertitudes": [
+      "Genre 'Survie' non posé : le texte qualifie lui-même l'aspect survie de 'très basique et peu contraignant', seuil de la définition incertain.",
+      "Pays-Bas (nationalité du studio) mentionné en passant dans la bio des fondateurs — pas sûr que ce soit un fait central de l'article, non tagué par prudence."
+    ]
+  },
+  {
+    "id": 109009,
+    "tags": [
+      "Grand Theft Auto",
+      "Rockstar Games",
+      "Take-Two Interactive",
+      "Action-aventure",
+      "Xbox",
+      "PlayStation"
+    ],
+    "nouveaux_tags": [
+      "Lewis Hamilton"
+    ],
+    "incertitudes": [
+      "Rockstar Games/Take-Two ajoutés par identification non-ambiguë (GTA), le studio n'étant pas nommé littéralement dans le texte."
+    ]
+  },
+  {
+    "id": 105941,
+    "tags": [
+      "RPG",
+      "Narratif",
+      "PC",
+      "PlayStation"
+    ],
+    "nouveaux_tags": [
+      "Zero Parades",
+      "ZA/UM",
+      "Espionnage"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 108981,
+    "tags": [
+      "Comédie",
+      "Action",
+      "Science-fiction",
+      "Espace"
+    ],
+    "nouveaux_tags": [
+      "Projet Dernière Chance"
+    ],
+    "incertitudes": [
+      "Studio de production non cité dans le texte.",
+      "Aucun tag posé pour Ryan Gosling/Sandra Hüller/Phil Lord/Christopher Miller : ils apparaissent dans la couverture du film déjà tagué, sans en être eux-mêmes le sujet éditorial (règle §1)."
+    ]
+  },
+  {
+    "id": 108994,
+    "tags": [
+      "Minions",
+      "Illumination",
+      "Comédie",
+      "Aventure",
+      "Lovecraftien",
+      "Animation"
+    ],
+    "nouveaux_tags": [
+      "Universal Pictures"
+    ],
+    "incertitudes": [
+      "Liste de 9 voix de casting (>5) : aucun tag individuel, règle 'listes = pas de tags'."
+    ]
+  },
+  {
+    "id": 108971,
+    "tags": [
+      "Sony",
+      "PlayStation",
+      "Hiroki Totoki"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 108966,
+    "tags": [
+      "Nintendo",
+      "Nintendo Switch",
+      "Suisse"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 108961,
+    "tags": [
+      "Resident Evil",
+      "Capcom",
+      "Action",
+      "Horreur",
+      "Zombies",
+      "PC",
+      "Xbox",
+      "PlayStation",
+      "Nintendo Switch"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 108957,
+    "tags": [
+      "Nacon",
+      "Simulation",
+      "PC",
+      "Xbox",
+      "PlayStation",
+      "Monde ouvert"
+    ],
+    "nouveaux_tags": [
+      "Hunting Simulator",
+      "Nacon Connect"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 108951,
+    "tags": [
+      "Nacon"
+    ],
+    "nouveaux_tags": [
+      "Nacon Connect"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 108946,
+    "tags": [
+      "Action-aventure",
+      "Survie",
+      "Lovecraftien",
+      "Horreur",
+      "Enquête",
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "nouveaux_tags": [
+      "The Sinking City",
+      "Frogwares",
+      "Ukraine"
+    ],
+    "incertitudes": [
+      "Ukraine tagué car explicitement citée comme cause du report (studio ukrainien touché par la guerre) — à confirmer que ce fait contextuel réel justifie le tag pays."
+    ]
+  },
+  {
+    "id": 107308,
+    "tags": [
+      "LEGO",
+      "Batman",
+      "Action-aventure",
+      "Super-héros",
+      "PlayStation",
+      "Xbox",
+      "PC",
+      "Nintendo Switch"
+    ],
+    "nouveaux_tags": [
+      "TT Games"
+    ],
+    "incertitudes": []
+  },
+  {
+    "id": 108925,
+    "tags": [
+      "Xbox",
+      "Microsoft",
+      "AMD"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 108909,
+    "tags": [
+      "Google",
+      "Fitbit",
+      "Montre connectée",
+      "IA",
+      "Suisse"
+    ],
+    "nouveaux_tags": [],
+    "incertitudes": []
+  },
+  {
+    "id": 103679,
+    "tags": [
+      "Annapurna Interactive",
+      "Narratif",
+      "PC",
+      "PlayStation",
+      "Nintendo Switch",
+      "Xbox"
+    ],
+    "nouveaux_tags": [
+      "Mixtape",
+      "Années 90"
+    ],
+    "incertitudes": [
+      "Studio développeur non cité dans le texte (seul l'éditeur Annapurna Interactive est nommé), pas de source fiable identifiée pour une recherche ciblée."
+    ]
+  },
+  {
+    "id": 108903,
+    "tags": [
+      "20th Century Studios",
+      "Action-aventure",
+      "Science-fiction",
+      "Post-apocalyptique"
+    ],
+    "nouveaux_tags": [
+      "La Planète des singes",
+      "Matt Shakman"
+    ],
+    "incertitudes": [
+      "Genre/thème déduits comme trait stable de la franchise : la bande-annonce montrée dans l'article est celle du FILM PRÉCÉDENT, pas du nouveau film annoncé (sans synopsis propre)."
+    ]
+  }
+]

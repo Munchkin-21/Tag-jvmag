@@ -2,6 +2,4 @@
 venv/
 __pycache__/
 *.pyc
-batches/
-scripts/state.json
 .DS_Store

@@ -1,0 +1,72 @@
+[
+  {
+    "id": 108380,
+    "title": "Resident Evil (Zach Cregger), trailer",
+    "tags": ["Resident Evil", "Capcom", "Sony Pictures", "Horreur"],
+    "nouveaux_tags": [],
+    "incertitudes": ["Zach Cregger (réalisateur, discute sa vision dans l'article) non taggé — le film reste le sujet, cohérent avec la clarification vedette-hook v3.9"]
+  },
+  {
+    "id": 114053,
+    "title": "LEGO Donkey Kong",
+    "tags": ["Nintendo", "Rétro"],
+    "nouveaux_tags": ["Donkey Kong", "LEGO"],
+    "incertitudes": ["Steve Wiebe cité en clin d'œil bonus (vidéo), non taggé — pas le sujet de l'article ; pas de genre 'Plateforme' — l'article couvre un produit dérivé LEGO, pas le jeu lui-même"]
+  },
+  {
+    "id": 114042,
+    "title": "Dear Passengers",
+    "tags": ["Party game", "Coopératif", "Multijoueur", "PC"],
+    "nouveaux_tags": ["Dear Passengers"],
+    "incertitudes": ["Studio développeur non cité dans le texte → non déduit"]
+  },
+  {
+    "id": 114002,
+    "title": "Xbox rétrocompatibilité PC (4 jeux dont Crimson Skies)",
+    "tags": ["Microsoft", "Xbox", "PC", "Xbox Game Pass", "Rétro", "Cloud gaming", "Conker"],
+    "nouveaux_tags": ["BLiNX: The Time Sweeper", "Crimson Skies", "Fuzion Frenzy"],
+    "incertitudes": ["QUESTION : 4 jeux nommément listés comme le contenu même du lancement du programme (pas un simple exemple parmi d'autres) — j'ai taggé chacun individuellement (dont réutilisation de Conker, déjà tagué sur le test dédié), mais c'est à la frontière de la règle 'listes = pas de tags'. Différence avec Atari/PS+ : ici seulement 4 titres, et chacun devient réellement disponible sur PC (fait concret, pas une intention). Dis-moi si tu confirmes cette lecture ou si tu préfères qu'on ne tague que le programme (Xbox seul, sans les 4 titres)"]
+  },
+  {
+    "id": 107654,
+    "title": "Clayface (DC), nouvelles images",
+    "tags": ["DC", "Warner Bros.", "Horreur", "Thriller"],
+    "nouveaux_tags": ["Clayface"],
+    "incertitudes": []
+  },
+  {
+    "id": 113627,
+    "title": "Hasbro x Nintendo, figurines Zelda",
+    "tags": ["Nintendo", "San Diego Comic-Con"],
+    "nouveaux_tags": ["Hasbro", "The Legend of Zelda"],
+    "incertitudes": ["'The Legend of Zelda' n'existait en fait pas encore sur WordPress malgré une mention dans l'ancien doc (liste-maitresse pré-automatisation) — confirme que la source API live est la bonne référence, pas l'ancien fichier statique"]
+  },
+  {
+    "id": 113992,
+    "title": "NBA 2K27",
+    "tags": ["Sport", "Multijoueur", "PC", "PlayStation", "Xbox", "Nintendo Switch"],
+    "nouveaux_tags": ["NBA 2K", "2K", "Visual Concepts"],
+    "incertitudes": []
+  },
+  {
+    "id": 113985,
+    "title": "Fantômas – Le Nouveau Monde, teaser",
+    "tags": ["Policier", "Enquête"],
+    "nouveaux_tags": ["Fantômas"],
+    "incertitudes": ["Louis de Funès/Jean Marais/André Hunebelle cités comme contexte historique (trilogie 1960s), pas le sujet de cette nouvelle version → non tagués ; Batman cité en comparaison → non taggé"]
+  },
+  {
+    "id": 113721,
+    "title": "Samsung Galaxy Z Fold 8 / Flip 8",
+    "tags": ["Smartphone", "Suisse"],
+    "nouveaux_tags": ["Samsung"],
+    "incertitudes": []
+  },
+  {
+    "id": 113708,
+    "title": "Samsung Galaxy Watch9 / Watch Ultra2",
+    "tags": ["Suisse"],
+    "nouveaux_tags": ["Samsung"],
+    "incertitudes": ["QUESTION : pas de catégorie fermée pour les montres connectées dans §4 (Smartphone existe, pas de 'Montre connectée'/wearable) — deux articles Samsung consécutifs dans ce lot butent sur ce trou. On l'ajoute au vocabulaire fermé ?"]
+  }
+]
