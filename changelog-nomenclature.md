@@ -11,6 +11,117 @@
 > tranchés) vit dans [liste-maitresse-tags-jvmag.md](liste-maitresse-tags-jvmag.md).
 
 ## Changelog
+- **v3.43** (2026-09-16, lot #25, backlog fantôme `--ids`) : **`Vampires` ajouté aux
+  thèmes/univers fermés (§5)** — motivé par City of Blood (article 116205,
+  programme Disney+ de septembre), un « thriller vampirique » explicite sans
+  correspondance dans le vocabulaire fermé. Même logique que `Zombies` : une
+  créature surnaturelle assez présente dans la fiction pour mériter son propre
+  thème plutôt que d'être noyée dans `Horreur` ou `Fantastique`. Forme plurielle
+  retenue par cohérence avec `Zombies`/`Pirates`/`Dinosaures`, déjà des exceptions
+  actées à la règle générale du singulier par défaut.
+  **Clarification sans nouvelle règle, actée pendant ce même lot** : la lecture du
+  test resserré Suisse (§7) sur les prix a été resserrée — un prix en CHF utilisé
+  en routine tout au long d'un article (test matériel, par exemple) ne suffit plus
+  à lui seul, même répété, contrairement à une application plus permissive faite au
+  lot précédent (articles Asobi/Midori, Lenovo). Le test reste : le prix/la
+  disponibilité CH est-il lui-même l'anomalie qui fait l'actu, ou une simple
+  habitude éditoriale du site ? Pas de changement de texte de règle, la règle
+  v3.16 était déjà correcte — seule son application a été resserrée.
+- **v3.42** (2026-09-16, lot #24, backlog fantôme `--ids`) : **deux ajouts au
+  vocabulaire fermé actés pendant la relecture du lot #24.**
+  1. **`PAX West` et `New York Comic Con` ajoutés aux événements fermés (§6)** —
+     motivés respectivement par le Razer Clio X (article 116522, annoncé à la PAX
+     West 2026) et Dragon Ball Super: Beerus (article 116435, panel au NYCC 2026).
+     Sur ce chantier, plusieurs milliers d'articles restent à parcourir : l'humain a
+     préféré ajouter ces événements majeurs dès leur première occurrence plutôt que
+     d'attendre une récurrence, contrairement au seuil habituel — ils rejoignent
+     Gamescom/EVO et San Diego Comic-Con comme événements de première importance.
+  2. **`Interview` ajouté aux rubriques éditoriales (§5)** — motivé par l'entretien
+     avec Damyan Kirstof d'Ikigai Manga Shop (article 116355), premier entretien
+     traité depuis l'automatisation du pipeline. Même logique que `Carnet noir` :
+     un format éditorial récurrent que le lecteur peut vouloir suivre.
+  **Décision de portée (pas un nouvel amendement, application de règles déjà en
+  place) : Spider-Noir tagué avec `Spider-Man`, pas isolé.** L'humain a précisé
+  vouloir éviter de fragmenter l'univers Spider-Man en tags isolés par spin-off
+  (Miles Morales compris) — la règle du spin-off d'envergure tagué en plus de
+  l'ombrelle (v3.x, House of the Dragon/Squadron 42) s'applique donc explicitement
+  aussi à `Spider-Noir` + `Spider-Man` (article 116538), sans qu'un nouveau texte de
+  règle soit nécessaire.
+  **Correction sur l'interview Ikigai (article 116355)** : `Dragon Ball`, `One
+  Piece` et `Pokémon`, proposés comme franchises traversées dans le parcours
+  personnel de l'interviewé, retirés sur demande de l'humain — seul `Fairy Tail`
+  (le sujet réel de l'entretien, la venue d'Hiro Mashima) reste tagué.
+- **v3.41** (2026-09-16, lot #23, backlog fantôme `--ids`) : **deux ajouts au
+  vocabulaire fermé et un précédent d'identité actés pendant la relecture du lot #23.**
+  1. **`BlizzCon` ajouté aux événements fermés (§6)** — motivé par trois articles du
+     même lot (Diablo 5, article 116923 ; Diablo 4 sur Switch 2 + série Netflix,
+     article 116917 ; Starcraft Dominion, article 116912), tous annoncés lors de cet
+     événement Blizzard majeur, absent jusqu'ici malgré son importance comparable à
+     Gamescom/EVO. Pas d'année dans le tag, même logique evergreen que les autres
+     événements.
+  2. **`Festival des Jeux` ajouté aux événements fermés (§6)** — motivé par l'article
+     116698 sur la 3e édition de cet événement suisse (La Tour-de-Peilz, 12'000
+     visiteurs, record du monde de Loups-Garous de Thiercelieux établi sur place),
+     même logique que `Swiss Clash` (v3.40) et `Red Bull Gamerations` (v3.15).
+  3. **Précédent d'identité : ombrelle à titre complet pour éviter une collision
+     inter-franchises (§1)** — motivé par *Avatar: Seven Havens* (article 116886),
+     nouvelle série Paramount+ dans l'univers de *Avatar: The Last Airbender*
+     (génération post-Korra). La règle d'exception déjà en place depuis v3.35 (« si le
+     nom de base seul est trop générique/ambigu, garder le sous-titre complet »)
+     s'applique ici explicitement : un tag `Avatar` nu entrerait en collision avec la
+     franchise cinématographique de James Cameron, sans rapport. Décision de l'humain :
+     `Avatar: The Last Airbender` sert d'ombrelle à titre complet pour toute la
+     franchise Nickelodeon (série d'origine, *The Legend of Korra*, *Seven Havens*,
+     futurs spin-offs) — même logique d'ombrelle cross-média que `Alien`, mais avec un
+     nom long plutôt que court à cause du risque de collision. Aucun tag séparé créé
+     pour *Seven Havens*.
+  **Correction sans rapport avec un amendement** : `Dexter: Resurrection` (article
+  116822) avait été proposé avec son sous-titre conservé, par erreur — contrairement à
+  `Avatar`, `Dexter` seul n'est pas ambigu (aucune collision connue), la règle standard
+  de retrait du sous-titre (v3.35) s'appliquait normalement. Corrigé en `Dexter` avant
+  écriture, ce n'est pas un nouveau cas de l'exception ci-dessus.
+- **v3.40** (2026-09-16, lot #22, `--from-top`) : **deux ajouts au vocabulaire fermé et
+  une clarification actés pendant la relecture du lot #22.**
+  1. **`Webcam` ajouté aux composants & matériel (§4)** — motivé par le test Razer Kiyo
+     V2 (article 108274), produit central de l'article sans aucun tag précis
+     disponible jusqu'ici. Rejoint la famille `Périphérique` comme `Casque audio`,
+     `Clavier`, `Souris`, `Microphone`, etc.
+  2. **`Swiss Clash` ajouté aux événements fermés (§6)** — motivé par l'article sur la
+     4e édition de cet événement suisse romand (LAN à l'école 42 Lausanne, article
+     108518), même logique que `Red Bull Gamerations` : un événement suisse récurrent
+     mérite son tag dédié plutôt que de rester non couvert.
+  3. **Pas de paire `Shueisha` / `Shueisha Games` (§2)** — la branche gaming de
+     Shueisha (éditeur d'OPUS: Prism Peak et Atmosfar, articles 108549 et 108529)
+     avait été proposée avec un tag distinct de `Shueisha` (déjà utilisé pour le
+     contenu manga/anime), sur le modèle Sony/PlayStation Studios. L'humain a tranché
+     à l'inverse : contrairement à PlayStation Studios ou Sony Santa Monica, la
+     distinction n'ouvre pas d'angle de reco suffisamment différent pour justifier un
+     second tag proche — `Shueisha` seul consolide manga/anime et jeu vidéo. Même
+     logique que la décision déjà actée pour `The Pokémon Company`/`Pokémon` (v3.17).
+- **v3.39** (2026-09-16, lot #21, `--from-top`) : **trois ajouts au vocabulaire fermé,
+  actés pendant la relecture du lot #21.**
+  1. **`Espionnage` ajouté aux thèmes/univers (§5)** — motivé par *Zero Parades: For
+     Dead Spices* (article 105941), un « RPG d'espionnage » explicite (agente du
+     renseignement, ville traversée par des factions idéologiques et des intrigues de
+     pouvoir) pour lequel aucun thème du vocabulaire fermé ne convenait. Distinction
+     actée avec `Infiltration` (§3, genre) : `Infiltration` décrit une **mécanique**
+     (éviter la détection comme cœur du gameplay), `Espionnage` décrit un **univers
+     narratif** (agents secrets, agences de renseignement, intrigues géopolitiques).
+     Les deux se cumulent quand les deux sont vrais, mais l'un n'implique pas l'autre —
+     un thriller d'espionnage purement narratif est `Espionnage` sans `Infiltration` ;
+     un jeu de casse furtif sans intrigue d'espionnage reste `Infiltration` sans
+     `Espionnage`.
+  2. **`Années 90` ajouté aux thèmes/univers (§5)**, aux côtés d'`Années 80` déjà
+     existant — motivé par *Mixtape* (article 103679), un jeu de coming-of-age situé
+     explicitement dans les années 90 (fin de lycée, bande-son 80s/90s), pour lequel
+     seul `Années 80` existait. Attendu à revenir plus régulièrement au fil des
+     rétrospectives, le jeu vidéo grand public ayant maintenant plus de 40 ans
+     d'histoire.
+  3. **`Nacon Connect` ajouté aux événements fermés (§6)** — motivé par deux articles
+     du même lot (*Hunting Simulator 3*, article 108957, et le teaser dédié, article
+     108951) : ce showcase Nacon a la même structure qu'un `State of Play` ou
+     `THQ Nordic Digital Showcase` déjà couverts, sans équivalent dans la liste
+     jusqu'ici.
 - **v3.38** (2026-08-27, lot #20) : **deux clarifications mineures actées pendant la
   relecture du lot #20.**
   1. **Spin-off suffisamment large et distinct : tagger l'ombrelle ET le spin-off,

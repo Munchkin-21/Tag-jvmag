@@ -85,7 +85,12 @@ pour proposer un lot — il remplace tout autre résumé ou checklist condensé.
   deviendra une série. **Exception** : si le nom de base seul est un mot trop
   générique/courant pour identifier l'œuvre sans ambiguïté (risque de collision avec
   un titre non apparenté), garder le sous-titre complet et signaler le cas en
-  `incertitudes`.
+  `incertitudes`. Ex. : `Avatar: The Last Airbender` reste le tag d'identité unique
+  pour toute la franchise Nickelodeon, y compris ses suites (*The Legend of Korra*,
+  *Avatar: Seven Havens*) — pas de tag séparé par spin-off, même logique d'ombrelle
+  cross-média que `Alien` (voir plus bas), mais avec un titre long plutôt qu'un nom
+  court : `Avatar` seul entrerait en collision avec la franchise cinématographique de
+  James Cameron, sans rapport.
 - **Jeux LEGO originaux (sans licence croisée)** : même logique que le retrait de
   numéro/sous-titre ci-dessus — le sous-titre de sous-marque est retiré, `LEGO` seul
   reste le tag d'identité, la différenciation se faisant par les genres/thèmes,
@@ -153,6 +158,11 @@ pour proposer un lot — il remplace tout autre résumé ou checklist condensé.
   différent de `Pokémon` seul (contrairement à Rockstar/Take-Two, où studio créatif et
   maison-mère correspondent à deux curiosités lecteur réellement distinctes). Rester
   sur `Pokémon` seul, même quand l'entité est nommée explicitement dans le texte.
+  **Pas de paire `Shueisha` / `Shueisha Games`** — même logique : la branche gaming
+  de Shueisha (éditeur d'OPUS: Prism Peak, Atmosfar) reste consolidée sous `Shueisha`
+  seul, y compris pour ses productions vidéoludiques — contrairement à `PlayStation
+  Studios` ou `Sony Santa Monica`, la distinction n'ouvre pas d'angle de reco assez
+  différent pour justifier un second tag proche.
   **`Pokémon GO` n'a pas de tag séparé** — même logique que `Alien`/`Alien: Earth` :
   `Pokémon` + `Mobile` + `Niantic` suffisent déjà à distinguer un article Pokémon GO
   d'un article sur les jeux principaux, sans avoir besoin d'un tag de sous-titre.
@@ -417,7 +427,7 @@ de reco distinct.)*
 Carte graphique · Carte mère · Casque audio · Chaise gaming · Clavier · Électroménager ·
 Écran · Manette · Matériel PC · Microphone · Montre connectée · Périphérique · Périphérique
 de Simulation · Processeur · RAM · Refroidissement · Réseau · Smartphone · Souris ·
-SSD
+SSD · Webcam
 
 *(`Aspirateur robot` réservé aux appareils réellement autonomes (navigation sans
 intervention). `Électroménager` couvre les autres appareils ménagers connectés
@@ -426,7 +436,7 @@ intervention). `Électroménager` couvre les autres appareils ménagers connect�
 vraiment seul.)*
 
 *(`Périphérique` = matériel EXTERNE en plus d'un tag précis (Casque audio, Chaise gaming,
-Clavier, Souris, Microphone, Écran, Manette, Périphérique de Simulation) — jamais à sa place.
+Clavier, Souris, Microphone, Webcam, Écran, Manette, Périphérique de Simulation) — jamais à sa place.
 `Matériel PC` = son pendant pour les composants INTERNES (Carte mère, Processeur,
 Carte graphique, RAM, SSD, Alimentation, Boîtier, Refroidissement) — même logique.
 Les deux umbrella-tags ne se mélangent jamais entre eux. `Périphérique de Simulation`
@@ -490,13 +500,17 @@ façon de distinguer un choix d'un oubli.
 **Admission (3 tests) :** factuel + définissant + revendiqué par le lecteur
 (« j'aime les ___ »).
 
-**Univers / cadre :** Années 80 · Aviation · Cyberpunk · Dinosaures · Enquête ·
-Espace · Fantasy · Fantastique · Far West · Guerre · Guerre froide · Horreur · IA ·
-Lovecraftien · Médiéval · Mythologie · Pirates · Policier ·
-Post-apocalyptique · Robot · Science-fiction · Steampunk · Super-héros · WW1 · WW2 ·
-Zombies
+**Univers / cadre :** Années 80 · Années 90 · Aviation · Cyberpunk · Dinosaures ·
+Enquête · Espionnage · Espace · Fantasy · Fantastique · Far West · Guerre · Guerre
+froide · Horreur · IA · Lovecraftien · Médiéval · Mythologie · Pirates · Policier ·
+Post-apocalyptique · Robot · Science-fiction · Steampunk · Super-héros · Vampires ·
+WW1 · WW2 · Zombies
 *(`IA` et `Robot` couvrent aussi bien le contenu réel/industrie que les thèmes
 fictionnels.)*
+*(`Espionnage` = univers de l'espionnage et du renseignement (agents secrets,
+agences, intrigues géopolitiques) — distinct d'`Infiltration` (§3), qui décrit une
+mécanique de gameplay (éviter la détection). Les deux se cumulent quand les deux
+sont vrais, sans que l'un implique l'autre.)*
 *(**Ces tags valent pour tous les médiums.** `Horreur`, `Science-fiction`, `Fantastique`
 ne sont pas des genres §3 : un film d'horreur et un jeu d'horreur reçoivent le même tag,
 posé depuis §5. C'est ce qui permet à un lecteur qui aime l'horreur de trouver les deux.
@@ -556,7 +570,7 @@ incertitude — jamais déduit du seul silence de l'article sur un éditeur maje
 posé EN PLUS de la licence précise, jamais à sa place.)*
 
 **Rubriques éditoriales (suivies par le lecteur) :** Carnet noir · Game Conscient ·
-Montage PC
+Interview · Montage PC
 
 **EXCLUS :**
 - **Ton / ambiance** (Sombre, Mélancolique, Stressant, Épique) → interprétatif.
@@ -584,15 +598,16 @@ Montage PC
 
 Evergreen (l'année vit dans la date). Un événement terminé garde son tag.
 
-**Jeux vidéo :** EVO · Gamescom · Nintendo Direct · Paris Games Week · Pixel Arcadia ·
-Polymanga · Red Bull Gamerations · State of Play · Summer Game Fest · The Game Awards ·
-THQ Nordic Digital Showcase · TwitchCon · Xbox Games Showcase
+**Jeux vidéo :** BlizzCon · EVO · Festival des Jeux · Gamescom · Nacon Connect ·
+Nintendo Direct · Paris Games Week · PAX West · Pixel Arcadia · Polymanga ·
+Red Bull Gamerations · State of Play · Summer Game Fest · Swiss Clash ·
+The Game Awards · THQ Nordic Digital Showcase · TwitchCon · Xbox Games Showcase
 
 **Tech / auto :** Amazon Prime Day · CES · Computex · Goodwood Festival of Speed ·
 SIGGRAPH · WWDC
 
 **Ciné / pop culture :** CinemaCon · D23 · Festival d'Annecy · Festival de Cannes ·
-Oscars · San Diego Comic-Con
+New York Comic Con · Oscars · San Diego Comic-Con
 
 ## §7 — Local suisse — Contenu, FERMÉ (un seul tag)
 

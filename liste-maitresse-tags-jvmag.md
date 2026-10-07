@@ -1331,9 +1331,292 @@ Points notables (hors amendements) :
 `Gamirror Games`, `Beep Japan`, `Ferrari`, `Jean-Marc Anthony Kabeya`,
 `Star Citizen`, `Cloud Imperium Games`, `Squadron 42`, `Kioku`, `Lugn Games`.
 
+### Lot #21 — 2026-09-16 (30 articles, `--from-top`)
+
+Rattrapage des 30 publications les plus récentes (`--from-top`), plus un article
+ancien resté non scanné (`Kingmakers`, 72219, remonté par le tri du site malgré son
+ID bas). Contenu très varié : plusieurs annonces AAA (GTA6/teasing musical et vidéo
+Lewis Hamilton, Resident Evil Requiem, LEGO Batman, The Sinking City 2, Ace Combat 8),
+des tests (Outbound, Dreame X60 Pro Ultra Complete), du hardware (Razer Kraken V4,
+Xiaomi REDMI A27U, Steam Frame, Fitbit Air, Project Helix/Xbox Next Gen), du cinéma
+(Projet Dernière Chance, Des Minions et des Monstres, La Planète des singes, Netflix ×
+SEGA) et deux programmes ARENA Cinemas/concert Poudlard.
+
+**Trois ajouts au vocabulaire fermé actés (v3.39), tous validés par l'humain avant
+écriture dans `regles-tagging-actives.md` :**
+
+- **`Espionnage` ajouté aux thèmes/univers (§5)** — motivé par *Zero Parades: For Dead
+  Spices* (105941), RPG d'espionnage explicite sans thème disponible jusqu'ici.
+  Distinction actée avec `Infiltration` (§3, genre) : l'un décrit un univers narratif,
+  l'autre une mécanique de gameplay ; les deux se cumulent sans s'impliquer l'un l'autre.
+- **`Années 90` ajouté aux thèmes/univers (§5)**, aux côtés d'`Années 80` — motivé par
+  *Mixtape* (103679), jeu de coming-of-age situé explicitement dans les années 90.
+- **`Nacon Connect` ajouté aux événements fermés (§6)** — motivé par deux articles du
+  lot (*Hunting Simulator 3*, 108957, et son teaser, 108951), même structure que
+  `State of Play`/`THQ Nordic Digital Showcase` déjà couverts.
+
+Points notables (hors amendements) :
+- **117074 / 109009 GTA6 (teasing musical + vidéo Lewis Hamilton)** : `Rockstar Games`
+  + `Take-Two Interactive` posés par identification non-ambiguë alors que le studio
+  n'est jamais nommé littéralement dans le texte — recherche ciblée d'identité (§2)
+  jugée fiable pour un titre aussi peu ambigu. Article GTA6 teasing musical : 8
+  artistes cités (Travis Scott, Future, Keith Richards…) non tagués individuellement,
+  règle « listes = pas de tags » (>5 éléments).
+- **117005 Netflix × SEGA (Crazy Taxi, Stranger Than Heaven, Sonic)** : trois œuvres
+  distinctes développées dans le même article (≤5, chacune substantiellement couverte)
+  → tags individuels pour chacune, contrairement à une simple liste. `Sonic` créé sans
+  suffixe « the Hedgehog » à la demande de l'humain — même logique que `Mario` déjà en
+  place sur le site (pas de `Super Mario` systématique).
+- **108903 La Planète des singes (Matt Shakman annoncé réalisateur)** : `Matt Shakman`
+  tagué comme réalisateur-sujet de l'annonce (§1), mais **sans** son œuvre-signature
+  `Les Quatre Fantastiques` — l'humain a jugé que l'angle de l'article restait le film
+  Planète des singes, pas un portrait du réalisateur, insuffisant pour déclencher la
+  paire complète prévue par la règle.
+- **108946 The Sinking City 2** : `Ukraine` tagué sur la base du report de sortie
+  explicitement attribué à la guerre (Frogwares est un studio ukrainien) — fait
+  contextuel réel de production, distinct du thème `Guerre` (non posé : le conflit
+  réel n'est pas l'univers fictionnel du jeu).
+- **117026 Xiaomi REDMI A27U** : `Suisse` **non** posé malgré une phrase explicite
+  sur la non-disponibilité CH — jugé trop isolé dans un article centré sur la Chine
+  (test resserré §7), à la différence de 108966 (Nintendo Switch 2, hausse de prix
+  CHF = l'anomalie qui fait l'actu) et 108909 (Fitbit Air, lancement CH annoncé en
+  ouverture) où `Suisse` a bien été posé.
+
+25 nouveaux tags créés : `Rollout Inline`, `MLMEDIA`, `Phantasy Star`, `Xiaomi`,
+`Kingmakers`, `Sonic`, `Drame`, `Outbound`, `Square Glade Games`, `Lewis Hamilton`,
+`Zero Parades`, `ZA/UM`, `Espionnage`, `Projet Dernière Chance`, `Universal Pictures`,
+`Hunting Simulator`, `Nacon Connect`, `The Sinking City`, `Frogwares`, `Ukraine`,
+`TT Games`, `Mixtape`, `Années 90`, `La Planète des singes`, `Matt Shakman`.
+
+### Lot #22 — 2026-09-16 (30 articles, `--from-top`)
+
+Suite immédiate du rattrapage `--from-top`. Contenu très varié : plusieurs tests
+(Marvel's Wolverine, Razer Kiyo V2, Roborock Qrevo S Pro, OPUS: Prism Peak), des
+annonces majeures (Star Fox Remake, GTA6 sur PC + interview Zelnick, Forza Horizon 6
+Gold, EA Sports UFC 6, Horizon Hunters Gathering), du hardware rétro (Amiga THE
+A1200, mod Nintendo Kawaii), plusieurs jeux suisses (Transport Fever 3, Swiss Clash)
+et du cinéma/séries (Harry Potter S2, Star Wars postlogie, Maul – Shadow Lord,
+Cinémas de Sierre, Fortnite × Star Wars).
+
+**Deux ajouts au vocabulaire fermé et une clarification actés (v3.40) :**
+
+- **`Webcam` ajouté aux composants & matériel (§4)** — motivé par le test Razer Kiyo
+  V2 (108274), produit central de l'article sans tag précis disponible jusqu'ici.
+- **`Swiss Clash` ajouté aux événements fermés (§6)** — motivé par la 4e édition de
+  cet événement suisse romand (108518), même logique que `Red Bull Gamerations`.
+- **Pas de paire `Shueisha` / `Shueisha Games` (§2)** — proposé pour la branche
+  gaming de Shueisha (OPUS: Prism Peak 108549, Atmosfar 108529), tranché à l'inverse
+  par l'humain : `Shueisha` seul consolide manga/anime et jeu vidéo, même logique que
+  la décision déjà actée pour `The Pokémon Company`/`Pokémon`.
+
+Points notables (hors amendements) :
+- **106388 Star Wars: Maul – Shadow Lord vs 108865 Ahsoka (postlogie)** : les deux
+  spin-offs Star Wars ont finalement reçu un tag dédié (`Maul`, `Ahsoka`), toujours
+  accompagné de `Star Wars` — l'humain a précisé vouloir ces tags même pour un
+  spin-off d'ampleur plus modeste que House of the Dragon/Squadron 42, pour le
+  bénéfice SEO/moteur de recherche, pas seulement le critère d'envergure narrative.
+- **79985 GTA5 NaturalVision Enhanced (mod fan)** : confirmé de ne tagger que la
+  licence (`Grand Theft Auto`), jamais `Rockstar Games`/`Take-Two Interactive` pour
+  un mod tiers non-officiel — `Indé` ajouté à la place pour refléter la nature
+  fan-made du projet.
+- **117088 Marvel's Wolverine** : `Action-aventure` écarté au profit d'`Action` seul
+  — le texte insiste explicitement sur l'absence de monde ouvert et l'exploration
+  libre, contrairement aux autres jeux Insomniac (Spider-Man).
+- **108487 Fortnite x Star Wars** : phrase finale sur les paris en cryptomonnaies
+  « en Suisse » repérée comme probable insertion hors-sujet (SEO/affiliation) —
+  signalée à l'humain, non traitée comme un cas de tagging Suisse légitime.
+
+26 nouveaux tags créés : `BioShock`, `Cloud Chamber`, `Strauss Zelnick`, `Ahsoka`,
+`PLAION REPLAI`, `Australie`, `Webcam`, `OPUS`, `SIGONO`, `EA Sports UFC`, `Horizon`,
+`Horizon Hunters Gathering`, `Guerrilla`, `Littlelands`, `Apogee Entertainment`,
+`Maul`, `Pour le plaisir`, `Niwiky`, `Swiss Visual Prod`, `École 42 Lausanne`,
+`Nocturnal`, `Swiss Clash`, `Atmosfar`, `Apog Labs`, `Adorable Adventures`, `Fortnite`.
+
+### Lot #23 — 2026-09-16 (40 articles, backlog fantôme `--ids`)
+
+**Découverte technique en amont du lot** : `state.json` gardait 206 IDs dans
+`queued` — des articles récupérés par un lot antérieur mais jamais appliqués sur
+WordPress, donc invisibles au scan normal (`processed`/`queued`/`skipped` sont tous
+exclus du scan) malgré leurs 0 tag bien réels sur le site. L'humain avait repéré le
+symptôme (« une centaine d'articles non taggués visibles sur le site ») avant que la
+cause ne soit identifiée. État nettoyé (retrait de 80 IDs d'un fetch `--from-top`
+abandonné en cours de diagnostic, backlog fantôme de 206 conservé) ; les 40 plus
+récents (8–14 septembre 2026) ciblés via `fetch_batch.py --ids`. **166 articles
+restent dans ce même état**, à traiter par lots `--ids` similaires.
+
+Contenu très varié : plusieurs annonces Blizzard via BlizzCon (Diablo 5, Diablo 4 sur
+Switch 2 + série Netflix, Starcraft Dominion), la rupture PlayStation/Kojima sur
+Physint (repris par Xbox), la fermeture de Polyarc (Moss), plusieurs films/séries
+(Carrie de Mike Flanagan, Reste avec moi de M. Night Shyamalan, Artificial sur Sam
+Altman, Avatar: Seven Havens, Dexter: Resurrection), la keynote Apple de rentrée
+(iPhone 18 Pro, iPhone Duo pliable, AirPods 5, Apple Watch) et le Festival des Jeux
+suisse de La Tour-de-Peilz.
+
+**Deux ajouts au vocabulaire fermé et un précédent d'identité actés (v3.41) :**
+
+- **`BlizzCon` ajouté aux événements fermés (§6)** — motivé par 3 articles du lot
+  (Diablo 5, Diablo 4 Switch 2, Starcraft Dominion), tous annoncés lors de cet
+  événement Blizzard majeur, absent jusqu'ici malgré son importance comparable à
+  Gamescom/EVO.
+- **`Festival des Jeux` ajouté aux événements fermés (§6)** — motivé par la 3e
+  édition de cet événement suisse (116698, 12'000 visiteurs, record du monde de
+  Loups-Garous de Thiercelieux), même logique que `Swiss Clash` (v3.40).
+- **Précédent : ombrelle à titre complet pour éviter une collision inter-franchises
+  (§1)** — motivé par *Avatar: Seven Havens* (116886). L'exception déjà en place
+  depuis v3.35 (« nom de base trop générique/ambigu → garder le sous-titre complet »)
+  s'applique explicitement ici : `Avatar` seul entrerait en collision avec la
+  franchise cinématographique de James Cameron. Décision de l'humain : `Avatar: The
+  Last Airbender` sert d'ombrelle à titre complet pour toute la franchise Nickelodeon
+  (série d'origine, *The Legend of Korra*, *Seven Havens*, futurs spin-offs) — même
+  logique d'ombrelle cross-média que `Alien`, mais avec un nom long plutôt que court.
+  Aucun tag séparé créé pour *Seven Havens*.
+
+Points notables (hors amendements) :
+- **116822 Dexter: Resurrection** : proposé par erreur avec son sous-titre conservé
+  (`Dexter: Resurrection`), corrigé en `Dexter` avant écriture — contrairement à
+  `Avatar`, aucune collision connue ne justifiait de déroger à la règle standard de
+  retrait du sous-titre (v3.35).
+- **116734 Carrie / 116714 Reste avec moi** : Mike Flanagan et M. Night Shyamalan
+  tagués comme réalisateurs-sujets (noms dans les titres), mais sans œuvre-signature
+  automatique — aucun titre ne s'imposait clairement comme LE film/série identifiant
+  dans leurs filmographies respectives (contrairement à Kojima/Metal Gear), la
+  paire automatique n'a donc pas été déclenchée.
+- **116788 PlayStation/Kojima (Physint)** : `Death Stranding` tagué car explicitement
+  cité comme contexte factuel de la rupture (objectifs de vente manqués) ; `OD` cité
+  en pedigree de la relation Kojima/Xbox mais non tagué, non développé comme sujet.
+- **109329 Nailcrown** : `Espionnage` non concerné ici, mais `Fantasy` + `Horreur`
+  posés ensemble (dark fantasy + créatures cauchemardesques explicites) — rappel que
+  les deux univers se cumulent sans s'exclure quand le texte les justifie tous les
+  deux.
+
+41 nouveaux tags créés : `Documentaire`, `À tombeaux ouverts`, `Roger Rey`,
+`Stephen Root`, `Ghostless`, `Coffeenauts`, `Diablo`, `Blizzard`, `BlizzCon`,
+`Johanna Faries`, `StarCraft`, `Moss`, `Polyarc`, `Physint`, `Death Stranding`,
+`Metal Slug`, `M2`, `Anthropic`, `Nailcrown`, `Destructive Creations`,
+`Professor Layton`, `LEVEL-5`, `Dexter`, `IKEA`, `No Man's Sky`, `Hello Games`,
+`Carrie`, `Mike Flanagan`, `Stephen King`, `Metroid`, `Reste avec moi`,
+`M. Night Shyamalan`, `Nicholas Sparks`, `Doublage`, `Toei Animation`,
+`Festival des Jeux`, `Artificial`, `Sam Altman`, `Andrew Garfield`, `NEON`, `Unico`.
+
+### Lot #24 — 2026-09-16 (40 articles, backlog fantôme `--ids`)
+
+Suite du traitement du backlog fantôme (2–8 septembre 2026). Contenu très varié :
+plusieurs films/séries (adaptation de The Drifter par Sony Pictures, Resident Evil de
+Zach Cregger, Spider-Noir annulée sur Prime Video, Harry Potter HBO), la rumeur
+Killzone chez Guerrilla, le parc Dragon Ball en France (démenti de Toei Animation),
+GT2Recomp (portage fan de Gran Turismo 2), la première interview du chantier (Damyan
+Kirstof, Ikigai Manga Shop à Genève) et plusieurs nouveautés hardware (DLSS 5, LEGO
+PlayStation, LEPAS en Suisse).
+
+**Deux ajouts au vocabulaire fermé actés (v3.42) :**
+
+- **`PAX West` et `New York Comic Con` ajoutés aux événements fermés (§6)** —
+  motivés par le Razer Clio X (116522, annoncé à la PAX West 2026) et Dragon Ball
+  Super: Beerus (116435, panel au NYCC 2026). Avec plusieurs milliers d'articles
+  encore à parcourir sur ce chantier, l'humain a choisi d'ajouter ces événements
+  majeurs dès leur première occurrence plutôt que d'attendre une récurrence.
+- **`Interview` ajouté aux rubriques éditoriales (§5)** — motivé par le premier
+  entretien traité depuis l'automatisation (116355, Damyan Kirstof d'Ikigai Manga
+  Shop), même logique que `Carnet noir`.
+
+Points notables (hors amendements) :
+- **116538 Spider-Noir** : tagué avec `Spider-Man` en plus de son propre tag —
+  l'humain a précisé vouloir éviter de fragmenter l'univers Spider-Man en tags
+  isolés par spin-off (Miles Morales compris), même règle du spin-off d'envergure
+  tagué en plus de l'ombrelle qu'Avatar/Ahsoka (lot #23), sans nouveau texte de
+  règle nécessaire.
+- **116355 Interview Ikigai Manga Shop** : `Dragon Ball`, `One Piece` et `Pokémon`,
+  proposés comme franchises traversées dans le parcours personnel de l'interviewé,
+  retirés sur demande de l'humain — seul `Fairy Tail` (sujet réel de l'entretien, la
+  venue d'Hiro Mashima) reste tagué.
+- **116288 Resident Evil (film, Zach Cregger)** : `Barbarian` (2022) ajouté comme
+  œuvre-signature — à la différence de Flanagan/Shyamalan (lot #23), un seul titre
+  domine clairement sa notoriété.
+- **116491 Conseils mot de passe** : laissé sans aucun tag sur confirmation de
+  l'humain — pur contenu générique, aucune facette de la grille ne s'applique.
+
+43 nouveaux tags créés : `Bo Bragason`, `Benjamin Evan Ainsworth`,
+`Shigeru Miyamoto`, `Maneater`, `Tripwire Interactive`, `Demiruge Studios`,
+`Tombé du ciel`, `Beyond the Dark`, `Atlantis Studio`, `Airframe Ultra`, `Killzone`,
+`Interview`, `Ikigai Manga Shop`, `Damyan Kirstof`, `Grégory Sinz`, `Hiro Mashima`,
+`Civilization`, `Firaxis Games`, `Spider-Noir`, `Nicolas Cage`,
+`Thank You Bus Driver`, `Dan Hay`, `OpenAI`, `Greg Brockman`, `The Drifter`,
+`Powerhoof`, `Zach Cregger`, `Barbarian`, `Metropolitan Films`, `Emmanuel Macron`,
+`Arabie saoudite`, `Monica Rial`, `Jason Douglas`, `Ian Sinclair`, `Tyr`,
+`Stoke Games`, `Wolcen`, `WOLCEN Studio`, `Francesca Gardiner`, `InterDigital`,
+`NIU`, `LEPAS`, `Chery Auto`.
+
+### Lot #25 — 2026-09-16 (40 articles, backlog fantôme `--ids`)
+
+Suite du traitement du backlog fantôme (22 mai – 1er septembre 2026, plage plus large
+que les lots précédents). Contenu très varié : le grand dévoilement de GTA VI sur
+Netflix (deux articles, dont un dossier détaillé de 80h de contenu), la retraite de
+Phil Tippett (légende des effets stop-motion Star Wars/Jurassic Park/Robocop), le
+préquel Vought Rising (The Boys), la fin de Destiny 2 chez Bungie, la restructuration
+de DON'T NOD, la collaboration Reebok × Dragon Quest pour les 40 ans de la licence, et
+une deuxième interview suisse (Carlos Correia, fondateur de Mewseum).
+
+**Un ajout au vocabulaire fermé acté (v3.43) :**
+
+- **`Vampires` ajouté aux thèmes/univers fermés (§5)** — motivé par City of Blood
+  (116205, programme Disney+ de septembre), un « thriller vampirique » explicite
+  sans correspondance dans le vocabulaire fermé jusqu'ici. Même logique que
+  `Zombies` : une créature assez présente dans la fiction pour mériter son propre
+  thème. Forme plurielle retenue par cohérence avec `Zombies`/`Pirates`/`Dinosaures`.
+
+**Clarification d'application (pas un nouveau texte de règle)** : le test resserré
+Suisse (§7) sur les prix a été resserré à l'usage — un prix en CHF utilisé en
+routine tout au long d'un article (test matériel notamment), même répété plusieurs
+fois, ne suffit plus à lui seul. Une application plus permissive avait été faite au
+lot #24 (Asobi/Midori, Lenovo) ; corrigée ici (Corsair, Sennheiser, Epomaker non
+tagués Suisse malgré des prix CHF détaillés). Le test reste inchangé : le prix/la
+disponibilité CH doit être lui-même l'anomalie qui fait l'actu.
+
+Points notables (hors amendements) :
+- **107201 Street Fighter: Le Film** : `Twisted Metal` ajouté comme œuvre-signature
+  de Kitao Sakurai, explicitement citée dans le texte (4 épisodes réalisés) — même
+  logique que Barbarian/Zach Cregger au lot #24.
+- **116072 / 115915 Dossier et annonce GTA VI** : deux articles distincts sur le même
+  événement (présentation Netflix de 26 minutes), traités séparément avec des tags
+  cohérents (`Grand Theft Auto`, `Rockstar Games`, `Take-Two Interactive`,
+  `Action-aventure`, `Monde ouvert`, `Netflix`) — pas de doublon de logique malgré
+  le chevauchement de contenu.
+- **115885 PlayStation Plus Essential (3 jeux)** : exception « listes courtes »
+  appliquée pour la première fois sur une liste de service (Sniper Elite, MLB The
+  Show, Wobbly Life) — 3 éléments (≤5), chacun individuellement disponible à une
+  date précise, tagués séparément malgré l'absence de détail de gameplay.
+- **56732 DON'T NOD** : seuls `Jusant` et `Banishers` tagués parmi les 5 jeux du
+  studio cités — les 3 autres (Life is Strange, Vampyr, Lost Records) n'apparaissent
+  que dans une liste d'introduction, non développés contrairement aux deux premiers,
+  discutés en détail dans l'article (retards, échec commercial, réorganisation).
+- **110086 Interview Carlos Correia (Mewseum)** : leçon du lot #24 appliquée
+  directement — recentré sur Pokémon/Mewseum sans tagger les 8 franchises
+  secondaires mentionnées en cours d'entretien (Yu-Gi-Oh!, Magic, Fortnite, etc.).
+
+64 nouveaux tags créés : `Street Fighter`, `Kitao Sakurai`, `Twisted Metal`,
+`Lawn Mowing Simulator`, `Skyhook Games`, `Inside Internet`, `Asobi`, `Midori`,
+`Gargoyles`, `Greg Weisman`, `Gary Dauberman`, `Ça`, `James Wan`, `Jusant`,
+`Banishers`, `Rob Nelson`, `Rockstar North`, `Crimson Desert`, `Pearl Abyss`,
+`Stranded Deep`, `North Beach Games`, `Fjord`, `Lenovo`, `Chad Powers`,
+`City of Blood`, `Vampires`, `Phil Tippett`, `Industrial Light & Magic`,
+`Tippett Studio`, `CloverWorks`, `Moonlighter`, `Digital Sun`, `Michael Shanks`,
+`Martin Gero`, `Argonaut Games`, `Aardman`, `Iron Man`, `EA Motive`, `Wanderburg`,
+`Randwerk`, `Sidekick Publishing`, `Italie`, `Sennheiser`, `Sniper Elite`,
+`MLB The Show`, `Wobbly Life`, `Rocket League`, `Psyonix`, `Epomaker`, `The Boys`,
+`Vought Rising`, `Eric Kripke`, `Dragon Quest`, `Reebok`, `Kenji Kanno`,
+`The Guardian of Nature`, `Inlusio Interactive`, `Nexting`, `Patrick Gibson`,
+`Priyanga Burford`, `Lennie James`, `Lenny Kravitz`, `Carlos Correia`, `Mewseum`.
+
 ---
 
 ## Décisions ouvertes à surveiller
+- **Backlog fantôme dans `state.json` (86 articles restants)** : découvert au lot
+  #23 — des IDs restés dans `queued` après un lot antérieur jamais appliqué sur
+  WordPress, invisibles au scan normal malgré leurs 0 tag réels sur le site. Les 120
+  plus récents ont été traités via `fetch_batch.py --ids` (lots #23, #24 et #25),
+  mais 86 articles plus anciens (dès le 22 mai 2026) restent dans ce même état — à
+  cibler par lots `--ids` similaires plutôt que d'attendre qu'ils réapparaissent
+  seuls (ils ne réapparaîtront pas tant qu'ils restent dans `queued`).
 - **Mediawan** : gardé, à réévaluer s'il n'est pas réutilisé.
 - **Unitree** : gardé comme le plus connu des fabricants de robots.
 - **Montage PC** : rubrique provisoire, on juge à l'usage.
